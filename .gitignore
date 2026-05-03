@@ -6,3 +6,16 @@ out/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Secrets & runtime artifacts
+.env
+.env.*
+!.env.example
+.claude/
+
+# Node tooling under tools/
+tools/sidecar-gen/node_modules/
+tools/sidecar-gen/data/audit-packets/
+
+# Sidecar generator output we don't want re-committed every run
+tools/sidecar-gen/dist/

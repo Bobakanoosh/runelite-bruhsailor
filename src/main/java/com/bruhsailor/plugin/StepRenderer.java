@@ -130,11 +130,19 @@ public final class StepRenderer
 
         if (f.color != null)
         {
-            Color c = new Color(
-                clamp01((float) f.color.r),
-                clamp01((float) f.color.g),
-                clamp01((float) f.color.b));
-            StyleConstants.setForeground(attrs, c);
+            float rr = clamp01((float) f.color.r);
+            float gg = clamp01((float) f.color.g);
+            float bb = clamp01((float) f.color.b);
+            // Source guide is authored on a light background; near-black text is
+            // unreadable on our dark theme, so swap it out for the default.
+            if (Math.max(rr, Math.max(gg, bb)) < 0.25f)
+            {
+                StyleConstants.setForeground(attrs, ColorScheme.LIGHT_GRAY_COLOR);
+            }
+            else
+            {
+                StyleConstants.setForeground(attrs, new Color(rr, gg, bb));
+            }
         }
     }
 

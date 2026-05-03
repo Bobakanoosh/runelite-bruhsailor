@@ -65,7 +65,16 @@ public class BruhsailorPanel extends PluginPanel
         currentStepHolder.setBackground(ColorScheme.DARKER_GRAY_COLOR);
         currentStepHolder.setBorder(BorderFactory.createEmptyBorder(8, 8, 8, 8));
         currentStepHolder.setAlignmentX(Component.LEFT_ALIGNMENT);
-        currentStepHolder.setMaximumSize(new Dimension(Integer.MAX_VALUE, Integer.MAX_VALUE));
+
+        JScrollPane stepScroll = new JScrollPane(currentStepHolder,
+            JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
+            JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+        stepScroll.setAlignmentX(Component.LEFT_ALIGNMENT);
+        stepScroll.setBorder(BorderFactory.createEmptyBorder());
+        stepScroll.getVerticalScrollBar().setUnitIncrement(16);
+        // Cap how tall the step block can grow; long steps scroll within this box
+        // so the rest of the panel (nav + list) stays anchored.
+        stepScroll.setMaximumSize(new Dimension(Integer.MAX_VALUE, 280));
 
         metadataLabel.setFont(FontManager.getRunescapeFont());
         metadataLabel.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
@@ -103,7 +112,7 @@ public class BruhsailorPanel extends PluginPanel
         root.add(Box.createVerticalStrut(2));
         root.add(sectionLabel);
         root.add(Box.createVerticalStrut(8));
-        root.add(currentStepHolder);
+        root.add(stepScroll);
         root.add(Box.createVerticalStrut(6));
         root.add(metadataLabel);
         root.add(Box.createVerticalStrut(8));
@@ -153,6 +162,14 @@ public class BruhsailorPanel extends PluginPanel
 
         currentStepHolder.removeAll();
         JComponent rendered = (JComponent) StepRenderer.render(step);
+        // Force the rendered JTextPane to wrap at the panel's content width
+        // so its preferred height reflects its real wrapped size — without this
+        // the pane reports its longest unwrapped line as preferred width and
+        // the surrounding scroll viewport never trips its max-height cap.
+        int contentWidth = Math.max(120, PluginPanel.PANEL_WIDTH - 36);
+        rendered.setSize(new Dimension(contentWidth, Short.MAX_VALUE));
+        Dimension pref = rendered.getPreferredSize();
+        rendered.setPreferredSize(new Dimension(contentWidth, pref.height));
         currentStepHolder.add(rendered, BorderLayout.CENTER);
         currentStepHolder.revalidate();
         currentStepHolder.repaint();
@@ -238,13 +255,22 @@ public class BruhsailorPanel extends PluginPanel
             if (value instanceof HeaderRow)
             {
                 HeaderRow h = (HeaderRow) value;
-                setText(h.text);
-                setFont(h.isChapter
-                    ? FontManager.getRunescapeBoldFont().deriveFont(14f)
-                    : FontManager.getRunescapeFont().deriveFont(13f));
-                setForeground(h.isChapter ? ColorScheme.BRAND_ORANGE : ColorScheme.LIGHT_GRAY_COLOR);
-                setBackground(ColorScheme.DARKER_GRAY_COLOR);
-                setBorder(BorderFactory.createEmptyBorder(h.isChapter ? 8 : 4, 6, 2, 6));
+                if (h.isChapter)
+                {
+                    setText(h.text);
+                    setFont(FontManager.getRunescapeBoldFont().deriveFont(14f));
+                    setForeground(ColorScheme.BRAND_ORANGE);
+                    setBackground(ColorScheme.DARKER_GRAY_COLOR);
+                    setBorder(BorderFactory.createEmptyBorder(10, 6, 4, 6));
+                }
+                else
+                {
+                    setText(h.text.toUpperCase(java.util.Locale.ROOT));
+                    setFont(FontManager.getRunescapeSmallFont());
+                    setForeground(ColorScheme.LIGHT_GRAY_COLOR.darker());
+                    setBackground(ColorScheme.DARK_GRAY_COLOR);
+                    setBorder(BorderFactory.createEmptyBorder(8, 6, 2, 6));
+                }
             }
             else
             {
