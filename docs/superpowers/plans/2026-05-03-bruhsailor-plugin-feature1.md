@@ -439,11 +439,17 @@ import java.util.List;
 public class Step
 {
     public List<ContentFragment> content;
-    public List<List<ContentFragment>> nestedContent;
+    public List<NestedBlock> nestedContent;
     public Metadata metadata;
 
     // Populated after JSON parse by GuideRepository.
     public transient StepId id;
+
+    public static class NestedBlock
+    {
+        public int level;
+        public List<ContentFragment> content;
+    }
 }
 ```
 
@@ -1171,9 +1177,11 @@ public class StepRendererTest
         s.content = new ArrayList<>();
         s.content.add(frag("outer", null, null, null, null, null));
         s.nestedContent = new ArrayList<>();
-        List<ContentFragment> sub = new ArrayList<>();
-        sub.add(frag("inner", null, null, null, null, null));
-        s.nestedContent.add(sub);
+        Step.NestedBlock block = new Step.NestedBlock();
+        block.level = 1;
+        block.content = new ArrayList<>();
+        block.content.add(frag("inner", null, null, null, null, null));
+        s.nestedContent.add(block);
 
         JTextPane pane = (JTextPane) StepRenderer.render(s);
         String all = pane.getText();
@@ -1258,13 +1266,14 @@ public final class StepRenderer
 
         if (step.nestedContent != null)
         {
-            for (List<ContentFragment> sub : step.nestedContent)
+            for (Step.NestedBlock block : step.nestedContent)
             {
+                if (block == null || block.content == null) continue;
                 ensureParagraphBreak(doc);
-                if (sub == null) continue;
-                for (ContentFragment f : sub)
+                float indent = NESTED_INDENT * Math.max(1, block.level);
+                for (ContentFragment f : block.content)
                 {
-                    appendFragment(doc, f, NESTED_INDENT);
+                    appendFragment(doc, f, indent);
                 }
             }
         }

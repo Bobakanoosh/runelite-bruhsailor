@@ -45,7 +45,7 @@ Loads `guide_data.json` once at plugin startup via classpath. Parses with Gson. 
 
 Immutable after construction. No mutation API. Throws on parse failure; the plugin handles the failure (see Error Handling).
 
-`Step` is a plain data class: `StepId id`, `List<ContentFragment> content`, `List<List<ContentFragment>> nestedContent`, `Metadata metadata`. `ContentFragment` carries `text` + nullable `bold`, `fontSize`, `color`.
+`Step` is a plain data class: `StepId id`, `List<ContentFragment> content`, `List<NestedBlock> nestedContent`, `Metadata metadata`. `NestedBlock` carries `int level` + `List<ContentFragment> content` (matches the JSON shape `{level, content: [...]}`). `ContentFragment` carries `text` + nullable `bold`, `fontSize`, `color`.
 
 ### 3. `GuideStateService`
 
@@ -74,7 +74,7 @@ Pure function `JComponent render(Step)`. Builds a non-editable opaque `JTextPane
   - `color` `{r,g,b}` floats in `[0,1]` → `new Color(r, g, b)`. No remapping. Default when absent → `ColorScheme.LIGHT_GRAY_COLOR`.
 - Append the fragment's text with that attribute set.
 - A fragment whose text is `"\n"` produces a paragraph break.
-- After `content`, render each entry of `nestedContent[]` as an indented paragraph (left margin via `StyleConstants.LeftIndent`), recursively styled by the same fragment rules.
+- After `content`, render each `NestedBlock` in `nestedContent[]` as an indented paragraph (left margin via `StyleConstants.LeftIndent`, scaled by `block.level`); the block's inner `content` fragments are styled by the same fragment rules.
 
 If applying styling to a single fragment throws, fall back to plain-text append for just that fragment and continue. One bad fragment must not black out the step.
 
