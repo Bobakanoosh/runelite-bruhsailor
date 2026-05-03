@@ -72,9 +72,12 @@ public class BruhsailorPanel extends PluginPanel
         stepScroll.setAlignmentX(Component.LEFT_ALIGNMENT);
         stepScroll.setBorder(BorderFactory.createEmptyBorder());
         stepScroll.getVerticalScrollBar().setUnitIncrement(16);
-        // Cap how tall the step block can grow; long steps scroll within this box
-        // so the rest of the panel (nav + list) stays anchored.
-        stepScroll.setMaximumSize(new Dimension(Integer.MAX_VALUE, 280));
+        // Pin the step block to a constant height so nav + list don't jump
+        // when switching between short and long steps.
+        Dimension stepBoxSize = new Dimension(Integer.MAX_VALUE, 260);
+        stepScroll.setMinimumSize(new Dimension(0, 260));
+        stepScroll.setPreferredSize(new Dimension(PluginPanel.PANEL_WIDTH - 16, 260));
+        stepScroll.setMaximumSize(stepBoxSize);
 
         metadataLabel.setFont(FontManager.getRunescapeFont());
         metadataLabel.setForeground(ColorScheme.LIGHT_GRAY_COLOR);

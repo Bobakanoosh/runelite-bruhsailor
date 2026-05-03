@@ -21,9 +21,9 @@ public final class StepRenderer
 {
     private static final Logger log = LoggerFactory.getLogger(StepRenderer.class);
 
-    private static final int BASE_SIZE = 14;
-    private static final int SMALL_SIZE = 12;
-    private static final int LARGE_SIZE = 16;
+    private static final int BASE_SIZE = 16;
+    private static final int SMALL_SIZE = 14;
+    private static final int LARGE_SIZE = 18;
     private static final float NESTED_INDENT = 16f;
 
     private StepRenderer() {}
