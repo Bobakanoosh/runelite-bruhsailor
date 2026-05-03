@@ -15,6 +15,7 @@ import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
+import javax.swing.JSplitPane;
 import javax.swing.JToggleButton;
 import javax.swing.SwingUtilities;
 import java.awt.BorderLayout;
@@ -73,12 +74,8 @@ public class BruhsailorPanel extends PluginPanel
         stepScroll.setAlignmentX(Component.LEFT_ALIGNMENT);
         stepScroll.setBorder(BorderFactory.createEmptyBorder());
         stepScroll.getVerticalScrollBar().setUnitIncrement(16);
-        // Pin the step block to a constant height so nav + list don't jump
-        // when switching between short and long steps.
-        Dimension stepBoxSize = new Dimension(Integer.MAX_VALUE, 260);
-        stepScroll.setMinimumSize(new Dimension(0, 260));
-        stepScroll.setPreferredSize(new Dimension(PluginPanel.PANEL_WIDTH - 16, 260));
-        stepScroll.setMaximumSize(stepBoxSize);
+        // The step block expands to fill the top half of the split (sized below).
+        stepScroll.setMinimumSize(new Dimension(0, 80));
 
         metadataLabel.setFont(FontManager.getRunescapeFont());
         metadataLabel.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
@@ -122,8 +119,6 @@ public class BruhsailorPanel extends PluginPanel
         root.add(Box.createVerticalStrut(8));
         root.add(controls);
 
-        add(root, BorderLayout.NORTH);
-
         buildListModel();
         stepList.setCellRenderer(new RowRenderer());
         stepList.addListSelectionListener(e -> {
@@ -136,9 +131,22 @@ public class BruhsailorPanel extends PluginPanel
         });
         stepList.setBackground(ColorScheme.DARK_GRAY_COLOR);
 
-        JScrollPane listScroll = new JScrollPane(stepList);
+        JScrollPane listScroll = new JScrollPane(stepList,
+            JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
+            JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
         listScroll.setBorder(BorderFactory.createEmptyBorder(8, 0, 0, 0));
-        add(listScroll, BorderLayout.CENTER);
+
+        JSplitPane split = new JSplitPane(JSplitPane.VERTICAL_SPLIT, root, listScroll);
+        split.setResizeWeight(0.65);
+        split.setBorder(BorderFactory.createEmptyBorder());
+        split.setContinuousLayout(true);
+        split.setDividerSize(6);
+        // Apply the 65/35 split as soon as the panel has its real height.
+        SwingUtilities.invokeLater(() -> {
+            int h = getHeight();
+            if (h > 0) split.setDividerLocation((int) (h * 0.65));
+        });
+        add(split, BorderLayout.CENTER);
 
         bus.register(this);
         refreshAll();
@@ -242,11 +250,8 @@ public class BruhsailorPanel extends PluginPanel
         {
             if (f == null || f.text == null) continue;
             sb.append(f.text);
-            if (sb.length() >= 60) break;
         }
-        String s = sb.toString().replace('\n', ' ').trim();
-        if (s.length() > 50) s = s.substring(0, 50) + "…";
-        return s;
+        return sb.toString().replace('\n', ' ').trim();
     }
 
     private final class RowRenderer extends javax.swing.JLabel
@@ -265,9 +270,10 @@ public class BruhsailorPanel extends PluginPanel
             if (value instanceof HeaderRow)
             {
                 HeaderRow h = (HeaderRow) value;
+                int wrapWidth = Math.max(120, list.getWidth() - 24);
                 if (h.isChapter)
                 {
-                    setText(h.text);
+                    setText(html(escape(h.text), wrapWidth));
                     setFont(FontManager.getRunescapeBoldFont().deriveFont(17f));
                     setForeground(ColorScheme.BRAND_ORANGE);
                     setBackground(ColorScheme.DARKER_GRAY_COLOR);
@@ -275,8 +281,8 @@ public class BruhsailorPanel extends PluginPanel
                 }
                 else
                 {
-                    setText(h.text.toUpperCase(java.util.Locale.ROOT));
-                    setFont(FontManager.getRunescapeFont().deriveFont(13f));
+                    setText(html(escape(h.text.toUpperCase(java.util.Locale.ROOT)), wrapWidth));
+                    setFont(FontManager.getRunescapeFont().deriveFont(15f));
                     setForeground(ColorScheme.LIGHT_GRAY_COLOR.darker());
                     setBackground(ColorScheme.DARK_GRAY_COLOR);
                     setBorder(BorderFactory.createEmptyBorder(10, 8, 4, 8));
@@ -287,10 +293,10 @@ public class BruhsailorPanel extends PluginPanel
                 StepRow r = (StepRow) value;
                 boolean isCurrent = r.id.equals(state.getCurrent());
                 boolean done = state.isComplete(r.id);
-                String text = done
-                    ? "<html><strike>" + escape(r.label) + "</strike></html>"
-                    : r.label;
-                setText(text);
+                int wrapWidth = Math.max(120, list.getWidth() - 28);
+                String inner = escape(r.label);
+                if (done) inner = "<strike>" + inner + "</strike>";
+                setText(html(inner, wrapWidth));
                 setFont(FontManager.getRunescapeFont().deriveFont(16f));
                 setForeground(done ? ColorScheme.LIGHT_GRAY_COLOR.darker() : ColorScheme.LIGHT_GRAY_COLOR);
                 setBackground(isCurrent ? ColorScheme.BRAND_ORANGE.darker() : ColorScheme.DARK_GRAY_COLOR);
@@ -302,6 +308,11 @@ public class BruhsailorPanel extends PluginPanel
         private String escape(String s)
         {
             return s.replace("&", "&amp;").replace("<", "&lt;");
+        }
+
+        private String html(String inner, int widthPx)
+        {
+            return "<html><div style='width:" + widthPx + "px'>" + inner + "</div></html>";
         }
     }
 
