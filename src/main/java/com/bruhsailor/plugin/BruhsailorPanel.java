@@ -268,18 +268,18 @@ public class BruhsailorPanel extends PluginPanel
                 if (h.isChapter)
                 {
                     setText(h.text);
-                    setFont(FontManager.getRunescapeBoldFont().deriveFont(14f));
+                    setFont(FontManager.getRunescapeBoldFont().deriveFont(17f));
                     setForeground(ColorScheme.BRAND_ORANGE);
                     setBackground(ColorScheme.DARKER_GRAY_COLOR);
-                    setBorder(BorderFactory.createEmptyBorder(10, 6, 4, 6));
+                    setBorder(BorderFactory.createEmptyBorder(12, 8, 6, 8));
                 }
                 else
                 {
                     setText(h.text.toUpperCase(java.util.Locale.ROOT));
-                    setFont(FontManager.getRunescapeSmallFont());
+                    setFont(FontManager.getRunescapeFont().deriveFont(13f));
                     setForeground(ColorScheme.LIGHT_GRAY_COLOR.darker());
                     setBackground(ColorScheme.DARK_GRAY_COLOR);
-                    setBorder(BorderFactory.createEmptyBorder(8, 6, 2, 6));
+                    setBorder(BorderFactory.createEmptyBorder(10, 8, 4, 8));
                 }
             }
             else
@@ -291,10 +291,10 @@ public class BruhsailorPanel extends PluginPanel
                     ? "<html><strike>" + escape(r.label) + "</strike></html>"
                     : r.label;
                 setText(text);
-                setFont(FontManager.getRunescapeFont().deriveFont(13f));
+                setFont(FontManager.getRunescapeFont().deriveFont(16f));
                 setForeground(done ? ColorScheme.LIGHT_GRAY_COLOR.darker() : ColorScheme.LIGHT_GRAY_COLOR);
                 setBackground(isCurrent ? ColorScheme.BRAND_ORANGE.darker() : ColorScheme.DARK_GRAY_COLOR);
-                setBorder(BorderFactory.createEmptyBorder(4, 10, 4, 6));
+                setBorder(BorderFactory.createEmptyBorder(6, 12, 6, 8));
             }
             return this;
         }
