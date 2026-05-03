@@ -1,0 +1,180 @@
+{
+  "stepId": "1.3.6",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Chronicle teleport to Varrock, buy a rune sword (not a longsword!), green d’hide chaps, green d’hide vambraces from Scavvo in the Champions’ Guild, if you joined the Black Arm Gang during Shield of Arrav also buy black platelegs and a black full helm from Valaine and start Dragon Slayer I. Visit the Blue Moon Inn for the barcrawl learn how to make a steak sandwich from the cook for Below Ice Mountain. Do a lap of the Varrock Rooftop Course for the diary. Buy priest gown (bottom and top), a brown apron and a pink skirt from Thessalia, a newspaper from Benny, a black platebody from Horvik and a rotten tomato from the chest. Make a steak sandwich for Below Ice Mountain. Steal a cup of tea, bring ~10 food. Continue The Golem and start The Dig Site (only the very first step where you get the letter), continue Priests in Peril (kill the Temple Guardian with melee, accurate recommended, finish the dialogue at the temple), teleport back to Varrock, speak with King Roald, then visit Curator Haig Halen for both The Dig Site and The Golem, and proceed to complete The Dig Site (if you get polished buttons while digging save them for Animal Magnetism).\n",
+  "itemsNeeded": "27313 + 7708 (Black Arm Gang) gp, Chronicle, barcrawl card, air runes, law runes, rune sword, 3 ropes, leather gloves, leather boots (from Step 1!), pestle/mortar, vial, charcoal, tinderbox, cup of tea (stolen)",
+  "gpStack": "745173 gp",
+  "mapping": {
+    "questIds": [
+      "BELOW_ICE_MOUNTAIN",
+      "DRAGON_SLAYER_I",
+      "THE_GOLEM",
+      "THE_DIG_SITE",
+      "PRIESTS_IN_PERIL"
+    ],
+    "items": [
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 455,
+        "name": "Barcrawl card",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 1059,
+        "name": "Leather gloves",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 233,
+        "name": "Pestle and mortar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 229,
+        "name": "Vial",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 973,
+        "name": "Charcoal",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1061,
+        "name": "Leather boots",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1099,
+        "name": "Green d'hide chaps",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1065,
+        "name": "Green d'hide vambraces",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1077,
+        "name": "Black platelegs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1165,
+        "name": "Black full helm",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1757,
+        "name": "Brown apron",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1013,
+        "name": "Pink skirt",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11169,
+        "name": "Newspaper",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1125,
+        "name": "Black platebody",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2518,
+        "name": "Rotten tomato",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 25631,
+        "name": "Steak sandwich",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 712,
+        "name": "Cup of tea",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "27313 gp",
+        "label": "cash for purchases"
+      },
+      {
+        "rawToken": "+ 7708 (Black Arm Gang) gp",
+        "label": "additional cash if Black Arm Gang"
+      },
+      {
+        "rawToken": "~10 food",
+        "label": "food"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "priest gown bottom",
+        "qty": null
+      },
+      {
+        "rawToken": "priest gown top",
+        "qty": null
+      }
+    ]
+  }
+}

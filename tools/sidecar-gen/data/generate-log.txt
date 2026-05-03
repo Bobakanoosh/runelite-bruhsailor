@@ -1,0 +1,48 @@
+$ bun run --env-file=.env src/main.ts generate
+[generate-all] 227 total steps | 64 already done | 163 to generate | concurrency=4
+  progress: 5/163 (ok=5 fail=0) | 4.2s | 1.19/s | queue=155
+  progress: 10/163 (ok=10 fail=0) | 7.5s | 1.33/s | queue=150
+  progress: 15/163 (ok=15 fail=0) | 11.7s | 1.28/s | queue=145
+  progress: 20/163 (ok=20 fail=0) | 23.9s | 0.84/s | queue=140
+  progress: 25/163 (ok=25 fail=0) | 42.8s | 0.58/s | queue=135
+  progress: 30/163 (ok=30 fail=0) | 55.3s | 0.54/s | queue=130
+  progress: 35/163 (ok=35 fail=0) | 75.2s | 0.47/s | queue=125
+  [worker 4] step 1.3.27 FAILED: 429 {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: 391da2ab-1ab9-42ef-badd-ea3e3ce5be8f, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing."},"request_id":"req_011CaexzotwMkYBxWfaCtqBe"}
+  progress: 40/163 (ok=39 fail=1) | 88.8s | 0.45/s | queue=120
+  progress: 45/163 (ok=44 fail=1) | 107.0s | 0.42/s | queue=115
+  progress: 50/163 (ok=49 fail=1) | 122.9s | 0.41/s | queue=110
+  progress: 55/163 (ok=54 fail=1) | 136.4s | 0.40/s | queue=105
+  progress: 60/163 (ok=59 fail=1) | 153.1s | 0.39/s | queue=100
+  progress: 65/163 (ok=64 fail=1) | 170.4s | 0.38/s | queue=95
+  progress: 70/163 (ok=69 fail=1) | 184.3s | 0.38/s | queue=90
+  progress: 75/163 (ok=74 fail=1) | 199.7s | 0.38/s | queue=85
+  progress: 80/163 (ok=79 fail=1) | 215.1s | 0.37/s | queue=80
+  progress: 85/163 (ok=84 fail=1) | 231.1s | 0.37/s | queue=75
+  [worker 2] step 2.1.21 FAILED: 429 {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: 391da2ab-1ab9-42ef-badd-ea3e3ce5be8f, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing."},"request_id":"req_011CaeyCHeMd1fs5tr9pWwdF"}
+  progress: 90/163 (ok=88 fail=2) | 244.3s | 0.37/s | queue=70
+  progress: 95/163 (ok=93 fail=2) | 261.4s | 0.36/s | queue=65
+  [worker 3] step 2.1.39 FAILED: 429 {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: 391da2ab-1ab9-42ef-badd-ea3e3ce5be8f, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing."},"request_id":"req_011CaeyExke5gUHHUsNYmznj"}
+  progress: 100/163 (ok=97 fail=3) | 272.6s | 0.37/s | queue=60
+  progress: 105/163 (ok=102 fail=3) | 290.8s | 0.36/s | queue=55
+  progress: 110/163 (ok=107 fail=3) | 303.7s | 0.36/s | queue=50
+  progress: 115/163 (ok=112 fail=3) | 321.4s | 0.36/s | queue=45
+  progress: 120/163 (ok=117 fail=3) | 335.7s | 0.36/s | queue=40
+  progress: 125/163 (ok=122 fail=3) | 356.3s | 0.35/s | queue=35
+  progress: 130/163 (ok=127 fail=3) | 367.5s | 0.35/s | queue=30
+  progress: 135/163 (ok=132 fail=3) | 382.6s | 0.35/s | queue=25
+  progress: 140/163 (ok=137 fail=3) | 395.8s | 0.35/s | queue=20
+  [worker 4] step 2.3.12 FAILED: 429 {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: 391da2ab-1ab9-42ef-badd-ea3e3ce5be8f, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing."},"request_id":"req_011CaeyQrkkc91tsHCi5WXoK"}
+  progress: 145/163 (ok=141 fail=4) | 406.9s | 0.36/s | queue=15
+  progress: 150/163 (ok=146 fail=4) | 419.9s | 0.36/s | queue=10
+  progress: 155/163 (ok=151 fail=4) | 433.7s | 0.36/s | queue=5
+  [worker 1] step 3.1.6 FAILED: 429 {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: 391da2ab-1ab9-42ef-badd-ea3e3ce5be8f, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing."},"request_id":"req_011CaeyT9fZABqC7Vzkrzyfc"}
+  [worker 3] step 3.1.14 FAILED: 429 {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed your organization's rate limit of 50,000 input tokens per minute (org: 391da2ab-1ab9-42ef-badd-ea3e3ce5be8f, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing."},"request_id":"req_011CaeyTXCc5NeVERNDijiyJ"}
+  progress: 160/163 (ok=154 fail=6) | 444.0s | 0.36/s | queue=0
+  progress: 161/163 (ok=155 fail=6) | 447.0s | 0.36/s | queue=0
+  progress: 162/163 (ok=156 fail=6) | 448.9s | 0.36/s | queue=0
+  progress: 163/163 (ok=157 fail=6) | 451.6s | 0.36/s | queue=0
+
+[generate-all] done in 451.6s | ok=157 fail=6
+[generate-all] sidecar -> C:\Users\Jack\Documents\Programming\oss\osrs\runelite-bruhsailor\src\main\resources\step_mappings.json
+[generate-all] failed steps: 1.3.27, 2.1.21, 2.1.39, 2.3.12, 3.1.6, 3.1.14
+[generate-all] re-run the same command to retry failures only.

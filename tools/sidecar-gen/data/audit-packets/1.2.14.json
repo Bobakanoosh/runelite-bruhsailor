@@ -1,0 +1,96 @@
+{
+  "stepId": "1.2.14",
+  "section": "1.2: Some fishing and thieving",
+  "stepText": "Minigame teleport to Burthorpe, buy 5 Asgarnian ale, 39 Wizard’s mind bombs and 12 Dwarven stouts. Collect the Rogues outfit and crack a wall safe in the main area for the diary. Buy 75 lockpicks and 25 ropes. Cook fish (salmon, trout and all raw fish from Tempoross, but save at least one raw swordfish for making a swordchick at the Tower of Life later for the Ardougne medium diary) between the games to replenish run energy (you can 2t cook it). Make sure you have at least 10 trout for Death Plateau and 15 salmon for In Aid of the Myreque, and got to at least level 43 cooking. Grab your GP, blackjack and a POH tab (equip full rogues), run south and complete Fishing Contest.\n",
+  "itemsNeeded": "2546 gp, willow blackjack, POH tab",
+  "gpStack": "4162 GP",
+  "mapping": {
+    "questIds": [
+      "DEATH_PLATEAU",
+      "FISHING_CONTEST",
+      "IN_AID_OF_THE_MYREQUE"
+    ],
+    "items": [
+      {
+        "id": 4600,
+        "name": "Willow blackjack",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8013,
+        "name": "Teleport to house",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1905,
+        "name": "Asgarnian ale",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 1907,
+        "name": "Wizard's mind bomb",
+        "qty": 39,
+        "source": "content"
+      },
+      {
+        "id": 1913,
+        "name": "Dwarven stout",
+        "qty": 12,
+        "source": "content"
+      },
+      {
+        "id": 1523,
+        "name": "Lockpick",
+        "qty": 75,
+        "source": "content"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": 25,
+        "source": "content"
+      },
+      {
+        "id": 329,
+        "name": "Salmon",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 333,
+        "name": "Trout",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 371,
+        "name": "Raw swordfish",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "2546 gp"
+      },
+      {
+        "label": "raw fish",
+        "rawToken": "raw fish from Tempoross"
+      },
+      {
+        "label": "run energy",
+        "rawToken": "run energy"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "Rogue's outfit",
+        "qty": null
+      }
+    ]
+  }
+}

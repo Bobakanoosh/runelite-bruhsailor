@@ -1,0 +1,78 @@
+{
+  "stepId": "1.4.11",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Train woodcutting to 70, 2t teaks at the trees north of Soul Wars is recommended. If you want/need more rewards from forestry instead do this on a forestry world - you likely can’t 2t there as people kill the birds. Use fairy ring BJP to get there - either using a necklace of passage to the wizards’ tower, or swapping to the Arceuus spellbook (once) then using the Salve graveyard teleport spell. You can also keep doing hourlies and returning to the teak trees this way. If you did not get 16 magic logs from Wintertodt keep going to level 75 instead. You can also go to 75 regardless if you want, it’s ~EHP. Remember to swap to the normal spellbook on completion if you chose Arceuus during this step.\n",
+  "itemsNeeded": "rune axe, forestry kit",
+  "gpStack": "305290 gp",
+  "mapping": {
+    "questIds": [
+      "WOODCUTTING"
+    ],
+    "items": [
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 28136,
+        "name": "Forestry kit",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 21146,
+        "name": "Necklace of passage(5)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 5341,
+        "name": "Rake",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6040,
+        "name": "Amulet of nature",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1521,
+        "name": "Oak logs",
+        "qty": 300,
+        "source": "content"
+      },
+      {
+        "id": 1519,
+        "name": "Willow logs",
+        "qty": 300,
+        "source": "content"
+      },
+      {
+        "id": 2446,
+        "name": "Antipoison(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "starting cash",
+        "rawToken": "305290 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "armour",
+        "qty": null
+      },
+      {
+        "rawToken": "food",
+        "qty": null
+      }
+    ]
+  }
+}

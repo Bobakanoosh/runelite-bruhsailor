@@ -1,0 +1,55 @@
+{
+  "stepId": "2.1.1",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Bring orbs with you to the Wizards’ Guild in Yanille, buy, make, and alch the staves in the shop while hopping and buying nature runes (50 per world until you have 500). Boost with a Wizard’s mind bomb to get in. Use your mushroom pies for this as needed for the first levels. Buy another inv of staves and make and alch them in the bank. Repeat the whole process a second time. This brings the cash stack up to ~162k (bring ~24 orbs, buy+alch everything slowly, then buy out another 26 staves and attach+alch in bank, repeat). After this buy staves with your entire cash stack, banking them.\n",
+  "itemsNeeded": "cash stack, 100 earth orbs,",
+  "gpStack": "150k gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 575,
+        "name": "Earth orb",
+        "qty": 100,
+        "source": "items_needed"
+      },
+      {
+        "id": 1907,
+        "name": "Wizard's mind bomb",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21690,
+        "name": "Mushroom pie",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1379,
+        "name": "Staff",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 561,
+        "name": "Nature rune",
+        "qty": 500,
+        "source": "content"
+      },
+      {
+        "id": 1391,
+        "name": "Battlestaff",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

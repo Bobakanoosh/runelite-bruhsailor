@@ -1,0 +1,10 @@
+{
+  "stepId": "1.4.21",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    "questIds contains ICTHLARINS_LITTLE_HELPER but this is only mentioned as future prep (grab sap 'later'), not actively progressed in this step - should be removed",
+    "teak logs (id 6333) appear in items array but are not mentioned in itemsNeeded or step text - source unclear"
+  ],
+  "notes": "Core item mappings accurate. Chronicle and crystal saw seed correctly sourced from content. 11 of 12 primary items mapped correctly with valid IDs. Main issue is quest scope violation - Icthlarin's Little Helper should not be listed as this step only preps a component for it."
+}

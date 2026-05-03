@@ -1,0 +1,136 @@
+{
+  "stepId": "2.1.20",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Start and complete Icthlarin’s Little Helper, taking a light source, antipoison and tinderbox with you as well as all Icthlarin’s quest items. After completing the quest enter Pyramid Plunder for the diary and collect at least one artefact (any will do, e.g. stone scarab), then open a sarcophagus. Do Contact! up to the step you need to visit Osman. Make sure to carry some teleport jewellery. Teleport to Thormac in the Sorcerer’s Tower (fairy ring BLR is nearby, or run down from Camelot), start Scorpion Catcher. Teleport to Seers’ Village and speak with a seer to continue the quest.\n",
+  "itemsNeeded": "cash stack, kitten/cat, light source, tinderbox, bag of salt, willow log, bucket of sap, waterskins, energy potions, prayer potions, rune sword, swordfish, games necklace, antipoison, digsite pendant, barcrawl card, 10 oak logs, digsite teleport, 3500 gp.",
+  "gpStack": "1.4m gp",
+  "mapping": {
+    "questIds": [
+      "ICTHLARIN_LITTLE_HELPER",
+      "PYRAMID_PLUNDER",
+      "CONTACT",
+      "SCORPION_CATCHER"
+    ],
+    "items": [
+      {
+        "id": 1554,
+        "name": "Fluffs' kitten",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4548,
+        "name": "Bullseye lantern",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4161,
+        "name": "Bag of salt",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1519,
+        "name": "Willow logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4687,
+        "name": "Bucket of sap",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1823,
+        "name": "Waterskin(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 175,
+        "name": "Antipoison(3)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 11190,
+        "name": "Digsite pendant (1)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 455,
+        "name": "Barcrawl card",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1521,
+        "name": "Oak logs",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 12403,
+        "name": "Digsite teleport",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 9030,
+        "name": "Stone scarab",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      },
+      {
+        "label": "3500 gp",
+        "rawToken": "3500 gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

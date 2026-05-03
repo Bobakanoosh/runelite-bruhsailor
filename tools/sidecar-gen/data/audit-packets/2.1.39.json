@@ -1,0 +1,35 @@
+{
+  "stepId": "2.1.39",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "If you are already level 31 sailing, upgrade your skiff with a teak hull. If not, sail south and complete the swordfish rank of the Tempor Tantrum to get the level, then return and upgrade the hull. Continue doing laps of Tempor Tantrum (unlock all difficulties, then do Marlin rank for xp) until at least 35,000 xp (level 39). Make sure to collect the stormy key, barrel stand and the Whirlpool surprises.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "650k gp",
+  "mapping": {
+    "questIds": [],
+    "items": [],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "650k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "teak hull",
+        "qty": 1
+      },
+      {
+        "rawToken": "stormy key",
+        "qty": 1
+      },
+      {
+        "rawToken": "barrel stand",
+        "qty": 1
+      },
+      {
+        "rawToken": "whirlpool surprise",
+        "qty": null
+      }
+    ]
+  }
+}

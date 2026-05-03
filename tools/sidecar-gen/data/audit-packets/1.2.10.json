@@ -1,0 +1,62 @@
+{
+  "stepId": "1.2.10",
+  "section": "1.2: Some fishing and thieving",
+  "stepText": "Teleport to the barbarian outpost with your games necklace. Unlock the minigame teleport (start the teleport animation to confirm it worked, then just click away to cancel it), start Alfred Grimhand’s Barcrawl, go south and do the Waterfall quest until the step where you need the pebble (bring your rope). Buy a greenman’s ale from Rasolo. Start Dwarf Cannon up to the step where you need to find Lollk.\n",
+  "itemsNeeded": "9 gp, 1 rope, 6 logs, wind strike, barcrawl card, food",
+  "gpStack": "8575 gp",
+  "mapping": {
+    "questIds": [
+      "WATERFALL_QUEST",
+      "DWARF_CANNON"
+    ],
+    "items": [
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": 6,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 455,
+        "name": "Barcrawl card",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1909,
+        "name": "Greenman's ale",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "9 gp",
+        "label": "gp"
+      },
+      {
+        "rawToken": "food",
+        "label": "food"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "stepId": "1.1.10",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Bring your coins, ghostspeak amulet, a spade, 20 balls of wool, the tribal totem and treasure scroll. Head to Brimhaven and complete Tribal Totem. Teleport to Lumbridge (optional: minigame teleport to clan wars first to restore run energy), talk to the restless ghost. Go to the back exit of Lumbridge Castle and dig to progress X Marks the Spot. Run north, and complete Sheep Shearer, grab seven onions. Run to Draynor and progress X Marks the Spot (twice). Buy a Chronicle and three teleport cards from Diango. Go to the Wizards’ Tower with the air talisman, talk to Wizard Sedridor and trade the air talisman for a research package. Grab the ghost’s skull from the altar for Restless Ghost.\n",
+  "itemsNeeded": "780 gp, ghostspeak amulet, spade, 20 balls of wool",
+  "gpStack": "8629 gp",
+  "mapping": {
+    "questIds": [
+      "THE_RESTLESS_GHOST",
+      "SHEEP_SHEARER",
+      "X_MARKS_THE_SPOT",
+      "TRIBAL_TOTEM"
+    ],
+    "items": [
+      {
+        "id": 552,
+        "name": "Ghostspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1759,
+        "name": "Ball of wool",
+        "qty": 20,
+        "source": "items_needed"
+      },
+      {
+        "id": 23067,
+        "name": "Treasure scroll",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1438,
+        "name": "Air talisman",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 13658,
+        "name": "Teleport card",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 553,
+        "name": "Ghost's skull",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 290,
+        "name": "Research package",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "780 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "tribal totem",
+        "qty": null
+      }
+    ]
+  }
+}

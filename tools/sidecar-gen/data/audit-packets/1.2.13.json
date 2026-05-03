@@ -1,0 +1,79 @@
+{
+  "stepId": "1.2.13",
+  "section": "1.2: Some fishing and thieving",
+  "stepText": "Minigame teleport to the barbarian outpost, grab a rope, Glarial’s pebble, some food, water strikes and the runes for Waterfall quest (optional: already bring your feathers). Complete Waterfall quest (you have to juggle some gear at Glarial’s Tomb) and kill a Fire Giant in the west room for the diary. Barb fish to 32 agility, keep your heavy fishing rod. Minigame teleport to Port Khazard, charter a ship to Aldarin, start and complete Death on the Isle. Collect the costume needle and the icon after the quest, using the icon to unlock the teleport on the pendant of ates. If you only collected 2 iron bars earlier, collect 5 more upstairs in the Shields of Mistrock store. Minigame teleport back to Barbarian Assault and resume barbarian fishing to level 50 agility. Also start barbarian farming (if possible). Knife-log teak logs to tick manipulate. \n",
+  "itemsNeeded": "rope, Glarial’s pebble, trout, water strikes, all your feathers, 6 air runes, 6 earth runes, 6 water runes, 1 knife, 1 teak log",
+  "gpStack": "6708 gp",
+  "mapping": {
+    "questIds": [
+      "WATERFALL_QUEST",
+      "DEATH_ON_THE_ISLE"
+    ],
+    "items": [
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 294,
+        "name": "Glarial's pebble",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 333,
+        "name": "Trout",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": 6,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": 6,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 6333,
+        "name": "Teak logs",
+        "qty": 1,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "all your feathers",
+        "rawToken": "all your feathers"
+      },
+      {
+        "label": "food",
+        "rawToken": "some food"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "fire giant",
+        "qty": null
+      }
+    ]
+  }
+}

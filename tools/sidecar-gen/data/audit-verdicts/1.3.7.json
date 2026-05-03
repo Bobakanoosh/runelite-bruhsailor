@@ -1,0 +1,1 @@
+{"stepId":"1.3.7","accurate":false,"confidence":0.45,"issues":["elemental bar (qty 3) should be resolved item ID 2644, not left in unresolvedItems"],"notes":"Elemental bar is a specific, resolvable item with clear quantity from 'Make 3 elemental bars'. All other mappings accurate."}

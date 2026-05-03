@@ -1,0 +1,62 @@
+{
+  "stepId": "2.3.11",
+  "section": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
+  "stepText": "Kill the following for Rag and Bone Man II, then complete the quest:\n",
+  "itemsNeeded": "melee gear, prayer potions, mirror shield, law runes, soul runes, dramen staff, fishing explosives",
+  "gpStack": "19.7m gp",
+  "mapping": {
+    "questIds": [
+      "RAG_AND_BONE_MAN_II",
+      "SKIPPY_AND_THE_MOGRES"
+    ],
+    "items": [
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4156,
+        "name": "Mirror shield",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6660,
+        "name": "Fishing explosive",
+        "qty": null,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "melee gear",
+        "rawToken": "melee gear"
+      },
+      {
+        "label": "gp_stack",
+        "rawToken": "19.7m gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

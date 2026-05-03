@@ -1,0 +1,13 @@
+{
+  "stepId": "3.2.13",
+  "accurate": false,
+  "confidence": 0.62,
+  "issues": [
+    "Unresolved items (antivenom, ring of wealth, zulrah scales, antidote++) do not match step description and appear misplaced",
+    "Multiple runes (Astral, Soul, Body, Blood) and potions (Stamina, Prayer, Super restore) are support consumables rather than needed items for the primary objective",
+    "Signets (Ancient, Lunar) and Fairy enchantment lack clear context in step text regarding their use",
+    "Dragonstone has null quantity, making its necessity ambiguous",
+    "Several items seem to belong to a different step or activity"
+  ],
+  "notes": "Step text describes mahogany training + build/upgrade furniture, but item list contains many unrelated consumables and unclear construction materials. Core mahogany items (logs/planks) are correctly identified. Confidence below 0.85 due to unclear item categorization and unresolved items that don't fit the step narrative. Data quality needs review for step coherence."
+}

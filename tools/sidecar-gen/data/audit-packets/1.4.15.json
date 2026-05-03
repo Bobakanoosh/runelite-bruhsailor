@@ -1,0 +1,168 @@
+{
+  "stepId": "1.4.15",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Teleport to Draynor Manor, run north to Barbarian Village. Make an unfired bowl on the pottery wheel, fire it for the diary. Make another unfired bowl for Dragon Slayer I. Speak to Checkal the Strongman for Below Ice Mountain and continue to progress that quest. Catch some trout, buy a mithril full helm, steel full helm and two bronze med helmets from the Helmet shop, then enter the Stronghold of Security and complete all four levels, then perform all four emotes for the diary. Optional: also kill some minotaurs, flesh crawlers, catablepon and ankou for the four pieces of the skull sceptre. Run to the Ice Mountain and speak with the Oracle to progress Dragon Slayer I, use secateurs on the white tree to obtain a shoot, put it in your plant pot and water it. Speak with Nulodion to progress Dwarf Cannon. Go downstairs and collect the Dragon Slayer I map piece. Go south, squeeze through the crevice for the diary, speak with Boot to progress Family Crest. Run back outside, go west and complete Below Ice Mountain. Run to the Black Knights’ Fortress and continue the quest to the point where you have to return to Sir Amik Varze.\n",
+  "itemsNeeded": "1454 gp, fly fishing rod, feathers, bronze bar, hammer, iron chainbody, 1 cabbage, salmon, magic secateurs, plant pot, watering can, rune sword, earth runes, water staff, law runes, 2 soft clay, lobster pot, silk, wizard’s mind bomb",
+  "gpStack": "312926 gp",
+  "mapping": {
+    "questIds": [
+      "BELOW_ICE_MOUNTAIN",
+      "DRAGON_SLAYER_I",
+      "DWARF_CANNON",
+      "FAMILY_CREST",
+      "STRONGHOLD_OF_SECURITY"
+    ],
+    "items": [
+      {
+        "id": 309,
+        "name": "Fly fishing rod",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2349,
+        "name": "Bronze bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1101,
+        "name": "Iron chainbody",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1965,
+        "name": "Cabbage",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 329,
+        "name": "Salmon",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7409,
+        "name": "Magic secateurs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5356,
+        "name": "Plant pot",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5331,
+        "name": "Watering can",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1383,
+        "name": "Staff of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1761,
+        "name": "Soft clay",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 301,
+        "name": "Lobster pot",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 950,
+        "name": "Silk",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1907,
+        "name": "Wizard's mind bomb",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1791,
+        "name": "Unfired bowl",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1159,
+        "name": "Mithril full helm",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1157,
+        "name": "Steel full helm",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1139,
+        "name": "Bronze med helm",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 333,
+        "name": "Trout",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "1454 gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "skull sceptre pieces",
+        "qty": 4
+      }
+    ]
+  }
+}

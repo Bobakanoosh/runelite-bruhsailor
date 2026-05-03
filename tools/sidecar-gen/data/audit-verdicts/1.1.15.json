@@ -1,0 +1,10 @@
+{
+  "stepId": "1.1.15",
+  "accurate": false,
+  "confidence": 0.45,
+  "issues": [
+    "Missing 18 planks from initial bank grab — only 5 Plank (noted) captured, but stepText requires 18 planks + 5 noted planks (23 total)",
+    "POH tab item name 'Teleport to house' (ID 8013) is technically correct but ambiguous; should clarify this is a TP tab for construction training"
+  ],
+  "notes": "Significant omission of 18 planks needed at step start. Quest mapping for WITCHS_POTION is correct. Items, abstracts, and unresolved entries otherwise properly categorized."
+}

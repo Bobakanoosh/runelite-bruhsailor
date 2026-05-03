@@ -1,0 +1,140 @@
+{
+  "stepId": "3.2.5",
+  "section": "3.2: Quest cape, quality of life",
+  "stepText": "Swap your kraken ink stout barrel on the sloop for perildance bitter. Collect port bounty tasks for the following activities. Note that bounty tasks are not bound to a specific location - you should teleport around to check all boards that can assign your desired target, regardless of where you want to do the task. Also most creatures drop two different bounty task items, so you can double dip on the xp by collecting both. See Bounty tasks - OSRS Wiki for more info. Once you have completed the bounty tasks, or gotten enough xp for level 72 through other means, take your skiff to the Gwenith Glide and complete at least up to the shark rank, unlocking the Heart of ithell, and to 1,225,000 xp (level 75) - whichever comes later, you need both. While in the area, dock at Ynysdail to collect the small key, then dock at Lledrith to collect the dragon salvaging hook schematic. Boost to smith 3 runite bars into 45 rune nails (if you did not go to 86 smithing earlier this step is out of reach). Buy 4 magic stones at the Keldagrim stonemason. Build a crystal extractor on your sloop and on your skiff - make sure to put the skiff extractor next to the helm, but the sloop extractor on the port side next to your front facility hotspot. Boost to build an eternal brazier on your sloop and on your skiff. Boosting where necessary, chart the Northern ocean in full. This completes your charting, go to Chartin’ Charles McAtless to collect your XP bonuses and the Horizon’s lure - buy 50 of the drink and put it in a keg on both ships. If you did ship combat earlier you have the resources to build the gale catcher on your skiff, and the key ingredients (but not the level) to build a chum spreader and two cotton trawling nets for your sloop later.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "60m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 2363,
+        "name": "Runite bar",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 4824,
+        "name": "Rune nails",
+        "qty": 45,
+        "source": "content"
+      },
+      {
+        "id": 4703,
+        "name": "Magic stone",
+        "qty": 4,
+        "source": "content"
+      },
+      {
+        "id": 1507,
+        "name": "A small key",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "60m gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "kraken ink stout barrel",
+        "qty": null
+      },
+      {
+        "rawToken": "perildance bitter",
+        "qty": null
+      },
+      {
+        "rawToken": "dragon salvaging hook schematic",
+        "qty": null
+      },
+      {
+        "rawToken": "crystal extractor",
+        "qty": null
+      },
+      {
+        "rawToken": "eternal brazier",
+        "qty": null
+      },
+      {
+        "rawToken": "horizon's lure",
+        "qty": null
+      },
+      {
+        "rawToken": "bottle of fishier bladderier stout",
+        "qty": null
+      },
+      {
+        "rawToken": "bottle of exile's welcome",
+        "qty": null
+      },
+      {
+        "rawToken": "bottle of kgp standard issue martini",
+        "qty": null
+      },
+      {
+        "rawToken": "bottle of the winter sun",
+        "qty": null
+      },
+      {
+        "rawToken": "eternal brazier schematic",
+        "qty": null
+      },
+      {
+        "rawToken": "gale catcher",
+        "qty": null
+      },
+      {
+        "rawToken": "chum spreader",
+        "qty": null
+      },
+      {
+        "rawToken": "cotton trawling net",
+        "qty": null
+      },
+      {
+        "rawToken": "ray barb",
+        "qty": 16
+      },
+      {
+        "rawToken": "swift albatross feather",
+        "qty": null
+      },
+      {
+        "rawToken": "narwhal horn",
+        "qty": 1
+      },
+      {
+        "rawToken": "repair kit",
+        "qty": null
+      },
+      {
+        "rawToken": "dragon cannon schematic",
+        "qty": null
+      },
+      {
+        "rawToken": "rosewood & cotton sails schematic",
+        "qty": null
+      },
+      {
+        "rawToken": "dragon keel schematic",
+        "qty": null
+      },
+      {
+        "rawToken": "sailor's amulet",
+        "qty": null
+      },
+      {
+        "rawToken": "rune salvaging hook",
+        "qty": null
+      },
+      {
+        "rawToken": "heart of ithell",
+        "qty": null
+      }
+    ]
+  }
+}

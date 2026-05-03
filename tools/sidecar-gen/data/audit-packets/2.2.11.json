@@ -1,0 +1,30 @@
+{
+  "stepId": "2.2.11",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Minigame to Port Khazard (and rebank), continue One Small Favour, teleport to the Ardougne market and speak with Erin the silver merchant for Making History. Grab Fire Blast runes for the fight below.\n",
+  "itemsNeeded": "Dueling ring (next section)",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "ONE_SMALL_FAVOUR",
+      "MAKING_HISTORY"
+    ],
+    "items": [],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "30k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "fire blast runes",
+        "qty": null
+      },
+      {
+        "rawToken": "Dueling ring (next section)",
+        "qty": null
+      }
+    ]
+  }
+}

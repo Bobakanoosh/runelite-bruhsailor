@@ -1,0 +1,62 @@
+{
+  "stepId": "2.2.23",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "After this step, continue and complete Between a Rock…, smithing the gold helmet in the Wilderness resource arena. While in the wilderness for that step run to the Demonic Ruins and restore a prayer point for the diary, then run to the Fountain of Rune to cast low alchemy on any junk (explorer’s ring alch works on any spellbook). Alch the rune pickaxe that you get as a reward at some point.\n",
+  "itemsNeeded": "cash stack (only take 7.5k into Wildy), 3 gold bars, slash item/weapon, hammer, pickaxe (for Wildy med diary, so addy instead of rune for example), melee gear, prayer pots, swordfish",
+  "gpStack": "50k gp",
+  "mapping": {
+    "questIds": [
+      "BETWEEN_A_ROCK"
+    ],
+    "items": [
+      {
+        "id": 2357,
+        "name": "Gold bar",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack (only take 7.5k into wildy)",
+        "rawToken": "cash stack (only take 7.5k into Wildy)"
+      },
+      {
+        "label": "slash item/weapon",
+        "rawToken": "slash item/weapon"
+      },
+      {
+        "label": "melee gear",
+        "rawToken": "melee gear"
+      },
+      {
+        "label": "prayer pots",
+        "rawToken": "prayer pots"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "pickaxe (for Wildy med diary, so addy instead of rune for example)",
+        "qty": null
+      }
+    ]
+  }
+}

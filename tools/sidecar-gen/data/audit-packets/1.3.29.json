@@ -1,0 +1,33 @@
+{
+  "stepId": "1.3.29",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Teleport to Camelot, talk to King Arthur to get the feather for Holy Grail.\n",
+  "itemsNeeded": "air staff, law runes",
+  "gpStack": "456006 gp",
+  "mapping": {
+    "questIds": [
+      "HOLY_GRAIL"
+    ],
+    "items": [
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "456006 gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "stepId": "3.2.6",
+  "accurate": true,
+  "confidence": 0.92,
+  "issues": [],
+  "notes": "Single quest outcome (FIGHT_CAVES) is accurate and required. Fire cape item mapping is correct. Abstract items (cash stack, food, brews) are genuine helper abstractions. Unresolved items (blood barrage, vengeance, divine ranged potion, thrall, spellbook swap) appropriately capture ambiguous utility spells/items for Fight Caves. itemsNeeded properly marked as 'tbd' for completion. Step is well-resolved."
+}

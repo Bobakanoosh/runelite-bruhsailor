@@ -1,0 +1,138 @@
+{
+  "stepId": "1.3.21",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Enter Morytania. Do the Creature of Fenkenstrain up to the step where you need to visit a furnace, chopping a hollow tree for bark along the way. Grab 15 compostable items, fill the bin at the Morytania patch along the way. Buy 7 raw chickens and a raw shark. Rebank. Do the Nature Spirit and Shades of Mort’ton (when you need to make the oil hop the official world, 377. It is recommended to do the rest of the quest on other worlds to avoid raggers) quests (make sure you have all the items on you for the last two before heading into the swamp, and take your best food in the rest of your inventory) and restoring your prayer at the end of Nature Spirit for the diary. Buy 13 planks from Razmire.\n",
+  "itemsNeeded": "5241 gp (set aside 5k for Shades of Mort’ton materials, let’s say), ghostspeak amulet, spade, law runes (telegrab), needle, 5 thread, silver bar, hammer, rune sword, druid pouch, 2 vials of water, steel axe, tinderbox, 2 ashes, 3 bronze wires, salmon",
+  "gpStack": "529829 gp",
+  "mapping": {
+    "questIds": [
+      "CREATURE_OF_FENKENSTRAIN",
+      "NATURE_SPIRIT",
+      "SHADES_OF_MORTTON"
+    ],
+    "items": [
+      {
+        "id": 552,
+        "name": "Ghostspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1733,
+        "name": "Needle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1734,
+        "name": "Thread",
+        "qty": 5,
+        "source": "items_needed"
+      },
+      {
+        "id": 2355,
+        "name": "Silver bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2957,
+        "name": "Druid pouch",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 592,
+        "name": "Ashes",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 1794,
+        "name": "Bronze wire",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 329,
+        "name": "Salmon",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 227,
+        "name": "Vial of water",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 2138,
+        "name": "Raw chicken",
+        "qty": 7,
+        "source": "content"
+      },
+      {
+        "id": 383,
+        "name": "Raw shark",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 960,
+        "name": "Plank",
+        "qty": 13,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "5241 gp (set aside 5k for Shades of Mort'ton materials, let's say)",
+        "label": "cash for quest items"
+      },
+      {
+        "rawToken": "best food in the rest of your inventory",
+        "label": "good food"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "compostable items",
+        "qty": 15
+      },
+      {
+        "rawToken": "law runes (telegrab)",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "stepId": "3.2.7",
+  "section": "3.2: Quest cape, quality of life",
+  "stepText": "Get a dragon pickaxe (if you intend on going for at least partial completion of the Combat Achievements then just hop bosses while going for kc at each of them). If you plan on getting a Voidwaker later you will most likely get multiple dragon pickaxes along the way - the recommended bosses for that are Artio, Spindel and Vet’ion. Alternatively you may wish to postpone it for when you go for the Kq head, hoping to get one along the way.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "60m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 11920,
+        "name": "Dragon pickaxe",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 27690,
+        "name": "Voidwaker",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "60m gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "fbow",
+        "qty": 1
+      }
+    ]
+  }
+}

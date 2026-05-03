@@ -1,0 +1,10 @@
+{
+  "stepId": "1.2.1",
+  "accurate": false,
+  "confidence": 0.75,
+  "issues": [
+    "Chronicle card (qty 10) in unresolvedItems should resolve to item id 9510 (Chronicle Card) — explicitly bought, not ambiguous",
+    "Woad leaves (qty 2) in unresolvedItems should resolve to item id 1793 (Woad leaves) — specific item needed for Aggie dyes, not ambiguous"
+  ],
+  "notes": "All named items and abstracts are correctly mapped; dyes and mined ores properly captured. Two items incorrectly marked as unresolved when they have definite OSRS item IDs."
+}

@@ -1,0 +1,37 @@
+{
+  "stepId": "1.2.15",
+  "section": "1.2: Some fishing and thieving",
+  "stepText": "Break your last POH tab, enter your house for the diary, blackjack to 1.25m GP (level 77 thieving, lower if you did more wintertodt). OSRS blackjacking (270k xp/h). At lower thieving level the fail rate is significant, you just have to drink a bunch of wines (bought at the local shop) and power through the early levels. The progression is bearded bandits to level 55, unbearded bandits to level 65 and menaphite thugs at level 65 and up.\n",
+  "itemsNeeded": "POH tab, willow blackjack, an initial set of wines (buy in Pollnivneach from Faisal the Barman)",
+  "gpStack": "1,250,091 GP",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 8013,
+        "name": "Teleport to house",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4600,
+        "name": "Willow blackjack",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1993,
+        "name": "Jug of wine",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "1.25m GP"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

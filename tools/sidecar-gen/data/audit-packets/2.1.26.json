@@ -1,0 +1,218 @@
+{
+  "stepId": "2.1.26",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Salve teleport, kill ghouls for Rag and Bone Man II and the diary near the teleport and bats for Rag and Bone Man II just outside the slayer tower entrance. Note: bank your cat/kitten before doing the rest of this step as you can’t have one on you during Temple Trekking. Do In Search of the Myreque in its entirety, buying 18 planks from Razmire while in Mort’ton and completing the swamp boaty diary task along the way. Start In Aid of the Myreque. Buy 11 more planks from Razmire before first entering Burgh de Rott, leave midway to collect the raw snails or raw mackerel (can be bought in Piscarilius). Use your Wolfbane for fighting vampyres [sic]. Continue In Aid of the Myreque until you obtain the rod mould (make a Guthix balance potion for the diary along the way). You need to rebank in Canifis before starting In Aid of the Myreque and do the entire section until you unlock the Burgh de Rott bank in one go.\n",
+  "itemsNeeded": "cash stack, all steel items from Step 20 and steel platelegs from Step 15, 263 steel nails, druid pouch, hammer, 17 planks, ring of charos(a), blessed silver sickle, rune sword, wolfsbane, swordfish, prayer potions, law runes, soul runes, bucket, spade, rune pickaxe, swamp paste, 10 bronze axes, 4 tinderboxes, 2 steel bars, coal, 15 salmon, dramen staff, garlic, silver dust, harralander, red spider eggs, vial of water, small fishing net, rope",
+  "gpStack": "1.5m gp",
+  "mapping": {
+    "questIds": [
+      "RAG_AND_BONE_MAN_II",
+      "IN_SEARCH_OF_THE_MYREQUE",
+      "IN_AID_OF_THE_MYREQUE"
+    ],
+    "items": [
+      {
+        "id": 1539,
+        "name": "Steel nails",
+        "qty": 263,
+        "source": "items_needed"
+      },
+      {
+        "id": 2957,
+        "name": "Druid pouch",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 960,
+        "name": "Plank",
+        "qty": 17,
+        "source": "items_needed"
+      },
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1925,
+        "name": "Bucket",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1941,
+        "name": "Swamp paste",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1351,
+        "name": "Bronze axe",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 2353,
+        "name": "Steel bar",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 453,
+        "name": "Coal",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 329,
+        "name": "Salmon",
+        "qty": 15,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1550,
+        "name": "Garlic",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7650,
+        "name": "Silver dust",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 255,
+        "name": "Harralander",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 227,
+        "name": "Vial of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 303,
+        "name": "Small fishing net",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": 4,
+        "source": "content"
+      },
+      {
+        "id": 353,
+        "name": "Raw mackerel",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 7649,
+        "name": "Rod mould",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 223,
+        "name": "Red spiders' eggs",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "cash stack",
+        "label": "cash stack"
+      },
+      {
+        "rawToken": "all steel items from Step 20 and steel platelegs from Step 15",
+        "label": "steel gear from prior steps"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "blessed silver sickle",
+        "qty": null
+      },
+      {
+        "rawToken": "wolfsbane",
+        "qty": null
+      },
+      {
+        "rawToken": "raw snails",
+        "qty": null
+      },
+      {
+        "rawToken": "Guthix balance potion",
+        "qty": null
+      }
+    ]
+  }
+}

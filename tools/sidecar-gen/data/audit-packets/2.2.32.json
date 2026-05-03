@@ -1,0 +1,112 @@
+{
+  "stepId": "2.2.32",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Tan your green dragonhides into green dragon leather in Canifis. Make a green d’hide shield. Craft all remaining hides into green d’hide bodies. Alch the bodies (buying nature runes as necessary), e.g. during artefacts, underwater or afk. Cut your maple logs into arrow shafts (more artefacts), turning one into a maple shortbow for the diary while bankstanding at Seers. Also make a superantipoison potion there. Buy feathers (if you don’t have plenty of those already from bird runs) to get to level 60 and make all into headless arrows, ideally while afking underwater to get more seaweed spores.\nSkills/quests met?:",
+  "itemsNeeded": "green dragonhides, coins, nature runes, staff of fire, maple logs, knife, steel nails, feathers, Kharedst’s memoirs, log basket",
+  "gpStack": "1.8m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 1753,
+        "name": "Green dragonhide",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 561,
+        "name": "Nature rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1517,
+        "name": "Maple logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1539,
+        "name": "Steel nails",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 28140,
+        "name": "Log basket",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 22275,
+        "name": "Green d'hide shield",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1135,
+        "name": "Green d'hide body",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1745,
+        "name": "Green dragon leather",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 853,
+        "name": "Maple shortbow",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 53,
+        "name": "Headless arrow",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21760,
+        "name": "Kharedst's memoirs",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "coins",
+        "label": "coins"
+      },
+      {
+        "rawToken": "1.8m gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "superantipoison potion",
+        "qty": null
+      }
+    ]
+  }
+}

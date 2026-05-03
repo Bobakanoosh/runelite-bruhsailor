@@ -1,0 +1,180 @@
+{
+  "stepId": "2.2.37",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Read this step in its entirety carefully. This step contains the Hallowed Sepulchre grind to level 82 agility.\n",
+  "itemsNeeded": "green/blue d’hides, box traps, knife, teak log, salve amulet(ei), whatever other ranged gear you can scrounge up, crossbow, Sara items, hammer, fire staff, nature runes, a lot of money (obtained during the step, spent during the step).",
+  "gpStack": "3.8m gp",
+  "mapping": {
+    "questIds": [
+      "AGILITY"
+    ],
+    "items": [
+      {
+        "id": 10008,
+        "name": "Box trap",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6333,
+        "name": "Teak logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 12018,
+        "name": "Salve amulet(ei)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 837,
+        "name": "Crossbow",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 561,
+        "name": "Nature rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 24723,
+        "name": "Hallowed focus",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 24721,
+        "name": "Hallowed grapple",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 8782,
+        "name": "Mahogany plank",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 24725,
+        "name": "Hallowed symbol",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 24719,
+        "name": "Hallowed token",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 13226,
+        "name": "Herb sack",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 24882,
+        "name": "Plank sack",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 28140,
+        "name": "Log basket",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 52,
+        "name": "Arrow shaft",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 24709,
+        "name": "Hallowed crystal shard",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 24704,
+        "name": "Daeyalt essence",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 12625,
+        "name": "Stamina potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "whatever other ranged gear you can scrounge up",
+        "label": "ranged gear"
+      },
+      {
+        "rawToken": "a lot of money (obtained during the step, spent during the step)",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "enchant spell",
+        "qty": null
+      },
+      {
+        "rawToken": "rune nail",
+        "qty": null
+      },
+      {
+        "rawToken": "vampyre ash",
+        "qty": null
+      },
+      {
+        "rawToken": "super energy potion",
+        "qty": null
+      },
+      {
+        "rawToken": "rune bolt",
+        "qty": null
+      },
+      {
+        "rawToken": "green/blue d'hides",
+        "qty": null
+      },
+      {
+        "rawToken": "Sara items",
+        "qty": null
+      }
+    ]
+  }
+}

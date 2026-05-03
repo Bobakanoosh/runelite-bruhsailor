@@ -1,0 +1,26 @@
+{
+  "stepId": "2.2.3",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    {
+      "type": "missing_items",
+      "severity": "medium",
+      "description": "Clean guam and clean marrentill are explicitly listed in stepText as needed items (for herblore, likely hourlies), but only appear in unresolvedItems. These are specific resolvable items (IDs: 249, 251) and should be in items[] array.",
+      "items": [
+        "clean guam (ID: 249)",
+        "clean marrentill (ID: 251)"
+      ]
+    },
+    {
+      "type": "unresolved_specificity",
+      "severity": "low",
+      "description": "bullseye lantern is correctly unresolved due to genuine ambiguity (may be sapphire lantern substitute), but herbal items should not be left unresolved.",
+      "items": [
+        "clean guam",
+        "clean marrentill"
+      ]
+    }
+  ],
+  "notes": "Quest mapping (LUNAR_DIPLOMACY) is accurate. Core items (tinderbox, swordfish, potions, dramen staff, swamp tar, lunar staff) are correctly mapped with proper quantities where specified. Abstract items (melee gear, cash stack) are appropriately handled. Primary gap: two specific herbal components needed for step progression are relegated to unresolved items instead of being added to items[] with their specific IDs. Confidence penalized due to incompleteness of items list despite correct overall structure."
+}

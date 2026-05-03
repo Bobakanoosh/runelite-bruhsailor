@@ -1,0 +1,180 @@
+{
+  "stepId": "2.1.43",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Continue Scorpion Catcher (catch the scorpion inside the Barbarian Outpost agility course), do a lap of the agility course for the diary. Do Horror from the Deep, kill the Dagannoth Mother w/ magic, like on the wiki. Collect a berserker ring from Dagannoth Rex (optional: stay for a dragon axe). Bring your remaining gold bars and nature runes to alch between kills (and between hits). Leave the long way to the Lighthouse for the diary, kill dagannoths on your way out for Rag and Bone Man II.\n",
+  "itemsNeeded": "1.1k gold bars, nature runes, granite body, rune platelegs, Iban staff, death runes, fire runes, berserker helm, amulet of magic, antipoisons, premade chocolate bombs(/other high healing food, if you have any), etc. (standard Rex gear), air staff, earth runes, water runes, fire runes, chaos runes, bronze sword, steel arrow, molten glass, tinderbox, hammer, 60 steel nails, 1 swamp tar, scorpion cage",
+  "gpStack": "650k gp",
+  "mapping": {
+    "questIds": [
+      "SCORPION_CATCHER",
+      "HORROR_FROM_THE_DEEP",
+      "RAG_AND_BONE_MAN_II"
+    ],
+    "items": [
+      {
+        "id": 2357,
+        "name": "Gold bar",
+        "qty": 1100,
+        "source": "items_needed"
+      },
+      {
+        "id": 561,
+        "name": "Nature rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10564,
+        "name": "Granite body",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1079,
+        "name": "Rune platelegs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 554,
+        "name": "Fire rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3751,
+        "name": "Berserker helm",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1727,
+        "name": "Amulet of magic",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 562,
+        "name": "Chaos rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1277,
+        "name": "Bronze sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 886,
+        "name": "Steel arrow",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1775,
+        "name": "Molten glass",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1539,
+        "name": "Steel nails",
+        "qty": 60,
+        "source": "items_needed"
+      },
+      {
+        "id": 1939,
+        "name": "Swamp tar",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 456,
+        "name": "Scorpion cage",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6737,
+        "name": "Berserker ring",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6739,
+        "name": "Dragon axe",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3758,
+        "name": "Fremennik shield",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1409,
+        "name": "Iban's staff",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "650k gp"
+      },
+      {
+        "label": "high healing food",
+        "rawToken": "chocolate bombs(/other high healing food, if you have any)"
+      },
+      {
+        "label": "standard rex gear",
+        "rawToken": "etc. (standard rex gear)"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "antipoisons",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "stepId": "2.3.1",
+  "section": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
+  "stepText": "At your own convenience make Catherby POH tabs for your herb runs (at the lectern on Lunar Isle). If you have reached level 70 fletching at Sepulchre (or are close enough you are willing to boost for it), teleport to Seers village and complete the Kandarin Hard diary, doing all remaining steps sequentially and putting the lamp on slayer. Remember that the goal is to lamp to 58 slayer, then go back to lamping herblore. Build the following in your POH, boosting when necessary:\n",
+  "itemsNeeded": "crystal saw, hammer, items mentioned above",
+  "gpStack": "19.7m gp",
+  "mapping": {
+    "questIds": [
+      "KANDARIN_HARD"
+    ],
+    "items": [
+      {
+        "id": 9625,
+        "name": "Crystal saw",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8786,
+        "name": "Marble block",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 4703,
+        "name": "Magic stone",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 4692,
+        "name": "Gold leaf",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 5375,
+        "name": "Spirit sapling",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 8778,
+        "name": "Oak plank",
+        "qty": 19,
+        "source": "content"
+      },
+      {
+        "id": 8780,
+        "name": "Teak plank",
+        "qty": 17,
+        "source": "content"
+      },
+      {
+        "id": 8782,
+        "name": "Mahogany plank",
+        "qty": 8,
+        "source": "content"
+      },
+      {
+        "id": 3420,
+        "name": "Limestone brick",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 3142,
+        "name": "Raw karambwan",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "19.7m gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "teleport runes",
+        "qty": null
+      }
+    ]
+  }
+}

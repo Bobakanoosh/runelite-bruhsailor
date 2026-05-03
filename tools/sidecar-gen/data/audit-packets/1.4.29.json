@@ -1,0 +1,232 @@
+{
+  "stepId": "1.4.29",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Do tithe farming until you have level 62. This should give you the points to buy herb sack, autoweed and the seed box points. Level 62 is perfect for starting boosting (garden pies from the chef’s guild, and later in Cam Torum) medium farming contracts. This level may be enough to get you seed box as well, and if not you could choose to stay a bit longer to buy that item as well. Go to the farming guild (games neck to wintertodt into minecart), get your first contract and preplant all other patches (if necessary go pickpocket master farmers for seeds). Maintain farming contracts as much as possible. You will need a whiteberry soon, so make sure to grow a whiteberry bush.\n",
+  "itemsNeeded": "seed dibber, spade, 15 watering cans, dramen staff, glassblowing pipe, molten glass, rune axe, ultracompost",
+  "gpStack": "243951 gp",
+  "mapping": {
+    "questIds": [
+      "GETTING_AHEAD",
+      "MAKING_FRIENDS_WITH_MY_ARM",
+      "TAI_BWO_WANNAI_TRIO"
+    ],
+    "items": [
+      {
+        "id": 5343,
+        "name": "Seed dibber",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5331,
+        "name": "Watering can",
+        "qty": 15,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1785,
+        "name": "Glassblowing pipe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1775,
+        "name": "Molten glass",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 21483,
+        "name": "Ultracompost",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7178,
+        "name": "Garden pie",
+        "qty": 6,
+        "source": "content"
+      },
+      {
+        "id": 6332,
+        "name": "Mahogany logs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1765,
+        "name": "Yellow dye",
+        "qty": 6,
+        "source": "content"
+      },
+      {
+        "id": 1763,
+        "name": "Red dye",
+        "qty": 7,
+        "source": "content"
+      },
+      {
+        "id": 1769,
+        "name": "Orange dye",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 225,
+        "name": "Limpwurt root",
+        "qty": 22,
+        "source": "content"
+      },
+      {
+        "id": 2998,
+        "name": "Toadflax",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 5504,
+        "name": "Strawberry",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 231,
+        "name": "Snape grass",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 5982,
+        "name": "Watermelon",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 255,
+        "name": "Harralander",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 27790,
+        "name": "Nightshade",
+        "qty": 20,
+        "source": "content"
+      },
+      {
+        "id": 5289,
+        "name": "Palm tree seed",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 22856,
+        "name": "Celastrus sapling",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 13226,
+        "name": "Herb sack",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21504,
+        "name": "Giant seaweed",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "cash stack",
+        "label": "starting gp"
+      },
+      {
+        "rawToken": "arrow shafts / headless arrows",
+        "label": "fletchable items for activity"
+      },
+      {
+        "rawToken": "Bologano seeds",
+        "label": "boost-accessible farming seeds"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "whiteberry",
+        "qty": null
+      },
+      {
+        "rawToken": "ranarr",
+        "qty": null
+      },
+      {
+        "rawToken": "yew tree seed",
+        "qty": null
+      },
+      {
+        "rawToken": "yew root",
+        "qty": 2
+      },
+      {
+        "rawToken": "spirit tree seed",
+        "qty": 6
+      },
+      {
+        "rawToken": "attas anima seed",
+        "qty": 1
+      },
+      {
+        "rawToken": "Kharedst's teleport",
+        "qty": null
+      },
+      {
+        "rawToken": "Kourend library teleport",
+        "qty": null
+      },
+      {
+        "rawToken": "Fenkenstrain teleport",
+        "qty": null
+      },
+      {
+        "rawToken": "fairy ring AJP",
+        "qty": null
+      },
+      {
+        "rawToken": "Explorer's ring teleport",
+        "qty": null
+      }
+    ]
+  }
+}

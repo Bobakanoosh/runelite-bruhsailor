@@ -1,0 +1,43 @@
+{
+  "stepId": "3.1.7",
+  "accurate": false,
+  "confidence": 0.62,
+  "issues": [
+    {
+      "field": "itemsNeeded",
+      "severity": "critical",
+      "description": "Field marked 'tbd' - needs summary replacement"
+    },
+    {
+      "field": "questIds",
+      "severity": "high",
+      "description": "Contains prerequisite quests (WHILE_GUTHIX_SLEEPS, HIS_FAITHFUL_SERVANTS) and diary tasks not actively progressed during slayer training - should only include actively progressed content"
+    },
+    {
+      "field": "items",
+      "severity": "high",
+      "description": "Contains many non-essential items: Shield left half, Verac's flail, Ring of endurance, Cooking gauntlets, Fish barrel, Karamja gloves, Magic logs, Opal, Jade, Red topaz are not needed for slayer training to 100cb. Keep only: Arclight, Amulet of glory, Slayer helmet"
+    },
+    {
+      "field": "items[Pharaoh's sceptre]",
+      "severity": "medium",
+      "description": "Teleport utility item - questionable necessity for slayer training"
+    },
+    {
+      "field": "unresolvedItems[karambwan]",
+      "severity": "high",
+      "description": "Quantity of 10,000 is unrealistic for this training step - likely data entry error or belongs in parent step"
+    },
+    {
+      "field": "unresolvedItems[vile vigour]",
+      "severity": "medium",
+      "description": "Unable to resolve - unclear if this is a real OSRS item or misspelling"
+    }
+  ],
+  "notes": "Step is primarily about slayer training consumables and combat gear. Abstract items correctly identify rune/potion categories. Item list is heavily contaminated with barrows drops, fletching materials, and unrelated equipment. Recommend: (1) clear itemsNeeded summary, (2) filter items to only Arclight/Glory/Slayer helmet, (3) resolve vile vigour reference, (4) reduce karambwan quantity or move to parent, (5) remove prerequisite quests from questIds array.",
+  "recommendations": {
+    "itemsNeeded": "Arclight, Slayer helmet, Amulet of glory, combat potions, food, runes for slaying",
+    "questIds_keep": [],
+    "questIds_remove": "All - none are actively progressed during slayer training"
+  }
+}

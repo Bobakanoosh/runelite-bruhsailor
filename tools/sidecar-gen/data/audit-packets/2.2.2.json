@@ -1,0 +1,156 @@
+{
+  "stepId": "2.2.2",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Swap to the standard spellbook. Use your Fremennik boots to get to Rellekka. Do The Fremennik Isles (make a Fremennik shield, ‘Neitiznot shield’, along the way for the diary), putting the XP on attack (or defence if you are already level 60). Turn 5 mithril bars into 75 mithril nails at the Jatiszo anvils during the quest. Make a silvthrill rod at the Neitiznot furnace. Enchant your silvthrill rod. Sell your berserker helm back to Skulgrimen after you’ve obtained the Helm of Neitiznot.\n",
+  "itemsNeeded": "cash stack, Fremennik boots 1, 7 coal, 9 ropes, knife, rune axe, hammer, bronze nail, needle, 2 thread, melee gear, swordfish/premade choc bombs, prayer potions, cut sapphire, mithril bar, silver bar, rod mould, cosmic rune, water runes",
+  "gpStack": "60k gp",
+  "mapping": {
+    "questIds": [
+      "THE_FREMENNIK_ISLES"
+    ],
+    "items": [
+      {
+        "id": 453,
+        "name": "Coal",
+        "qty": 7,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": 9,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4819,
+        "name": "Bronze nails",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1733,
+        "name": "Needle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1734,
+        "name": "Thread",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1623,
+        "name": "Uncut sapphire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2359,
+        "name": "Mithril bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2355,
+        "name": "Silver bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7649,
+        "name": "Rod mould",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 564,
+        "name": "Cosmic rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3791,
+        "name": "Fremennik boots",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 10826,
+        "name": "Neitiznot shield",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4822,
+        "name": "Mithril nails",
+        "qty": 75,
+        "source": "content"
+      },
+      {
+        "id": 7637,
+        "name": "Silvthrill rod",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 10828,
+        "name": "Helm of neitiznot",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3751,
+        "name": "Berserker helm",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "cash stack",
+        "label": "cash stack"
+      },
+      {
+        "rawToken": "melee gear",
+        "label": "melee gear"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "swordfish/premade choc bombs",
+        "qty": null
+      }
+    ]
+  }
+}

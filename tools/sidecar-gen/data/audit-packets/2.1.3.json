@@ -1,0 +1,124 @@
+{
+  "stepId": "2.1.3",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Train construction to level 50 using oak logs at the Rimmington portal. Method: https://www.youtube.com/watch?v=GFH6-oJrJ0o should be ~1200 oak planks for 38-50 Construction, 60 xp per plank. Don’t wait for the servant to come back, this method will bank the planks (if your POH instance is closed while your servant returns the planks will go straight to your bank) and you can use them from the bank later (have the servant grab the planks from the bank for you while you stay in the POH), for example with oak larders. Buy a study and swap your servant for the Demon Butler (in Ardougne). If you started below level 40 it is worth upgrading the Cook to the Butler at level 40 (by revisiting the Servant’s Guild in Ardougne). Buy a Menagerie and build a house (oak or teak) so you can keep a cat for questing in your POH while raising kittens without worry.\n",
+  "itemsNeeded": "cash stack, knife, teak log, rune axe, saw, hammer, forestry kit",
+  "gpStack": "2.65m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6333,
+        "name": "Teak logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8794,
+        "name": "Saw",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 28136,
+        "name": "Forestry kit",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1521,
+        "name": "Oak logs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 8778,
+        "name": "Oak plank",
+        "qty": 50,
+        "source": "content"
+      },
+      {
+        "id": 8234,
+        "name": "Oak larder",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 8407,
+        "name": "Study",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 12725,
+        "name": "Menagerie",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 8222,
+        "name": "Fancy range",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 8227,
+        "name": "Oak shelves 2",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1199,
+        "name": "Adamant kiteshield",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      },
+      {
+        "label": "steel bars",
+        "rawToken": "steel bars"
+      },
+      {
+        "label": "soft clay",
+        "rawToken": "soft clay"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "pump",
+        "qty": 1
+      },
+      {
+        "rawToken": "drain",
+        "qty": 1
+      },
+      {
+        "rawToken": "cat",
+        "qty": 1
+      }
+    ]
+  }
+}

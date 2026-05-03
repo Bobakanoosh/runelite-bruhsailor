@@ -1,0 +1,19 @@
+{
+  "stepId": "2.2.25",
+  "accurate": true,
+  "confidence": 0.88,
+  "issues": [
+    {
+      "severity": "minor",
+      "field": "items[].agility potion",
+      "description": "Marked source=content with qty=null, but step text states 'if necessary' (conditional). Should be unresolved or clarified as optional."
+    },
+    {
+      "severity": "minor",
+      "field": "questIds[].DESERT_MEDIUM",
+      "description": "Listed as quest but is actually a diary reward. Categorization acceptable but technically mixed."
+    }
+  ],
+  "notes": "Items mapping is comprehensive. All actively started/progressed quests correctly listed (Swan Song start, Eagles Peak continue→complete, Making Friends start→complete). Abstract items are genuine (cash, melee gear, prayer/energy pots). Salts correctly unresolved due to multiple in-step types. Eternal brazier unresolved (acceptable ambiguity). Core accuracy high - conditional agility potion is the only meaningful data classification issue.",
+  "audit_date": "2026-05-02"
+}

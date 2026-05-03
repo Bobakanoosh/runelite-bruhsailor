@@ -1,0 +1,40 @@
+{
+  "stepId": "1.1.5",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Fletch all but one logs into arrow shafts as you move south, talk to Ceril Carnillean to start Hazeel Cult. Grab two purple dyes (world hop to speed it up). Enter the cave east of the clocktower and talk to Clivet, side with Hazeel, exit the cave and run to the Monastery. Talk to Brother Omad to start Monk’s Friend.\n",
+  "itemsNeeded": "knife, logs",
+  "gpStack": "0 gp",
+  "mapping": {
+    "questIds": [
+      "HAZEEL_CULT",
+      "MONKS_FRIEND"
+    ],
+    "items": [
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1773,
+        "name": "Purple dye",
+        "qty": 2,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "arrow shafts",
+        "rawToken": "arrow shafts"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

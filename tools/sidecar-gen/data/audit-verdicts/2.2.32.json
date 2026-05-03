@@ -1,0 +1,20 @@
+{
+  "stepId": "2.2.32",
+  "accurate": true,
+  "confidence": 0.87,
+  "issues": [
+    {
+      "type": "redundant_abstraction",
+      "field": "abstractItems",
+      "description": "Both 'coins' and '1.8m gp' represent cash - the latter should be removed as redundant",
+      "severity": "low"
+    },
+    {
+      "type": "questionable_item",
+      "field": "items[Kharedst's memoirs]",
+      "description": "Listed in items_needed but not explicitly mentioned in step text - may be included in error or context is unclear",
+      "severity": "low"
+    }
+  ],
+  "notes": "Step mapping is fundamentally sound. All primary items (dragonhides, runes, logs, feathers, nails) are correctly identified as needed. All crafted outputs (d'hide leather, bodies, shields, shortbow, headless arrows) are properly sourced from content. No quests are involved in this skill-focused step, so empty questIds[] is correct. One unresolved item (superantipoison potion) is acceptable per audit criteria. Minor cleanup recommended for abstract items."
+}

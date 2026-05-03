@@ -1,0 +1,174 @@
+{
+  "stepId": "1.4.7",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "If you have not collected the item for Forgettable Tale… by now, go get it. Continue Forgettable Tale…, get the third kelda seed from the Rowdy Dwarf in the Laughing Miner (also pick up a beer to get an empty glass) and the fourth from Gauss, then continue the quest until you have planted your kelda hops. Bank and grab items for the next steps. Return to fairy ring AJR and complete Mountain Daughter. Take the secret entrance to the Troll Stronghold (speak with Burntmeat to save walking) and continue Eadgar’s Ruse to the step where you have to collect the parrot. Start Troll Romance up to the step where you need to collect the flower (after you have the sled).\n",
+  "itemsNeeded": "4 kelda seeds, rake, seed dibber, spade, the Forgettable Tale… item (if not delivered yet), white pearl seed, a cake tin, iron bar, swamp tar, a bucket of wax, rope, maple logs, a plank, climbing boots, games necklace, steel axe, leather, needle, thread, air runes, fire staff, law runes, chronicle, at least 6693 gp, earth runes, mind runes",
+  "gpStack": "444615 gp",
+  "mapping": {
+    "questIds": [
+      "FORGETTABLE_TALE",
+      "MOUNTAIN_DAUGHTER",
+      "TROLL_STRONGHOLD",
+      "EADGARS_RUSE",
+      "TROLL_ROMANCE"
+    ],
+    "items": [
+      {
+        "id": 6112,
+        "name": "Kelda seed",
+        "qty": 4,
+        "source": "items_needed"
+      },
+      {
+        "id": 5341,
+        "name": "Rake",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 5343,
+        "name": "Seed dibber",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 4486,
+        "name": "White pearl seed",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 2351,
+        "name": "Iron bar",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1939,
+        "name": "Swamp tar",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1517,
+        "name": "Maple logs",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 3105,
+        "name": "Climbing boots",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1733,
+        "name": "Needle",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1734,
+        "name": "Thread",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 558,
+        "name": "Mind rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1741,
+        "name": "Leather",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1917,
+        "name": "Beer",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "at least 6693 gp",
+        "rawToken": "at least 6693 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "the Forgettable Tale… item (if not delivered yet)",
+        "qty": null
+      },
+      {
+        "rawToken": "a cake tin",
+        "qty": null
+      },
+      {
+        "rawToken": "a bucket of wax",
+        "qty": null
+      },
+      {
+        "rawToken": "a plank",
+        "qty": null
+      }
+    ]
+  }
+}

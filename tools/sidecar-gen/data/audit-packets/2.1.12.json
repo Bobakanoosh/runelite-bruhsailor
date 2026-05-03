@@ -1,0 +1,83 @@
+{
+  "stepId": "2.1.12",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Teleport to Falador, deposit everything in the bank, and complete Black Knights’ Fortress (only cashing the reward left), do all of Recruitment Drive, set your spawn point to Falador, rebank, buy full initiate. Also buy your celestial ring now. Start Wanted! and continue it until you have to go to Taverley dungeon.\n",
+  "itemsNeeded": "cash stack, air runes, water staff, law runes, 2k stardust, full initiate, 1 molten glass, 1 enchanted gem",
+  "gpStack": "1.6m gp",
+  "mapping": {
+    "questIds": [
+      "RECRUITMENT_DRIVE",
+      "WANTED"
+    ],
+    "items": [
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1383,
+        "name": "Staff of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 25527,
+        "name": "Stardust",
+        "qty": 2000,
+        "source": "items_needed"
+      },
+      {
+        "id": 1775,
+        "name": "Molten glass",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 4155,
+        "name": "Enchanted gem",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 5575,
+        "name": "Initiate hauberk",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 25541,
+        "name": "Celestial ring",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "initiate cuirass",
+        "qty": null
+      },
+      {
+        "rawToken": "initiate tassets",
+        "qty": null
+      },
+      {
+        "rawToken": "initiate helmet",
+        "qty": null
+      }
+    ]
+  }
+}

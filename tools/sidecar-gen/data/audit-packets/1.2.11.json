@@ -1,0 +1,50 @@
+{
+  "stepId": "1.2.11",
+  "section": "1.2: Some fishing and thieving",
+  "stepText": "Minigame teleport to Fishing Trawler, complete Fight Arena and enter the Tree Gnome Village maze. Collect Glarial’s pebble along the way (don’t drop it after the quest). Start and complete Tree Gnome village.\n",
+  "itemsNeeded": "5 gp, 6 logs, wind strike, barcrawl card, food",
+  "gpStack": "9570 gp",
+  "mapping": {
+    "questIds": [
+      "FIGHT_ARENA",
+      "TREE_GNOME_VILLAGE"
+    ],
+    "items": [
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": 6,
+        "source": "items_needed"
+      },
+      {
+        "id": 455,
+        "name": "Barcrawl card",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 294,
+        "name": "Glarial's pebble",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "5 gp"
+      },
+      {
+        "label": "food",
+        "rawToken": "food"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

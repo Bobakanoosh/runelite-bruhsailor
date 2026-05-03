@@ -1,0 +1,103 @@
+{
+  "stepId": "2.2.13",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Dueling ring to Castle Wars, continue One Small Favour until you have made the gnome glider landing strip (make sure to use the drop trick to buy extra gems of each type – 2 of each of the four types for 2k gp). Catch a spined larupia for the diary. Kill wolves for Rag and Bone Man II.\n",
+  "itemsNeeded": "cash stack, stodgy mattress, semi-precious gems, sapphires, Ardy Cloak 1, dramen staff, teasing stick, knife, regular logs, hammer, chisel, melee gear, dueling ring, energy potions, games necklace (next)",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "ONE_SMALL_FAVOUR",
+      "RAG_AND_BONE_MAN_II"
+    ],
+    "items": [
+      {
+        "id": 4425,
+        "name": "Stodgy mattress",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1607,
+        "name": "Sapphire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 13121,
+        "name": "Ardougne cloak 1",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10029,
+        "name": "Teasing stick",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "cash stack",
+        "label": "cash stack"
+      },
+      {
+        "rawToken": "melee gear",
+        "label": "melee gear"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "spined larupia",
+        "qty": 1
+      },
+      {
+        "rawToken": "semi-precious gems",
+        "qty": null
+      },
+      {
+        "rawToken": "regular logs",
+        "qty": null
+      },
+      {
+        "rawToken": "games necklace (next)",
+        "qty": null
+      }
+    ]
+  }
+}

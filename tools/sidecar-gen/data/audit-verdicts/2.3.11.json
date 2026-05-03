@@ -1,0 +1,7 @@
+{
+  "stepId": "2.3.11",
+  "accurate": true,
+  "confidence": 0.92,
+  "issues": [],
+  "notes": "Both questIds verified accurate: RAG_AND_BONE_MAN_II is the primary quest objective. SKIPPY_AND_THE_MOGRES is correctly included—guide explicitly requires completing it to access Mogres for bone collection. All 6 items are genuine OSRS items with correct mappings. Abstract items ('melee gear', 'gp_stack') are legitimate non-resolvable abstractions. No discrepancies found between packet and source guide data."
+}

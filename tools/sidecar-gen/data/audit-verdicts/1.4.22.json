@@ -1,0 +1,34 @@
+{
+  "stepId": "1.4.22",
+  "accurate": false,
+  "confidence": 0.35,
+  "issues": [
+    {
+      "type": "spurious_item",
+      "item": "Limpwurt root (ID 225)",
+      "problem": "Included in items array but not mentioned anywhere in step text. Should not be here."
+    },
+    {
+      "type": "quest_scope_error",
+      "quest": "KOUREND_EASY",
+      "problem": "Diary mentioned for context but not actively progressed in this step. Only EADGARS_RUSE should be in questIds per rules."
+    },
+    {
+      "type": "missing_item",
+      "item": "Games necklace",
+      "problem": "Step explicitly states 'Games necklace teleport to Burthorpe' but item is not in items array."
+    },
+    {
+      "type": "likely_spurious",
+      "items": ["Air rune (556)", "Staff of earth (1385)", "Staff of water (1383)", "Staff of fire (1387)", "Law rune (563)"],
+      "problem": "These spell-casting items appear in itemsNeeded but are not relevant to farming, knife buying, or vial packs. Likely copy-paste error from another step."
+    },
+    {
+      "type": "gp_mismatch",
+      "itemsNeeded": "6834 gp",
+      "gpStack": "239208 gp",
+      "problem": "Critical discrepancy. Buying 1200 knives + 25 water-filled vial packs would cost significantly more than 6834 gp. gpStack value (239208) appears more accurate."
+    }
+  ],
+  "notes": "Mapping has significant errors in item inclusion, quest scope, and GP estimation. The abstract 'gp' label is correct, but the quantity is grossly underestimated. Recommend full re-review of itemsNeeded field against actual quest requirements."
+}

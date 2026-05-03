@@ -1,0 +1,116 @@
+{
+  "stepId": "1.4.21",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Complete the Garden of Tranquillity (the statue teleports you to Varrock). Shoo your cat/kitten and get a new one from Gertrude (can teleport with chronicle), pick the colour for the diary. Run to the spirit tree and finish The Eyes of Glouphrie and enchant the crystal saw seed at the bowl. Grab a spare bucket of sap for Icthlarin’s Little Helper later.\n",
+  "itemsNeeded": "100 gp, ring of charos(a), fire staff, air runes, law runes, bucket of sap, mud rune, maple log, oak log, hammer, saw, pestle/mortar",
+  "gpStack": "250042 gp",
+  "mapping": {
+    "questIds": [
+      "GARDEN_OF_TRANQUILLITY",
+      "THE_EYES_OF_GLOUPHRIE",
+      "ICTHLARINS_LITTLE_HELPER"
+    ],
+    "items": [
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4687,
+        "name": "Bucket of sap",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4698,
+        "name": "Mud rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1517,
+        "name": "Maple logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1521,
+        "name": "Oak logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8794,
+        "name": "Saw",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 233,
+        "name": "Pestle and mortar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 9626,
+        "name": "Crystal saw seed",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6333,
+        "name": "Teak logs",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "100 gp",
+        "label": "gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "cat",
+        "qty": null
+      },
+      {
+        "rawToken": "kitten",
+        "qty": null
+      }
+    ]
+  }
+}

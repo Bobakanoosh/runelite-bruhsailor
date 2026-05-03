@@ -1,0 +1,63 @@
+{
+  "stepId": "1.4.1",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Bank at Ferox, do the entire Death Plateau and Troll Stronghold quests (use minigame teleports whenever possible, or your games necklace when it is not). If you get the troll bone for Rag and Bone Man II at any point during the troll quests, keep it. Buy 5 extra pairs of climbing boots. Make sure to free Eadgar and unlock the secret south entrance to the stronghold.\n",
+  "itemsNeeded": "120 coins, 10 bread, 10 trout, 1 iron bar, 1 asgarnian ale, 1 premade blurb’ sp, wind strikes/bolts",
+  "gpStack": "445386 gp",
+  "mapping": {
+    "questIds": [
+      "DEATH_PLATEAU",
+      "TROLL_STRONGHOLD"
+    ],
+    "items": [
+      {
+        "id": 2309,
+        "name": "Bread",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 333,
+        "name": "Trout",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 2351,
+        "name": "Iron bar",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1905,
+        "name": "Asgarnian ale",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 3105,
+        "name": "Climbing boots",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 2028,
+        "name": "Premade blurb' sp.",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "coins",
+        "rawToken": "120 coins"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "wind strikes/bolts",
+        "qty": null
+      }
+    ]
+  }
+}

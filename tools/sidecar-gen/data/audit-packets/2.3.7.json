@@ -1,0 +1,21 @@
+{
+  "stepId": "2.3.7",
+  "section": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
+  "stepText": "Fairy ring to Zanaris, resume and complete Fairytale II - Cure a Queen (xp on slayer). Take fairy ring BIQ to the desert and meet up with the scout for The General’s Shadow.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "19.7m gp",
+  "mapping": {
+    "questIds": [
+      "FAIRYTALE_II__CURE_A_QUEEN",
+      "THE_GENERALS_SHADOW"
+    ],
+    "items": [],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "19.7m gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

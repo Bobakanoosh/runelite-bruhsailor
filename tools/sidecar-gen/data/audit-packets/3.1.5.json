@@ -1,0 +1,98 @@
+{
+  "stepId": "3.1.5",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "Camp Cave Horrors off-task for a black mask (protect melee allows an amulet of strength, so use your regular slayer gear, proselyte hauberk versus torso is fine either way, use thralls, take your herb sack). Start and complete the Morytania Hard diary (lamp on herblore). Visit Robin twice a day with 13 bones each time to collect 130 ectotokens for bonecrusher charges (3250 charges per day - you will need 24k charges to complete step 12 of this chapter) – collect the bones on any slayer task (for example regular/big/baby dragon). Imbue your black mask at the PVP Arena (imbue scroll via pvp arena - losing method) or nightmare zone. An example setup (except for the black mask and expeditious bracelets, obviously) iscave-horrors.png. The recommended spot is cave-horrors.png(northwest from the entrance).\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "15m gp",
+  "mapping": {
+    "questIds": [
+      "MORYTANIA_HARD"
+    ],
+    "items": [
+      {
+        "id": 8921,
+        "name": "Black mask",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1725,
+        "name": "Amulet of strength",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 9674,
+        "name": "Proselyte hauberk",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4194,
+        "name": "Torso",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 13226,
+        "name": "Herb sack",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 526,
+        "name": "Bones",
+        "qty": 13,
+        "source": "content"
+      },
+      {
+        "id": 13116,
+        "name": "Bonecrusher",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21177,
+        "name": "Expeditious bracelet",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "15m gp"
+      },
+      {
+        "label": "herblore lamp",
+        "rawToken": "lamp on herblore"
+      },
+      {
+        "label": "thralls",
+        "rawToken": "use thralls"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "slayer gear",
+        "qty": null
+      },
+      {
+        "rawToken": "ectotokens",
+        "qty": 130
+      },
+      {
+        "rawToken": "imbue scroll",
+        "qty": null
+      },
+      {
+        "rawToken": "cave-horrors.png",
+        "qty": null
+      },
+      {
+        "rawToken": "PVP Arena imbue scroll via pvp arena - losing method",
+        "qty": null
+      }
+    ]
+  }
+}

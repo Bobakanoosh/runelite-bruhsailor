@@ -1,0 +1,10 @@
+{
+  "stepId": "3.2.10",
+  "accurate": false,
+  "confidence": 0.78,
+  "issues": [
+    "Molten glass (ID 1775) is listed as a needed item but is actually a product/output of the Super glassmake process, not an input. Should be removed from items array.",
+    "stepText mentions 'artefacts' and 'arteglass' but the thieving path is ambiguous and not mapped to a specific item ID"
+  ],
+  "notes": "Core items (Bucket, Sand, Giant seaweed) and abstractions (cash stack) are correctly mapped. Quest progression (MINING) is accurate. The critical issue is Molten glass being misclassified as an input when it's the desired output of the crafting process. Recommend removing ID 1775 from items array and marking accuracy as true once corrected."
+}

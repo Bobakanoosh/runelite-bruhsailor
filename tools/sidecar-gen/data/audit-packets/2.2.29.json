@@ -1,0 +1,83 @@
+{
+  "stepId": "2.2.29",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Tackle organised crime for intelligence along the way and hand it in at Captain Ginea for the diary. Catch a chinchompa in the Kourend Woodland. Collect T5 Shayzien outfit from the combat ring. Collect the medium Kourend & Kebos diary. Put the XP lamps on slayer. Do A Kingdom Divided (need to be on the normal spellbook, lamps on Slayer), using melee for the fights. Grab the skull near the Shayzien graveyard dungeon entrance and buy redberries in Kenelme’s Wares (Piscarilius) along the way. Minigame teleport to Mort’ton, start and complete His Faithful Servants miniquest, which includes doing a complete barrows run (all six brothers). It is recommended to complete the Defence? What Defence?, Can't Touch Me, Pray for Success and optionally also Just Like That tasks on this run, dds speccing Karil (and hoping for good hits or resetting on a failure), maging the four melee brothers and meleeing Ahrim.\n",
+  "itemsNeeded": "melee gear, cheese potatoes, stat-boosting potions, prayer potions, a defence potion (3 dose), volcanic sulphur, molten glass, dark essence block, an axe, fire bolt runes",
+  "gpStack": "120k gp",
+  "mapping": {
+    "questIds": [
+      "A_KINGDOM_DIVIDED",
+      "HIS_FAITHFUL_SERVANTS"
+    ],
+    "items": [
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 13571,
+        "name": "Volcanic sulphur",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1775,
+        "name": "Molten glass",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 13446,
+        "name": "Dark essence block",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1951,
+        "name": "Redberries",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 964,
+        "name": "Skull",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "melee gear",
+        "label": "melee gear"
+      },
+      {
+        "rawToken": "stat-boosting potions",
+        "label": "stat-boosting potions"
+      },
+      {
+        "rawToken": "120k gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "cheese potatoes",
+        "qty": null
+      },
+      {
+        "rawToken": "a defence potion (3 dose)",
+        "qty": null
+      },
+      {
+        "rawToken": "an axe",
+        "qty": null
+      },
+      {
+        "rawToken": "fire bolt runes",
+        "qty": null
+      }
+    ]
+  }
+}

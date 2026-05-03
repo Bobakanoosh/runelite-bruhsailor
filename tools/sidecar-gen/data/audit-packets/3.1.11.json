@@ -1,0 +1,32 @@
+{
+  "stepId": "3.1.11",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "The following steps 11-15 are best combined, to break up the CG grind with skilling activities. Read ahead to combine these steps at your convenience. Optional but recommended: with the Karamja Hard diary completed, 3t gem mine to level 97 mining (gems route), banking the uncut gems using the deposit box. This requires a charged amulet of glory. With multiskill cutting the gems (see below) this is more efficient than 3t4g. This requires a charged amulet of glory! If you make one here you won’t have to make one next step. You may skip this step if you don’t value multiskilling or efficiency enough to take such a long detour/don’t feel like it.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "500k gp",
+  "mapping": {
+    "questIds": [
+      "KARAMJA_HARD"
+    ],
+    "items": [
+      {
+        "id": 11978,
+        "name": "Amulet of glory(6)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "500k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "uncut gems",
+        "qty": null
+      }
+    ]
+  }
+}

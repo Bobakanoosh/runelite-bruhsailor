@@ -1,0 +1,7 @@
+{
+  "stepId": "2.2.10",
+  "accurate": true,
+  "confidence": 1.0,
+  "issues": [],
+  "notes": "All mappings correct: necklace of passage(5) is proper item with correct ID, questIds correctly empty (Karamja diaries are achievements not quests), cash stack is valid abstraction. No ambiguities or missing items."
+}

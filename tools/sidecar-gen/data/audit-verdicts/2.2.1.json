@@ -1,0 +1,27 @@
+{
+  "stepId": "2.2.1",
+  "accurate": false,
+  "confidence": 0.45,
+  "issues": [
+    {
+      "type": "wrong_item",
+      "item": "Ruby (1603)",
+      "problem": "Not mentioned in stepText. Step is about barbarian fishing/cooking, not runecrafting or alching. Hallucinated item."
+    },
+    {
+      "type": "wrong_item",
+      "item": "Soul rune (566)",
+      "problem": "Not mentioned in stepText. Irrelevant to barbarian fishing or cooking leveling. Hallucinated item."
+    },
+    {
+      "type": "wrong_abstract",
+      "abstract": "cash for rubies",
+      "problem": "References '~80 more rubies in a gem shop' which does not appear in stepText. Hallucinated source material."
+    },
+    {
+      "type": "incomplete_mapping",
+      "problem": "itemsNeeded is 'tbd' but mapping contains specific items. Either items are wrong (likely) or itemsNeeded shouldn't be tbd."
+    }
+  ],
+  "notes": "itemsNeeded='tbd' allows confidence floor of 0.85 per rules, but mapping contains clear hallucinations (Ruby, Soul rune) unrelated to barbarian fishing/cooking content. questIds correct (RFD/Awowogei actively progressed). Feather item correct. abstractItems partially valid (gp stacks ok, but 'cash for rubies' hallucinatory). Recommend: remove Ruby/Soul rune items, remove 'cash for rubies' abstract, or verify against source documentation if these items belong to a different step."
+}

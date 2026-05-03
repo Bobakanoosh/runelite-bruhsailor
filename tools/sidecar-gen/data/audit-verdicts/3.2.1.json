@@ -1,0 +1,12 @@
+{
+  "stepId": "3.2.1",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    "Shield left half (id: 2366) is not needed for Guardians of the Rift minigame - extraneous item",
+    "ARDOUGNE_HARD quest in questIds is not actively progressed in this step - quality-of-life at best",
+    "Unresolved: 'raiments of the eye' is THE primary goal item and must be resolved to full set (ids: 26776, 26778, 26780, 26782)",
+    "Unresolved: 'full bloodbark' is not mentioned in step text - extraneous unresolved item"
+  ],
+  "notes": "Step focuses on Guardians of the Rift minigame progression. Colossal pouch and gem bag are correct. However, shield half and bloodbark are not needed. Ardougne Diary hard is not actively progressed. The critical issue is 'raiments of the eye' unresolved - this is the stated goal and must be mapped to specific armor pieces. abstractItems (cash stack) is appropriate. Update questIds to only GUARDIANS_OF_THE_RIFT (remove ARDOUGNE_HARD), remove shield left half from items, resolve raiments to full set pieces, remove bloodbark from unresolved, and update itemsNeeded from 'tbd' once corrections applied."
+}

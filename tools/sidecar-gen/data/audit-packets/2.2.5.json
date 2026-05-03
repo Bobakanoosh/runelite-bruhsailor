@@ -1,0 +1,177 @@
+{
+  "stepId": "2.2.5",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Teleport to Ardougne (fairy ring BLR), continue The Slug Menace and kill the Slug Prince. Get teleported to Falador and complete The Slug Menace, buy a full set of proselyte (it’s cheaper to buy it as a set than individually). Buy an adamant chainbody at the chainmail shop, then heat a bowl of water in Falador (range on the east side). Teleport to Rellekka (Fremennik boots/fairy ring AJR) and complete all of Lunar Diplomacy. Note: never bank your seal of passage. Wear it to prevent this! \n",
+  "itemsNeeded": "law runes, air runes, earth runes, water runes, seal of passage, cash stack, bowl of water, rune pickaxe, hammer, needle, 2 thread, 4 suqah hide, tinderbox, spade, energy potions, prayer potions, swordfish, small pouch, medium pouch, large pouch, cosmic runes, astral runes, staff of air, chisel, abyssal book.",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "THE_SLUG_MENACE",
+      "LUNAR_DIPLOMACY"
+    ],
+    "items": [
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 9083,
+        "name": "Seal of passage",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1921,
+        "name": "Bowl of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1733,
+        "name": "Needle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1734,
+        "name": "Thread",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 9080,
+        "name": "Suqah hide",
+        "qty": 4,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5509,
+        "name": "Small pouch",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5510,
+        "name": "Medium pouch",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5512,
+        "name": "Large pouch",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 564,
+        "name": "Cosmic rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 9075,
+        "name": "Astral rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1111,
+        "name": "Adamant chainbody",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 5520,
+        "name": "Abyssal book",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "proselyte full set",
+        "qty": null
+      }
+    ]
+  }
+}

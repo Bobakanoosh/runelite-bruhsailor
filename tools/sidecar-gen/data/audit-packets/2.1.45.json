@@ -1,0 +1,120 @@
+{
+  "stepId": "2.1.45",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Do Throne of Miscellania and Royal Trouble (fairy ring CIP to get there), obtain 100% support (buying flowers from the flower girl or chopping Etceteria teak logs), kill Rabbits for Rag and Bone Man II, deposit 600k gp (or: your entire cash stack) in Misc and set it to 10 mahogany 5 maple. The mahogany logs are for bird runs (levels 49-80), the maples for arrow shafts for fletching. Also visit at least once/twice a week to restore the support to 100% (buying flowers from the flower girl or raking the herb patch).\n",
+  "itemsNeeded": "cash stack, dramen staff, iron bar, rune pickaxe, rune axe, gold ring (BH runs), cake or oak shortbow (your choice), energy potions, melee gear, prayer potions, swordfish",
+  "gpStack": "80k",
+  "mapping": {
+    "questIds": [
+      "THRONE_OF_MISCELLANIA",
+      "ROYAL_TROUBLE",
+      "RAG_AND_BONE_MAN_II"
+    ],
+    "items": [
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2351,
+        "name": "Iron bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6332,
+        "name": "Mahogany logs",
+        "qty": 1974,
+        "source": "content"
+      },
+      {
+        "id": 1517,
+        "name": "Maple logs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1603,
+        "name": "Ruby",
+        "qty": 80,
+        "source": "content"
+      },
+      {
+        "id": 2363,
+        "name": "Runite bar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11194,
+        "name": "Digsite pendant (5)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      },
+      {
+        "label": "melee gear",
+        "rawToken": "melee gear"
+      },
+      {
+        "label": "600k gp for Miscellania kingdom management",
+        "rawToken": "600k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "flowers",
+        "qty": null
+      },
+      {
+        "rawToken": "etceteria teak logs",
+        "qty": null
+      },
+      {
+        "rawToken": "gold ring (BH runs)",
+        "qty": null
+      },
+      {
+        "rawToken": "cake or oak shortbow (your choice)",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "stepId": "2.2.17",
+  "accurate": true,
+  "confidence": 0.95,
+  "issues": [],
+  "notes": "Step packet is well-formed. All items[] are genuine quest requirements needed for this step. All questIds[] represent actively started or progressed quests (One Small Favour continued throughout, Between a Rock at White Wolf Mountain, Swan Song for pot lid crafting, What Lies Below with chaos runes, Stronghold of Security for imbued skull sceptre). Both abstractItems (melee gear, cash stack) are appropriate genuine abstractions. UnresolvedItems are correctly flagged as contextual (imbued skull sceptre obtained during step, Dragon'hai history book collected at convenience, dwarven stout consumed on table, herbal tincture reclaimed from NPC, fancy/fighter boots used for imbuing). No errors detected."
+}

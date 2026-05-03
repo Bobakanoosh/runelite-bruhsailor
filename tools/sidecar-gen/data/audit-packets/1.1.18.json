@@ -1,0 +1,179 @@
+{
+  "stepId": "1.1.18",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Do Wintertodt for a long time. If you want to get max stats in the most efficient manner continue until almost 99 firemaking, using the banked cakes for food. Your four warm items are the clue hunter garb, gloves and boots along with the rainbow scarf. If you wish to leave earlier to save some time this is fine. It is most efficient to do ‘hoptodt’ - hopping to a game where the wintertodt is around 60-70% energy, then fletching logs to get (just over) 500 points barely in time, getting the reward card and xp bonus, then hopping to the next world. This is highest firemaking xp and highest loot rolls/hr, but does require a plugin/stream/scout to find the wintertodt energy percentages on other worlds. Shortly after this step it is a goal to get to level 46 fletching, if you do hoptodt (instead of no-fletch single world or multiskilling in the bank between games) you will get most of this fletching xp from todt but if not you will need more gp for fletching supplies. You may prefer to leave some firemaking gap for using an infernal axe at redwoods later (not efficient, but very low effort). Each infernal axe used this way gives 5.7m woodcutting xp and 875k firemaking xp. Levels 90-99 is 7.7m xp. If you want to take this strategy, stop training FM at level 98. Quests, random things, and 1.5 infernal axes at redwoods for 90-99 woodcutting will finish off 99 FM. We strongly recommend getting as many as possible of the following while at wintertodt:\n",
+  "itemsNeeded": "4 pieces of warm clothing, steel axe, tinderbox, cakes",
+  "gpStack": "280 gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1891,
+        "name": "Cake",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 19689,
+        "name": "Clue hunter garb",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 19691,
+        "name": "Clue hunter gloves",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 19695,
+        "name": "Clue hunter boots",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21314,
+        "name": "Rainbow scarf",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1619,
+        "name": "Uncut ruby",
+        "qty": 50,
+        "source": "content"
+      },
+      {
+        "id": 1621,
+        "name": "Uncut emerald",
+        "qty": 50,
+        "source": "content"
+      },
+      {
+        "id": 1623,
+        "name": "Uncut sapphire",
+        "qty": 8,
+        "source": "content"
+      },
+      {
+        "id": 1513,
+        "name": "Magic logs",
+        "qty": 16,
+        "source": "content"
+      },
+      {
+        "id": 1521,
+        "name": "Oak logs",
+        "qty": 13,
+        "source": "content"
+      },
+      {
+        "id": 1519,
+        "name": "Willow logs",
+        "qty": 24,
+        "source": "content"
+      },
+      {
+        "id": 6333,
+        "name": "Teak logs",
+        "qty": 52,
+        "source": "content"
+      },
+      {
+        "id": 1517,
+        "name": "Maple logs",
+        "qty": 44,
+        "source": "content"
+      },
+      {
+        "id": 1515,
+        "name": "Yew logs",
+        "qty": 13,
+        "source": "content"
+      },
+      {
+        "id": 6332,
+        "name": "Mahogany logs",
+        "qty": 20,
+        "source": "content"
+      },
+      {
+        "id": 440,
+        "name": "Iron ore",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 442,
+        "name": "Silver ore",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 207,
+        "name": "Grimy ranarr weed",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 5313,
+        "name": "Willow seed",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 5294,
+        "name": "Harralander seed",
+        "qty": 15,
+        "source": "content"
+      },
+      {
+        "id": 7936,
+        "name": "Pure essence",
+        "qty": 200,
+        "source": "content"
+      },
+      {
+        "id": 371,
+        "name": "Raw swordfish",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "warm clothing",
+        "rawToken": "4 pieces of warm clothing"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "128k gp + 2.62 gp/xp for fletching"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "200k gp"
+      },
+      {
+        "label": "ore",
+        "rawToken": "~50 silver, ~100 gold ore"
+      },
+      {
+        "label": "food",
+        "rawToken": "banked cakes for food"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

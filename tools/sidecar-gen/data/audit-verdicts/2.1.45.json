@@ -1,0 +1,60 @@
+{
+  "stepId": "2.1.45",
+  "accurate": false,
+  "confidence": 0.62,
+  "issues": [
+    {
+      "type": "unresolved_should_be_mapped",
+      "severity": "medium",
+      "item": "gold ring (BH runs)",
+      "suggestion": "Map to ID 1635 (Gold ring) - needed for BH runs mentioned in step"
+    },
+    {
+      "type": "unresolved_should_be_mapped",
+      "severity": "medium",
+      "item": "flowers",
+      "suggestion": "Map to specific flower item IDs (e.g., 6010 for White flowers) - needed for 100% support maintenance"
+    },
+    {
+      "type": "unresolved_should_be_mapped",
+      "severity": "low",
+      "item": "cake or oak shortbow (your choice)",
+      "suggestion": "Split into two optional items: Cake (ID 389) OR Oak shortbow (ID 843) - quest choice item"
+    },
+    {
+      "type": "unmapped_item",
+      "severity": "medium",
+      "item": "etceteria teak logs",
+      "suggestion": "Clarify: is this for an alternate path to reach 100% support? If so, resolve or mark as alternative item path"
+    },
+    {
+      "type": "source_mismatch",
+      "severity": "medium",
+      "item": "Runite bar (2363)",
+      "problem": "Mapped but NOT mentioned in itemsNeeded source text. Unclear why included.",
+      "suggestion": "Verify if needed (smithing for something?) or remove"
+    },
+    {
+      "type": "source_mismatch",
+      "severity": "medium",
+      "item": "Ruby (1603)",
+      "problem": "Mapped with qty 80 but NOT mentioned in itemsNeeded source text. No clear source.",
+      "suggestion": "Verify if needed or remove. If for enchanting, clarify context."
+    },
+    {
+      "type": "source_mismatch",
+      "severity": "low",
+      "item": "Digsite pendant (11194)",
+      "problem": "Mapped but NOT mentioned in itemsNeeded source text.",
+      "suggestion": "Verify necessity or remove. May be a template artifact."
+    },
+    {
+      "type": "qty_verification",
+      "severity": "low",
+      "item": "Mahogany logs (qty 1974)",
+      "problem": "Quantity seems arbitrary. For bird runs (levels 49-80), verify actual logs needed.",
+      "suggestion": "Recalculate based on actual bird run experience or mark qty as null"
+    }
+  ],
+  "notes": "Quest mapping is correct (3/3 actively progressed). Core items from itemsNeeded are mostly mapped, but several items in the mapping are NOT in source text (Runite bar, Ruby, Digsite pendant), suggesting over-mapping or template pollution. Several unresolved items should be resolvable to specific item IDs (gold ring, flowers, cake, oak shortbow). Etceteria teak logs needs clarification on whether it's an alternate path or separate concern. Mahogany log quantity needs verification. The mapping quality is compromised by source-text mismatches and unresolved items that are resolvable."
+}

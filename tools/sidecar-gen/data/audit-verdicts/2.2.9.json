@@ -1,0 +1,32 @@
+{
+  "stepId": "2.2.9",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    {
+      "category": "questIds",
+      "severity": "high",
+      "item": "MORYTANIA_EASY",
+      "issue": "Only mentioned for context (bronze spear + cloth for scarecrow preparation). Not actively started or progressed in this step—should be dropped."
+    },
+    {
+      "category": "questIds",
+      "severity": "high",
+      "item": "FALADOR_MEDIUM",
+      "issue": "Only mentioned for context (planting scarecrow later). Not actively started or progressed in this step—should be dropped."
+    },
+    {
+      "category": "questIds",
+      "severity": "high",
+      "item": "RECIPE_FOR_DISASTER_SIR_AMIK_VARZE",
+      "issue": "Only mentioned for context (buying bronze spear for future use). Not actively started or progressed in this step—should be dropped."
+    },
+    {
+      "category": "abstractItems",
+      "severity": "medium",
+      "item": "30k gp",
+      "issue": "This is a specific quantity, not a genuine abstraction. Should consolidate under 'cash stack' rather than listing separately as abstractItem."
+    }
+  ],
+  "notes": "Core items mapping is accurate (all 15 items correctly identified with valid IDs). However, questIds violates the rule that only ACTIVELY started/progressed quests should be included. MORYTANIA_EASY, FALADOR_MEDIUM, and RECIPE_FOR_DISASTER_SIR_AMIK_VARZE are mentioned only for future reference or context, not actively progressed in step 2.2.9 itself. The abstractItems section should consolidate gp amounts under 'cash stack' rather than listing specific quantities as separate abstractions. Unresolved items are appropriately marked and acceptable."
+}

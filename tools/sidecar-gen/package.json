@@ -1,0 +1,22 @@
+{
+  "name": "sidecar-gen",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preprocess": "bun run src/main.ts preprocess",
+    "fetch-tables": "bun run src/main.ts fetch-tables",
+    "resolve": "bun run src/main.ts resolve",
+    "generate": "bun run --env-file=.env src/main.ts generate",
+    "verify": "bun run --env-file=.env src/main.ts verify",
+    "all": "bun run src/main.ts all",
+    "test-one": "bun run --env-file=.env src/test-one.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.5.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0"
+  }
+}

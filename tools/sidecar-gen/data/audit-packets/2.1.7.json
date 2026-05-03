@@ -1,0 +1,82 @@
+{
+  "stepId": "2.1.7",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Teleport to Ardougne, pay the estate agent to move your POH to Rellekka. Do Underground Pass, upgrade your Iban’s staff at the Dark Mage in West Ardougne. After the quest grab a ring of visibility and ghostspeak amulet \n",
+  "itemsNeeded": "200k gp, 2 ropes, yew longbow, 10 steel arrows, spade, food (swordfish?), rune sword, energy pots if you have them, wind strike/bolt runes, prayer potion",
+  "gpStack": "1.7m gp",
+  "mapping": {
+    "questIds": [
+      "UNDERGROUND_PASS"
+    ],
+    "items": [
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 855,
+        "name": "Yew longbow",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 886,
+        "name": "Steel arrow",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 139,
+        "name": "Prayer potion(3)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4657,
+        "name": "Ring of visibility",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 552,
+        "name": "Ghostspeak amulet",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "200k gp",
+        "label": "gp"
+      },
+      {
+        "rawToken": "food",
+        "label": "food"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "energy pots if you have them",
+        "qty": null
+      },
+      {
+        "rawToken": "wind strike/bolt runes",
+        "qty": null
+      }
+    ]
+  }
+}

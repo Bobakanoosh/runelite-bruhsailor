@@ -1,0 +1,118 @@
+{
+  "stepId": "2.2.14",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "After completing the Rantz step of OSF, teleport to Burthorpe and progress A Tail of Two Cats (the potatoes should be grown by now), then to Varrock (chronicle). Progress Ratcatchers at Hooknosed Jack, talk to the Apothecary for Ratcatchers and A Tail of Two Cats. Return to Hooknosed Jack to continue Ratcatchers.\n",
+  "itemsNeeded": "stodgy mattress, games necklace, catspeak amulet, hellcat, 4 cheese, empty vial, 2 red spider’s eggs, kwuarm, marrentill, unicorn horn dust, bucket of milk, karambwanji or other fish (for cat), limpwurt root, law runes, air runes, fire runes",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "ONE_SMALL_FAVOUR",
+      "A_TAIL_OF_TWO_CATS",
+      "RATCATCHERS"
+    ],
+    "items": [
+      {
+        "id": 4425,
+        "name": "Stodgy mattress",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4677,
+        "name": "Catspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7581,
+        "name": "Overgrown hellcat",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1985,
+        "name": "Cheese",
+        "qty": 4,
+        "source": "items_needed"
+      },
+      {
+        "id": 9085,
+        "name": "Empty vial",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 263,
+        "name": "Kwuarm",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 251,
+        "name": "Marrentill",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 235,
+        "name": "Unicorn horn dust",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1927,
+        "name": "Bucket of milk",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 225,
+        "name": "Limpwurt root",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 554,
+        "name": "Fire rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 223,
+        "name": "Red spiders' eggs",
+        "qty": 2,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash",
+        "rawToken": "30k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "karambwanji or other fish (for cat)",
+        "qty": null
+      }
+    ]
+  }
+}

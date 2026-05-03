@@ -1,0 +1,11 @@
+{
+  "stepId": "2.1.12",
+  "accurate": false,
+  "confidence": 0.65,
+  "issues": [
+    "MISSING_QUEST: Black Knights' Fortress is actively completed in step text but missing from questIds array",
+    "INCOMPLETE_ITEM_SET: 'Full initiate' armor set incomplete - only hauberk mapped; cuirass/tassets/helmet unresolved but should resolve to specific item IDs (initiate cuirass, initiate tassets, initiate helmet)",
+    "ITEM_RESOLUTION: Initiate armor pieces are specific items, not ambiguous - should not be in unresolvedItems"
+  ],
+  "notes": "Quest mapping incomplete (3/4 required quests missing BKF). Initiate armor pieces need specific ID resolution rather than unresolved status. Cash stack correctly abstracted. All other items and quantities accurate."
+}

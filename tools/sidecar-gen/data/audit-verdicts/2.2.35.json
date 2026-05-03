@@ -1,0 +1,25 @@
+{
+  "stepId": "2.2.35",
+  "accurate": true,
+  "confidence": 0.92,
+  "issues": [],
+  "notes": "Step content thoroughly analyzed and validated. Items correctly categorized as resolved (log basket, seed box, kegs) and abstract (gp, potions, supplies). Unresolved items acceptable: medallion fragment (obtainable via theft), hemp/cotton seeds (derived from salvaging activity), and equipment items built as part of the step. questIds correctly empty (no quests actively progressed). itemsNeeded marked 'tbd' is appropriate given dynamic nature of boost requirements and seed collection.",
+  "verdicts": {
+    "items": {
+      "status": "accurate",
+      "detail": "Three resolved items are essential and correctly mapped: Log basket (28140, qty 1), Seed box (13639, qty 1), Kegs (10885, qty 2). All are explicitly required containers for the step activities."
+    },
+    "questIds": {
+      "status": "accurate",
+      "detail": "Correctly empty. The step involves barbarian fishing, salvaging, and farming but does not initiate or progress any quests."
+    },
+    "abstractItems": {
+      "status": "accurate",
+      "detail": "Four genuine abstractions properly identified: '1.7m gp' (cost estimation), 'sailing boost' (optional optimization), 'ultracompost' (farming material), and 'Attas potion' (farming enhancement). All are tools/supplies rather than fixed inventory items."
+    },
+    "unresolvedItems": {
+      "status": "acceptable",
+      "detail": "Ambiguity is appropriate for: (1) lead ore - commodity with variable sourcing; (2) medallion fragment - obtained via theft (stall location unambiguous); (3) sloop, kegs content, salvaging station - crafted items; (4) empty beer glasses - craftable/obtainable; (5) hemp/cotton seeds - activity-derived loot; (6) crewmembers - game mechanic entities; (7) salvaging 1.5t methods - vague optimization reference."
+    }
+  }
+}

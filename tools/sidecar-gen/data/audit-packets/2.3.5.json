@@ -1,0 +1,48 @@
+{
+  "stepId": "2.3.5",
+  "section": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
+  "stepText": "Make 20 bolts of canvas. Build the mahogany mast and canvas sails on your skiff using the hemp you farmed, build the mithril helm on your skiff (not sloop) and the inoculation station on your sloop. Do the Jubbly Jive barracuda trial and complete up to the shark rank. Build a wind catcher on both your skiff and your sloop, then return to the Jubbly Jive and keep training sailing to level 67 sailing using the following method for Marlin rank: https://www.youtube.com/watch?v=1d2LIrd7_rM. At your convenience, return to the Ardent Ocean meteorologists for those charting tasks. Optional but not recommended: if you prefer alternative training methods you can choose between Rellekka courier tasks (Sailing training - OSRS Wiki) or salvaging over Jubbly Jive.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "19.7m gp",
+  "mapping": {
+    "questIds": [
+      "SONG_OF_THE_ELVES"
+    ],
+    "items": [
+      {
+        "id": 243,
+        "name": "Blue dragon scale",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "19.7m gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "canvas",
+        "qty": 20
+      },
+      {
+        "rawToken": "hemp",
+        "qty": null
+      },
+      {
+        "rawToken": "mithril helm",
+        "qty": null
+      },
+      {
+        "rawToken": "inoculation station",
+        "qty": null
+      },
+      {
+        "rawToken": "wind catcher",
+        "qty": 2
+      }
+    ]
+  }
+}

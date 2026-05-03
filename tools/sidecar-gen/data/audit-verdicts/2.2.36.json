@@ -1,0 +1,12 @@
+{
+  "stepId": "2.2.36",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    "Mixed hide boots (29286) not mentioned in step text",
+    "Fire cape (6570) not mentioned in step text",
+    "A_NIGHT_AT_THE_THEATRE quest not mentioned in step text",
+    "Zamorak wine in unresolved not mentioned in step text"
+  ],
+  "notes": "Step focuses on chin catching and MM1 ranging training. Knife and salve amulet are correctly identified as needed. Abstract items (gp and ranged gear) are genuine abstractions. Unresolved items mostly reasonable except wine and some boots/cape entries appear to be copy-paste from other steps. Quest MONKEY_MADNESS_I correctly required for MM1 access. Recommend removing mixed hide boots, fire cape, A_NIGHT_AT_THE_THEATRE, and zamorak wine from mapping."
+}

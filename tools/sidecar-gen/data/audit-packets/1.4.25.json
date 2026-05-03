@@ -1,0 +1,140 @@
+{
+  "stepId": "1.4.25",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Check the willow trees when they’ve grown (probably in the middle of this step). Kill green dragons with water bolt for 43 prayer. Do not use your last 100 chaos runes - if your runes are depleting, swap over to water strike instead. This requires killing 70 green dragons, games necklace to Corporeal Beast then run east, bank the hides with a looting bag. It’s probably smart to finish 80 dragons instead in case of bad RNG at the Wilderness altar. Make sure to bank at least one spare set of dragon bones. For using the bones up, run from Ferox Enclave). After this step, the game is safe. :)\n",
+  "itemsNeeded": "rune pickaxe, dueling ring, 1 pure essence, air runes, earth staff, water staff, chaos runes, mind runes, amulet of magic, fire staff, law runes, anti-dragon shield, salmon",
+  "gpStack": "238594 gp (don’t bother wasting inv slots on GP at dragons)",
+  "mapping": {
+    "questIds": [
+      "GHOSTS_AHOY"
+    ],
+    "items": [
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7936,
+        "name": "Pure essence",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1383,
+        "name": "Staff of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 562,
+        "name": "Chaos rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 558,
+        "name": "Mind rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1727,
+        "name": "Amulet of magic",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1540,
+        "name": "Anti-dragon shield",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 329,
+        "name": "Salmon",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11941,
+        "name": "Looting bag",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 536,
+        "name": "Dragon bones",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 29381,
+        "name": "Blessed bone shards",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "money",
+        "rawToken": "238594 gp"
+      },
+      {
+        "label": "prayer level",
+        "rawToken": "43 prayer"
+      },
+      {
+        "label": "prayer level",
+        "rawToken": "70 prayer"
+      },
+      {
+        "label": "prayer level",
+        "rawToken": "30 prayer"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "blessed wine",
+        "qty": null
+      }
+    ]
+  }
+}

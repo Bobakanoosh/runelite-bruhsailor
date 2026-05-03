@@ -1,0 +1,13 @@
+{
+  "stepId": "1.2.6",
+  "accurate": false,
+  "confidence": 0.65,
+  "issues": [
+    "Shantay pass qty is null but stepText specifies '5 Shantay passes' - should be qty: 5",
+    "Desert robe qty is 2 but stepText says 'two sets of desert clothes (one pair of boots only)' - should be qty: 1",
+    "Bucket packs (16 units) mentioned in stepText but missing from items list entirely",
+    "Wind rune and bolt rune marked as unresolved but are specific resolvable items (Wind rune ID 558, Bolt rune ID 559)",
+    "Waterskin(4) qty 3 unclear - itemsNeeded just says '3 waterskins' without charge specification"
+  ],
+  "notes": "Multiple quantity errors and missing items (bucket packs, runes). Quest mapping is correct. GP abstraction is proper. Primary issues are incomplete item capture and qty mismatches."
+}

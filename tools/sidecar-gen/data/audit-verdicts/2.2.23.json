@@ -1,0 +1,18 @@
+{
+  "stepId": "2.2.23",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    {
+      "severity": "medium",
+      "field": "items[]",
+      "problem": "Rune pickaxe (id: 1275) listed as needed item but sourced as 'content' (reward). This is obtained during the step, not needed beforehand.",
+      "recommendation": "Remove from items[] or move to separate 'rewards' array if tracking obtainables."
+    }
+  ],
+  "notes": "questId BETWEEN_A_ROCK correctly reflects active quest progression. All abstractItems are genuine abstractions with context. unresolvedItems pickaxe tier is appropriately unresolved due to player flexibility. Confidence lowered due to items[] contamination with reward item. Fix item categorization to achieve accurate:true.",
+  "metadata": {
+    "auditedAt": "2026-05-02",
+    "verdict_type": "items_and_quests"
+  }
+}

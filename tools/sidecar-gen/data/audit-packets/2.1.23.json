@@ -1,0 +1,64 @@
+{
+  "stepId": "2.1.23",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Continue One Small Favour and Wanted! in Varrock. Speak with your gang leader (Straven for Phoenix, Katrine for Black Arm) for Heroes quest. Buy 11 furs from Baraek. Return to the west anvils and smith a steel longsword, 2 shortswords, 1 mace, 1 warhammer, 1 dagger, 2 med helms and 1 full helm.\n",
+  "itemsNeeded": "16 steel bars, hammer, Commorb, 20 pure essence, catspeak amulet, cat",
+  "gpStack": "1.5m gp",
+  "mapping": {
+    "questIds": [
+      "ONE_SMALL_FAVOUR",
+      "WANTED",
+      "HEROES_QUEST"
+    ],
+    "items": [
+      {
+        "id": 2353,
+        "name": "Steel bar",
+        "qty": 16,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6635,
+        "name": "Commorb",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7936,
+        "name": "Pure essence",
+        "qty": 20,
+        "source": "items_needed"
+      },
+      {
+        "id": 4677,
+        "name": "Catspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6814,
+        "name": "Fur",
+        "qty": 11,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "1.5m gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "cat",
+        "qty": null
+      }
+    ]
+  }
+}

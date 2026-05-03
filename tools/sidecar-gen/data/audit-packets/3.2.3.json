@@ -1,0 +1,80 @@
+{
+  "stepId": "3.2.3",
+  "section": "3.2: Quest cape, quality of life",
+  "stepText": "Do Devious Minds, then Secrets of the North (a bowfa is pretty strong against, well, everything). Do Beneath Cursed Sands (did you know the bowfa works very well against these enemies) and Into the Tombs (don’t make me say it). The best use for the lamp is on strength. Optional but recommended: kill the Phantom Muspah(/Grumbler) for an ancient icon to upgrade your ancient staff (make some mithril sapphire bolts (e) and a rune crossbow for the smite phase). Start and complete Desert Treasure II, putting the xp on prayer. Collect a quest cape.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "49m gp",
+  "mapping": {
+    "questIds": [
+      "DEVIOUS_MINDS",
+      "SECRETS_OF_THE_NORTH",
+      "BENEATH_CURSED_SANDS",
+      "INTO_THE_TOMBS",
+      "DESERT_TREASURE_II"
+    ],
+    "items": [
+      {
+        "id": 27627,
+        "name": "Ancient icon",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4675,
+        "name": "Ancient staff",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 9185,
+        "name": "Rune crossbow",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 19675,
+        "name": "Arclight",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 25865,
+        "name": "Bow of faerdhinen",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "49m gp"
+      },
+      {
+        "label": "lamp",
+        "rawToken": "lamp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "bowfa",
+        "qty": null
+      },
+      {
+        "rawToken": "mithril sapphire bolts (e)",
+        "qty": null
+      },
+      {
+        "rawToken": "quest cape",
+        "qty": null
+      },
+      {
+        "rawToken": "arkan blade",
+        "qty": null
+      },
+      {
+        "rawToken": "The strongest Earth spell you can cast",
+        "qty": null
+      }
+    ]
+  }
+}

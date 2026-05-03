@@ -1,0 +1,11 @@
+{
+  "stepId": "3.1.13",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    "items[] array contains unrelated items (Antipoison(4), A small key) not mentioned in step text",
+    "unresolvedItems contain items explicitly needed but not resolved: 'mithril cannonball' (5000 qty) and 'perildance bitters' (25 qty)",
+    "unresolvedItems contain items NOT mentioned in step text and should be removed: bottles (portal nexus perry, sea shanty 2, banker's draught, delicate elven wine), berry, medallion fragment/piece, and schematics"
+  ],
+  "notes": "Step requires critical supplies (5k mithril cannonballs, 25 perildance bitters) for port activities and ship upgrades. The items[] array appears to be from unrelated content. Unresolved items should either be removed entirely or the genuinely needed items (cannonballs, bitters) should be resolved to their OSRS item IDs and moved to items[]. questIds[] is correct (empty - no quests progressed). abstractItems[] is correctly classified (cash stack). Confidence reduced due to potential missing context about bottle items and schematics."
+}

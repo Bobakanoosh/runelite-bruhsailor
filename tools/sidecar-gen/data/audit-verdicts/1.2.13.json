@@ -1,0 +1,1 @@
+{"stepId":"1.2.13","accurate":false,"confidence":0.72,"issues":["Water rune (id 555) qty is null but stepText specifies '6 water runes'","fire giant in unresolvedItems is a combat target, not an inventory item—should be removed"],"notes":"Water rune qty needs correction. Fire Giant should not appear in unresolvedItems as it's a combat encounter, not an item mapping problem."}

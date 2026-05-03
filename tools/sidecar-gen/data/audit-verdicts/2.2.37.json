@@ -1,0 +1,15 @@
+{
+  "stepId": "2.2.37",
+  "accurate": false,
+  "confidence": 0.78,
+  "issues": [
+    "green/blue d'hides explicitly mentioned in itemsNeeded but left unresolved",
+    "Sara items explicitly mentioned in itemsNeeded but left unresolved",
+    "enchant spell not mentioned in step text, should not be in unresolved",
+    "rune nail not mentioned in step text, should not be in unresolved",
+    "vampyre ash not mentioned in step text, should not be in unresolved",
+    "super energy potion not mentioned in step text, should not be in unresolved",
+    "rune bolt not explicitly mentioned in step text, ambiguous"
+  ],
+  "notes": "Step text clearly focuses on Hallowed Sepulchre grind to 82 agility, barbarian fishing, and green dragons. All items_needed source items are correct (box traps, knife, teak logs, salve amulet, crossbow, etc.). All content source items are legitimate Hallowed Sepulchre components and drops. Abstract items (ranged gear, cash stack) are genuine abstractions. However, unresolved items list contains multiple problems: 'green/blue d'hides' and 'Sara items' are explicitly stated in the original itemsNeeded field and should either be resolved to specific item IDs or removed. Five other unresolved items (enchant spell, rune nail, vampyre ash, super energy potion, rune bolt) do not appear anywhere in the step text and appear to be copy-paste errors from other steps. Quest mapping is minimal with only 'AGILITY' placeholder - this is acceptable as the step involves training a skill rather than specific quests. Recommend resolving or removing the explicit items from itemsNeeded that are in unresolved, and completely removing the five spurious unresolved items."
+}

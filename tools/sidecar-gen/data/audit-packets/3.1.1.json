@@ -1,0 +1,44 @@
+{
+  "stepId": "3.1.1",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "If you are running low on/out of (redirected) POH tabs collect more soft clay using the gravestone method in the prifddinas mine Gravestone Double Soft Clay (2400/hr). You will have to make soft clay bracelets first. Go to NMZ (optionally as an afk activity) to collect redirection scrolls as necessary. It is recommended to collect a good stack (i.e. 500 tabs and 250 scrolls). Also make Catherby tabs for herb runs.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "20m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 1761,
+        "name": "Soft clay",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 8013,
+        "name": "Teleport to house",
+        "qty": 500,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "20m gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "soft clay bracelet",
+        "qty": null
+      },
+      {
+        "rawToken": "redirection scroll",
+        "qty": 250
+      },
+      {
+        "rawToken": "catherby tab",
+        "qty": null
+      }
+    ]
+  }
+}

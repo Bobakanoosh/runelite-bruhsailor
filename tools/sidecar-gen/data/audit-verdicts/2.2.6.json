@@ -1,0 +1,25 @@
+{
+  "stepId": "2.2.6",
+  "accurate": false,
+  "confidence": 0.82,
+  "issues": [
+    {
+      "severity": "MISSING_ITEM",
+      "description": "Pigeon cage not mapped despite being explicitly mentioned in step text",
+      "details": "Step says 'Get 5 pigeon cages while you're in Ardy' but no pigeon cage item (ID 424 or 425) is in items[] mapping",
+      "impact": "Critical - cannot execute step without knowing pigeon cages are required"
+    },
+    {
+      "severity": "QUANTITY_UNSPECIFIED",
+      "description": "Pigeon cage should have qty: 5",
+      "details": "Step text explicitly states '5 pigeon cages', but item is not mapped at all",
+      "impact": "Player would not know the required quantity"
+    }
+  ],
+  "notes": "All 12 mapped items verified correct: IDs match items.json, names accurate. Quest IDs valid: WHAT_LIES_BELOW, ONE_SMALL_FAVOUR, SCORPION_CATCHER correctly selected for active progression. Items sourced from itemsNeeded metadata are appropriate - mostly quest and potion requirements. Cash stack abstraction (30k gp) is genuine and appropriate. Gap: pigeon cage (ID 424/425, qty 5) is explicitly required in step text but missing from mapping. This appears to be an extraction/parsing oversight rather than a conceptual mapping error. Confidence reduced due to missing explicit item, but all present items are accurate.",
+  "recommendations": [
+    "Add pigeon cage (ID 424 or 425) with qty: 5 to items[] with source: 'content'",
+    "Audit itemsNeeded parsing to ensure 'pigeon cage' wasn't missed",
+    "Spot-check other steps for similar explicit-but-unmapped items"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "stepId": "2.2.10",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Run to Brimhaven, do the Agility Arena for one ticket, claim the easy and medium Karamja diaries (lamps on Slayer).\n",
+  "itemsNeeded": "necklace of passage",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 21146,
+        "name": "Necklace of passage(5)",
+        "qty": null,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "30k gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

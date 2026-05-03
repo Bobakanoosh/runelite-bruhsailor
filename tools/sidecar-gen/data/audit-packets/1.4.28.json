@@ -1,0 +1,222 @@
+{
+  "stepId": "1.4.28",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Swap to Arceuus spellbook (games necklace to wintertodt into minecart). Teleport to the Arceuus Library, run east and progress Bear Your Soul to get the Damaged soul bearer. Do My Arm's Big Adventure up to but not including the final fight. When in Ardougne after the Tai Bwo Wannai section, complete Biohazard (bring a lockpick), run north and enter the Combat Training Camp for the diary, return to king Lathas and start Underground Pass and steal from the chest for the hard diary. Do the entire Watchtower quest, using fairy ring CIQ to speed up the quest when possible (bring ranging gear for the Gorad fight). While in Yanille start Hand in the Sand at Bert, visit the Dragon Inn for the barcrawl and Hand in the Sand, check Aleck’s Hunter Emporium for the diary, buy a butterfly net, 5 butterfly jars, a noose wand, teasing stick and a rabbit snare, continue Hand in the Sand until you need to visit Sandy in Brimhaven. Collect a cave nightshade for the diary. When Watchtower is completed, home teleport, swap to the normal spellbook, use a Wizard’s mind bomb to boost for Trollheim teleport. Complete My Arm’s Big Adventure.\n",
+  "itemsNeeded": "143 gp, games necklace, amulet of accuracy, fire staff, rune sword, fire staff, chaos runes (buy more?), gold bar, dragon bones, pickaxe, 2 ropes, guam leaf, vial of water, light source, tinderbox, pestle and mortar, 8 supercompost (note that ultra doesn’t work), spade, rake, seed dibber, plant cure (buy it in Trollheim), 3 Ugthanki dung, empty bucket, jangerberry",
+  "gpStack": "243951 gp",
+  "mapping": {
+    "questIds": [
+      "BEAR_YOUR_SOUL",
+      "MY_ARMS_BIG_ADVENTURE",
+      "BIOHAZARD",
+      "UNDERGROUND_PASS",
+      "WATCHTOWER",
+      "HAND_IN_THE_SAND",
+      "RAG_AND_BONE_MAN_II"
+    ],
+    "items": [
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1478,
+        "name": "Amulet of accuracy",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2357,
+        "name": "Gold bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 536,
+        "name": "Dragon bones",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 249,
+        "name": "Guam leaf",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 227,
+        "name": "Vial of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4548,
+        "name": "Bullseye lantern",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 233,
+        "name": "Pestle and mortar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5341,
+        "name": "Rake",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5343,
+        "name": "Seed dibber",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4601,
+        "name": "Ugthanki dung",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 3727,
+        "name": "Empty bucket",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5104,
+        "name": "Jangerberry seed",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1523,
+        "name": "Lockpick",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 10010,
+        "name": "Butterfly net",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 10012,
+        "name": "Butterfly jar",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 10150,
+        "name": "Noose wand",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 10029,
+        "name": "Teasing stick",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 10031,
+        "name": "Rabbit snare",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2398,
+        "name": "Cave nightshade",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1907,
+        "name": "Wizard's mind bomb",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21394,
+        "name": "Karambwanji",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "143 gp"
+      },
+      {
+        "label": "ranged gear",
+        "rawToken": "ranging gear for the Gorad fight"
+      },
+      {
+        "label": "food",
+        "rawToken": "karambwanji (the bait) are a popular food for growing cats"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "pickaxe",
+        "qty": null
+      },
+      {
+        "rawToken": "ranging gear",
+        "qty": null
+      },
+      {
+        "rawToken": "rune shortsword",
+        "qty": null
+      },
+      {
+        "rawToken": "chaos runes (buy more?)",
+        "qty": null
+      },
+      {
+        "rawToken": "8 supercompost (note that ultra doesn't work)",
+        "qty": 8
+      },
+      {
+        "rawToken": "plant cure (buy it in Trollheim)",
+        "qty": null
+      }
+    ]
+  }
+}

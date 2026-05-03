@@ -1,0 +1,55 @@
+{
+  "stepId": "1.4.24",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Equip your best ranging gear, a ring of dueling, and your knives. Grab your lizardkickers and food. Go to the Tower of Life (Fishing Trawler minigame teleport) and kill imps outside there to collect all required beads for Imp Catcher. After killing the imps use the fairy ring to Zanaris to buy jars from Elnock if you haven’t yet, then fairy ring DIS to start and complete Imp Catcher. Minigame teleport to Shades of Mort’ton. Kill Loar Shades until at least 51,012 ranged xp (level 43). You can safespot them on obstacles in the village itself. Make sure to pick up your knives to throw them multiple times. Prioritise using the steel knives first, then iron, then bronze. \n",
+  "itemsNeeded": "bronze knives, iron knives, steel knives, ranged gear, lizardkickers, food, dramen staff,",
+  "gpStack": "239158 gp",
+  "mapping": {
+    "questIds": [
+      "IMP_CATCHER"
+    ],
+    "items": [
+      {
+        "id": 25826,
+        "name": "Lizardkicker",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 864,
+        "name": "Bronze knife",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 863,
+        "name": "Iron knife",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 865,
+        "name": "Steel knife",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "ranged gear",
+        "label": "ranged gear"
+      },
+      {
+        "rawToken": "food",
+        "label": "food"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

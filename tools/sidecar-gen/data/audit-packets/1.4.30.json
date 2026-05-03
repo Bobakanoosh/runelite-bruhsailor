@@ -1,0 +1,81 @@
+{
+  "stepId": "1.4.30",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Travel to Port Sarim (Pest Control minigame teleport) with 2k gp, a hammer, wind strikes, telegrab runes, varrock teleport runes, 90 steel nails, 3 planks, 10 willow logs (noted), 2 regular logs (noted) and 11 yew logs (noted) and 6 willow branches. Speak with Klarense and repair the Lady Lumbridge to progress Dragon Slayer I. Get the jailed goblin map piece, collect the security book from the Security Guard (upstairs) for the diary. Run to the Falador farm loom and craft a basket for the diary. Deposit your combat items, then take the boat to Entrana, unlock the balloon transport to Varrock (deposit the noted logs in the storage to use them). Take the balloon back to Entrana. Unlock the transport to Castle Wars, take the balloon back to Entrana and head to Castle Wars again for the diary.\n",
+  "itemsNeeded": "2000 gp, 1 hammer, 90 steel nails, 3 planks, 2 logs, 11 yew logs, 10 willow logs, staff of air, mind runes, law runes",
+  "gpStack": "241951 gp",
+  "mapping": {
+    "questIds": [
+      "DRAGON_SLAYER_I",
+      "VARROCK_MEDIUM"
+    ],
+    "items": [
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1539,
+        "name": "Steel nails",
+        "qty": 90,
+        "source": "items_needed"
+      },
+      {
+        "id": 960,
+        "name": "Plank",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 1515,
+        "name": "Yew logs",
+        "qty": 11,
+        "source": "items_needed"
+      },
+      {
+        "id": 1519,
+        "name": "Willow logs",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 558,
+        "name": "Mind rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": 2,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "2000 gp",
+        "label": "gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "willow branches",
+        "qty": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"stepId":"1.1.5","accurate":false,"confidence":0.92,"issues":["Purple dye (1773) x2 is loot obtained during step (from Hazeel Cult/cave), not equipment needed beforehand—remove from items[]"],"notes":"Quests (HAZEEL_CULT, MONKS_FRIEND) correct; knife and logs correct. Abstract 'arrow shafts' correctly labeled. Only issue is purple dye misclassification."}

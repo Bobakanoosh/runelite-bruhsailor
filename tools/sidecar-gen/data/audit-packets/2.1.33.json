@@ -1,0 +1,125 @@
+{
+  "stepId": "2.1.33",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Buy 300 law runes, 1100 nature runes, top up your death rune stack to 3k (Watchtower teleport and buy in Yanille). If you do not have a Rune Pouch yet, use the minigames teleport to Clan Wars and do Last Man Standing to obtain both a rune pouch and a magic shortbow scroll. Do Big Chompy Bird Hunting, save a raw chompy for later. Do Zogre Flesh Eaters (use dueling rings for speeding up the quest), killing Zogres along the way for Rag and Bone Man II. Make sure to unlock Uglug’s Stuffsies and buy 16 relicym’s balm (3), decant them into 12 4-dose potions. Use Crumble Undead for the Slash Bash fight. Buy and smelt 1100 gold ore (or exactly as many as it takes to get to level 50), 6 iron bars and 20 steel bars and 27 mithril bars, buying the ore if needed. Save a few hundred gold bars for jewellery, the rest are to be alched. This uses a significant amount of energy pots, if you have/had any. Make sure to equip your ring of charos (a) to reduce the foreman cost.\n",
+  "itemsNeeded": "780k gp, energy potions, gold gauntlets, ring of charos (a)",
+  "gpStack": "670k gp",
+  "mapping": {
+    "questIds": [
+      "BIG_CHOMPY_BIRD_HUNTING",
+      "RAG_AND_BONE_MAN_II",
+      "ZOGRE_FLESH_EATERS",
+      "WATCHTOWER"
+    ],
+    "items": [
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": 300,
+        "source": "content"
+      },
+      {
+        "id": 561,
+        "name": "Nature rune",
+        "qty": 1100,
+        "source": "content"
+      },
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": 3000,
+        "source": "content"
+      },
+      {
+        "id": 12786,
+        "name": "Magic shortbow scroll",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 2876,
+        "name": "Raw chompy",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 4844,
+        "name": "Relicym's balm(3)",
+        "qty": 16,
+        "source": "content"
+      },
+      {
+        "id": 444,
+        "name": "Gold ore",
+        "qty": 1100,
+        "source": "content"
+      },
+      {
+        "id": 2351,
+        "name": "Iron bar",
+        "qty": 6,
+        "source": "content"
+      },
+      {
+        "id": 2353,
+        "name": "Steel bar",
+        "qty": 20,
+        "source": "content"
+      },
+      {
+        "id": 2359,
+        "name": "Mithril bar",
+        "qty": 27,
+        "source": "content"
+      },
+      {
+        "id": 2357,
+        "name": "Gold bar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "780k gp"
+      },
+      {
+        "label": "gold bars for jewellery",
+        "rawToken": "gold bars for jewellery"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "rune pouch",
+        "qty": 1
+      },
+      {
+        "rawToken": "mithril grapple",
+        "qty": 5
+      },
+      {
+        "rawToken": "gold gauntlets",
+        "qty": null
+      }
+    ]
+  }
+}

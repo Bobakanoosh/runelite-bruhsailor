@@ -1,0 +1,31 @@
+{
+  "stepId": "2.3.8",
+  "section": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
+  "stepText": "Teleport (tab) to Rellekka, speak with General Khazard to give him the message and get a severed leg.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "19.7m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 11744,
+        "name": "Rellekka teleport",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 10857,
+        "name": "Severed leg",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "19.7m gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

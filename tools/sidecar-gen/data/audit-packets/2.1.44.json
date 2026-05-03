@@ -1,0 +1,156 @@
+{
+  "stepId": "2.1.44",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Optional and recommended: go to the PVP Arena and imbue your berserker ring. The PVP Arena method involves either an alt/friend to boost points (go at off-peak hours, hope to get matched with each other, quickly die to the other/kill the other for points, repeat) or just suiciding to randoms for quick points imbue scroll via pvp arena - losing method. Next, alch your granite body. Train slayer to level 40 with shit tier tasks with your ancient staff (you might barely cross 70 combat near the end of this training, so get a Chaeldar task for the diary step if so), training melee on accurate to 60 attack. Buy a dragon scimitar and dragon dagger if you hit level 60 attack. You can use smoke burst (on accurate/magic) on jellies and ankou tasks. Make sure to complete your final task at the end. NOTE: it is difficult for us to keep track of all small amounts of combat xp obtained so far, so all combat levels and experience trackers in BRUHsailer are estimates. Do not worry if you are several levels off in either direction. Get on normal spellbook, go to Falador and start The Slug Menace. Pay the estate agent to move your POH to Kourend. Teleport to Ardougne with the cloak, start Eagles’ Peak in the Ardougne Zoo. Continue The Slug Menace in Witchhaven. Necklace of passage to Jorral, start Making History. Run to Eagles’ Peak, collect two dashing kebbit fur for Varrock Hard diary (if you have the hunter level, it’s fine if you do not), catch a copper longtail for the diary, mine some iron ore, and continue Eagles’ Peak until you have to make the disguise, make sure to collect the feathers. Teleport to Ardougne, resume The Slug Menace until you have chiselled the five special runestones.\n",
+  "itemsNeeded": "cash stack, melee gear (incl. torso/ring now), Commorb, swamp paste, 20 pure essence, chisel, necklace of passage, law runes, water runes, air runes, ardougne cloak 1, bird snare, rune pickaxe",
+  "gpStack": "650k gp",
+  "mapping": {
+    "questIds": [
+      "MAKING_HISTORY",
+      "THE_SLUG_MENACE",
+      "EAGLES_PEAK"
+    ],
+    "items": [
+      {
+        "id": 6635,
+        "name": "Commorb",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1941,
+        "name": "Swamp paste",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7936,
+        "name": "Pure essence",
+        "qty": 20,
+        "source": "items_needed"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 21146,
+        "name": "Necklace of passage(5)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 13121,
+        "name": "Ardougne cloak 1",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10006,
+        "name": "Bird snare",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10564,
+        "name": "Granite body",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4675,
+        "name": "Ancient staff",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4587,
+        "name": "Dragon scimitar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1215,
+        "name": "Dragon dagger",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6737,
+        "name": "Berserker ring",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 10127,
+        "name": "Dashing kebbit fur",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 9966,
+        "name": "Copper longtail",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 440,
+        "name": "Iron ore",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "650k gp"
+      },
+      {
+        "label": "melee gear (incl. torso/ring now)",
+        "rawToken": "melee gear (incl. torso/ring now)"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "smoke burst",
+        "qty": null
+      },
+      {
+        "rawToken": "imbue scroll",
+        "qty": null
+      }
+    ]
+  }
+}

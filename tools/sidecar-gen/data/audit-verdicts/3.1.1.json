@@ -1,0 +1,12 @@
+{
+  "stepId": "3.1.1",
+  "accurate": false,
+  "confidence": 0.75,
+  "issues": [
+    "Soft clay quantity undefined (qty: null) - unclear collection scope",
+    "Unresolved item: soft clay bracelet (should be id 7380 or similar) - crafted intermediate needed",
+    "Unresolved item: redirection scroll (should be id 23652) - essential for NMZ activity",
+    "Unresolved item: catherby tab (should be id 8007) - standard teleport tablet"
+  ],
+  "notes": "Step describes multi-activity progression (clay gathering, bracelet crafting, NMZ, herb runs). Items mapping incomplete due to 3 unresolved items that are individually resolvable. All required items are contextually present but not fully mapped. Update itemsNeeded from 'tbd' to 'accurate' once unresolved items resolved and soft clay quantity defined."
+}

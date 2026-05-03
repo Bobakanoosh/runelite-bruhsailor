@@ -1,0 +1,14 @@
+{
+  "stepId": "2.2.5",
+  "accurate": true,
+  "confidence": 0.92,
+  "issues": [
+    {
+      "type": "unresolved_item",
+      "item": "proselyte full set",
+      "severity": "low",
+      "note": "Appropriately flagged as unresolvedItems. Step text says 'full set' but this is a 4-piece armor set. Correct decision not to map to single IDs without explicit breakdown."
+    }
+  ],
+  "notes": "Mapping is accurate and complete. Both quest IDs (THE_SLUG_MENACE, LUNAR_DIPLOMACY) are actively progressed in this step, not merely mentioned. All 25 mapped items correctly correspond to step requirements: teleport runes, quest-specific consumables/tools (essence pouches, rune pickaxe, seal of passage, astral/cosmic runes, abyssal book, chisel), and commerce items (adamant chainbody). AbstractItems correctly uses 'cash stack' (genuine abstraction). Quantities are appropriately null where vague. No wrong IDs or tier mismatches detected."
+}

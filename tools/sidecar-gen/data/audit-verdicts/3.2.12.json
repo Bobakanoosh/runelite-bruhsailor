@@ -1,0 +1,7 @@
+{
+  "stepId": "3.2.12",
+  "accurate": true,
+  "confidence": 0.92,
+  "issues": [],
+  "notes": "Packet structure is sound. questIds correctly empty (Pyramid Plunder is not quest-gated). abstractItems properly categorizes cash stack. Unresolved sceptre is legitimate ambiguity (multiple sceptre variants in OSRS). itemsNeeded marked TBD is acceptable pending clarification of which sceptre type. No blocking issues identified."
+}

@@ -1,0 +1,124 @@
+{
+  "stepId": "3.1.12",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "Make sure you have at least 75 mining (if not, do some gem mining first). Sail to Deepfin Point, mine 24 nickel ore. Do blast mining (as before) to obtain 551 addy ore - you may have to convert some of the gems into alchs (cut sapphires, emeralds and even rubies are fine, or make ruby and diamond bracelets) for dynamite. Make sure you get at least 15 runite ore along the way. Smelt all the addy into bars, all the nickel into cupronickel bars, then convert 71 addy bars into 1065 addy nails. Teleport to The Great Conch (fairy ring CJQ) and chop and bank up to 498 camphor logs. The fastest method is using a log basket and teleporting out to a bank, then using the fairy ring to get back. If you have (or plan to get) sawmill vouchers you can reduce the number of logs needed by 1 for each voucher for up to 233 vouchers (and 265 logs), saving 2,500 gp each (582,500 gp total). Make 466 camphor planks. Build the following ship upgrades:\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "35k gp",
+  "mapping": {
+    "questIds": [
+      "MINING"
+    ],
+    "items": [
+      {
+        "id": 451,
+        "name": "Runite ore",
+        "qty": 15,
+        "source": "content"
+      },
+      {
+        "id": 1607,
+        "name": "Sapphire",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1605,
+        "name": "Emerald",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1603,
+        "name": "Ruby",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11085,
+        "name": "Ruby bracelet",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11092,
+        "name": "Diamond bracelet",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 13573,
+        "name": "Dynamite",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 28140,
+        "name": "Log basket",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 28628,
+        "name": "Sawmill voucher",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "35k gp"
+      },
+      {
+        "label": "ship upgrade",
+        "rawToken": "camphor cargo hold"
+      },
+      {
+        "label": "ship upgrade",
+        "rawToken": "adamant keel"
+      },
+      {
+        "label": "ship upgrade",
+        "rawToken": "camphor hull"
+      },
+      {
+        "label": "ship upgrade",
+        "rawToken": "camphor mast and canvas sails"
+      },
+      {
+        "label": "ship upgrade",
+        "rawToken": "adamant cannon"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "nickel ore",
+        "qty": 24
+      },
+      {
+        "rawToken": "addy ore",
+        "qty": 551
+      },
+      {
+        "rawToken": "addy bar",
+        "qty": 71
+      },
+      {
+        "rawToken": "cupronickel bar",
+        "qty": null
+      },
+      {
+        "rawToken": "addy nails",
+        "qty": 1065
+      },
+      {
+        "rawToken": "camphor logs",
+        "qty": 498
+      },
+      {
+        "rawToken": "camphor planks",
+        "qty": 466
+      }
+    ]
+  }
+}

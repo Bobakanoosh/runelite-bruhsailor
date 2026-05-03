@@ -1,0 +1,1 @@
+{"stepId":"2.1.8","accurate":true,"confidence":0.98,"issues":[],"notes":"All items correctly mapped with valid OSRS IDs. Quest (BETWEEN_A_ROCK) appropriately listed as actively started. Abstract items (coins, gp) correctly marked. No resolved items in abstractItems - all mapping follows rules precisely."}

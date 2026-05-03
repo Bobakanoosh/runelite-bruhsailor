@@ -1,0 +1,197 @@
+{
+  "stepId": "1.3.25",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Optional: clan wars teleport to Edgeville, make two rings of recoil for the Koschei fight (using a dwarven stout to smelt gold ore). Teleport to Camelot, pay the estate agent to move your POH to Rellekka. Grab premade gnome food/your best food, a knife, a dramen branch, your recoil rings, a ring of dueling and POH teleport runes (no staff). House teleport, do the Thorvald/Koschei fight converting one of the dramen branches into a staff during the fight (using the aggressive style). Teleport to clan wars after. Grab Camelot teleport runes and the items needed below (check the list below!). Teleport to Camelot, run to Galahad’s house and obtain the holy table napkin (Holy Grail) and have him make you a cup of tea (diary). Cross the coal truck log shortcut and mine a coal for the diary. House teleport, buy a workshop and build a crafting table 2, make five clockworks. Have Peer the Seer bank all your items except juggle a dueling ring for speed if you want, then do the Peer the Seer step (juggle dueling or home teleport after), teleport to castle wars with your dueling ring/Lumbridge, rebank and teleport to your house, complete The Fremennik Trials. Mine a coal and then a silver in the mine, smelt it into a bar and make it into a tiara for the diary. Browse Yrsa’s Shoe Store for the diary, steal from the fish stall, collect a pet rock, take the boat to Waterbirth Island and collect 5 snape grass for the diary (can pick up and re-drop one, but collect at least 2). \n",
+  "itemsNeeded": "20000 gp, rune pickaxe, air runes, earth staff, law runes, saw, hammer, 4 oak planks, 1 molten glass, 5 steel bars, 1 raw shark, salmon, tiara mould, dramen branch, knife, premade gnome food, 2 sapphire rings, lyre, tankard, talisman(?)",
+  "gpStack": "469246 gp",
+  "mapping": {
+    "questIds": [
+      "THE_FREMENNIK_TRIALS",
+      "HOLY_GRAIL"
+    ],
+    "items": [
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8794,
+        "name": "Saw",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8778,
+        "name": "Oak plank",
+        "qty": 4,
+        "source": "items_needed"
+      },
+      {
+        "id": 1775,
+        "name": "Molten glass",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 2353,
+        "name": "Steel bar",
+        "qty": 5,
+        "source": "items_needed"
+      },
+      {
+        "id": 383,
+        "name": "Raw shark",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 329,
+        "name": "Salmon",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5523,
+        "name": "Tiara mould",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 771,
+        "name": "Dramen branch",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1637,
+        "name": "Sapphire ring",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 3689,
+        "name": "Lyre",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3805,
+        "name": "Tankard",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2550,
+        "name": "Ring of recoil",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1913,
+        "name": "Dwarven stout",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 453,
+        "name": "Coal",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 442,
+        "name": "Silver ore",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 2355,
+        "name": "Silver bar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3695,
+        "name": "Pet rock",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 231,
+        "name": "Snape grass",
+        "qty": 5,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "20000 gp"
+      },
+      {
+        "label": "gp",
+        "rawToken": "469246 gp"
+      },
+      {
+        "label": "food",
+        "rawToken": "premade gnome food"
+      },
+      {
+        "label": "food",
+        "rawToken": "best food"
+      },
+      {
+        "label": "POH teleport runes",
+        "rawToken": "POH teleport runes"
+      },
+      {
+        "label": "Camelot teleport runes",
+        "rawToken": "Camelot teleport runes"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "talisman(?)",
+        "qty": null
+      }
+    ]
+  }
+}

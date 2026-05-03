@@ -1,0 +1,90 @@
+{
+  "stepId": "3.2.11",
+  "section": "3.2: Quest cape, quality of life",
+  "stepText": "Optional but recommended: now that you have daeyalt mining https://streamable.com/it7kry unlocked and the full raiments of the eye set, there is almost nothing holding you back from training runecrafting, e.g. with spellbook swap Vile Vigour fletching (multiskill) ZMI runecrafting (or non-spellbook swap stamina potions). It is macroefficient to complete level 90 or 95 runecrafting sooner rather than later, to have access to ample wrath runes for offering spells during slayer. Weave in the runecrafting grind at your own convenience, immediately is recommended. Blow glass while ZMI crafting, then when out of glass swap over to fletching instead (buy broad arrowhead packs and arrow shafts as needed).\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "25m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 6570,
+        "name": "Fire cape",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 52,
+        "name": "Arrow shaft",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 9194,
+        "name": "Onyx bolt tips",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11326,
+        "name": "Caviar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 12625,
+        "name": "Stamina potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "25m gp"
+      },
+      {
+        "label": "runes",
+        "rawToken": "wrath runes"
+      },
+      {
+        "label": "runes",
+        "rawToken": "law runes"
+      },
+      {
+        "label": "runes",
+        "rawToken": "nature runes"
+      },
+      {
+        "label": "runes",
+        "rawToken": "chaos runes"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "raiments of the eye",
+        "qty": null
+      },
+      {
+        "rawToken": "broad arrowhead",
+        "qty": null
+      },
+      {
+        "rawToken": "uncut gems",
+        "qty": null
+      },
+      {
+        "rawToken": "spellbook swap",
+        "qty": null
+      },
+      {
+        "rawToken": "Vile Vigour",
+        "qty": null
+      },
+      {
+        "rawToken": "2-dose potions",
+        "qty": null
+      }
+    ]
+  }
+}

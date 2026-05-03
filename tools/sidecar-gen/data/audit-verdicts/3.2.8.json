@@ -1,0 +1,10 @@
+{
+  "stepId": "3.2.8",
+  "accurate": false,
+  "confidence": 0.70,
+  "issues": [
+    "questIds contains AGILITY but step is about herblore XP cashing and stamina production - should be HERBLORE or empty if agility is not a requirement",
+    "itemsNeeded is still marked 'tbd' - recommend: 'stamina potion(4)' or resolved generic"
+  ],
+  "notes": "Items and abstract items are well-mapped (herblore XP and cash stack are genuine abstractions). The questId mapping is the primary error. Consider whether AGILITY is genuinely required for this step, or if it should be removed/replaced with HERBLORE."
+}

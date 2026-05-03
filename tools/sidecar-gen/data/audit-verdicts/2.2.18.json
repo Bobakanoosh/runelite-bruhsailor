@@ -1,0 +1,13 @@
+{
+  "stepId": "2.2.18",
+  "accurate": true,
+  "confidence": 0.92,
+  "issues": [
+    {
+      "type": "unresolved_items",
+      "severity": "info",
+      "description": "eagle disguise and earth runes correctly marked as unresolved (disguise created during quest, earth runes belong to next section)"
+    }
+  ],
+  "notes": "Quest mapping accurate: A_TAIL_OF_TWO_CATS is the only quest actively progressed in this step. Items mapping complete and correct: catspeak amulet (4677), law rune (563), staff of air (1381) all explicitly needed; spottier cape (10071) conditionally needed (hunter level dependent). Abstract item 'gp_stack' (30k gp) is a genuine abstraction. Unresolved items appropriately handled: eagle disguise has no standalone OSRS item ID, earth runes explicitly marked as belonging to next section. All criteria met. Minor confidence reduction (0.92 vs 1.0) due to conditional cape requirement, but overall mapping strategy is sound."
+}

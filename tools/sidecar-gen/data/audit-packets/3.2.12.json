@@ -1,0 +1,23 @@
+{
+  "stepId": "3.2.12",
+  "section": "3.2: Quest cape, quality of life",
+  "stepText": "If you only went for one sceptre earlier, do Pyramid Plunder for a second sceptre. Compared to last time the only things that changed are:\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "25m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "25m gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "sceptre",
+        "qty": 1
+      }
+    ]
+  }
+}

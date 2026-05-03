@@ -1,0 +1,70 @@
+{
+  "stepId": "1.3.8",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Teleport to Varrock and move your POH to Rellekka at the estate agent. Grab chisel, GP, earth runes from the bank along the way. Show your Level 3 certificate to the museum curator and claim ‘something to drink’ (make sure to go through the dialogue carefully!), take the museum quiz. Do NOT claim XP lamp from Historian Minas – this is for herblore later but has a level 20 requirement. Clean finds to get the following:\n",
+  "itemsNeeded": "10000 gp, fire staff, air runes, earth runes, law runes, chisel",
+  "gpStack": "707352 gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 693,
+        "name": "Level 3 certificate",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1633,
+        "name": "Crushed gem",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "10000 gp",
+        "label": "gp"
+      },
+      {
+        "rawToken": "50 (more) kudos",
+        "label": "kudos"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "cut jade",
+        "qty": 1
+      }
+    ]
+  }
+}

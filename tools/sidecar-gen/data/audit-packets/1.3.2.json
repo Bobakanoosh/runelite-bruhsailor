@@ -1,0 +1,112 @@
+{
+  "stepId": "1.3.2",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Grab a fly fishing rod, 10 feathers and 10gp. Home teleport to Lumbridge, catch a salmon for the diary, run to the Mage Training Arena. Grab 200 nature runes, 400 water runes, a staff of earth and six food (make sure to have at least 20 empty inventory slots). Collect 211 Graveyard points. An easy way is to grab and drop 4 bones once, then after that repeatedly grab a set of 8 bones (20 bananas) and deposit all, eating your food and later your bananas as needed while moving to stay alive. Go to the bank, grab 1050 nature runes, 500 law runes, 400 cosmic runes, a staff of air, a staff of earth, a staff of fire and 10 wizard mind bombs. Collect 211 telekinetic points, then using low alchemy collect 311 alchemist points (only alch the 30gp items, even if others are free). Optionally use the wizard mind bombs at levels 52-54 to gain access to high alchemy earlier. Collect 2165 enchantment points (lvl-4 enchant in the corner, using a wizard mind bomb as necessary, just drop the shapes after). Buy a mud rune, 10 mist runes, and unlock bones to peaches (this requires boosting to 60 magic with a Wizard’s Mind Bomb). At some point cast Bones to Peaches in the Al Kharid palace for the diary. Runes lost at MTA: 1140 nats, 473 laws, 382 cosmics, 272 waters. Runes gained at MTA: 66 earths/deaths/bloods.\n",
+  "itemsNeeded": "10 gp, 1650 nature runes, 600 law runes, 5 cosmic runes, 492 water runes, air staff, earth staff, fire staff, fly fishing rod, 10 feathers",
+  "gpStack": "777339 gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 561,
+        "name": "Nature rune",
+        "qty": 1650,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": 600,
+        "source": "items_needed"
+      },
+      {
+        "id": 564,
+        "name": "Cosmic rune",
+        "qty": 5,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": 492,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 309,
+        "name": "Fly fishing rod",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 329,
+        "name": "Salmon",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 526,
+        "name": "Bones",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1963,
+        "name": "Banana",
+        "qty": 20,
+        "source": "content"
+      },
+      {
+        "id": 4698,
+        "name": "Mud rune",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 4695,
+        "name": "Mist rune",
+        "qty": 10,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "10gp",
+        "label": "gp"
+      },
+      {
+        "rawToken": "six food",
+        "label": "food"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "wizard mind bomb",
+        "qty": 10
+      }
+    ]
+  }
+}

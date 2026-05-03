@@ -1,0 +1,1 @@
+{"stepId":"1.3.25","accurate":true,"confidence":0.95,"issues":[],"notes":"All mapped items correctly resolve stepText/itemsNeeded with appropriate item IDs and quantities. Quests (THE_FREMENNIK_TRIALS, HOLY_GRAIL) are only those actively progressed. Abstracts (gp, food, teleport runes) are genuine abstractions; unresolved talisman(?) appropriately flagged."}

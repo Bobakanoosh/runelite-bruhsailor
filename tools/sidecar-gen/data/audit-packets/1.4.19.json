@@ -1,0 +1,83 @@
+{
+  "stepId": "1.4.19",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Blast furnace minigame teleport, make three inventories of steel bars and an inventory of iron bars. Alternatively you can enchant a ruby ring from a bird run), buying the ores in the shop if needed. Smelt 50 silver ore at the Blast Furnace, buying ores if necessary. If you have more silver ore, smelt it here. Using your dwarven stouts make 108 gold bars, taking you (well) past level 40 smithing. Make sure to use the ring of charos(a) when paying the foreman. Leave 27 gold bars in the dispenser - you will only take these out at level 99 smithing. Having bars in there speeds up the smelting.\n",
+  "itemsNeeded": "22150 GP (10k for the foreman plus gold ore costs, estimated), 27 iron ore, 27 coal, silver ores, 108 gold ores, ring of charos(a), more GP if you actually need to buy ores (but maybe WT covers it all)",
+  "gpStack": "250142 gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 440,
+        "name": "Iron ore",
+        "qty": 27,
+        "source": "items_needed"
+      },
+      {
+        "id": 453,
+        "name": "Coal",
+        "qty": 27,
+        "source": "items_needed"
+      },
+      {
+        "id": 442,
+        "name": "Silver ore",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 444,
+        "name": "Gold ore",
+        "qty": 108,
+        "source": "items_needed"
+      },
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2353,
+        "name": "Steel bar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2351,
+        "name": "Iron bar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1641,
+        "name": "Ruby ring",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2357,
+        "name": "Gold bar",
+        "qty": 108,
+        "source": "content"
+      },
+      {
+        "id": 1913,
+        "name": "Dwarven stout",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "22150 GP (10k for the foreman plus gold ore costs, estimated)",
+        "label": "gp for foreman and ore costs"
+      },
+      {
+        "rawToken": "more GP if you actually need to buy ores (but maybe WT covers it all)",
+        "label": "additional gp for ore purchases"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

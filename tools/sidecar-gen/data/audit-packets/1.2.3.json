@@ -1,0 +1,112 @@
+{
+  "stepId": "1.2.3",
+  "section": "1.2: Some fishing and thieving",
+  "stepText": "Run to Piscarilius, grab wind strike runes and your stew, start The Queen of Thieves and continue the quest until you are asked to search Councillor Hughes’ home (browse the Warrens General Store in between for the diary). Head south and kill a Giant Rat northeast of Hosidius square for its meat and the giant rat bone, talk to the Estate Agent (this is needed to be able to move your POH to Kourend later). Buy a compost pack from Vannah. Pickpocket from the fruit stalls in the house on the east of Hosidius square to level 36 thieving. Bank one jangerberry (optionally: bank two as it’s a possible Fairytale pt. 1 item), all the strange fruit and the golovanova tops (you will need at least 2 tops). Run west and dig up a saltpetre for the diary, then run to Land’s End and charter a ship to Aldarin. There thieve the upstairs chest in the western villa (Chest (Aldarin Villas) - OSRS Wiki) to a bit over level 42 thieving (46,512 xp!).\n",
+  "itemsNeeded": "8812 gp, stew, air runes, mind runes, hammer, spade",
+  "gpStack": "33004 gp",
+  "mapping": {
+    "questIds": [
+      "THE_QUEEN_OF_THIEVES"
+    ],
+    "items": [
+      {
+        "id": 2003,
+        "name": "Stew",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 558,
+        "name": "Mind rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7824,
+        "name": "Giant rat bone",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 19704,
+        "name": "Compost pack",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 464,
+        "name": "Strange fruit",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 13421,
+        "name": "Saltpetre",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "8812 gp"
+      },
+      {
+        "label": "gp",
+        "rawToken": "33004 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "giant rat meat",
+        "qty": null
+      },
+      {
+        "rawToken": "jangerberry",
+        "qty": 1
+      },
+      {
+        "rawToken": "golovanova top",
+        "qty": 2
+      },
+      {
+        "rawToken": "papaya",
+        "qty": null
+      },
+      {
+        "rawToken": "wind strike runes",
+        "qty": null
+      },
+      {
+        "rawToken": "Councillor Hughes' home",
+        "qty": null
+      },
+      {
+        "rawToken": "Warrens General Store",
+        "qty": null
+      },
+      {
+        "rawToken": "Chest (Aldarin Villas)",
+        "qty": null
+      }
+    ]
+  }
+}

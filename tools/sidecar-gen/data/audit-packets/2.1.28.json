@@ -1,0 +1,112 @@
+{
+  "stepId": "2.1.28",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Continue and complete Ghosts Ahoy. While inside Port Phasmatys cook a thin snail on the Port Phasmatys range, smelt some cannonballs at the Port Phasmatys furnace. Draynor Manor teleport and complete Animal Magnetism (you can use the Pest Control minigame teleport to get to the Rimmington mine).\n",
+  "itemsNeeded": "cash stack, oak longbow, ghostspeak amulet, bucket of slime, thin snail, law runes, earth staff, water runes 5 iron bars, hammer, 2 undead chickens, mithril axe, holy symbol, hard leather, polished buttons, games necklace",
+  "gpStack": "1.5m gp",
+  "mapping": {
+    "questIds": [
+      "GHOSTS_AHOY",
+      "ANIMAL_MAGNETISM"
+    ],
+    "items": [
+      {
+        "id": 845,
+        "name": "Oak longbow",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 552,
+        "name": "Ghostspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4286,
+        "name": "Bucket of slime",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3363,
+        "name": "Thin snail",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10487,
+        "name": "Undead chicken",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 1355,
+        "name": "Mithril axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1718,
+        "name": "Holy symbol",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1743,
+        "name": "Hard leather",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10496,
+        "name": "Polished buttons",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2351,
+        "name": "Iron bar",
+        "qty": 5,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "cash stack",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

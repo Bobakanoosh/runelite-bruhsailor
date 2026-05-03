@@ -1,0 +1,13 @@
+{
+  "stepId": "2.3.1",
+  "accurate": true,
+  "confidence": 0.95,
+  "issues": [],
+  "notes": {
+    "questIds": "KANDARIN_HARD is actively progressed in this step (completing Kandarin Hard diary with sequential steps). Correct.",
+    "itemsNeeded": "Crystal saw and Hammer are correctly marked as generic needs from items_needed. All specific quantities for POH build (marble block, magic stone, gold leaf, spirit sapling, oak/teak/mahogany planks, limestone bricks) are content-derived and accurate.",
+    "abstractItems": "cash stack (19.7m gp) is a genuine abstraction representing gp cost of the POH build.",
+    "unresolvedItems": "teleport runes is acceptable unresolved—amount varies by player choice, inherently ambiguous.",
+    "summary": "Step packet is well-formed and audit-ready. All required items are present, quest mapping is active-progress only, abstractions are genuine, and unresolved items are appropriately ambiguous."
+  }
+}

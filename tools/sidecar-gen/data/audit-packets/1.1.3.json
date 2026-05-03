@@ -1,0 +1,52 @@
+{
+  "stepId": "1.1.3",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Fletching the logs into arrow shafts as you move, go south and do Misthalin Mystery. Head west to Father Urhney to get a ghostspeak amulet. Grab the leather gloves from his house. Run to Draynor village, grab and wear the forestry kit and buy 26 wines from Fortunato.\n",
+  "itemsNeeded": "knife, logs",
+  "gpStack": "0 gp",
+  "mapping": {
+    "questIds": [
+      "MISTHALIN_MYSTERY"
+    ],
+    "items": [
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 552,
+        "name": "Ghostspeak amulet",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1059,
+        "name": "Leather gloves",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 28136,
+        "name": "Forestry kit",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1993,
+        "name": "Jug of wine",
+        "qty": 26,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [],
+    "unresolvedItems": []
+  }
+}

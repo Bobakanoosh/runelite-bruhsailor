@@ -1,0 +1,101 @@
+{
+  "stepId": "2.2.15",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Make the penguin suit (use an extra steel bar for the clockwork) after upgrading the workbench. Blast furnace minigame teleport and complete the Smokin’ Joe part of Ratcatchers, followed by giving the gold cannonball to Dondakan and collecting three of the four schematics for Between a Rock…\n",
+  "itemsNeeded": "law runes, earth runes, air runes, two molten glass, plank, silk, steel bar, hellcat, catspeak amulet, pot, weeds, tinderbox, golden cannonball, dwarven lore book (for the third page)",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "RATCATCHERS",
+      "BETWEEN_A_ROCK"
+    ],
+    "items": [
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 960,
+        "name": "Plank",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 950,
+        "name": "Silk",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2353,
+        "name": "Steel bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4677,
+        "name": "Catspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1931,
+        "name": "Pot",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6055,
+        "name": "Weeds",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1775,
+        "name": "Molten glass",
+        "qty": 2,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "30k gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "hellcat",
+        "qty": null
+      },
+      {
+        "rawToken": "golden cannonball",
+        "qty": 1
+      },
+      {
+        "rawToken": "dwarven lore book",
+        "qty": 1
+      }
+    ]
+  }
+}

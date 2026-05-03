@@ -1,0 +1,248 @@
+{
+  "stepId": "2.1.18",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Teleport to Varrock, ask the Apothecary to make you a strength potion for the diary (requires a limpwurt root, red spider’s eggs and 5gp). Collect the Varrock easy and medium diary rewards, putting the lamps on herblore. Go to the Mage of Zamorak, show him the eye amulet and continue Temple of the Eye until you have the abyssal incantation. Dueling ring to Al-Kharid, give the incantation to Persten and resume and complete the Temple of the Eye. Games necklace teleport to Tears of Guthix, complete the minigame. From now on visit the minigame weekly, the XP isn’t too important but it’s efficient to grab it for slayer or herblore (either is fine). Make sure to get at least 100 tears in one go at a certain point for the diary. Dueling ring to Al-Kharid, buy two steel platelegs, smith a golden cannonball and two topaz rings in the furnace and enchant them into Efaritay’s aid rings at your convenience. Buy a kebab if you don’t have any, take the boat to the Ruins of Unkah. Mine sandstone, ideally with 4s,3 tick sandstone mining at new spot (easier method), the modern method Binxy4SandstoneSpot.png at this south spot shown by Binxy, until you are 10k xp away from level 60 mining (you don’t have to buy any sand for this. Feel free to get the level instead, if you want). Buy the ancient staff from Eblis. Once done, head south (rebank at the Ruins of Unkah if needed), kill Jackals and Vultures for Rag and Bone Man II and desert diary. Do Enakhra’s Lament.\n",
+  "itemsNeeded": "cash stack, gold bar, ammo mould, rune sword, swordfish, waterskins, rune pickaxe, chisel, bread/cake, tinderbox, candle, regular log, oak log, willow log, maple log, soft clay, coal, Crumble Undead runes, air staff, fire runes, chaos runes, energy potions, bucket of water, celestial ring, varrock body 2, Efaritay’s aid",
+  "gpStack": "1.5m gp",
+  "mapping": {
+    "questIds": [
+      "TEMPLE_OF_THE_EYE",
+      "RAG_AND_BONE_MAN_II",
+      "TEARS_OF_GUTHIX",
+      "ENAKHRA_LAMENT",
+      "VARROCK_EASY"
+    ],
+    "items": [
+      {
+        "id": 2357,
+        "name": "Gold bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4,
+        "name": "Ammo mould",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1823,
+        "name": "Waterskin(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 36,
+        "name": "Candle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1521,
+        "name": "Oak logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1519,
+        "name": "Willow logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1517,
+        "name": "Maple logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1761,
+        "name": "Soft clay",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 453,
+        "name": "Coal",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 554,
+        "name": "Fire rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 562,
+        "name": "Chaos rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1929,
+        "name": "Bucket of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 25541,
+        "name": "Celestial ring",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 225,
+        "name": "Limpwurt root",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 26903,
+        "name": "Eye amulet",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 26905,
+        "name": "Abyssal incantation",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1069,
+        "name": "Steel platelegs",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 21087,
+        "name": "Topaz ring",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1971,
+        "name": "Kebab",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 4675,
+        "name": "Ancient staff",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1271,
+        "name": "Adamant pickaxe",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21140,
+        "name": "Efaritay's aid",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 223,
+        "name": "Red spiders' eggs",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 113,
+        "name": "Strength potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      },
+      {
+        "label": "bread or cake",
+        "rawToken": "bread/cake"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "golden cannonball",
+        "qty": 1
+      },
+      {
+        "rawToken": "sandstone",
+        "qty": null
+      },
+      {
+        "rawToken": "Crumble Undead runes",
+        "qty": null
+      },
+      {
+        "rawToken": "regular log",
+        "qty": null
+      },
+      {
+        "rawToken": "varrock body 2",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "stepId": "2.1.27",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Visit the Old Crone to progress Animal Magnetism and Ghosts Ahoy (Salve teleport to get there, and rebank in Canifis if needed). Fenkenstrain teleport, colour the repaired model ship and progress Ghosts Ahoy until you have the treasure map. Continue Animal Magnetism until you have bought the undead chickens.\n",
+  "itemsNeeded": "cash stack, law runes, soul runes, earth staff, 3 of each red/blue/yellow dye, ghostspeak amulet, Ecto-tokens, nettle tea, bucket of milk, silk, needle, thread, knife, spade, swordfish, rune sword",
+  "gpStack": "1.5m gp",
+  "mapping": {
+    "questIds": [
+      "ANIMAL_MAGNETISM",
+      "GHOSTS_AHOY"
+    ],
+    "items": [
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 552,
+        "name": "Ghostspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4278,
+        "name": "Ecto-token",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4239,
+        "name": "Nettle tea",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1927,
+        "name": "Bucket of milk",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 950,
+        "name": "Silk",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1733,
+        "name": "Needle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1734,
+        "name": "Thread",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "cash stack",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "3 of each red/blue/yellow dye",
+        "qty": 3
+      }
+    ]
+  }
+}

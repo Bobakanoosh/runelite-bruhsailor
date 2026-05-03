@@ -1,0 +1,12 @@
+{
+  "stepId": "1.2.14",
+  "accurate": false,
+  "confidence": 0.65,
+  "issues": [
+    "Rogue's outfit (ID ~5553-5557) is in unresolvedItems but should be a resolved named item",
+    "Cooked Salmon (329) and Trout (333) should be Raw salmon (327) and Raw trout (335) per stepText 'cook fish...raw fish'",
+    "Death Plateau and In Aid of the Myreque are mentioned only as prerequisite context ('save at least 10 trout for Death Plateau'), not actively progressed - should be dropped from questIds",
+    "run energy in abstractItems is a byproduct, not an item needed - should be removed"
+  ],
+  "notes": "Fishing Contest quest is correctly included. GP and raw fish abstractions are appropriate. Primary issues: wrong fish item tiers (cooked vs raw), excess quest context entries, and unresolved Rogue's outfit that should resolve."
+}

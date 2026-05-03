@@ -1,0 +1,13 @@
+{
+  "stepId": "1.2.3",
+  "accurate": false,
+  "confidence": 0.45,
+  "issues": [
+    "Wind strike runes mapped as Air rune (556) + Mind rune (558) but should be Wind Rune (560) + Mind Rune (558)",
+    "giant rat meat unresolved but explicitly needed in stepText - should resolve to Raw rat meat or equivalent",
+    "jangerberry unresolved but explicitly needed ('bank one jangerberry') - missing item ID",
+    "golovanova top unresolved but explicitly required with qty 2 ('you will need at least 2 tops') - missing item ID",
+    "Stew (2003) is correct from itemsNeeded but should verify it's the right variant"
+  ],
+  "notes": "Quest mapping is accurate (THE_QUEEN_OF_THIEVES active). GP abstracts correct. However, 4 required items remain unresolved or incorrectly mapped; rune type is wrong and common quest-item variants (jangerberry, golovanova top) need resolution."
+}

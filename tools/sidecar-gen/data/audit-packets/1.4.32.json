@@ -1,0 +1,64 @@
+{
+  "stepId": "1.4.32",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Make 4 inventories of Paddewwa tabs:\n",
+  "itemsNeeded": "108 soft clay, 108 air runes, 216 law runes, fire staff",
+  "gpStack": "236201 gp",
+  "mapping": {
+    "questIds": [
+      "PRINCE_ALI_RESCUE",
+      "TEMPLE_OF_THE_EYE"
+    ],
+    "items": [
+      {
+        "id": 1761,
+        "name": "Soft clay",
+        "qty": 108,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": 108,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": 216,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 26903,
+        "name": "Eye amulet",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1854,
+        "name": "Shantay pass",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "236201 gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

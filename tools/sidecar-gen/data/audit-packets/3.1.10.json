@@ -1,0 +1,178 @@
+{
+  "stepId": "3.1.10",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "Catch 20k red chinchompas between Tal Teklan and Kastori TalTeklanChinSpot.png or 16k black chinchompas (for 92 ranged, if you have extras then can consider throwing for more Ranged XP or using them for your first fire cape if you’re good at speed strats) in the wilderness. Follow this guide for catching chins: OSRS Easy 1t Hunter Guide (In-Depth). If you want to catch red chinchompas but the Varlamore spot is too competitive, e.g. with bots, the second best option is catching them northeast of Prifddinas. Throw the chins in the cave to get to 70 ranging, complete the Western Provinces Hard Diary (this involves getting one Zulrah kill), upgrade your void to Elite, (optionally: grab an offtask fire cape at some point along the way), return and throw the chins to get to level 92 ranging.\n",
+  "itemsNeeded": "red/black chins, elite void ranged, ranging pots, glory, shayzien boots 5, red dragonhide shield optional.",
+  "gpStack": "500k gp",
+  "mapping": {
+    "questIds": [
+      "WESTERN_HARD"
+    ],
+    "items": [
+      {
+        "id": 1704,
+        "name": "Amulet of glory",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 9977,
+        "name": "Red chinchompa",
+        "qty": 20000,
+        "source": "content"
+      },
+      {
+        "id": 11959,
+        "name": "Black chinchompa",
+        "qty": 16000,
+        "source": "content"
+      },
+      {
+        "id": 13073,
+        "name": "Elite void robe",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 13072,
+        "name": "Elite void top",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 13116,
+        "name": "Bonecrusher",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 13378,
+        "name": "Shayzien boots (5)",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 11773,
+        "name": "Berserker ring (i)",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1725,
+        "name": "Amulet of strength",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 23987,
+        "name": "Crystal halberd",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 29289,
+        "name": "Mixed hide cape",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 12788,
+        "name": "Magic shortbow (i)",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 892,
+        "name": "Rune arrow",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2379,
+        "name": "Rock cake",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 9185,
+        "name": "Rune crossbow",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 28810,
+        "name": "Zombie axe",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 6570,
+        "name": "Fire cape",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 29286,
+        "name": "Mixed hide boots",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2444,
+        "name": "Ranging potion(4)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11734,
+        "name": "Absorption (4)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "500k gp",
+        "label": "cash stack"
+      },
+      {
+        "rawToken": "ranged gear",
+        "label": "ranged gear"
+      },
+      {
+        "rawToken": "melee gear",
+        "label": "melee gear"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "elite void legs",
+        "qty": null
+      },
+      {
+        "rawToken": "super ranging potion",
+        "qty": null
+      },
+      {
+        "rawToken": "elite void ranged",
+        "qty": null
+      },
+      {
+        "rawToken": "red dragonhide shield optional",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "stepId": "2.2.3",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Start Lunar Diplomacy and continue the quest until you have to use your dramen staff on the elemental altars to make a lunar staff (optional: make more than one lunar staff for cosmetic purposes). While on the Lady Zay, collect at least 45 swamp tar. Remember to do your hourlies and grow cats whenever convenient.\n",
+  "itemsNeeded": "tinderbox, bullseye lantern (might still be a sapphire lantern from Tears of Guthix, just swap it out), melee gear, swordfish, energy potions, prayer potions, clean guam, clean marrentill, pestle and mortar, dramen staff",
+  "gpStack": "60k gp",
+  "mapping": {
+    "questIds": [
+      "LUNAR_DIPLOMACY"
+    ],
+    "items": [
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 233,
+        "name": "Pestle and mortar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1939,
+        "name": "Swamp tar",
+        "qty": 45,
+        "source": "content"
+      },
+      {
+        "id": 9084,
+        "name": "Lunar staff",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "melee gear",
+        "rawToken": "melee gear"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "60k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "bullseye lantern (might still be a sapphire lantern from Tears of Guthix, just swap it out)",
+        "qty": null
+      },
+      {
+        "rawToken": "clean guam",
+        "qty": null
+      },
+      {
+        "rawToken": "clean marrentill",
+        "qty": null
+      }
+    ]
+  }
+}

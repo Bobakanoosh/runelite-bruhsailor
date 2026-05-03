@@ -1,0 +1,14 @@
+{
+  "stepId": "2.1.3",
+  "accurate": false,
+  "confidence": 0.45,
+  "issues": [
+    "teak log in itemsNeeded but step focuses on oak logs (1200 oak planks 38-50); teak only mentioned as optional house-building variant",
+    "oak logs (id: 1521) extracted but step requires ~1200 oak PLANKS (id: 8778) not raw logs - qty should reflect plank requirement",
+    "abstractItems contains 'steel bars' and 'soft clay' - not mentioned anywhere in step text, likely extraction noise",
+    "extraneous content items: Fancy range (8222), Oak shelves 2 (8227), Adamant kiteshield (1199) not referenced in step",
+    "butler servant swap mentioned but no item mapping for servant replacement",
+    "unresolved 'pump' and 'drain' appropriately marked (POH ambiguity) but 'cat' should be clarified (menagerie-related)"
+  ],
+  "notes": "Core items (knife, rune axe, saw, hammer, forestry kit, cash stack) correctly identified but primary resource (oak planks qty) underspecified. Significant contamination from non-step content. itemsNeeded wording suggests 'teak log' may be user error (copy-paste from another step or house-building variant path)."
+}

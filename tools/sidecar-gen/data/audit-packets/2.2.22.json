@@ -1,0 +1,72 @@
+{
+  "stepId": "2.2.22",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Go to fairy ring BIQ, enter the Kalphite hive and collect 5 potato cacti for the diary, then return to the Shantay pass and collect the easy Desert diary (lamp on Slayer). Bank, grab your cat and quest items. Run/carpet to Pollnivneach and continue Ratcatchers. On any herb run complete Ratcatchers in Port Sarim, entering the rat pits for the diary.\n",
+  "itemsNeeded": "Ardy Cloak 1, dramen staff, energy pots, rope, waterskins, Camulet, hellcat, catspeak amulet",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "RATCATCHERS"
+    ],
+    "items": [
+      {
+        "id": 13121,
+        "name": "Ardougne cloak 1",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1823,
+        "name": "Waterskin(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6707,
+        "name": "Camulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4677,
+        "name": "Catspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3138,
+        "name": "Potato cactus",
+        "qty": 5,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "30k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "hellcat",
+        "qty": null
+      },
+      {
+        "rawToken": "energy pots",
+        "qty": null
+      }
+    ]
+  }
+}

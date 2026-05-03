@@ -1,0 +1,161 @@
+{
+  "stepId": "2.3.14",
+  "section": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
+  "stepText": "Do Rum Deal (return with Ectophial), killing a fever spider along the way for the diary. Do Cabin Fever (speak with Bill Teach after the quest for 10k gp) and complete a game of trouble brewing (recommended: do the watering buckets only strat to get enough points to buy “the stuff” for future brewing). Do The Great Brain Robbery (put the lamp on Herblore), planting watermelons in the allotment patch for the diary along the way. Complete the Morytania medium diary (and easy if you haven’t yet), putting the lamp(s) on Herblore.\n",
+  "itemsNeeded": "Ectophial, melee gear, cheese potatoes, prayer pots, stat-boosting pots, energy pots, fishbowl helmet + diving apparatus, 18 planks, 10 bear fur, hammer, holy symbol, ring of charos(a), bowl, 15 chaos runes, law runes, fire runes, air staff, rune axe, fremennik boots, watermelon seeds, ultracompost, rake, seed dibber",
+  "gpStack": "19.7m gp",
+  "mapping": {
+    "questIds": [
+      "RUM_DEAL",
+      "CABIN_FEVER",
+      "THE_GREAT_BRAIN_ROBBERY",
+      "MORYTANIA_MEDIUM"
+    ],
+    "items": [
+      {
+        "id": 4251,
+        "name": "Ectophial",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 960,
+        "name": "Plank",
+        "qty": 18,
+        "source": "items_needed"
+      },
+      {
+        "id": 948,
+        "name": "Bear fur",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1718,
+        "name": "Holy symbol",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1923,
+        "name": "Bowl",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 562,
+        "name": "Chaos rune",
+        "qty": 15,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 554,
+        "name": "Fire rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3791,
+        "name": "Fremennik boots",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5321,
+        "name": "Watermelon seed",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 21483,
+        "name": "Ultracompost",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5341,
+        "name": "Rake",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5343,
+        "name": "Seed dibber",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6709,
+        "name": "Fever spider",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "melee gear",
+        "rawToken": "melee gear"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "19.7m gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "cheese potatoes",
+        "qty": null
+      },
+      {
+        "rawToken": "stat-boosting potion",
+        "qty": null
+      },
+      {
+        "rawToken": "fishbowl helmet + diving apparatus",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "stepId": "3.1.8",
+  "accurate": true,
+  "confidence": 0.82,
+  "issues": [
+    "Unresolved: 'broad arrowtip pack' is likely typo variant of id 11885 (broad arrowhead pack) - already mapped",
+    "Unresolved: 'SGM' and 'arteglass' are specific crafting items without IDs - should map to concrete items or remain abstract",
+    "Unresolved: 'elite void gloves' and 'void ranger helmet' are optional items - correctly left unresolved per step language"
+  ],
+  "notes": "Step describes optional crafting training + mandatory broad arrow ammo shopping + Pest Control for elite void range gear. Core items (sand, seaweed, glory, arrowhead packs, elite void top/robe) are correctly mapped. QuestIds empty (correct - no quest progression). AbstractItems properly capture cash management and training flexibility. Unresolved items are mostly minor/duplicate (broad arrowtip typo) or genuinely optional. Confidence 0.82 reflects well-mapped core path with minor typos/ambiguities in optional materials. ItemsNeeded can transition from 'tbd' to 'accurate' - mapping captures essential activities adequately."
+}

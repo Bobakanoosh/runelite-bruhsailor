@@ -1,0 +1,1 @@
+{"stepId":"2.1.28","accurate":true,"confidence":0.95,"issues":[],"notes":"All mapped items correctly resolve to step requirements. Quests properly limited to active progression (Ghosts Ahoy and Animal Magnetism). Cash stack correctly abstracted. Quantities match source where specified (2 undead chickens, 5 iron bars); water rune qty null is acceptable for unspecified amount."}

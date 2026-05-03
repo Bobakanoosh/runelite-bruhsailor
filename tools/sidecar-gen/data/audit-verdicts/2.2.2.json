@@ -1,0 +1,36 @@
+{
+  "stepId": "2.2.2",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    {
+      "severity": "high",
+      "field": "items",
+      "id": 3751,
+      "name": "Berserker helm",
+      "issue": "Listed as itemsNeeded but is actually sold away after quest completion; this is output not input"
+    },
+    {
+      "severity": "medium",
+      "field": "items",
+      "id": 1623,
+      "name": "Uncut sapphire",
+      "issue": "StepText specifies 'cut sapphire' but mapped to uncut (ID 1623); should verify if cutting is part of this step or use cut sapphire ID (1607)"
+    },
+    {
+      "severity": "medium",
+      "field": "items",
+      "id": 2359,
+      "name": "Mithril bar",
+      "issue": "StepText explicitly states '5 mithril bars' but qty is null in mapping; should be qty: 5"
+    },
+    {
+      "severity": "low",
+      "field": "items",
+      "id": 4819,
+      "name": "Bronze nails",
+      "issue": "Listed as itemsNeeded but only used to craft mithril nails at anvils; is intermediate processing. Consider removing or clarifying as intermediate material"
+    }
+  ],
+  "notes": "Mapping is mostly accurate with correct quest ID and valid abstractions. Primary issues: berserker helm should not be in itemsNeeded (it's sold back); sapphire type mismatch (uncut vs cut); mithril bar qty missing despite explicit '5 bars' in stepText. Bronze nails is debatable but lower impact. Food option (swordfish/choc bombs) appropriately unresolved. Abstract items (cash stack, melee gear) are genuine."
+}

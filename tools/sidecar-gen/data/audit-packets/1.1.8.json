@@ -1,0 +1,51 @@
+{
+  "stepId": "1.1.8",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Do Sheep Herder while fletching more logs, bring a spade to dig up clue hunter gloves and boots (http://i.imgur.com/sOD5Zhz.png)\n",
+  "itemsNeeded": "100 gp, knife, logs, spade",
+  "gpStack": "4719 gp",
+  "mapping": {
+    "questIds": [
+      "SHEEP_HERDER"
+    ],
+    "items": [
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 19691,
+        "name": "Clue hunter gloves",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 19695,
+        "name": "Clue hunter boots",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "100 gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

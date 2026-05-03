@@ -1,0 +1,29 @@
+{
+  "stepId": "3.1.14",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    {
+      "field": "questIds",
+      "severity": "high",
+      "description": "Contains 'WOODCUTTING' which is a skill, not a quest. No quests are actively started/progressed in this step. Should be empty array."
+    },
+    {
+      "field": "items",
+      "severity": "high",
+      "description": "Empty array but step requires multiple tangible items: adamant helm (x2), dragon helm schematic, lunar Plank Make spell/rune. These need resolution and addition."
+    },
+    {
+      "field": "unresolvedItems",
+      "severity": "medium",
+      "description": "Contains 5 items that should be resolvable: 'adamant helm', 'dragon helm schematic', 'lunar Plank Make' are valid game items; 'Shrouded Ocean, part 2.png' and 'Deepfin Point' are references/locations, acceptable as unresolved for now."
+    },
+    {
+      "field": "itemsNeeded",
+      "severity": "medium",
+      "description": "Marked 'tbd' but should reflect at minimum: adamant helm x2, dragon helm schematic, lunar Plank Make, cash (35k gp), woodcutting logs/planks."
+    }
+  ],
+  "notes": "Step contains clear item requirements but data structure doesn't capture them properly. questIds field incorrectly uses skill name. The step text is detailed and accurate; mapping structure needs correction to match guideline (questIds for actively started/progressed quests only, items[] for needed items, abstractItems for genuine abstractions). Unresolved items are acceptable for ambiguous references but concrete items should be resolved.",
+  "recommendation": "Correct questIds to [], resolve adamant helm and dragon helm schematic to items[], keep lunar Plank Make in unresolved if ambiguous (spell vs rune container). Update itemsNeeded from 'tbd' to accurate summary."
+}

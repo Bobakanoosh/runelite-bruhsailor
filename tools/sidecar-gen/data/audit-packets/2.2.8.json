@@ -1,0 +1,141 @@
+{
+  "stepId": "2.2.8",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Chronicle teleport, return the folder to Rat Burgiss for What Lies Below, teleport to Varrock and resume that quest until you have to use the wand on the chaos runecrafting altar. Bank, grab Earth Blast runes, an axe, 23 raw karambwanji, coins, anti-dragon shield, the items needed for Tai Bwo Wannai Trio (make sure to save the 2-dose agility pot for Making Friends with My Arm) and some food, head to Brimhaven via Barnaby. If you did not previously make a karamjan rum with sliced banana in it, purchase both components and make it now (requires a knife, use the knife on the banana before adding it to the rum). Speak with Lubufu to continue Tai Bwo Wannai Trio (droptrick to get two karambwan vessels), kill snakes for Rag and Bone Man II, enter the Brimhaven dungeon. In there chop the vines, use the stepping stones, climb the stairs, kill fire giants for Rag and Bone Man II and mage a bronze dragon for diary steps.\n",
+  "itemsNeeded": "cash stack, rune axe, earth runes (or staff), air runes (or staff), death runes, raw karambwanji, anti-dragon shield, melee gear, swordfish, energy potions, prayer potions, antipoison, steel spear, small fishing net, 4-dose agility potion, tinderbox, necklace of passage (for two sections ahead)",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "WHAT_LIES_BELOW",
+      "TAI_BWO_WANNAI_TRIO",
+      "RAG_AND_BONE_MAN_II",
+      "MAKING_FRIENDS_WITH_MY_ARM"
+    ],
+    "items": [
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3150,
+        "name": "Raw karambwanji",
+        "qty": 23,
+        "source": "items_needed"
+      },
+      {
+        "id": 1540,
+        "name": "Anti-dragon shield",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 175,
+        "name": "Antipoison(3)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1241,
+        "name": "Steel spear",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 303,
+        "name": "Small fishing net",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 431,
+        "name": "Karamjan rum",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 3162,
+        "name": "Sliced banana",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "cash stack",
+        "label": "cash stack"
+      },
+      {
+        "rawToken": "melee gear",
+        "label": "melee gear"
+      },
+      {
+        "rawToken": "food",
+        "label": "food"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "bronze dragon",
+        "qty": null
+      },
+      {
+        "rawToken": "earth runes (or staff)",
+        "qty": null
+      },
+      {
+        "rawToken": "air runes (or staff)",
+        "qty": null
+      },
+      {
+        "rawToken": "4-dose agility potion",
+        "qty": null
+      },
+      {
+        "rawToken": "necklace of passage (for two sections ahead)",
+        "qty": null
+      },
+      {
+        "rawToken": "the items needed for Tai Bwo Wannai Trio",
+        "qty": null
+      }
+    ]
+  }
+}

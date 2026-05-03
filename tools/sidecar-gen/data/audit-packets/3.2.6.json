@@ -1,0 +1,56 @@
+{
+  "stepId": "3.2.6",
+  "section": "3.2: Quest cape, quality of life",
+  "stepText": "Get a fire cape off task (if you don’t have one yet).\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "60m gp",
+  "mapping": {
+    "questIds": [
+      "FIGHT_CAVES"
+    ],
+    "items": [
+      {
+        "id": 6570,
+        "name": "Fire cape",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "60m gp"
+      },
+      {
+        "label": "food",
+        "rawToken": "food"
+      },
+      {
+        "label": "brews",
+        "rawToken": "brews"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "blood barrage",
+        "qty": null
+      },
+      {
+        "rawToken": "vengeance",
+        "qty": null
+      },
+      {
+        "rawToken": "divine ranged potion",
+        "qty": null
+      },
+      {
+        "rawToken": "thrall",
+        "qty": null
+      },
+      {
+        "rawToken": "spellbook swap",
+        "qty": null
+      }
+    ]
+  }
+}

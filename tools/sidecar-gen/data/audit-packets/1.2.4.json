@@ -1,0 +1,225 @@
+{
+  "stepId": "1.2.4",
+  "section": "1.2: Some fishing and thieving",
+  "stepText": "Use your chronicle to teleport to Varrock, buy one of each elemental staff from Zaff. Use clan chat “osrs soa” to find a partner. Collect the weapon store key from your Shield of Arrav partner and kill the Weaponsmaster to grab two Phoenix crossbows for Shield of Arrav (this fight may be tough, use magic and bread or cakes), take them to Katrine and collect the half of the Shield of Arrav. Finish the Shield of Arrav at the Varrock Museum (optional: do this earlier so you don’t make your partner wait). Grab your soda ash, sand, spade, leather gloves, strike runes and Falador tab. Take the quetzal to Varlamore, start and continue Ethically Acquired Antiquities until the step where you have to visit Port Sarim. Break your Falador tab, collect the portrait for The Knight’s Sword, speak with Sir Renitee for the diary, turn the soda ash and sand into molten glass. Kill a duck (with magic), complete Pirate’s Treasure. Now bank, grab raw beef, chicken and rat meat, an orange and blue dye (make the orange dye with red + yellow if needed), 2 iron ore, 4 copper ore, 6 clay, 2 cheese, your gp stack and a couple of food (3+ cakes or wines). Optional: swap one cheese for one cake/wine for Witch’s House. Run north, do Doric’s Quest. Go back east and start Below Ice Mountain at Wilow, safespot a bear on the trees north of Falador for the meat, fur and ribs. Complete Goblin Diplomacy, Witch’s House (there are safespots for all the forms of the Witch’s experiment!) and Druidic Ritual. Buy an eye of newt pack, an empty vial (not a pack) and a pestle and mortar from Jatix. Start Fishing Contest. Minigame teleport to clan wars and restore run energy at Ferox, bank and grab two iron bars, a POH tab, the portrait, a few (3-5) cakes and a pickaxe.\n",
+  "itemsNeeded": "5856 gp, 7 soda ash, 7 buckets of sand, spade, Falador tab, POH tab, wind staff, 1200 mind runes, raw bear meat, raw beef, raw chicken, rat meat, red dye, yellow dye, blue dye, bronze pickaxe, 2 iron ore, 4 copper ore, 6 clay, 2 cheese, 2 iron bars, leather gloves, cakes",
+  "gpStack": "27748 gp",
+  "mapping": {
+    "questIds": [
+      "SHIELD_OF_ARRAV",
+      "ETHICALLY_ACQUIRED_ANTIQUITIES",
+      "KNIGHTS_SWORD",
+      "PIRATES_TREASURE",
+      "DORICS_QUEST",
+      "BELOW_ICE_MOUNTAIN",
+      "GOBLIN_DIPLOMACY",
+      "WITCHS_HOUSE",
+      "DRUIDIC_RITUAL",
+      "FISHING_CONTEST"
+    ],
+    "items": [
+      {
+        "id": 1781,
+        "name": "Soda ash",
+        "qty": 7,
+        "source": "items_needed"
+      },
+      {
+        "id": 1783,
+        "name": "Bucket of sand",
+        "qty": 7,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8009,
+        "name": "Falador teleport",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8013,
+        "name": "Teleport to house",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 558,
+        "name": "Mind rune",
+        "qty": 1200,
+        "source": "items_needed"
+      },
+      {
+        "id": 2136,
+        "name": "Raw bear meat",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2132,
+        "name": "Raw beef",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2138,
+        "name": "Raw chicken",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2134,
+        "name": "Raw rat meat",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1763,
+        "name": "Red dye",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1765,
+        "name": "Yellow dye",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1767,
+        "name": "Blue dye",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1265,
+        "name": "Bronze pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 440,
+        "name": "Iron ore",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 436,
+        "name": "Copper ore",
+        "qty": 4,
+        "source": "items_needed"
+      },
+      {
+        "id": 434,
+        "name": "Clay",
+        "qty": 6,
+        "source": "items_needed"
+      },
+      {
+        "id": 1985,
+        "name": "Cheese",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 2351,
+        "name": "Iron bar",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 1059,
+        "name": "Leather gloves",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1891,
+        "name": "Cake",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 759,
+        "name": "Weapon store key",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 767,
+        "name": "Phoenix crossbow",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 2309,
+        "name": "Bread",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 233,
+        "name": "Pestle and mortar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 221,
+        "name": "Eye of newt",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 9085,
+        "name": "Empty vial",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "5856 gp"
+      },
+      {
+        "label": "gp stack",
+        "rawToken": "gp stack"
+      },
+      {
+        "label": "food",
+        "rawToken": "bread or cakes"
+      },
+      {
+        "label": "food",
+        "rawToken": "couple of food (3+ cakes or wines)"
+      },
+      {
+        "label": "food",
+        "rawToken": "few (3-5) cakes"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "elemental staff",
+        "qty": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "stepId": "1.4.10",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Blast Furnace minigame teleport, harvest the kelda hops, start the brewing/fermenting process. Teleport to Camelot and complete Holy Grail. \n",
+  "itemsNeeded": "225 gp, 2 barley malt, 2 buckets of water, holy grail, air runes, law rune",
+  "gpStack": "305290 gp",
+  "mapping": {
+    "questIds": [
+      "HOLY_GRAIL"
+    ],
+    "items": [
+      {
+        "id": 6008,
+        "name": "Barley malt",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 19,
+        "name": "Holy grail",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1929,
+        "name": "Bucket of water",
+        "qty": 2,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "225 gp",
+        "label": "gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

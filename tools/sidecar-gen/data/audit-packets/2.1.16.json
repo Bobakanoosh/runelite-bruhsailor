@@ -1,0 +1,113 @@
+{
+  "stepId": "2.1.16",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Run (or teleport) to Lumbridge. Start RFD/Evil Dave. Buy six buckets of milk, a pot of cream, two eggs, two pots of flour, five cheese, make two bowls of water and continue and complete Death to the Dorgeshuun (and light your mining helmet in the cellar for the diary along the way). Get a bullseye lantern (Dorgesh-kaan average chest), pickpocket a Dorgesh-kaan rich chest for the diary. Note: this requires 78 thieving.\n",
+  "itemsNeeded": "both HAM robe sets, games necklace, lockpick, light source, rune sword, swordfish, tinderbox, mining helmet",
+  "gpStack": "1.6m gp",
+  "mapping": {
+    "questIds": [
+      "RECIPE_FOR_DISASTER_EVIL_DAVE",
+      "DEATH_TO_THE_DORGESHUUN"
+    ],
+    "items": [
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1523,
+        "name": "Lockpick",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4548,
+        "name": "Bullseye lantern",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5013,
+        "name": "Mining helmet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1927,
+        "name": "Bucket of milk",
+        "qty": 6,
+        "source": "content"
+      },
+      {
+        "id": 2130,
+        "name": "Pot of cream",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1944,
+        "name": "Egg",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1933,
+        "name": "Pot of flour",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1985,
+        "name": "Cheese",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 1921,
+        "name": "Bowl of water",
+        "qty": 2,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "1.6m gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "HAM robe top",
+        "qty": null
+      },
+      {
+        "rawToken": "HAM robe bottom",
+        "qty": null
+      },
+      {
+        "rawToken": "both HAM robe sets",
+        "qty": null
+      }
+    ]
+  }
+}

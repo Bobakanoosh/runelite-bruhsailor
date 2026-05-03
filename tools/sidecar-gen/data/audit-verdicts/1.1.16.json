@@ -1,0 +1,1 @@
+{"stepId":"1.1.16","accurate":false,"confidence":0.75,"issues":["questIds contains 'WOODCUTTING' which is a skill activity, not a quest being actively progressed this step"],"notes":"Item mapping is accurate (steel axe, tinderbox, forestry kit, teak logs). Remove 'WOODCUTTING' from questIds as no quest is actively started/progressed this step."}

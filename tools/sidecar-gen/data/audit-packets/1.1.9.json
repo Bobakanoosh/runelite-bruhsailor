@@ -1,0 +1,123 @@
+{
+  "stepId": "1.1.9",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Take your gp, a small fishing net, knife and more logs (if you are running low: make sure to leave 10 in the bank for future quests), fletch as you move and take the boat to Brimhaven, buy a swamp paste, 7 soda ash, 7 buckets of sand, a cake tin and a glassblowing pipe from Trader Stan. Head to Kangai Mau in the Shrimp and Parrot to start Tribal Totem. Return to Witchhaven and do the Sea Slug quest. Fish a shrimp after the quest for Ardy diary. Buy a raw sardine, two fishing rods, a fly fishing rod, a harpoon, 10 fishing bait and a lobster pot from Lovecraft’s Tackle (Witchhaven). Continue Tribal Totem to the point where you collect the totem. Sell 73 silk back to the trader (leave 11 in the bank) for 60gp each and sell your oyster pearls to the general store.\n",
+  "itemsNeeded": "290gp, knife, logs, fishing net",
+  "gpStack": "9349 gp",
+  "mapping": {
+    "questIds": [
+      "SEA_SLUG",
+      "TRIBAL_TOTEM"
+    ],
+    "items": [
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 303,
+        "name": "Small fishing net",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1941,
+        "name": "Swamp paste",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1781,
+        "name": "Soda ash",
+        "qty": 7,
+        "source": "content"
+      },
+      {
+        "id": 1783,
+        "name": "Bucket of sand",
+        "qty": 7,
+        "source": "content"
+      },
+      {
+        "id": 1887,
+        "name": "Cake tin",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1785,
+        "name": "Glassblowing pipe",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 327,
+        "name": "Raw sardine",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 307,
+        "name": "Fishing rod",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 309,
+        "name": "Fly fishing rod",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 311,
+        "name": "Harpoon",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 313,
+        "name": "Fishing bait",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 301,
+        "name": "Lobster pot",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 950,
+        "name": "Silk",
+        "qty": 73,
+        "source": "content"
+      },
+      {
+        "id": 411,
+        "name": "Oyster pearl",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "290gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "shrimp",
+        "qty": 1
+      }
+    ]
+  }
+}

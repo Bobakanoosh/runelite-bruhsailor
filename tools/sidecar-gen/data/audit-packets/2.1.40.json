@@ -1,0 +1,37 @@
+{
+  "stepId": "2.1.40",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Using the route in 20260215OSRS39-45ChartingRoute.png(starting at the Tempor Tantrum), chart a good portion of the Unquiet Ocean. Once you reach the end of this trek, make sure your ship is stationary before drinking the bottle of alone at sea (a 75 second cutscene will play while your ship keeps moving if it’s not stationary!), then teleport out, minigame teleport to Port Khazard, recover your skiff, build an inoculation station and complete the mermaid diving charts in the Strait of Khazard and Gu’tanoth Bay. This completes the charting for the Ardent Ocean. Teleport to your POH and charter a ship to the Pandemonium, then collect the Ardent Ocean xp reward and the kraken ink stout (buy 25 of them) from Chartin’ Charles McAtless. Buy 48 whirlpool surprises from the Pandemonium pub. Build a keg on your skiff and fill it with whirlpool surprise.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "620k gp",
+  "mapping": {
+    "questIds": [
+      "PANDEMONIUM"
+    ],
+    "items": [],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "620k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "bottle of alone at sea",
+        "qty": 1
+      },
+      {
+        "rawToken": "medallion fragment",
+        "qty": 1
+      },
+      {
+        "rawToken": "kraken ink stout",
+        "qty": 25
+      },
+      {
+        "rawToken": "whirlpool surprise",
+        "qty": 48
+      }
+    ]
+  }
+}

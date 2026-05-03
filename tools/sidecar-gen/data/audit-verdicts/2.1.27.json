@@ -1,0 +1,12 @@
+{
+  "stepId": "2.1.27",
+  "accurate": false,
+  "confidence": 0.68,
+  "issues": [
+    "Missing air runes (required for Salve amulet teleport cast)",
+    "Dyes should resolve to specific item IDs in items[], not unresolvedItems (red dye: 1623, blue dye: 1621, yellow dye: 1619)",
+    "Missing Ectophial (alternative to ecto-tokens for Fenkenstrain teleport access)",
+    "Law runes mapped but no qty specified (need multiple for spell casts)"
+  ],
+  "notes": "Core quest items and most consumables present. Critical gaps: air runes for Salve teleport spell, and dye resolution. Ectophial is valid alternative progression path not captured. Confidence reduced due to spell rune omission affecting reachability of Old Crone."
+}

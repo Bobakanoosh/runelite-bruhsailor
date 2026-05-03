@@ -1,0 +1,43 @@
+{
+  "stepId": "3.1.6",
+  "accurate": false,
+  "confidence": 0.65,
+  "issues": [
+    {
+      "type": "items_not_needed",
+      "items": [
+        {
+          "id": 1739,
+          "name": "Cowhide",
+          "reason": "Not mentioned in step text"
+        },
+        {
+          "id": 237,
+          "name": "Unicorn horn",
+          "reason": "Not mentioned in step text"
+        },
+        {
+          "id": 3008,
+          "name": "Energy potion(4)",
+          "reason": "Not mentioned in step text"
+        }
+      ]
+    },
+    {
+      "type": "quest_not_active",
+      "questId": "TOWER_OF_LIFE",
+      "reason": "Not actively started or progressed in this step; appears to be leftover from previous section"
+    },
+    {
+      "type": "unresolved_ambiguous",
+      "item": "vile vigour",
+      "reason": "Item name unrecognized - possibly 'vigour ring' or typo"
+    }
+  ],
+  "notes": "Step text focuses on: sand purchasing, superglass make, glass blowing to 70 crafting, Pyramid Plunder sceptre collection, and gold artefact gathering. Unresolved items for glass, sceptre, gold artefact, superantipoison, and graceful are acceptable given they are intermediate/defensive/equipment items without fixed quantities. Recommend removing the three unneeded items, removing TOWER_OF_LIFE quest, and clarifying 'vile vigour' reference.",
+  "recommendations": [
+    "Remove items: Cowhide (1739), Unicorn horn (237), Energy potion(4) (3008)",
+    "Remove questId: TOWER_OF_LIFE",
+    "Verify and correct 'vile vigour' unresolved item (possibly typo)"
+  ]
+}

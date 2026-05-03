@@ -1,0 +1,9 @@
+{
+  "stepId": "1.4.13",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    "ENTER_THE_ABYSS should be questioned: step text shows quest is only completed/finalized (speak with Mage), not actively progressed. Verify if completion-only quests belong in questIds[] per rules."
+  ],
+  "notes": "Chronicle, cadava potion, scrying orb, kebab, beer correctly mapped. Abstract item '3 gp' correct. Unresolved beer glass appropriately flagged. Main concern: quest completion vs. active progression distinction for ENTER_THE_ABYSS."
+}

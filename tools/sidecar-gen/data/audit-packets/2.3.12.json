@@ -1,0 +1,25 @@
+{
+  "stepId": "2.3.12",
+  "section": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
+  "stepText": "Go to Edgeville dungeon, run into the wilderness and collect 5 red spider’s eggs (you can drop and pick up the same one five times), cross the handrail and kill an earth warrior. Go back to Edgeville, speak with the Emblem Trader. Collect the easy and medium wilderness diary rewards, putting the lamps on herblore.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "19.7m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 223,
+        "name": "Red spiders' eggs",
+        "qty": 5,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "19.7m gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

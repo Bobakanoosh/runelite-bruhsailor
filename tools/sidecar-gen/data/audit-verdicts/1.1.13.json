@@ -1,0 +1,10 @@
+{
+  "stepId": "1.1.13",
+  "accurate": false,
+  "confidence": 0.75,
+  "issues": [
+    "Steel axe (1353) included in items[] but stepText explicitly states 'later at wintertodt' - this is optional future equipment, not needed this step",
+    "BLACK_ARM_GANG quest included in questIds[] but stepText conditions it on 'If you plan to join' - this is optional/future progression, not actively progressed this step"
+  ],
+  "notes": "Core mapping is solid with accurate rune counts, beer quantities, and primary quests. However, Steel axe and BLACK_ARM_GANG should either be removed or marked as optional/future since the step explicitly defers them."
+}

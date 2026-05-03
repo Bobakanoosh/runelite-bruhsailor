@@ -1,0 +1,62 @@
+{
+  "stepId": "2.1.6",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Teleport to Falador, pay the estate agent to move your POH to Hosidius. Use Teak Homes (Mahogany Homes with Teak planks, Adept tier contracts only) for 352 carpenter points (88 completed contracts) while on the regular spellbook for transportation. Accept the cups of tea after contracts to restore run energy as necessary. Buy the plank sack. If you have excess logs (from wintertodt) cut them into arrow shafts as you run and make headless arrows (purchase feathers as necessary, you should have plenty from bird runs). \n",
+  "itemsNeeded": "pickaxe",
+  "gpStack": "2.0m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 8780,
+        "name": "Teak plank",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 52,
+        "name": "Arrow shaft",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 53,
+        "name": "Headless arrow",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 24882,
+        "name": "Plank sack",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "2.0m gp"
+      },
+      {
+        "label": "money for estate agent",
+        "rawToken": "POH move cost"
+      },
+      {
+        "label": "cups of tea (from contracts)",
+        "rawToken": "cups of tea"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "pickaxe",
+        "qty": null
+      }
+    ]
+  }
+}

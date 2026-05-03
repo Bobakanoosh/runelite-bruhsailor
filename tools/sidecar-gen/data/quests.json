@@ -1,0 +1,2261 @@
+{
+  "fetchedOn": "2026-05-02T21:47:37.313Z",
+  "quests": [
+    {
+      "enumName": "BELOW_ICE_MOUNTAIN",
+      "displayName": "Below Ice Mountain",
+      "aliases": [
+        "Below Ice Mountain"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "BLACK_KNIGHTS_FORTRESS",
+      "displayName": "Black Knights Fortress",
+      "aliases": [
+        "Black Knights Fortress"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "COOKS_ASSISTANT",
+      "displayName": "Cook's Assistant",
+      "aliases": [
+        "Cook's Assistant",
+        "Cooks Assistant"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_CORSAIR_CURSE",
+      "displayName": "The Corsair Curse",
+      "aliases": [
+        "The Corsair Curse"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DEMON_SLAYER",
+      "displayName": "Demon Slayer",
+      "aliases": [
+        "Demon Slayer"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DORICS_QUEST",
+      "displayName": "Doric's Quest",
+      "aliases": [
+        "Doric's Quest",
+        "Dorics Quest"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DRAGON_SLAYER_I",
+      "displayName": "Dragon Slayer I",
+      "aliases": [
+        "Dragon Slayer I",
+        "Dragon Slayer 1"
+      ],
+      "shortAliases": [
+        "DS",
+        "DS1"
+      ]
+    },
+    {
+      "enumName": "ERNEST_THE_CHICKEN",
+      "displayName": "Ernest the Chicken",
+      "aliases": [
+        "Ernest the Chicken"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "GOBLIN_DIPLOMACY",
+      "displayName": "Goblin Diplomacy",
+      "aliases": [
+        "Goblin Diplomacy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "IMP_CATCHER",
+      "displayName": "Imp Catcher",
+      "aliases": [
+        "Imp Catcher"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_IDES_OF_MILK",
+      "displayName": "The Ides of Milk",
+      "aliases": [
+        "The Ides of Milk"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_KNIGHTS_SWORD",
+      "displayName": "The Knights Sword",
+      "aliases": [
+        "The Knights Sword"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MISTHALIN_MYSTERY",
+      "displayName": "Misthalin Mystery",
+      "aliases": [
+        "Misthalin Mystery"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "PIRATES_TREASURE",
+      "displayName": "Pirates Treasure",
+      "aliases": [
+        "Pirates Treasure"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "PRINCE_ALI_RESCUE",
+      "displayName": "Prince Ali Rescue",
+      "aliases": [
+        "Prince Ali Rescue"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_RESTLESS_GHOST",
+      "displayName": "The Restless Ghost",
+      "aliases": [
+        "The Restless Ghost"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ROMEO__JULIET",
+      "displayName": "Romeo Juliet",
+      "aliases": [
+        "Romeo Juliet"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RUNE_MYSTERIES",
+      "displayName": "Rune Mysteries",
+      "aliases": [
+        "Rune Mysteries"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SHEEP_SHEARER",
+      "displayName": "Sheep Shearer",
+      "aliases": [
+        "Sheep Shearer"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SHIELD_OF_ARRAV_PHOENIX_GANG",
+      "displayName": "Shield of Arrav - Phoenix Gang",
+      "aliases": [
+        "Shield of Arrav - Phoenix Gang",
+        "Shield of Arrav Phoenix Gang"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SHIELD_OF_ARRAV_BLACK_ARM_GANG",
+      "displayName": "Shield of Arrav - Black Arm Gang",
+      "aliases": [
+        "Shield of Arrav - Black Arm Gang",
+        "Shield of Arrav Black Arm Gang"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "VAMPYRE_SLAYER",
+      "displayName": "Vampyre Slayer",
+      "aliases": [
+        "Vampyre Slayer"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WITCHS_POTION",
+      "displayName": "Witchs Potion",
+      "aliases": [
+        "Witchs Potion"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "X_MARKS_THE_SPOT",
+      "displayName": "X Marks the Spot",
+      "aliases": [
+        "X Marks the Spot",
+        "10 Marks the Spot"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ANIMAL_MAGNETISM",
+      "displayName": "Animal Magnetism",
+      "aliases": [
+        "Animal Magnetism"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ANOTHER_SLICE_OF_HAM",
+      "displayName": "Another Slice of Ham",
+      "aliases": [
+        "Another Slice of Ham"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "BENEATH_CURSED_SANDS",
+      "displayName": "Beneath Cursed Sands",
+      "aliases": [
+        "Beneath Cursed Sands"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "BETWEEN_A_ROCK",
+      "displayName": "Between a Rock",
+      "aliases": [
+        "Between a Rock"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "BIG_CHOMPY_BIRD_HUNTING",
+      "displayName": "Big Chompy Bird Hunting",
+      "aliases": [
+        "Big Chompy Bird Hunting"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "BIOHAZARD",
+      "displayName": "Biohazard",
+      "aliases": [
+        "Biohazard"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "CABIN_FEVER",
+      "displayName": "Cabin Fever",
+      "aliases": [
+        "Cabin Fever"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "CLOCK_TOWER",
+      "displayName": "Clock Tower",
+      "aliases": [
+        "Clock Tower"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "COLD_WAR",
+      "displayName": "Cold War",
+      "aliases": [
+        "Cold War"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "CONTACT",
+      "displayName": "Contact",
+      "aliases": [
+        "Contact"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "CREATURE_OF_FENKENSTRAIN",
+      "displayName": "Creature of Fenkenstrain",
+      "aliases": [
+        "Creature of Fenkenstrain"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DARKNESS_OF_HALLOWVALE",
+      "displayName": "Darkness of Hallowvale",
+      "aliases": [
+        "Darkness of Hallowvale"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DEATH_PLATEAU",
+      "displayName": "Death Plateau",
+      "aliases": [
+        "Death Plateau"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DEATH_TO_THE_DORGESHUUN",
+      "displayName": "Death to the Dorgeshuun",
+      "aliases": [
+        "Death to the Dorgeshuun"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_DEPTHS_OF_DESPAIR",
+      "displayName": "The Depths of Despair",
+      "aliases": [
+        "The Depths of Despair"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DESERT_TREASURE",
+      "displayName": "Desert Treasure",
+      "aliases": [
+        "Desert Treasure"
+      ],
+      "shortAliases": [
+        "DT"
+      ]
+    },
+    {
+      "enumName": "DESERT_TREASURE_II",
+      "displayName": "Desert Treasure II",
+      "aliases": [
+        "Desert Treasure II",
+        "Desert Treasure 2"
+      ],
+      "shortAliases": [
+        "DT2",
+        "DTII"
+      ]
+    },
+    {
+      "enumName": "DEVIOUS_MINDS",
+      "displayName": "Devious Minds",
+      "aliases": [
+        "Devious Minds"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_DIG_SITE",
+      "displayName": "The Dig Site",
+      "aliases": [
+        "The Dig Site"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DRAGON_SLAYER_II",
+      "displayName": "Dragon Slayer II",
+      "aliases": [
+        "Dragon Slayer II",
+        "Dragon Slayer 2"
+      ],
+      "shortAliases": [
+        "DS2",
+        "DSII"
+      ]
+    },
+    {
+      "enumName": "DREAM_MENTOR",
+      "displayName": "Dream Mentor",
+      "aliases": [
+        "Dream Mentor"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DRUIDIC_RITUAL",
+      "displayName": "Druidic Ritual",
+      "aliases": [
+        "Druidic Ritual"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DWARF_CANNON",
+      "displayName": "Dwarf Cannon",
+      "aliases": [
+        "Dwarf Cannon"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "EADGARS_RUSE",
+      "displayName": "Eadgars Ruse",
+      "aliases": [
+        "Eadgars Ruse"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "EAGLES_PEAK",
+      "displayName": "Eagles Peak",
+      "aliases": [
+        "Eagles Peak"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ELEMENTAL_WORKSHOP_I",
+      "displayName": "Elemental Workshop I",
+      "aliases": [
+        "Elemental Workshop I",
+        "Elemental Workshop 1"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ELEMENTAL_WORKSHOP_II",
+      "displayName": "Elemental Workshop II",
+      "aliases": [
+        "Elemental Workshop II",
+        "Elemental Workshop 2"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ENAKHRAS_LAMENT",
+      "displayName": "Enakhras Lament",
+      "aliases": [
+        "Enakhras Lament"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ENLIGHTENED_JOURNEY",
+      "displayName": "Enlightened Journey",
+      "aliases": [
+        "Enlightened Journey"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_EYES_OF_GLOUPHRIE",
+      "displayName": "The Eyes of Glouphrie",
+      "aliases": [
+        "The Eyes of Glouphrie"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_PATH_OF_GLOUPHRIE",
+      "displayName": "The Path of Glouphrie",
+      "aliases": [
+        "The Path of Glouphrie"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FAIRYTALE_I__GROWING_PAINS",
+      "displayName": "Fairytale I Growing Pains",
+      "aliases": [
+        "Fairytale I Growing Pains",
+        "Fairytale 1 Growing Pains"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FAIRYTALE_II__CURE_A_QUEEN",
+      "displayName": "Fairytale II Cure a Queen",
+      "aliases": [
+        "Fairytale II Cure a Queen",
+        "Fairytale 2 Cure a Queen"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FAMILY_CREST",
+      "displayName": "Family Crest",
+      "aliases": [
+        "Family Crest"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_FEUD",
+      "displayName": "The Feud",
+      "aliases": [
+        "The Feud"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FIGHT_ARENA",
+      "displayName": "Fight Arena",
+      "aliases": [
+        "Fight Arena"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FISHING_CONTEST",
+      "displayName": "Fishing Contest",
+      "aliases": [
+        "Fishing Contest"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FORGETTABLE_TALE",
+      "displayName": "Forgettable Tale",
+      "aliases": [
+        "Forgettable Tale"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "BONE_VOYAGE",
+      "displayName": "Bone Voyage",
+      "aliases": [
+        "Bone Voyage"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_FREMENNIK_ISLES",
+      "displayName": "The Fremennik Isles",
+      "aliases": [
+        "The Fremennik Isles"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_FREMENNIK_TRIALS",
+      "displayName": "The Fremennik Trials",
+      "aliases": [
+        "The Fremennik Trials"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "GARDEN_OF_TRANQUILLITY",
+      "displayName": "Garden of Tranquillity",
+      "aliases": [
+        "Garden of Tranquillity"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "GERTRUDES_CAT",
+      "displayName": "Gertrudes Cat",
+      "aliases": [
+        "Gertrudes Cat"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "GHOSTS_AHOY",
+      "displayName": "Ghosts Ahoy",
+      "aliases": [
+        "Ghosts Ahoy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_GIANT_DWARF",
+      "displayName": "The Giant Dwarf",
+      "aliases": [
+        "The Giant Dwarf"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_GOLEM",
+      "displayName": "The Golem",
+      "aliases": [
+        "The Golem"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_GRAND_TREE",
+      "displayName": "The Grand Tree",
+      "aliases": [
+        "The Grand Tree"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_GREAT_BRAIN_ROBBERY",
+      "displayName": "The Great Brain Robbery",
+      "aliases": [
+        "The Great Brain Robbery"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "GRIM_TALES",
+      "displayName": "Grim Tales",
+      "aliases": [
+        "Grim Tales"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_HAND_IN_THE_SAND",
+      "displayName": "The Hand in the Sand",
+      "aliases": [
+        "The Hand in the Sand"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "HAUNTED_MINE",
+      "displayName": "Haunted Mine",
+      "aliases": [
+        "Haunted Mine"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "HAZEEL_CULT",
+      "displayName": "Hazeel Cult",
+      "aliases": [
+        "Hazeel Cult"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "HEROES_QUEST",
+      "displayName": "Heroes Quest",
+      "aliases": [
+        "Heroes Quest"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "HOLY_GRAIL",
+      "displayName": "Holy Grail",
+      "aliases": [
+        "Holy Grail"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "HORROR_FROM_THE_DEEP",
+      "displayName": "Horror From the Deep",
+      "aliases": [
+        "Horror From the Deep"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ICTHLARINS_LITTLE_HELPER",
+      "displayName": "Icthlarins Little Helper",
+      "aliases": [
+        "Icthlarins Little Helper"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "IN_AID_OF_THE_MYREQUE",
+      "displayName": "In Aid of the Myreque",
+      "aliases": [
+        "In Aid of the Myreque"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "IN_SEARCH_OF_THE_MYREQUE",
+      "displayName": "In Search of the Myreque",
+      "aliases": [
+        "In Search of the Myreque"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "JUNGLE_POTION",
+      "displayName": "Jungle Potion",
+      "aliases": [
+        "Jungle Potion"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KINGS_RANSOM",
+      "displayName": "Kings Ransom",
+      "aliases": [
+        "Kings Ransom"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "LAND_OF_THE_GOBLINS",
+      "displayName": "Land of the Goblins",
+      "aliases": [
+        "Land of the Goblins"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "LEGENDS_QUEST",
+      "displayName": "Legends Quest",
+      "aliases": [
+        "Legends Quest"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "LOST_CITY",
+      "displayName": "Lost City",
+      "aliases": [
+        "Lost City"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_LOST_TRIBE",
+      "displayName": "The Lost Tribe",
+      "aliases": [
+        "The Lost Tribe"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "LUNAR_DIPLOMACY",
+      "displayName": "Lunar Diplomacy",
+      "aliases": [
+        "Lunar Diplomacy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MAKING_FRIENDS_WITH_MY_ARM",
+      "displayName": "Making Friends With My Arm",
+      "aliases": [
+        "Making Friends With My Arm"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MAKING_HISTORY",
+      "displayName": "Making History",
+      "aliases": [
+        "Making History"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MERLINS_CRYSTAL",
+      "displayName": "Merlins Crystal",
+      "aliases": [
+        "Merlins Crystal"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MONKEY_MADNESS_I",
+      "displayName": "Monkey Madness I",
+      "aliases": [
+        "Monkey Madness I",
+        "Monkey Madness 1"
+      ],
+      "shortAliases": [
+        "MM",
+        "MM1"
+      ]
+    },
+    {
+      "enumName": "MONKEY_MADNESS_II",
+      "displayName": "Monkey Madness II",
+      "aliases": [
+        "Monkey Madness II",
+        "Monkey Madness 2"
+      ],
+      "shortAliases": [
+        "MM2",
+        "MMII"
+      ]
+    },
+    {
+      "enumName": "MONKS_FRIEND",
+      "displayName": "Monks Friend",
+      "aliases": [
+        "Monks Friend"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MOUNTAIN_DAUGHTER",
+      "displayName": "Mountain Daughter",
+      "aliases": [
+        "Mountain Daughter"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MOURNINGS_END_PART_I",
+      "displayName": "Mournings End Part I",
+      "aliases": [
+        "Mournings End Part I",
+        "Mournings End Part 1"
+      ],
+      "shortAliases": [
+        "MEP",
+        "MEP1"
+      ]
+    },
+    {
+      "enumName": "MOURNINGS_END_PART_II",
+      "displayName": "Mournings End Part II",
+      "aliases": [
+        "Mournings End Part II",
+        "Mournings End Part 2"
+      ],
+      "shortAliases": [
+        "MEP2",
+        "MEPII"
+      ]
+    },
+    {
+      "enumName": "MURDER_MYSTERY",
+      "displayName": "Murder Mystery",
+      "aliases": [
+        "Murder Mystery"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MY_ARMS_BIG_ADVENTURE",
+      "displayName": "My Arms Big Adventure",
+      "aliases": [
+        "My Arms Big Adventure"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "NATURE_SPIRIT",
+      "displayName": "Nature Spirit",
+      "aliases": [
+        "Nature Spirit"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "OBSERVATORY_QUEST",
+      "displayName": "Observatory Quest",
+      "aliases": [
+        "Observatory Quest"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "OLAFS_QUEST",
+      "displayName": "Olafs Quest",
+      "aliases": [
+        "Olafs Quest"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ONE_SMALL_FAVOUR",
+      "displayName": "One Small Favour",
+      "aliases": [
+        "One Small Favour"
+      ],
+      "shortAliases": [
+        "OSF"
+      ]
+    },
+    {
+      "enumName": "PLAGUE_CITY",
+      "displayName": "Plague City",
+      "aliases": [
+        "Plague City"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "PRIEST_IN_PERIL",
+      "displayName": "Priest in Peril",
+      "aliases": [
+        "Priest in Peril"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_QUEEN_OF_THIEVES",
+      "displayName": "The Queen of Thieves",
+      "aliases": [
+        "The Queen of Thieves"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RAG_AND_BONE_MAN_I",
+      "displayName": "Rag and Bone Man I",
+      "aliases": [
+        "Rag and Bone Man I",
+        "Rag and Bone Man 1"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RAG_AND_BONE_MAN_II",
+      "displayName": "Rag and Bone Man II",
+      "aliases": [
+        "Rag and Bone Man II",
+        "Rag and Bone Man 2"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RATCATCHERS",
+      "displayName": "Ratcatchers",
+      "aliases": [
+        "Ratcatchers"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RECIPE_FOR_DISASTER_START",
+      "displayName": "RFD - Start",
+      "aliases": [
+        "RFD - Start",
+        "Recipe For Disaster Start"
+      ],
+      "shortAliases": [
+        "RFD"
+      ]
+    },
+    {
+      "enumName": "RECIPE_FOR_DISASTER_DWARF",
+      "displayName": "RFD - Dwarf",
+      "aliases": [
+        "RFD - Dwarf",
+        "Recipe For Disaster Dwarf",
+        "RFD Dwarf"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RECIPE_FOR_DISASTER_WARTFACE_AND_BENTNOZE",
+      "displayName": "RFD - Wartface & Bentnoze",
+      "aliases": [
+        "RFD - Wartface & Bentnoze",
+        "Recipe For Disaster Wartface and Bentnoze",
+        "RFD Goblin",
+        "RFD Goblins"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RECIPE_FOR_DISASTER_PIRATE_PETE",
+      "displayName": "RFD - Pirate Pete",
+      "aliases": [
+        "RFD - Pirate Pete",
+        "Recipe For Disaster Pirate Pete",
+        "RFD Pirate"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RECIPE_FOR_DISASTER_LUMBRIDGE_GUIDE",
+      "displayName": "RFD - Lumbridge Guide",
+      "aliases": [
+        "RFD - Lumbridge Guide",
+        "Recipe For Disaster Lumbridge Guide",
+        "RFD Lumbridge"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RECIPE_FOR_DISASTER_EVIL_DAVE",
+      "displayName": "RFD - Evil Dave",
+      "aliases": [
+        "RFD - Evil Dave",
+        "Recipe For Disaster Evil Dave",
+        "RFD Evil"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RECIPE_FOR_DISASTER_MONKEY_AMBASSADOR",
+      "displayName": "RFD - Monkey Ambassador",
+      "aliases": [
+        "RFD - Monkey Ambassador",
+        "Recipe For Disaster Monkey Ambassador",
+        "RFD Awowogei",
+        "Awowogei"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RECIPE_FOR_DISASTER_SIR_AMIK_VARZE",
+      "displayName": "RFD - Sir Amik Varze",
+      "aliases": [
+        "RFD - Sir Amik Varze",
+        "Recipe For Disaster Sir Amik Varze",
+        "RFD Sir",
+        "RFD Varze"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RECIPE_FOR_DISASTER_SKRACH_UGLOGWEE",
+      "displayName": "RFD - Skrach Uglogwee",
+      "aliases": [
+        "RFD - Skrach Uglogwee",
+        "Recipe For Disaster Skrach Uglogwee",
+        "RFD Skrach"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RECIPE_FOR_DISASTER_FINALE",
+      "displayName": "RFD - Finale",
+      "aliases": [
+        "RFD - Finale",
+        "Recipe For Disaster Finale"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RECRUITMENT_DRIVE",
+      "displayName": "Recruitment Drive",
+      "aliases": [
+        "Recruitment Drive"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "REGICIDE",
+      "displayName": "Regicide",
+      "aliases": [
+        "Regicide"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ROVING_ELVES",
+      "displayName": "Roving Elves",
+      "aliases": [
+        "Roving Elves"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ROYAL_TROUBLE",
+      "displayName": "Royal Trouble",
+      "aliases": [
+        "Royal Trouble"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "RUM_DEAL",
+      "displayName": "Rum Deal",
+      "aliases": [
+        "Rum Deal"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SCORPION_CATCHER",
+      "displayName": "Scorpion Catcher",
+      "aliases": [
+        "Scorpion Catcher"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SEA_SLUG",
+      "displayName": "Sea Slug",
+      "aliases": [
+        "Sea Slug"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SHADES_OF_MORTTON",
+      "displayName": "Shades of Mortton",
+      "aliases": [
+        "Shades of Mortton"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SHADOW_OF_THE_STORM",
+      "displayName": "Shadow of the Storm",
+      "aliases": [
+        "Shadow of the Storm"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SHEEP_HERDER",
+      "displayName": "Sheep Herder",
+      "aliases": [
+        "Sheep Herder"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SHILO_VILLAGE",
+      "displayName": "Shilo Village",
+      "aliases": [
+        "Shilo Village"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SLEEPING_GIANTS",
+      "displayName": "Sleeping Giants",
+      "aliases": [
+        "Sleeping Giants"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_SLUG_MENACE",
+      "displayName": "The Slug Menace",
+      "aliases": [
+        "The Slug Menace"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "A_SOULS_BANE",
+      "displayName": "A Souls Bane",
+      "aliases": [
+        "A Souls Bane"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SPIRITS_OF_THE_ELID",
+      "displayName": "Spirits of the Elid",
+      "aliases": [
+        "Spirits of the Elid"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SWAN_SONG",
+      "displayName": "Swan Song",
+      "aliases": [
+        "Swan Song"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "TAI_BWO_WANNAI_TRIO",
+      "displayName": "Tai Bwo Wannai Trio",
+      "aliases": [
+        "Tai Bwo Wannai Trio"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "A_TAIL_OF_TWO_CATS",
+      "displayName": "A Tail of Two Cats",
+      "aliases": [
+        "A Tail of Two Cats"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "TALE_OF_THE_RIGHTEOUS",
+      "displayName": "Tale of the Righteous",
+      "aliases": [
+        "Tale of the Righteous"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "A_TASTE_OF_HOPE",
+      "displayName": "A Taste of Hope",
+      "aliases": [
+        "A Taste of Hope"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "TEARS_OF_GUTHIX",
+      "displayName": "Tears of Guthix",
+      "aliases": [
+        "Tears of Guthix"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "TEMPLE_OF_IKOV",
+      "displayName": "Temple of Ikov",
+      "aliases": [
+        "Temple of Ikov"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "TEMPLE_OF_THE_EYE",
+      "displayName": "Temple of the Eye",
+      "aliases": [
+        "Temple of the Eye"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THRONE_OF_MISCELLANIA",
+      "displayName": "Throne of Miscellania",
+      "aliases": [
+        "Throne of Miscellania"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_TOURIST_TRAP",
+      "displayName": "The Tourist Trap",
+      "aliases": [
+        "The Tourist Trap"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "TOWER_OF_LIFE",
+      "displayName": "Tower of Life",
+      "aliases": [
+        "Tower of Life"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "TREE_GNOME_VILLAGE",
+      "displayName": "Tree Gnome Village",
+      "aliases": [
+        "Tree Gnome Village"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "TRIBAL_TOTEM",
+      "displayName": "Tribal Totem",
+      "aliases": [
+        "Tribal Totem"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "TROLL_ROMANCE",
+      "displayName": "Troll Romance",
+      "aliases": [
+        "Troll Romance"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "TROLL_STRONGHOLD",
+      "displayName": "Troll Stronghold",
+      "aliases": [
+        "Troll Stronghold"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "UNDERGROUND_PASS",
+      "displayName": "Underground Pass",
+      "aliases": [
+        "Underground Pass"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "CLIENT_OF_KOUREND",
+      "displayName": "Client of Kourend",
+      "aliases": [
+        "Client of Kourend"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WANTED",
+      "displayName": "Wanted",
+      "aliases": [
+        "Wanted"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WATCHTOWER",
+      "displayName": "Watchtower",
+      "aliases": [
+        "Watchtower"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WATERFALL_QUEST",
+      "displayName": "Waterfall Quest",
+      "aliases": [
+        "Waterfall Quest"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WHAT_LIES_BELOW",
+      "displayName": "What Lies Below",
+      "aliases": [
+        "What Lies Below"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WITCHS_HOUSE",
+      "displayName": "Witchs House",
+      "aliases": [
+        "Witchs House"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ZOGRE_FLESH_EATERS",
+      "displayName": "Zogre Flesh Eaters",
+      "aliases": [
+        "Zogre Flesh Eaters"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_ASCENT_OF_ARCEUUS",
+      "displayName": "The Ascent of Arceuus",
+      "aliases": [
+        "The Ascent of Arceuus"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_FORSAKEN_TOWER",
+      "displayName": "The Forsaken Tower",
+      "aliases": [
+        "The Forsaken Tower"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SONG_OF_THE_ELVES",
+      "displayName": "Song of the Elves",
+      "aliases": [
+        "Song of the Elves"
+      ],
+      "shortAliases": [
+        "SOTE"
+      ]
+    },
+    {
+      "enumName": "THE_FREMENNIK_EXILES",
+      "displayName": "The Fremennik Exiles",
+      "aliases": [
+        "The Fremennik Exiles"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SINS_OF_THE_FATHER",
+      "displayName": "Sins of the Father",
+      "aliases": [
+        "Sins of the Father"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "GETTING_AHEAD",
+      "displayName": "Getting Ahead",
+      "aliases": [
+        "Getting Ahead"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "A_PORCINE_OF_INTEREST",
+      "displayName": "A Porcine of Interest",
+      "aliases": [
+        "A Porcine of Interest"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "A_KINGDOM_DIVIDED",
+      "displayName": "A Kingdom Divided",
+      "aliases": [
+        "A Kingdom Divided"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "A_NIGHT_AT_THE_THEATRE",
+      "displayName": "A Night At the Theatre",
+      "aliases": [
+        "A Night At the Theatre"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_GARDEN_OF_DEATH",
+      "displayName": "The Garden of Death",
+      "aliases": [
+        "The Garden of Death"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SECRETS_OF_THE_NORTH",
+      "displayName": "Secrets of the North",
+      "aliases": [
+        "Secrets of the North"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "CHILDREN_OF_THE_SUN",
+      "displayName": "Children of the Sun",
+      "aliases": [
+        "Children of the Sun"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DEFENDER_OF_VARROCK",
+      "displayName": "Defender of Varrock",
+      "aliases": [
+        "Defender of Varrock"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "AT_FIRST_LIGHT",
+      "displayName": "At First Light",
+      "aliases": [
+        "At First Light"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "PERILOUS_MOON",
+      "displayName": "Perilous Moon",
+      "aliases": [
+        "Perilous Moon"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_RIBBITING_TALE_OF_A_LILY_PAD_LABOUR_DISPUTE",
+      "displayName": "The Ribbiting Tale of a Lily Pad Labour Dispute",
+      "aliases": [
+        "The Ribbiting Tale of a Lily Pad Labour Dispute"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "TWILIGHTS_PROMISE",
+      "displayName": "Twilights Promise",
+      "aliases": [
+        "Twilights Promise"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WHILE_GUTHIX_SLEEPS",
+      "displayName": "While Guthix Sleeps",
+      "aliases": [
+        "While Guthix Sleeps"
+      ],
+      "shortAliases": [
+        "WGS"
+      ]
+    },
+    {
+      "enumName": "ETHICALLY_ACQUIRED_ANTIQUITIES",
+      "displayName": "Ethically Acquired Antiquities",
+      "aliases": [
+        "Ethically Acquired Antiquities"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DEATH_ON_THE_ISLE",
+      "displayName": "Death on the Isle",
+      "aliases": [
+        "Death on the Isle"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MEAT_AND_GREET",
+      "displayName": "Meat and Greet",
+      "aliases": [
+        "Meat and Greet"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_HEART_OF_DARKNESS",
+      "displayName": "The Heart of Darkness",
+      "aliases": [
+        "The Heart of Darkness"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_CURSE_OF_ARRAV",
+      "displayName": "The Curse of Arrav",
+      "aliases": [
+        "The Curse of Arrav"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_FINAL_DAWN",
+      "displayName": "The Final Dawn",
+      "aliases": [
+        "The Final Dawn"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SHADOWS_OF_CUSTODIA",
+      "displayName": "Shadows of Custodia",
+      "aliases": [
+        "Shadows of Custodia"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SCRAMBLED",
+      "displayName": "Scrambled",
+      "aliases": [
+        "Scrambled"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "PANDEMONIUM",
+      "displayName": "Pandemonium",
+      "aliases": [
+        "Pandemonium"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "PRYING_TIMES",
+      "displayName": "Prying Times",
+      "aliases": [
+        "Prying Times"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "CURRENT_AFFAIRS",
+      "displayName": "Current Affairs",
+      "aliases": [
+        "Current Affairs"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "TROUBLED_TORTUGANS",
+      "displayName": "Troubled Tortugans",
+      "aliases": [
+        "Troubled Tortugans"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ENTER_THE_ABYSS",
+      "displayName": "Enter the Abyss",
+      "aliases": [
+        "Enter the Abyss"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "BEAR_YOUR_SOUL",
+      "displayName": "Bear Your Soul",
+      "aliases": [
+        "Bear Your Soul"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ALFRED_GRIMHANDS_BARCRAWL",
+      "displayName": "Alfred Grimhands Barcrawl",
+      "aliases": [
+        "Alfred Grimhands Barcrawl"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "CURSE_OF_THE_EMPTY_LORD",
+      "displayName": "Curse of the Empty Lord",
+      "aliases": [
+        "Curse of the Empty Lord"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ENCHANTED_KEY",
+      "displayName": "Enchanted Key",
+      "aliases": [
+        "Enchanted Key"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_GENERALS_SHADOW",
+      "displayName": "The Generals Shadow",
+      "aliases": [
+        "The Generals Shadow"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SKIPPY_AND_THE_MOGRES",
+      "displayName": "Skippy and the Mogres",
+      "aliases": [
+        "Skippy and the Mogres"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_MAGE_ARENA",
+      "displayName": "The Mage Arena",
+      "aliases": [
+        "The Mage Arena"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "LAIR_OF_TARN_RAZORLOR",
+      "displayName": "Lair of Tarn Razorlor",
+      "aliases": [
+        "Lair of Tarn Razorlor"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FAMILY_PEST",
+      "displayName": "Family Pest",
+      "aliases": [
+        "Family Pest"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_MAGE_ARENA_II",
+      "displayName": "The Mage Arena II",
+      "aliases": [
+        "The Mage Arena II",
+        "The Mage Arena 2"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "IN_SEARCH_OF_KNOWLEDGE",
+      "displayName": "In Search of Knowledge",
+      "aliases": [
+        "In Search of Knowledge"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DADDYS_HOME",
+      "displayName": "Daddys Home",
+      "aliases": [
+        "Daddys Home"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "HOPESPEARS_WILL",
+      "displayName": "Hopespears Will",
+      "aliases": [
+        "Hopespears Will"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "HIS_FAITHFUL_SERVANTS",
+      "displayName": "His Faithful Servants",
+      "aliases": [
+        "His Faithful Servants"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "BARBARIAN_TRAINING",
+      "displayName": "Barbarian Training",
+      "aliases": [
+        "Barbarian Training"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "VALE_TOTEMS",
+      "displayName": "Vale Totems",
+      "aliases": [
+        "Vale Totems"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KNIGHT_WAVES_TRAINING_GROUNDS",
+      "displayName": "Knight Waves Training Grounds",
+      "aliases": [
+        "Knight Waves Training Grounds"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ARDOUGNE_EASY",
+      "displayName": "Ardougne Easy Diary",
+      "aliases": [
+        "Ardougne Easy Diary",
+        "Ardougne Easy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ARDOUGNE_MEDIUM",
+      "displayName": "Ardougne Medium Diary",
+      "aliases": [
+        "Ardougne Medium Diary",
+        "Ardougne Medium"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ARDOUGNE_HARD",
+      "displayName": "Ardougne Hard Diary",
+      "aliases": [
+        "Ardougne Hard Diary",
+        "Ardougne Hard"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "ARDOUGNE_ELITE",
+      "displayName": "Ardougne Elite Diary",
+      "aliases": [
+        "Ardougne Elite Diary",
+        "Ardougne Elite"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DESERT_EASY",
+      "displayName": "Desert Easy Diary",
+      "aliases": [
+        "Desert Easy Diary",
+        "Desert Easy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DESERT_MEDIUM",
+      "displayName": "Desert Medium Diary",
+      "aliases": [
+        "Desert Medium Diary",
+        "Desert Medium"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DESERT_HARD",
+      "displayName": "Desert Hard Diary",
+      "aliases": [
+        "Desert Hard Diary",
+        "Desert Hard"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DESERT_ELITE",
+      "displayName": "Desert Elite Diary",
+      "aliases": [
+        "Desert Elite Diary",
+        "Desert Elite"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FALADOR_EASY",
+      "displayName": "Falador Easy Diary",
+      "aliases": [
+        "Falador Easy Diary",
+        "Falador Easy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FALADOR_MEDIUM",
+      "displayName": "Falador Medium Diary",
+      "aliases": [
+        "Falador Medium Diary",
+        "Falador Medium"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FALADOR_HARD",
+      "displayName": "Falador Hard Diary",
+      "aliases": [
+        "Falador Hard Diary",
+        "Falador Hard"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FALADOR_ELITE",
+      "displayName": "Falador Elite Diary",
+      "aliases": [
+        "Falador Elite Diary",
+        "Falador Elite"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FREMENNIK_EASY",
+      "displayName": "Fremennik Easy Diary",
+      "aliases": [
+        "Fremennik Easy Diary",
+        "Fremennik Easy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FREMENNIK_MEDIUM",
+      "displayName": "Fremennik Medium Diary",
+      "aliases": [
+        "Fremennik Medium Diary",
+        "Fremennik Medium"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FREMENNIK_HARD",
+      "displayName": "Fremennik Hard Diary",
+      "aliases": [
+        "Fremennik Hard Diary",
+        "Fremennik Hard"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FREMENNIK_ELITE",
+      "displayName": "Fremennik Elite Diary",
+      "aliases": [
+        "Fremennik Elite Diary",
+        "Fremennik Elite"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KANDARIN_EASY",
+      "displayName": "Kandarin Easy Diary",
+      "aliases": [
+        "Kandarin Easy Diary",
+        "Kandarin Easy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KANDARIN_MEDIUM",
+      "displayName": "Kandarin Medium Diary",
+      "aliases": [
+        "Kandarin Medium Diary",
+        "Kandarin Medium"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KANDARIN_HARD",
+      "displayName": "Kandarin Hard Diary",
+      "aliases": [
+        "Kandarin Hard Diary",
+        "Kandarin Hard"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KANDARIN_ELITE",
+      "displayName": "Kandarin Elite Diary",
+      "aliases": [
+        "Kandarin Elite Diary",
+        "Kandarin Elite"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KARAMJA_EASY",
+      "displayName": "Karamja Easy Diary",
+      "aliases": [
+        "Karamja Easy Diary",
+        "Karamja Easy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KARAMJA_MEDIUM",
+      "displayName": "Karamja Medium Diary",
+      "aliases": [
+        "Karamja Medium Diary",
+        "Karamja Medium"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KARAMJA_HARD",
+      "displayName": "Karamja Hard Diary",
+      "aliases": [
+        "Karamja Hard Diary",
+        "Karamja Hard"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KARAMJA_ELITE",
+      "displayName": "Karamja Elite Diary",
+      "aliases": [
+        "Karamja Elite Diary",
+        "Karamja Elite"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KOUREND_EASY",
+      "displayName": "Kourend & Kebos Easy Diary",
+      "aliases": [
+        "Kourend & Kebos Easy Diary",
+        "Kourend Easy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KOUREND_MEDIUM",
+      "displayName": "Kourend & Kebos Medium Diary",
+      "aliases": [
+        "Kourend & Kebos Medium Diary",
+        "Kourend Medium"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KOUREND_HARD",
+      "displayName": "Kourend & Kebos Hard Diary",
+      "aliases": [
+        "Kourend & Kebos Hard Diary",
+        "Kourend Hard"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "KOUREND_ELITE",
+      "displayName": "Kourend & Kebos Elite Diary",
+      "aliases": [
+        "Kourend & Kebos Elite Diary",
+        "Kourend Elite"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "LUMBRIDGE_EASY",
+      "displayName": "Lumbridge & Draynor Easy Diary",
+      "aliases": [
+        "Lumbridge & Draynor Easy Diary",
+        "Lumbridge Easy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "LUMBRIDGE_MEDIUM",
+      "displayName": "Lumbridge & Draynor Medium Diary",
+      "aliases": [
+        "Lumbridge & Draynor Medium Diary",
+        "Lumbridge Medium"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "LUMBRIDGE_HARD",
+      "displayName": "Lumbridge & Draynor Hard Diary",
+      "aliases": [
+        "Lumbridge & Draynor Hard Diary",
+        "Lumbridge Hard"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "LUMBRIDGE_ELITE",
+      "displayName": "Lumbridge & Draynor Elite Diary",
+      "aliases": [
+        "Lumbridge & Draynor Elite Diary",
+        "Lumbridge Elite"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MORYTANIA_EASY",
+      "displayName": "Morytania Easy Diary",
+      "aliases": [
+        "Morytania Easy Diary",
+        "Morytania Easy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MORYTANIA_MEDIUM",
+      "displayName": "Morytania Medium Diary",
+      "aliases": [
+        "Morytania Medium Diary",
+        "Morytania Medium"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MORYTANIA_HARD",
+      "displayName": "Morytania Hard Diary",
+      "aliases": [
+        "Morytania Hard Diary",
+        "Morytania Hard"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MORYTANIA_ELITE",
+      "displayName": "Morytania Elite Diary",
+      "aliases": [
+        "Morytania Elite Diary",
+        "Morytania Elite"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "VARROCK_EASY",
+      "displayName": "Varrock Easy Diary",
+      "aliases": [
+        "Varrock Easy Diary",
+        "Varrock Easy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "VARROCK_MEDIUM",
+      "displayName": "Varrock Medium Diary",
+      "aliases": [
+        "Varrock Medium Diary",
+        "Varrock Medium"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "VARROCK_HARD",
+      "displayName": "Varrock Hard Diary",
+      "aliases": [
+        "Varrock Hard Diary",
+        "Varrock Hard"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "VARROCK_ELITE",
+      "displayName": "Varrock Elite Diary",
+      "aliases": [
+        "Varrock Elite Diary",
+        "Varrock Elite"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WESTERN_EASY",
+      "displayName": "Western Provinces Easy Diary",
+      "aliases": [
+        "Western Provinces Easy Diary",
+        "Western Easy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WESTERN_MEDIUM",
+      "displayName": "Western Provinces Medium Diary",
+      "aliases": [
+        "Western Provinces Medium Diary",
+        "Western Medium"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WESTERN_HARD",
+      "displayName": "Western Provinces Hard Diary",
+      "aliases": [
+        "Western Provinces Hard Diary",
+        "Western Hard"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WESTERN_ELITE",
+      "displayName": "Western Provinces Elite Diary",
+      "aliases": [
+        "Western Provinces Elite Diary",
+        "Western Elite"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WILDERNESS_EASY",
+      "displayName": "Wilderness Easy Diary",
+      "aliases": [
+        "Wilderness Easy Diary",
+        "Wilderness Easy"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WILDERNESS_MEDIUM",
+      "displayName": "Wilderness Medium Diary",
+      "aliases": [
+        "Wilderness Medium Diary",
+        "Wilderness Medium"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WILDERNESS_HARD",
+      "displayName": "Wilderness Hard Diary",
+      "aliases": [
+        "Wilderness Hard Diary",
+        "Wilderness Hard"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WILDERNESS_ELITE",
+      "displayName": "Wilderness Elite Diary",
+      "aliases": [
+        "Wilderness Elite Diary",
+        "Wilderness Elite"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "CHECK_ITEMS",
+      "displayName": "Check all items",
+      "aliases": [
+        "Check all items",
+        "Check Items"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MA2_LOCATOR",
+      "displayName": "Mage Arena II Locator",
+      "aliases": [
+        "Mage Arena II Locator",
+        "Mage Arena 2 Locator",
+        "Ma2 Locator"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "DAG_ROUTE",
+      "displayName": "Dagannoth Kings Route",
+      "aliases": [
+        "Dagannoth Kings Route",
+        "Dag Route"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "HERB_RUN",
+      "displayName": "Herb run",
+      "aliases": [
+        "Herb run",
+        "Herb Run"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "TREE_RUN",
+      "displayName": "Tree run",
+      "aliases": [
+        "Tree run",
+        "Tree Run"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "BARROWS_HELPER",
+      "displayName": "Barrows helper",
+      "aliases": [
+        "Barrows helper",
+        "Barrows Helper"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "STRONGHOLD_OF_SECURITY",
+      "displayName": "Stronghold of Security",
+      "aliases": [
+        "Stronghold of Security"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "SEA_CHARTING",
+      "displayName": "Sea charting",
+      "aliases": [
+        "Sea charting",
+        "Sea Charting"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "AGILITY",
+      "displayName": "Agility",
+      "aliases": [
+        "Agility"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WOODCUTTING_MEMBER",
+      "displayName": "Woodcutting - Member",
+      "aliases": [
+        "Woodcutting - Member",
+        "Woodcutting Member"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "WOODCUTTING",
+      "displayName": "Woodcutting",
+      "aliases": [
+        "Woodcutting"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "MINING",
+      "displayName": "Mining",
+      "aliases": [
+        "Mining"
+      ],
+      "shortAliases": []
+    }
+  ]
+}

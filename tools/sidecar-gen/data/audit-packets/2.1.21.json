@@ -1,0 +1,166 @@
+{
+  "stepId": "2.1.21",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Go to Burthorpe and start A Tail of Two Cats to get the enchanted catspeak amulet. Rebank in Rogues’ Den, then pray at the Altar of Guthix (Taverley) while wearing full initiate, then multiquest Taverley Dungeon (lava eel for Heroes’ Quest, grab a scorpion for Scorpion Catcher, progress Wanted!, grab a dusty key and the damaged soulbearer, kill baby blue dragons for Rag and Bone Man II while inside, bank at least one set of bones, run on to Cerberus’ Lair to complete the Bear Your Soul miniquest). Kharedst’s teleport out to Lovakengj, make the strength potion in the pub for the diary if you haven’t already, then run to the Castle and collect the Kourend Easy diary reward (lamp on herblore). Swap to the Arceuus spellbook and do hourlies if you haven’t recently. Salve teleport and complete Olaf’s Quest (fairy ring DKS).\n",
+  "itemsNeeded": "kitten/cat, full initiate, catspeak amulet, 5 death runes, oily fishing rod, fishing bait, ice gloves, scorpion cage, rune sword, anti-dragon shield, swordfish, energy potions, prayer potions, Commorb, Kharedst’s memoirs, dramen staff, necklace of passage, damaged soulbearer",
+  "gpStack": "1.5m gp",
+  "mapping": {
+    "questIds": [
+      "A_TAIL_OF_TWO_CATS",
+      "WANTED",
+      "SCORPION_CATCHER",
+      "RAG_AND_BONE_MAN_II",
+      "BEAR_YOUR_SOUL",
+      "KOUREND_EASY",
+      "OLAF_S_QUEST"
+    ],
+    "items": [
+      {
+        "id": 4677,
+        "name": "Catspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": 5,
+        "source": "items_needed"
+      },
+      {
+        "id": 1585,
+        "name": "Oily fishing rod",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 313,
+        "name": "Fishing bait",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1580,
+        "name": "Ice gloves",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 456,
+        "name": "Scorpion cage",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1540,
+        "name": "Anti-dragon shield",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6635,
+        "name": "Commorb",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 21146,
+        "name": "Necklace of passage(5)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5575,
+        "name": "Initiate hauberk",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2149,
+        "name": "Lava eel",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1590,
+        "name": "Dusty key",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 526,
+        "name": "Bones",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 21760,
+        "name": "Kharedst's memoirs",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "1.5m gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "kitten",
+        "qty": null
+      },
+      {
+        "rawToken": "initiate cuirass",
+        "qty": null
+      },
+      {
+        "rawToken": "initiate platelegs",
+        "qty": null
+      },
+      {
+        "rawToken": "scorpion",
+        "qty": null
+      },
+      {
+        "rawToken": "baby blue dragon",
+        "qty": null
+      },
+      {
+        "rawToken": "damaged soulbearer",
+        "qty": null
+      }
+    ]
+  }
+}

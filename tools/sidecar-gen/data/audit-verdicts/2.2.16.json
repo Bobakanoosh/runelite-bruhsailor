@@ -1,0 +1,13 @@
+{
+  "stepId": "2.2.16",
+  "accurate": true,
+  "confidence": 0.92,
+  "issues": [
+    {
+      "type": "unresolved_items",
+      "severity": "info",
+      "description": "desert shirt/robe and penguin suit correctly marked as unresolved (multi-option outfit items)"
+    }
+  ],
+  "notes": "Quest mapping complete: A Tail of Two Cats, One Small Favour, Cold War, Legends Quest all actively progressed. All explicitly mentioned items mapped with correct IDs and quantities. Sweetcorn/pot of cornflour conditional items captured. Abstract items (melee gear + rune pickaxe, 30k gp) correctly identified. Unresolved outfit variants (desert shirt/robe, penguin suit) appropriately flagged. Minor confidence reduction (0.92 vs 1.0) due to outfit item ambiguity, but mapping strategy is sound."
+}

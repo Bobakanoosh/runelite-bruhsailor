@@ -1,0 +1,15 @@
+{
+  "stepId": "2.2.31",
+  "accurate": true,
+  "confidence": 0.88,
+  "issues": [
+    {
+      "type": "unresolved_item",
+      "field": "unresolvedItems",
+      "value": "smite",
+      "severity": "low",
+      "description": "Token 'smite' is ambiguous - could refer to protection prayer, combat spell, or other mechanic. Marked as unresolved appropriately."
+    }
+  ],
+  "notes": "Step mapping is accurate. Core requirement (1400 bones for prayer xp cashing) properly identified. Quest prerequisites (CURSE_OF_THE_EMPTY_LORD, VARROCK_HARD) are essential and correctly marked. Abstract items (melee gear, cash stack) are genuine player-level abstractions. Conditional items (red topaz, ring of dueling) appropriately handled. Unresolved 'smite' reference does not impact step accuracy."
+}

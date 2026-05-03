@@ -1,0 +1,89 @@
+{
+  "stepId": "2.1.10",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Take a wind spell (staff + runes, wind bolt works great) from the bank, along with your trollweiss (flower), trollheim teleport runes, food, prayer potions, a rune sword, any pickaxe and a Paddewwa tab (or Falador teleport runes). Teleport to Trollheim, complete Troll Romance. Teleport, to Paddewwa(/Falador), run to Rolad at the dwarf camp at Ice Mountain and progress Between a Rock… until you have read Dwarven lore, buy an ammo mould.\n",
+  "itemsNeeded": "cash stack, chaos runes, air staff, law runes, trollweis, rune sword, rune pickaxe, Paddewwa tabled/water runes, law runes, swordfish, prayer potions",
+  "gpStack": "1.6m gp",
+  "mapping": {
+    "questIds": [
+      "TROLL_ROMANCE",
+      "BETWEEN_A_ROCK"
+    ],
+    "items": [
+      {
+        "id": 562,
+        "name": "Chaos rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4086,
+        "name": "Trollweiss",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4,
+        "name": "Ammo mould",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "cash stack",
+        "label": "cash stack"
+      },
+      {
+        "rawToken": "food",
+        "label": "food"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "wind spell",
+        "qty": null
+      },
+      {
+        "rawToken": "Paddewwa tabled/water runes",
+        "qty": null
+      }
+    ]
+  }
+}

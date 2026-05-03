@@ -1,0 +1,304 @@
+{
+  "stepId": "1.4.31",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "You should be at least level 42 hunter by now. Go to Puro Puro, camp a Young impling spawn for a yew longbow (keep a bow string) and catch an essence or eclectic impling for the diary. Note: there is a bug where you can do Temple of Ikov without a yew bow, using darts or other thrown weapons (of any kind) with ice arrows equipped. If you can’t stand hunter and consider this legitimate gameplay instead, as opposed to bug abuse, you could opt for that. Grab a lockpick. Do Temple of Ikov, enter the Ranging guild for the diary and buy 10 rune thrownaxes, steal from the Hemenester chest for the diary, do Desert Treasure (kill a shadow hound in the Shadow Dungeon for the diary, also start Curse of the Empty Lord and finish Dwarf Cannon during that diamond, and collect trollweiss after the ice diamond step/after killing 5 trolls behind the ice gate, your choice) from start to finish. Use your death runes and prayer potions here.\n",
+  "itemsNeeded": "650 gp, dramen staff, butterfly net, several impling jars, rune pickaxe, swordfish, karambwans, knife, 20 limpwurt roots, candle (or FM cape/bruma torch), lockpick, air runes, law runes, fire runes, boots of lightness, many Shantay passes, 12 magic logs, 6 steel bars, 6 molten glass, 1 ashes, charcoal, 1 blood rune, 1 bones, 1 silver bar, garlic, pestle/mortar, spice, small fishing net, rope, sled, chocolate cake, spiked climbing boots, facemask, tinderbox, many lockpicks, prayer potions, fire staff, death runes (use blast spells except for Kamil)",
+  "gpStack": "235501 gp",
+  "mapping": {
+    "questIds": [
+      "DESERT_TREASURE",
+      "DWARF_CANNON",
+      "TEMPLE_OF_IKOV",
+      "CURSE_OF_THE_EMPTY_LORD",
+      "MORYTANIA_MEDIUM"
+    ],
+    "items": [
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10010,
+        "name": "Butterfly net",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 225,
+        "name": "Limpwurt root",
+        "qty": 20,
+        "source": "items_needed"
+      },
+      {
+        "id": 1523,
+        "name": "Lockpick",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 554,
+        "name": "Fire rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 88,
+        "name": "Boots of lightness",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1513,
+        "name": "Magic logs",
+        "qty": 12,
+        "source": "items_needed"
+      },
+      {
+        "id": 2353,
+        "name": "Steel bar",
+        "qty": 6,
+        "source": "items_needed"
+      },
+      {
+        "id": 1775,
+        "name": "Molten glass",
+        "qty": 6,
+        "source": "items_needed"
+      },
+      {
+        "id": 592,
+        "name": "Ashes",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 973,
+        "name": "Charcoal",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 565,
+        "name": "Blood rune",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 526,
+        "name": "Bones",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 2355,
+        "name": "Silver bar",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1550,
+        "name": "Garlic",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 233,
+        "name": "Pestle and mortar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2007,
+        "name": "Spice",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 303,
+        "name": "Small fishing net",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4083,
+        "name": "Sled",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1897,
+        "name": "Chocolate cake",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4164,
+        "name": "Facemask",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 855,
+        "name": "Yew longbow",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1777,
+        "name": "Bow string",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 11246,
+        "name": "Essence impling jar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11248,
+        "name": "Eclectic impling jar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 805,
+        "name": "Rune thrownaxe",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 10149,
+        "name": "Swamp lizard",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 2550,
+        "name": "Ring of recoil",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2430,
+        "name": "Restore potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "650 gp"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "235501 gp"
+      },
+      {
+        "label": "ranged gear",
+        "rawToken": "darts or other thrown weapons"
+      },
+      {
+        "label": "ranged gear",
+        "rawToken": "ice arrows"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "fire bolt",
+        "qty": null
+      },
+      {
+        "rawToken": "several impling jars",
+        "qty": null
+      },
+      {
+        "rawToken": "karambwans",
+        "qty": null
+      },
+      {
+        "rawToken": "candle (or FM cape/bruma torch)",
+        "qty": null
+      },
+      {
+        "rawToken": "many Shantay passes",
+        "qty": null
+      },
+      {
+        "rawToken": "spiked climbing boots",
+        "qty": null
+      },
+      {
+        "rawToken": "many lockpicks",
+        "qty": null
+      },
+      {
+        "rawToken": "death runes (use blast spells except for Kamil)",
+        "qty": null
+      }
+    ]
+  }
+}

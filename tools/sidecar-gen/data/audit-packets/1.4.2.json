@@ -1,0 +1,109 @@
+{
+  "stepId": "1.4.2",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Teleport to Falador. Smelt the conductor rod for Creature of Fenkenstrain, the demonic sigil for Shadow of the Storm and make an unstrung symbol (holy mould). String it. If you are not level 27 herblore yet, make serum 207’s, compost potions and energy potions in the bank using your wintertodt herbs. Grab a botanical pie and run north. If you haven’t spoken with 5 farmers yet for Fairytale I speak to Alain. Boosting your herblore, speak with Sanfew to start Eadgar’s Ruse. Head to the Goblin Village and progress Holy Grail and The Lost Tribe.\n",
+  "itemsNeeded": "water runes, air staff, law runes, chaos runes, two magic whistles, magic gold feather",
+  "gpStack": "445386 gp",
+  "mapping": {
+    "questIds": [
+      "CREATURE_OF_FENKENSTRAIN",
+      "SHADOW_OF_THE_STORM",
+      "FAIRYTALE_I_GRILL_THE_QUEST_GIVER",
+      "EADGARS_RUSE",
+      "HOLY_GRAIL",
+      "THE_LOST_TRIBE"
+    ],
+    "items": [
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 562,
+        "name": "Chaos rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 18,
+        "name": "Magic gold feather",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6748,
+        "name": "Demonic sigil",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1718,
+        "name": "Holy symbol",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1599,
+        "name": "Holy mould",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 19662,
+        "name": "Botanical pie",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6470,
+        "name": "Compost potion(4)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "445386 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "conductor rod",
+        "qty": null
+      },
+      {
+        "rawToken": "serum 207",
+        "qty": null
+      },
+      {
+        "rawToken": "wintertodt herb",
+        "qty": null
+      },
+      {
+        "rawToken": "two magic whistles",
+        "qty": null
+      }
+    ]
+  }
+}

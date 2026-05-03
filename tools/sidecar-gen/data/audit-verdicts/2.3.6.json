@@ -1,0 +1,7 @@
+{
+  "stepId": "2.3.6",
+  "accurate": true,
+  "confidence": 0.95,
+  "issues": [],
+  "notes": "Quest mapping correct: THE_GENERAL_S_SHADOW matches step text for The General's Shadow miniquest. Abstract item 'cash stack' properly represents 19.7m gp requirement. No specific items needed for this step. Mapping is complete and accurate."
+}

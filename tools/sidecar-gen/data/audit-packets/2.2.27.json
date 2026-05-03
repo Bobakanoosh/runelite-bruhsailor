@@ -1,0 +1,94 @@
+{
+  "stepId": "2.2.27",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Swap to the regular spellbook. Complete Recipe for Disaster by following the steps below:\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "130k gp",
+  "mapping": {
+    "questIds": [
+      "RECIPE_FOR_DISASTER_SKRACH_UGLOGWEE",
+      "LEGENDS_QUEST",
+      "RECIPE_FOR_DISASTER_SIR_AMIK_VARZE",
+      "RECIPE_FOR_DISASTER_MONKEY_AMBASSADOR",
+      "RECIPE_FOR_DISASTER"
+    ],
+    "items": [
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 8013,
+        "name": "Teleport to house",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6333,
+        "name": "Teak logs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6332,
+        "name": "Mahogany logs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2339,
+        "name": "Palm leaf",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 7465,
+        "name": "Vanilla pod",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 7473,
+        "name": "Brulee",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 7462,
+        "name": "Barrows gloves",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "130k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "gnome glider",
+        "qty": null
+      },
+      {
+        "rawToken": "oomlie wrap",
+        "qty": null
+      },
+      {
+        "rawToken": "deathwing",
+        "qty": null
+      },
+      {
+        "rawToken": "sweetcorn flour",
+        "qty": null
+      },
+      {
+        "rawToken": "cooked stuffed snake",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"stepId":"1.3.5","accurate":false,"confidence":0.92,"issues":["'big net' incorrectly marked as unresolvedItems instead of resolved item ID 303 (Big net)"],"notes":"Mapping captures all quest progressions and fish acquisitions correctly. Primary issue is failure to resolve 'big net' to its specific OSRS item ID despite it being a clear, unambiguous item."}

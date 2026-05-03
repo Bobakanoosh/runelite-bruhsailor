@@ -1,0 +1,75 @@
+{
+  "stepId": "2.2.36",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Catch ~1.5k grey chins for level 55 ranging (at Soul Wars - you can take an axe to chop the nearby teaks in case you mess up your knife-log). Catch ~1.5k red chins between Kastori and Tal Teklan (TalTeklanChinSpot.png). Follow this guide for catching chins: OSRS Easy 1t Hunter Guide (In-Depth) for the methods (regardless of location and chin type). Train your ranging in the MM1 tunnels (short fuse) to level 62 (55 with grey, 55-62 with red). Make sure to equip a salve amulet (ei).\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "1.6m gp",
+  "mapping": {
+    "questIds": [
+      "MONKEY_MADNESS_I",
+      "A_NIGHT_AT_THE_THEATRE"
+    ],
+    "items": [
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4081,
+        "name": "Salve amulet",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 29286,
+        "name": "Mixed hide boots",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 6570,
+        "name": "Fire cape",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "1.6m gp",
+        "label": "1.6m gp"
+      },
+      {
+        "rawToken": "ranged gear",
+        "label": "ranged gear"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "grey chin",
+        "qty": 1500
+      },
+      {
+        "rawToken": "red chin",
+        "qty": 1500
+      },
+      {
+        "rawToken": "axe",
+        "qty": null
+      },
+      {
+        "rawToken": "ranged potion",
+        "qty": null
+      },
+      {
+        "rawToken": "zamorak wine",
+        "qty": 1
+      },
+      {
+        "rawToken": "upgraded device from Ava",
+        "qty": null
+      }
+    ]
+  }
+}

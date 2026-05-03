@@ -1,0 +1,80 @@
+{
+  "stepId": "2.1.32",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Get to Brimhaven and continue Heroes’ Quest (“osrs soa” clan chat can help). Chronicle teleport to Varrock and get the Thieves’ armband. Games necklace teleport to Burthorpe, complete Heroes’ Quest. Kill the blue dragon for the diary.\n",
+  "itemsNeeded": "cash stack, Iban staff, death runes, fire runes, games neck, fire feather, cooked lava eel, black platebody, black full helm, black platelegs (Black Arm Gang), chronicle",
+  "gpStack": "1.5m gp",
+  "mapping": {
+    "questIds": [
+      "HEROES_QUEST"
+    ],
+    "items": [
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 554,
+        "name": "Fire rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1583,
+        "name": "Fire feather",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1125,
+        "name": "Black platebody",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1165,
+        "name": "Black full helm",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1077,
+        "name": "Black platelegs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1409,
+        "name": "Iban's staff",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "cash stack",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "Cooked lava eel",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "stepId": "2.2.9",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Then proceed to complete Tai Bwo Wannai Trio, killing Jogres for both the diary and Rag and Bone Man II along the way, catching a karambwan, exploring Cairn Isle and trapping a horned graahk also along the way and buying an opal (or better) machete from Safta Doc after for the diary. Don’t forget to claim the rewards from the three brothers, and buy a bronze spear (and cloth, clean it, for a scarecrow for Morytania easy diary and Falador medium diary, plant it on your next herb run. Leave it in whichever patch is second and plant sweetcorn for RFD/Sir Amik Varze).\n",
+  "itemsNeeded": "cash stack, karambwan vessel, Iban staff, death runes, fire runes, 2+ logs, tinderbox, noted semi-precious gems (sell to Gabooty for trading sticks), banana-rum, seaweed, monkey skin, jogre bones, raw karambwanji, pestle and mortar, teasing stick, knife, necklace of passage (next)",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "TAI_BWO_WANNAI_TRIO",
+      "RAG_AND_BONE_MAN_II",
+      "MORYTANIA_EASY",
+      "FALADOR_MEDIUM",
+      "RECIPE_FOR_DISASTER_SIR_AMIK_VARZE"
+    ],
+    "items": [
+      {
+        "id": 3157,
+        "name": "Karambwan vessel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 554,
+        "name": "Fire rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 401,
+        "name": "Seaweed",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3167,
+        "name": "Monkey skin",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3125,
+        "name": "Jogre bones",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3150,
+        "name": "Raw karambwanji",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 233,
+        "name": "Pestle and mortar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10029,
+        "name": "Teasing stick",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6313,
+        "name": "Opal machete",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1237,
+        "name": "Bronze spear",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 5986,
+        "name": "Sweetcorn",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1409,
+        "name": "Iban's staff",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      },
+      {
+        "label": "30k gp",
+        "rawToken": "30k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "cloth",
+        "qty": null
+      },
+      {
+        "rawToken": "2+ logs",
+        "qty": null
+      },
+      {
+        "rawToken": "noted semi-precious gems (sell to Gabooty for trading sticks)",
+        "qty": null
+      },
+      {
+        "rawToken": "banana-rum",
+        "qty": null
+      },
+      {
+        "rawToken": "necklace of passage (next)",
+        "qty": null
+      }
+    ]
+  }
+}

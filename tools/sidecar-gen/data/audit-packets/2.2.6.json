@@ -1,0 +1,95 @@
+{
+  "stepId": "2.2.6",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Chronicle teleport, run east and start What Lies Below. Chronicle teleport again, run northwest and kill 5 outlaw’s for What Lies Below, then run to Barbarian Village. Continue One Small Favour (barbarian village, grab a cooked meat from the longhall, then dwarven mine). Keep going with One Small Favour until you have inspected Petra in the rock, taking any crystal keys and opening them if you happen to have any (you may want to rebank in Falador). Visit Thormac to complete Scorpion Catcher. Run to Wizard Cromperty in Ardougne for One Small Favour. Get 5 pigeon cages while you’re in Ardy.\n",
+  "itemsNeeded": "bowl of hot water, 1 harralander, 2 guam, 2 marrentill, energy potions, prayer potions, air staff, law runes, water runes, scorpion cage",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "WHAT_LIES_BELOW",
+      "ONE_SMALL_FAVOUR",
+      "SCORPION_CATCHER"
+    ],
+    "items": [
+      {
+        "id": 4456,
+        "name": "Bowl of hot water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 255,
+        "name": "Harralander",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 251,
+        "name": "Marrentill",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 456,
+        "name": "Scorpion cage",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 249,
+        "name": "Guam leaf",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 2142,
+        "name": "Cooked meat",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 989,
+        "name": "Crystal key",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "30k gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

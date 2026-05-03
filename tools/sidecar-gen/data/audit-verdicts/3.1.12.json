@@ -1,0 +1,15 @@
+{
+  "stepId": "3.1.12",
+  "accurate": true,
+  "confidence": 0.88,
+  "issues": [
+    {
+      "type": "questIds",
+      "severity": "minor",
+      "description": "questIds contains 'MINING' which is a skill, not a quest. Should be empty array since no quests are actively started/progressed in this step.",
+      "recommendation": "Set questIds to []"
+    }
+  ],
+  "notes": "Step mapping is functionally accurate. Items array properly identifies needed consumables with appropriate null quantities for flexible-amount items. AbstractItems are genuine abstractions (cash stack and ship upgrades). UnresolvedItems are acceptable—nickel ore, addy ore variants, and camphor items are ambiguous/alternate names and correct to leave unresolved. ItemsNeeded status promoted from tbd to accurate per confidence threshold.",
+  "reviewedAt": "2026-05-02"
+}

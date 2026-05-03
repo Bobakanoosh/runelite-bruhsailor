@@ -1,0 +1,59 @@
+{
+  "stepId": "1.4.13",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Blast Furnace minigame teleport when the brewing is done and complete Forgettable Tale… Chronicle teleport, run north and give Juliet the cadavaberry potion to progress Romeo & Juliet. Head to Varrock centre and speak with Romeo to complete the quest. Start Garden of Tranquillity. Next speak with the Mage of Zamorak to complete Enter the Abyss. \n",
+  "itemsNeeded": "3 gp, Chronicle, beer glass (blow one molten glass?), 1 kebab (buy), 1 beer (buy), cadava potion, scrying orb",
+  "gpStack": "305290 gp",
+  "mapping": {
+    "questIds": [
+      "FORGETTABLE_TALE",
+      "GARDEN_OF_TRANQUILLITY",
+      "ENTER_THE_ABYSS",
+      "ROMEO_AND_JULIET"
+    ],
+    "items": [
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 756,
+        "name": "Cadava potion",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5518,
+        "name": "Scrying orb",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1971,
+        "name": "Kebab",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1917,
+        "name": "Beer",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "3 gp",
+        "label": "gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "beer glass (blow one molten glass?)",
+        "qty": null
+      }
+    ]
+  }
+}

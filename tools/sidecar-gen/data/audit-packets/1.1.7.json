@@ -1,0 +1,72 @@
+{
+  "stepId": "1.1.7",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Head to Ardougne general store (Aemad’s Adventuring Supplies), buy 3 ropes, 1 water-filled vial pack, 30 balls of wool, 7 papyrus. Restore your prayer at the East Ardougne church, check your insured pets at Probita, buy two silver bars from the Silver Merchant (hop worlds once). Steal cakes until you have at least 98 cakes and 14 bread (more cakes optional - this will get you to thieving thresholds and 90+ firemaking at wintertodt. If you want to go to level 99 collect 150 total instead), then steal 84 silk.\n",
+  "itemsNeeded": "781 gp, will need to bank while buying from Aemad and while stealing cakes/silk",
+  "gpStack": "1719 gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 227,
+        "name": "Vial of water",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1759,
+        "name": "Ball of wool",
+        "qty": 30,
+        "source": "content"
+      },
+      {
+        "id": 970,
+        "name": "Papyrus",
+        "qty": 7,
+        "source": "content"
+      },
+      {
+        "id": 1891,
+        "name": "Cake",
+        "qty": 98,
+        "source": "content"
+      },
+      {
+        "id": 2309,
+        "name": "Bread",
+        "qty": 14,
+        "source": "content"
+      },
+      {
+        "id": 950,
+        "name": "Silk",
+        "qty": 84,
+        "source": "content"
+      },
+      {
+        "id": 2355,
+        "name": "Silver bar",
+        "qty": 2,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "781 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "will need to bank while buying from Aemad and while stealing cakes/silk",
+        "qty": null
+      }
+    ]
+  }
+}

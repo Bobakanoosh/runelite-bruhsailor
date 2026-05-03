@@ -1,0 +1,170 @@
+{
+  "stepId": "2.2.21",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Complete One Small Favour (charter to Brimhaven into the cart to Shilo Village, then leave the city, lamps on slayer). Complete Cold War. Complete Making History (teleport around a bit). If you don’t have a spare purple dye, pick one up while in Ardougne for Making History. \n",
+  "itemsNeeded": "cash stack, ring of charos(a), sharpened axe, penguin suit, swamp tar, 5 feathers, mission report, mahogany plank, soft leather, cowbell (stolen in Step 57), swordfish, melee gear, prayer potions, spade, Ectophial, ghostspeak amulet, sapphire amulet, Fremennik boots 1, necklace of passage, law runes, water staff, enchanted key, dueling ring (to get to Castle Wars for the first step in Making History, but also rebank at Ferox), air runes, earth rune",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "ONE_SMALL_FAVOUR",
+      "COLD_WAR",
+      "MAKING_HISTORY"
+    ],
+    "items": [
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4444,
+        "name": "Sharpened axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1939,
+        "name": "Swamp tar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": 5,
+        "source": "items_needed"
+      },
+      {
+        "id": 10597,
+        "name": "Mission report",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8782,
+        "name": "Mahogany plank",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4251,
+        "name": "Ectophial",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 552,
+        "name": "Ghostspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1694,
+        "name": "Sapphire amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 21146,
+        "name": "Necklace of passage(5)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1383,
+        "name": "Staff of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6754,
+        "name": "Enchanted key",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3791,
+        "name": "Fremennik boots",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1773,
+        "name": "Purple dye",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      },
+      {
+        "label": "melee gear",
+        "rawToken": "melee gear"
+      },
+      {
+        "label": "30k gp",
+        "rawToken": "30k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "penguin suit",
+        "qty": null
+      },
+      {
+        "rawToken": "soft leather",
+        "qty": null
+      },
+      {
+        "rawToken": "cowbell",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "stepId": "1.1.1",
+  "accurate": false,
+  "confidence": 0.65,
+  "issues": [
+    "Jug (ID 1935) is listed but stepText requires 'Jug of water'—should be Jug of water (ID 1937) or similar filled variant",
+    "'water' marked unresolved but is resolvable as Water item (ID 1929); the jug fill mechanic should be represented in mapping strategy",
+    "Incomplete tier/variant: Jug without water doesn't match the stated requirement to 'fill it with water'"
+  ],
+  "notes": "Quest and abstract items correct, but item mapping has a critical variant issue. The Jug needs to be filled with water per stepText, which is not properly captured in the items array."
+}

@@ -1,0 +1,38 @@
+{
+  "stepId": "2.3.2",
+  "section": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
+  "stepText": "Do the Mage Arena I miniquest, followed by the Mage Arena II miniquest. Pick your favourite god (Zamorak is slightly more useful than the others for protection in the God Wars Dungeon, but any choice is fine). Along the way/after mine a mithril ore at the Pirates’ Hideout mine and complete a lap of the Wilderness Agility course. Kill Chaos dwarves for a muddy key, open the muddy chest in the centre of the Lava Maze. Kill an ankou at the Forgotten Cemetery, then enter the God Wars Dungeon (god wars protection is necessary!) and kill a bloodveld\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "19.7m gp",
+  "mapping": {
+    "questIds": [
+      "THE_MAGE_ARENA",
+      "THE_MAGE_ARENA_II",
+      "WILDERNESS_HARD"
+    ],
+    "items": [
+      {
+        "id": 991,
+        "name": "Muddy key",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "god protection gear",
+        "rawToken": "god wars protection"
+      },
+      {
+        "label": "cash from high alch",
+        "rawToken": "high alch the staff for some gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "muddy chest",
+        "qty": null
+      }
+    ]
+  }
+}

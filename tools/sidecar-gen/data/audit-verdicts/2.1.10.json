@@ -1,0 +1,12 @@
+{
+  "stepId": "2.1.10",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    "Chaos rune qty null but wind bolt requires multiple runes",
+    "Law runes listed twice in source but only one entry in mapping",
+    "Wind spell left unresolved instead of resolving to air staff + chaos runes",
+    "Paddewwa tab/water runes ambiguous - should resolve to Paddewwa tab (14071) or clarify rune alternative"
+  ],
+  "notes": "Mapping captures most items correctly but has quantity gaps and unresolved items that should be specific. Chaos rune needs qty. Law rune duplication not addressed. Wind spell resolution is valid (air staff + chaos runes for wind bolt) but left unresolved. Paddewwa tab dualism should be resolved to one primary path."
+}

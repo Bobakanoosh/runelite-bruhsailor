@@ -1,0 +1,76 @@
+{
+  "stepId": "2.1.11",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "As per Ch1St51, you need to have mined 2000 stardust by now. If you haven’t, do that first, hunting T4 or lower shooting stars using https://osrsportal.com/shooting-stars-tracker. Go to Burthorpe and start Heroes’ Quest, collect the ice gloves by killing the Ice Queen under White Wolf Mountain, killing Ice Giants along the way for Rag and Bone Man II.\n",
+  "itemsNeeded": "chaos runes, air runes, water staff, law runes, swordfish, prayer potions, games necklace",
+  "gpStack": "1.6m gp",
+  "mapping": {
+    "questIds": [
+      "HEROES_QUEST",
+      "RAG_AND_BONE_MAN_II"
+    ],
+    "items": [
+      {
+        "id": 562,
+        "name": "Chaos rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1383,
+        "name": "Staff of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1580,
+        "name": "Ice gloves",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 25527,
+        "name": "Stardust",
+        "qty": 2000,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "1.6m gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

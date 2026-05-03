@@ -1,0 +1,36 @@
+{
+  "stepId": "2.3.3",
+  "section": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
+  "stepText": "(POH) teleport to Rellekka, start The General’s Shadow miniquest. Teleport to Seers and speak with Sin Seer, then teleport to Rellekka and speak with the general again. Make your way to Lunar Isle. Start and complete Dream Mentor (lamp on ranged). Swap to the Lunar spellbook, teleport to Waterbirth, visit Jatizso and mine 5 adamantite ores after this step for two diary steps. POH teleport, make a super defence potion in Rellekka and collect the Fremennik hard diary, putting the lamp on herblore. Swap to Arceuus spellbook. Teleport to Draynor Manor and run out west for a scout for The General’s Shadow.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "19.7m gp",
+  "mapping": {
+    "questIds": [
+      "DREAM_MENTOR",
+      "FREMENNIK_HARD"
+    ],
+    "items": [
+      {
+        "id": 449,
+        "name": "Adamantite ore",
+        "qty": 5,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "19.7m gp"
+      },
+      {
+        "label": "ranged lamp",
+        "rawToken": "lamp on ranged"
+      },
+      {
+        "label": "herblore lamp",
+        "rawToken": "lamp on herblore"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

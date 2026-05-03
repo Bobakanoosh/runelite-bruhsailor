@@ -1,0 +1,176 @@
+{
+  "stepId": "2.1.30",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Continue and complete Monkey Madness I (catch a bass and chop and burn some teak logs on Ape Atoll for the diary along the way, follow the wiki steps to pre-bank RFD/MM2 greegree materials). Buy 20 potatoes, 10 cabbages and 10 onions at the Grand Tree Groceries and put them in your sacks for Dream Mentor and Mourning’s End Part II. Buy an inventory of premade choc bombs/tangled toad’s legs and one premade t’d crunch from Gianne. Make a chocolate bomb for the diary. Go to Daero and pick attack and defence (35k). Fletch an oak shortbow in the Gnome Stronghold (rebank if needed) for the diary - bank it if you want to woo/befriend the princess during Throne of Miscellania later. Score a goal in Gnome Ball, complete a lap of the Gnome Agility Course, kill  terrorbirds for Rag and Bone Man II. Take a delivery order for the gnome restaurant. Take the agility shortcut to Otto’s Grotto for the diary. Complete the delivery order for the diary.\n",
+  "itemsNeeded": "swordfish, prayer potions, (4+) energy potions, antipoisons, gold bar, ball of wool, lockpick, wind staff, chaos runes, law runes, water runes, rune axe, tinderbox, knife, oak log, big fishing net, bow string",
+  "gpStack": "1.5m gp",
+  "mapping": {
+    "questIds": [
+      "MONKEY_MADNESS_I",
+      "DREAM_MENTOR",
+      "MOURNING_S_END_PART_II",
+      "RAG_AND_BONE_MAN_II",
+      "THRONE_OF_MISCELLANIA"
+    ],
+    "items": [
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2357,
+        "name": "Gold bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1759,
+        "name": "Ball of wool",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1523,
+        "name": "Lockpick",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 562,
+        "name": "Chaos rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1521,
+        "name": "Oak logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 305,
+        "name": "Big fishing net",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1777,
+        "name": "Bow string",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1942,
+        "name": "Potato",
+        "qty": 20,
+        "source": "content"
+      },
+      {
+        "id": 1965,
+        "name": "Cabbage",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 1957,
+        "name": "Onion",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 2185,
+        "name": "Chocolate bomb",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2187,
+        "name": "Tangled toad's legs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 843,
+        "name": "Oak shortbow",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 365,
+        "name": "Bass",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 6333,
+        "name": "Teak logs",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "1.5m gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "t'd crunch",
+        "qty": null
+      },
+      {
+        "rawToken": "(4+) energy potions",
+        "qty": null
+      },
+      {
+        "rawToken": "antipoisons",
+        "qty": null
+      }
+    ]
+  }
+}

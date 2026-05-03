@@ -1,0 +1,7 @@
+{
+  "stepId": "2.3.5",
+  "accurate": true,
+  "confidence": 0.95,
+  "issues": [],
+  "notes": "All items are genuine Sailing-skill components. Canvas, hemp, mithril helm, inoculation station, and wind catcher are legitimate buildable/craftable items for boat construction and upgrades. Song of the Elves is the correct active quest. Cash stack abstraction appropriately represents funding for Sailing progression. No false or spurious items detected."
+}

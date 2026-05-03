@@ -1,0 +1,45 @@
+{
+  "stepId": "1.2.7",
+  "section": "1.2: Some fishing and thieving",
+  "stepText": "Castle Wars minigame teleport. Withdraw 3 planks, 1 bronze bar and one molten glass. Run north, grab an inventory of superantipoisons (84 doses - 21 pots (4)-dose) by hopping, then start and complete the Observatory quest.\n",
+  "itemsNeeded": "3 planks, 1 bronze bar, 1 molten glass",
+  "gpStack": "34189 gp",
+  "mapping": {
+    "questIds": [
+      "OBSERVATORY_QUEST"
+    ],
+    "items": [
+      {
+        "id": 960,
+        "name": "Plank",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 2349,
+        "name": "Bronze bar",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1775,
+        "name": "Molten glass",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 2448,
+        "name": "Superantipoison(4)",
+        "qty": 84,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "34189 gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

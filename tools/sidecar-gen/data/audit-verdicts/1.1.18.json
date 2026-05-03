@@ -1,0 +1,10 @@
+{
+  "stepId": "1.1.18",
+  "accurate": false,
+  "confidence": 0.35,
+  "issues": [
+    "items[] conflates required items with Wintertodt loot rewards: Uncut ruby/emerald/sapphire, Magic/Oak/Willow/Teak/Maple/Yew/Mahogany logs, Iron/Silver ore, Grimy ranarr weed, Seeds, Pure essence, Raw swordfish are not needed but are received. Only Steel axe, Tinderbox, Cake, and warm gear (Clue hunter garb/gloves/boots/Rainbow scarf) are actually required.",
+    "stepText mentions 'fletching logs' and 'infernal axe' generically but mapped logs have specific quantities that appear to be average rewards rather than needed amounts, creating confusion about intent."
+  ],
+  "notes": "Quests and abstracts are correct; abstractions properly capture warm clothing, cash stacks, and food. The core problem is items[] should contain only the 8 items from itemsNeeded/stepText (4 warm pieces + axe + tinderbox + cakes), not the 16 loot drops. Remove loot table items or move to a separate 'rewards' field."
+}

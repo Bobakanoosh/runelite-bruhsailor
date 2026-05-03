@@ -1,0 +1,22 @@
+{
+  "stepId": "2.2.8",
+  "accurate": false,
+  "confidence": 0.78,
+  "issues": [
+    {
+      "type": "misclassified_item",
+      "item": "4-dose agility potion",
+      "problem": "Listed in unresolvedItems but explicitly mentioned in step text as an item to grab",
+      "severity": "medium",
+      "recommendation": "Move to items[] with qty null"
+    },
+    {
+      "type": "missing_item",
+      "item": "necklace of passage",
+      "problem": "Mentioned in step text as item to grab 'for two sections ahead', not included in items[]",
+      "severity": "medium",
+      "recommendation": "Add to items[] with appropriate OSRS item ID"
+    }
+  ],
+  "notes": "Core mapping is solid: questIds accurate (all 4 quests correctly identified as actively progressed), item ID/tier mappings correct for resolved items, and abstractItems/unresolvedItems appropriately categorized. Primary issues are two items that should be in items[] array: the 4-dose agility potion (misplaced as unresolved) and necklace of passage (omitted entirely). The step text clearly indicates both should be grabbed in this segment. No wrong IDs or tier issues detected in mapped items."
+}

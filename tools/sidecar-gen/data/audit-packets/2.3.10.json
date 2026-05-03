@@ -1,0 +1,20 @@
+{
+  "stepId": "2.3.10",
+  "section": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
+  "stepText": "Complete the Kourend Medium diary and cash in the reward (lamp on herblore).\nSkills/quests met?:",
+  "itemsNeeded": "tbd",
+  "gpStack": "19.7m gp",
+  "mapping": {
+    "questIds": [
+      "KOUREND_MEDIUM"
+    ],
+    "items": [],
+    "abstractItems": [],
+    "unresolvedItems": [
+      {
+        "rawToken": "herblore lamp",
+        "qty": 1
+      }
+    ]
+  }
+}

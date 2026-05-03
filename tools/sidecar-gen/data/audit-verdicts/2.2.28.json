@@ -1,0 +1,34 @@
+{
+  "stepId": "2.2.28",
+  "accurate": false,
+  "confidence": 0.62,
+  "issues": [
+    {
+      "item": "Rock cake (2379)",
+      "severity": "critical",
+      "reason": "Barbarian Assault consumable; irrelevant to Warriors' Guild defender grind"
+    },
+    {
+      "item": "Absorption (4) (11734)",
+      "severity": "critical",
+      "reason": "Barbarian Assault item; completely unrelated to Warriors' Guild cyclopes"
+    },
+    {
+      "item": "Berserker ring (6737)",
+      "severity": "moderate",
+      "reason": "Not mentioned in stepText; useful for melee but not explicitly needed for this step"
+    },
+    {
+      "item": "Salve amulet (4081)",
+      "severity": "moderate",
+      "reason": "Not mentioned in stepText; undead bonus is helpful but not explicitly stated as needed"
+    }
+  ],
+  "notes": "Two critical items (Rock cake, Absorption) are clearly wrong and should be removed. Prayer potion(4), Dragon defender, Black knife, and Defence potion(4) are accurately mapped. Berserker ring and Salve amulet are ambiguous—likely correct for efficiency but not explicitly required. Quest array correctly empty. Abstract items (cash stack, melee gear, stat-boosting potions) are appropriate generalizations. Unresolved items (cheese potatoes, cut diamond, mithril armour set) are acceptable given their ambiguity in the stepText.",
+  "recommendations": [
+    "Remove Rock cake (2379)",
+    "Remove Absorption (4) (11734)",
+    "Optionally remove Berserker ring and Salve amulet if strict adherence to step text is required",
+    "Consider mapping 'mithril armour set' if it's explicitly mentioned as gear to use during training"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "stepId": "1.4.8",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Chronicle teleport and harvest your barley, cook it along the way in the Tree Gnome Stronghold steps below. Run south and craft a coif in the Lumbridge cow pen for the diary. Continue The Grand Tree (Varrock teleport for spirit tree), then go up the stairs and buy 4 inventories of food from the Gnome Waiter (each inventory consists of 3x Premade veg batta, 3x Premade w’m batta, 3x Premade t’d batta, 3x Premade fr’t batta, 3x Premade c+t batta, 3x Premade worm hole, 3x Premade ttl, 3x Premade veg ball, 3x Premade choc bomb). At the Karamja Shipyard step of this quest charter to Port Sarim, speak with Veos and go to Kourend, then take the ship to Land’s End. You should have at least 15 hunter by now from bird runs, level 35+ will help speed up the Kourend diary.\n",
+  "itemsNeeded": "6693 gp, Chronicle, spade, leather, needle, thread, air runes, earth runes, fire staff, law runes",
+  "gpStack": "428215 gp",
+  "mapping": {
+    "questIds": [
+      "THE_GRAND_TREE"
+    ],
+    "items": [
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1741,
+        "name": "Leather",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1733,
+        "name": "Needle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1734,
+        "name": "Thread",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6006,
+        "name": "Barley",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2227,
+        "name": "Premade veg batta",
+        "qty": 12,
+        "source": "content"
+      },
+      {
+        "id": 2233,
+        "name": "Premade worm hole",
+        "qty": 12,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "6693 gp",
+        "label": "cash for gnome food and misc"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "premade worm batta",
+        "qty": 12
+      },
+      {
+        "rawToken": "premade toad batta",
+        "qty": 12
+      },
+      {
+        "rawToken": "premade fruit batta",
+        "qty": 12
+      },
+      {
+        "rawToken": "premade cheese and tomato batta",
+        "qty": 12
+      },
+      {
+        "rawToken": "premade tangled toad's legs",
+        "qty": 12
+      },
+      {
+        "rawToken": "premade vegetable ball",
+        "qty": 12
+      },
+      {
+        "rawToken": "premade chocolate bomb",
+        "qty": 12
+      }
+    ]
+  }
+}

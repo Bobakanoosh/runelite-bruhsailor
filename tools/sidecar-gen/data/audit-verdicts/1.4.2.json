@@ -1,0 +1,9 @@
+{
+  "stepId": "1.4.2",
+  "accurate": true,
+  "confidence": 0.82,
+  "issues": [
+    "two magic whistles (itemsNeeded) remains unresolved - likely two separate item IDs, ambiguous which variants"
+  ],
+  "notes": "Quest mapping complete and correct (all 6 actively progressed). Item resolution good for main consumables/gear. Unresolved items appropriate for ambiguous tokens (conductor rod, serum 207, wintertodt herb variants). abstractItems properly contains only cash stack (genuine abstraction). Missing items[] entry for magic whistles reduces confidence but mapping strategy is sound."
+}

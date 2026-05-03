@@ -1,0 +1,104 @@
+{
+  "stepId": "1.3.22",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Teleport to Camelot, complete Merlin’s Crystal (black candle, bat bones, Excalibur) and start Holy Grail up to the step you need to visit Entrana. Run to Seers, play the church organ (diary), spin your golden fleece on the spinning wheel, pay the estate agent to move your POH to Kourend, do the Elemental Workshop II quest, make a mind helmet for the diary, talk to the Poison Salesman to continue Fremmy Trials. Buy 10 stews for later (also completes a diary task), speak with the bartender to progress the barcrawl.\n",
+  "itemsNeeded": "8968 gp, black candle, bat bones, Excalibur, golden fleece, rune pickaxe, hammer, 8(/12) coal, battered key, slashed book (for mind shield), 2/3 elemental bars (from Step 40), barcrawl card",
+  "gpStack": "520861 gp",
+  "mapping": {
+    "questIds": [
+      "MERLIN_S_CRYSTAL",
+      "HOLY_GRAIL",
+      "ELEMENTAL_WORKSHOP_II",
+      "FREMMY_TRIALS",
+      "BARCRAWL"
+    ],
+    "items": [
+      {
+        "id": 38,
+        "name": "Black candle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 530,
+        "name": "Bat bones",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 35,
+        "name": "Excalibur",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3693,
+        "name": "Golden fleece",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2887,
+        "name": "Battered key",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 455,
+        "name": "Barcrawl card",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2003,
+        "name": "Stew",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 9733,
+        "name": "Mind helmet",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 9731,
+        "name": "Mind shield",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "8968 gp",
+        "label": "gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "8(/12) coal",
+        "qty": null
+      },
+      {
+        "rawToken": "slashed book (for mind shield)",
+        "qty": null
+      },
+      {
+        "rawToken": "2/3 elemental bars (from Step 40)",
+        "qty": null
+      }
+    ]
+  }
+}

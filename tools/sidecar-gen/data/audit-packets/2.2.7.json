@@ -1,0 +1,121 @@
+{
+  "stepId": "2.2.7",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "You should be at least level 55 hunter by now. Have Barnaby take you to Rimmington, light your bullseye lantern (swap out the emerald for a lantern lens) at the chemist for the diary, return to Ardougne. Go to Jimmy Dazzler and continue Ratcatchers, complete that segment entirely. Start Cold War in the zoo (up to the step where you have to make the penguin suit). Catch a Snowy knight and a Sabre-toothed kyatt along the way for the diary. \n",
+  "itemsNeeded": "cash stack, emerald lantern, lantern lens, tinderbox, 10 oak planks, 10 steel nails, hammer, spade, dramen staff, butterfly net, butterfly jar, teasing stick, knife, any log, water staff, law runes, cat, ardougne cloak 1",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "RATCATCHERS",
+      "COLD_WAR"
+    ],
+    "items": [
+      {
+        "id": 9064,
+        "name": "Emerald lantern",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4542,
+        "name": "Lantern lens",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8778,
+        "name": "Oak plank",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 1539,
+        "name": "Steel nails",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10010,
+        "name": "Butterfly net",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10012,
+        "name": "Butterfly jar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10029,
+        "name": "Teasing stick",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1383,
+        "name": "Staff of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 13121,
+        "name": "Ardougne cloak 1",
+        "qty": null,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "any log",
+        "qty": null
+      },
+      {
+        "rawToken": "cat",
+        "qty": null
+      }
+    ]
+  }
+}

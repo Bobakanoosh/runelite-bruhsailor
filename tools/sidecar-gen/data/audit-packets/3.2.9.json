@@ -1,0 +1,21 @@
+{
+  "stepId": "3.2.9",
+  "section": "3.2: Quest cape, quality of life",
+  "stepText": "Complete the remaining tasks for the Falador and Kandarin Elite diaries if you have the herblore level required (boostable 81 and 86 respectively).\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "60m gp",
+  "mapping": {
+    "questIds": [
+      "FALADOR_ELITE",
+      "KANDARIN_ELITE"
+    ],
+    "items": [],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "60m gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "stepId": "1.4.8",
+  "accurate": false,
+  "confidence": 0.40,
+  "issues": [
+    "Food items incomplete: 7 of 9 premade items unresolved (worm batta, toad batta, fruit batta, cheese+tomato batta, tangled toad's legs, vegetable ball, chocolate bomb)",
+    "Items array lists only 2 food types but step requires 4 inventories × 9 items (12 qty each)",
+    "Premade items should be resolved to OSRS item IDs rather than left in unresolvedItems"
+  ],
+  "notes": "Core non-food items (Chronicle, spade, leather, needle, thread, runes) accurately mapped. Quest ID (THE_GRAND_TREE) correct. Abstract cash item appropriate. Major gap: 78% of food items unresolved despite being primary inventory requirement for this step."
+}

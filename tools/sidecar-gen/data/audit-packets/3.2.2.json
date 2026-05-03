@@ -1,0 +1,57 @@
+{
+  "stepId": "3.2.2",
+  "section": "3.2: Quest cape, quality of life",
+  "stepText": "Do While Guthix Sleeps if you haven’t already. Start and complete Dragon Slayer II (using your Bow of Faerdhinen to deal with the strong bosses – protect from magic and antifire potions will, when combined, provide decent dragonfire protection except against metal dragons and Galvek where you need the shield plus a rune crossbow), putting Ellen’s XP at the end on Strength. Kill Vorkath up to 50 times to get an Ava’s Assembler. Complete Monkey Madness II (put Duke’s xp on Strength).\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "47m gp",
+  "mapping": {
+    "questIds": [
+      "WHILE_GUTHIX_SLEEPS",
+      "DRAGON_SLAYER_II",
+      "MONKEY_MADNESS_II"
+    ],
+    "items": [
+      {
+        "id": 25865,
+        "name": "Bow of faerdhinen",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1540,
+        "name": "Anti-dragon shield",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 9185,
+        "name": "Rune crossbow",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 22109,
+        "name": "Ava's assembler",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 2452,
+        "name": "Antifire potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "47m gp"
+      },
+      {
+        "label": "magic protection",
+        "rawToken": "protect from magic"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

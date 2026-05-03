@@ -1,0 +1,47 @@
+{
+  "stepId": "2.2.1",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Do barbarian fishing to 65 agility (~88 fishing) at CoX (buy as many feathers as needed), make sure to do Barblore as much as possible. Cut-eat the fish for cooking xp, you will need at least level 70 cooking for RFD/Awowogei.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "20k gp",
+  "mapping": {
+    "questIds": [
+      "RECIPE_FOR_DISASTER_MONKEY_AMBASSADOR"
+    ],
+    "items": [
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1603,
+        "name": "Ruby",
+        "qty": 80,
+        "source": "content"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": 200,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "20k gp starting stack",
+        "rawToken": "20k gp"
+      },
+      {
+        "label": "cash for feathers",
+        "rawToken": "buy as many feathers as needed"
+      },
+      {
+        "label": "cash for rubies",
+        "rawToken": "~80 more rubies in a gem shop"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

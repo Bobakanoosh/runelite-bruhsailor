@@ -1,0 +1,145 @@
+{
+  "stepId": "1.3.3",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Grab desert clothes, Varrock teleport runes, a small fishing net, coins, some (3-5 cakes, drop excess later) food and the barcrawl card from the bank. Charter a ship to Brimhaven, visit Dead Man’s Chest for the barcrawl, run south and pick up a seaweed and drop it 5 times (west of Jiminua’s shop) for the diary, keep it for later. Do Jungle Potion. During the quest collect 3 extra snake weed, 3 extra ardrigal, 1 extra volencia moss and 1 extra rogue’s purse.\n",
+  "itemsNeeded": "4840 gp, desert clothes, earth runes, law runes, mind runes, 4 soft clay, barcrawl card, trout, steel axe, small fishing net, staff of air, spade, cakes",
+  "gpStack": "775697 gp",
+  "mapping": {
+    "questIds": [
+      "JUNGLE_POTION",
+      "TAI_BWO_WANNAI_TRIO"
+    ],
+    "items": [
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 558,
+        "name": "Mind rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1761,
+        "name": "Soft clay",
+        "qty": 4,
+        "source": "items_needed"
+      },
+      {
+        "id": 455,
+        "name": "Barcrawl card",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 333,
+        "name": "Trout",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 303,
+        "name": "Small fishing net",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1891,
+        "name": "Cake",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 401,
+        "name": "Seaweed",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 973,
+        "name": "Charcoal",
+        "qty": 7,
+        "source": "content"
+      },
+      {
+        "id": 21394,
+        "name": "Karambwanji",
+        "qty": 23,
+        "source": "content"
+      },
+      {
+        "id": 1526,
+        "name": "Snake weed",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 1528,
+        "name": "Ardrigal",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 1532,
+        "name": "Volencia moss",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1534,
+        "name": "Rogue's purse",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 2446,
+        "name": "Antipoison(4)",
+        "qty": 5,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "4840 gp"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "coins"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "desert clothes",
+        "qty": null
+      }
+    ]
+  }
+}

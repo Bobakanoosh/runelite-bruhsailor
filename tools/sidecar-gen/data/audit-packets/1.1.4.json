@@ -1,0 +1,73 @@
+{
+  "stepId": "1.1.4",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Use the clan wars minigame teleport to go to Ferox’ enclave, restore your run energy if you wish (clan portal or northwest) and deposit all your items. Grab 7 iron bars (hop six times) and take the portal to Soul Wars (northeast, in the cave). Optional: only grab 2 iron bars and get the rest on Aldarin later. Bank your items, grab a knife, jug of water, bronze axe, steel axe, tinderbox, leather gloves, 5 wines and 18 logs, then exit the portal to Edgeville. Fletching arrow shafts as you move, head south and grab two nettles, then pull the lever to level 51 wilderness, then again to go to Ardougne, then again for the diary, then again to get back to Ardougne.\n",
+  "itemsNeeded": "knife, logs, jug of water, bronze axe, steel axe, tinderbox, leather gloves",
+  "gpStack": "0 gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": 18,
+        "source": "items_needed"
+      },
+      {
+        "id": 1937,
+        "name": "Jug of water",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1351,
+        "name": "Bronze axe",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1059,
+        "name": "Leather gloves",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 2351,
+        "name": "Iron bar",
+        "qty": 7,
+        "source": "content"
+      },
+      {
+        "id": 1993,
+        "name": "Jug of wine",
+        "qty": 5,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [],
+    "unresolvedItems": [
+      {
+        "rawToken": "nettle",
+        "qty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "stepId": "3.2.1",
+  "section": "3.2: Quest cape, quality of life",
+  "stepText": "Go to Guardians of the Rift, participate in the minigame until you have the full Raiments of the Eye and the colossal pouch.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "44m gp",
+  "mapping": {
+    "questIds": [
+      "GUARDIANS_OF_THE_RIFT",
+      "ARDOUGNE_HARD"
+    ],
+    "items": [
+      {
+        "id": 26784,
+        "name": "Colossal pouch",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 766,
+        "name": "Gem bag",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1623,
+        "name": "Uncut sapphire",
+        "qty": 60,
+        "source": "content"
+      },
+      {
+        "id": 1621,
+        "name": "Uncut emerald",
+        "qty": 60,
+        "source": "content"
+      },
+      {
+        "id": 1619,
+        "name": "Uncut ruby",
+        "qty": 60,
+        "source": "content"
+      },
+      {
+        "id": 1617,
+        "name": "Uncut diamond",
+        "qty": 60,
+        "source": "content"
+      },
+      {
+        "id": 2366,
+        "name": "Shield left half",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "44m gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "raiments of the eye",
+        "qty": null
+      },
+      {
+        "rawToken": "full bloodbark",
+        "qty": null
+      }
+    ]
+  }
+}

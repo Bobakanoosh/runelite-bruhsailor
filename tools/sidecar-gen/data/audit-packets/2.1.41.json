@@ -1,0 +1,90 @@
+{
+  "stepId": "2.1.41",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Teleport to Falador, smelt your lead ore into 11 bars. Pay the estate agent to move your house to Rellekka. House teleport. Grab the Fremennik Easy diary, putting the lamp on Herblore. Collect a few pet rocks. Put at least one in your POH menagerie and collect it again for the diary. Buy a berserker helmet. Your attack should be at least level 50 by now, if it is not do a bit of slayer (see below in this same step) first. Train slayer to get to level 50 defence, using your ancient staff as a melee weapon. \n",
+  "itemsNeeded": "cash stack, dramen staff, nature runes, fire runes, gold bars, rune sword, amulet of strength, berserker helm, etc.",
+  "gpStack": "550k gp",
+  "mapping": {
+    "questIds": [
+      "FREMENNIK_EASY"
+    ],
+    "items": [
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 561,
+        "name": "Nature rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 554,
+        "name": "Fire rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2357,
+        "name": "Gold bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1725,
+        "name": "Amulet of strength",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3751,
+        "name": "Berserker helm",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3695,
+        "name": "Pet rock",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4675,
+        "name": "Ancient staff",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 10551,
+        "name": "Fighter torso",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "cash stack",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "lead ore",
+        "qty": null
+      },
+      {
+        "rawToken": "etc.",
+        "qty": null
+      }
+    ]
+  }
+}

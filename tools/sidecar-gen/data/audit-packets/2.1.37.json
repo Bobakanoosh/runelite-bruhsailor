@@ -1,0 +1,20 @@
+{
+  "stepId": "2.1.37",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Start and complete Current Affairs in full. Note: for the current duck charting you do not have to follow the duck, you only need to set it loose and pick it up at the endpoint before it despawns, which is quite a generous timer. You can therefore combine this activity with other sailing in the area.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "670k gp",
+  "mapping": {
+    "questIds": [
+      "CURRENT_AFFAIRS"
+    ],
+    "items": [],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "670k gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

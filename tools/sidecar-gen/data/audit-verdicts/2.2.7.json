@@ -1,0 +1,7 @@
+{
+  "stepId": "2.2.7",
+  "accurate": true,
+  "confidence": 0.95,
+  "issues": [],
+  "notes": "All questIds correctly identify actively started/progressed quests (RATCATCHERS continue, COLD_WAR start). All 15 specific items properly mapped with correct IDs, quantities, and names. Cash stack appropriately abstracted. Unresolved items (any log, cat) correctly handled as ambiguous. No missing items or tier mismatches detected."
+}

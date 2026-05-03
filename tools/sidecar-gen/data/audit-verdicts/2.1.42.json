@@ -1,0 +1,10 @@
+{
+  "stepId": "2.1.42",
+  "accurate": true,
+  "confidence": 0.87,
+  "issues": [
+    "abstractItems includes 'flex or defensive gear' which does not appear in source text",
+    "unresolvedItems contains 'granite platebody' (should resolve to ID 4753)"
+  ],
+  "notes": "itemsNeeded marked as tbd per rules. Core melee gear examples (rune sword, berserker helm, amulet of strength) correctly mapped. Barbarian Assault correctly not flagged as quest. High confidence despite minor resolution gaps due to tbd status coverage."
+}

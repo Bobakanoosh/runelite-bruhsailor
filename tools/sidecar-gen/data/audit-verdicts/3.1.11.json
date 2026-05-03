@@ -1,0 +1,7 @@
+{
+  "stepId": "3.1.11",
+  "accurate": true,
+  "confidence": 0.88,
+  "issues": [],
+  "notes": "Step mapping is accurate. KARAMJA_HARD diary is the active requirement. Amulet of glory(6) correctly identified as needed content item. Cash stack (500k gp) is a valid abstraction. Unresolved 'uncut gems' is appropriate due to ambiguity—player mines these, type not specified in stepText. itemsNeeded='tbd' is acceptable for optional step."
+}

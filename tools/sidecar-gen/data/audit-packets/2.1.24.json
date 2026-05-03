@@ -1,0 +1,105 @@
+{
+  "stepId": "2.1.24",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Complete Wanted! (this involves random transportation, good luck. Rebank as needed, e.g. at Canifis. Use the sphere for Dorgesh-Kaan, complete a lap of the Canifis Rooftop course, kill a werewolf in human form with the wolfbane dagger and several in wolf form (any weapon, you may choose to safespot them on a table in the pub) for Rag and Bone Man II, tan some green dragonhide at Sbott, kill a Banshee in the slayer tower and get a slayer task from Mazchna along the way, use the Respawn Point teleport to get back to Falador). Grab your ring of charos (a) along with the items for the quests below, teleport to Draynor Manor and do Ernest the Chicken. Start Animal Magnetism.\n",
+  "itemsNeeded": "cash stack, law runes, soul runes, earth runes, water runes, chronicle, commorb, Dorgesh-Kaan spheres, green dhide leather, rune sword, earmuffs, light source",
+  "gpStack": "1.5m gp",
+  "mapping": {
+    "questIds": [
+      "WANTED",
+      "RAG_AND_BONE_MAN_II",
+      "ERNEST_THE_CHICKEN",
+      "ANIMAL_MAGNETISM"
+    ],
+    "items": [
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6635,
+        "name": "Commorb",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10972,
+        "name": "Dorgesh-kaan sphere",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4166,
+        "name": "Earmuffs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4548,
+        "name": "Bullseye lantern",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1753,
+        "name": "Green dragonhide",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "cash stack",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "wolfbane dagger",
+        "qty": null
+      },
+      {
+        "rawToken": "green dhide leather",
+        "qty": null
+      }
+    ]
+  }
+}

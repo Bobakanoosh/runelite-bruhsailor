@@ -1,0 +1,123 @@
+{
+  "stepId": "2.3.13",
+  "section": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
+  "stepText": "Do Grim Tales. Use the tool leprechaun to withdraw your watering can/seed dibber mid-quest. After the quest, at some point enter the Falador mines, equip your dwarven helmet for the diary. Alch it after. Also collect the Falador medium diary rewards, putting the lamp on herblore.\n",
+  "itemsNeeded": "2 vials of water, 2 tarromins, leather gloves, rune axe, cheese potatoes, Iban staff, death runes, fire runes, water runes, air staff, law runes, dueling ring, prayer pots, energy pots",
+  "gpStack": "19.7m gp",
+  "mapping": {
+    "questIds": [
+      "GRIM_TALES",
+      "FALADOR_MEDIUM"
+    ],
+    "items": [
+      {
+        "id": 253,
+        "name": "Tarromin",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 1059,
+        "name": "Leather gloves",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 554,
+        "name": "Fire rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 227,
+        "name": "Vial of water",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 11200,
+        "name": "Dwarven helmet",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 5331,
+        "name": "Watering can",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 5343,
+        "name": "Seed dibber",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1409,
+        "name": "Iban's staff",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "19.7m gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "cheese potatoes",
+        "qty": null
+      }
+    ]
+  }
+}

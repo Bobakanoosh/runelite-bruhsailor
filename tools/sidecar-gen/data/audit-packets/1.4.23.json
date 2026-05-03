@@ -1,0 +1,97 @@
+{
+  "stepId": "1.4.23",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Dueling ring to the duel arena, give the pieces of perfect jewellery to Avan for Family Crest. Dueling ring to Clan Wars, go through Soul Wars to Edgeville, enter the Edgeville dungeon and get a slayer task from Vannaka (for the diary), cross the obstacle pipe into the sewers (for the diary) and collect ~7 red spider’s eggs (for diary steps, restore potions for Desert Treasure and a guthix balance potion against vampyres). Return to Edgeville bank, grab 50gp, a pickaxe, axe, a ring of dueling and fill your inventory with pure essence (you only need 1 really, but free xp). Make a waka canoe (but don’t use it), then run into the wilderness and buy a team cape from Richard and equip it for the diary, get sent to the Abyss by the Mage of Zamorak. Exit through the earth rift and craft an inventory of earth runes for the diary.\n",
+  "itemsNeeded": "‘perfect’ necklace, ‘perfect’ ring, 50 gp, bronze axe (Step 2), bronze pickaxe (Step 43), ring of dueling, 25 pure essence, rune sword, salmon",
+  "gpStack": "239158 gp",
+  "mapping": {
+    "questIds": [
+      "FAMILY_CREST",
+      "DESERT_TREASURE"
+    ],
+    "items": [
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7936,
+        "name": "Pure essence",
+        "qty": 25,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 329,
+        "name": "Salmon",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 774,
+        "name": "'perfect' necklace",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 773,
+        "name": "'perfect' ring",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2430,
+        "name": "Restore potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "50gp",
+        "label": "gp"
+      },
+      {
+        "rawToken": "gp_stack",
+        "label": "gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "red spider's egg",
+        "qty": 7
+      },
+      {
+        "rawToken": "guthix balance potion",
+        "qty": null
+      },
+      {
+        "rawToken": "pickaxe",
+        "qty": 1
+      },
+      {
+        "rawToken": "axe",
+        "qty": 1
+      },
+      {
+        "rawToken": "team cape",
+        "qty": 1
+      },
+      {
+        "rawToken": "bronze axe (Step 2)",
+        "qty": null
+      },
+      {
+        "rawToken": "bronze pickaxe (Step 43)",
+        "qty": null
+      }
+    ]
+  }
+}

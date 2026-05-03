@@ -1,0 +1,20 @@
+{
+  "stepId": "2.3.6",
+  "section": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
+  "stepText": "Teleport to Varrock, take the spirit tree to The Grand Tree. Run south and meet the scout outside the gate for The General’s Shadow. POH tab to Brimhaven, run to The General’s Shadow scout north of Shilo village and progress the miniquest.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "19.7m gp",
+  "mapping": {
+    "questIds": [
+      "THE_GENERAL_S_SHADOW"
+    ],
+    "items": [],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "19.7m gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

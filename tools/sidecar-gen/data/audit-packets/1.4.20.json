@@ -1,0 +1,168 @@
+{
+  "stepId": "1.4.20",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Teleport to Lumbridge, continue Garden of Tranquillity and smelt the two ‘perfect’ gold ores into perfect jewelry (BE CAREFUL NOT TO MAKE TWO RINGS/NECKLACES). Make mushroom pies (1-4 pies are recommended, depending on how many uncut gems you got from wintertodt. If you went for the minimum amount of wintertodt you will need up to 4, while 1 pie is enough if you went to level 97+) on the Lumbridge range. Teleport to Falador, continue Garden of Tranquillity. Make jewelry (40 rings of dueling, 45 digsite pendants, 10 games necklaces, 8 bracelets of clay, 2 sapphire amulets, turn one into an amulet of magic, 1 ruby amulet with the pie boost and turn it into an amulet of strength, 1 binding necklace).\n",
+  "itemsNeeded": "41 emeralds, 51 rubies, 16 sapphires, air/earth runes, water staff, fire staff, 108 cosmics, law runes, half a mushroom pie",
+  "gpStack": "250142 gp",
+  "mapping": {
+    "questIds": [
+      "GARDEN_OF_TRANQUILLITY"
+    ],
+    "items": [
+      {
+        "id": 1605,
+        "name": "Emerald",
+        "qty": 41,
+        "source": "items_needed"
+      },
+      {
+        "id": 1603,
+        "name": "Ruby",
+        "qty": 51,
+        "source": "items_needed"
+      },
+      {
+        "id": 1607,
+        "name": "Sapphire",
+        "qty": 16,
+        "source": "items_needed"
+      },
+      {
+        "id": 1383,
+        "name": "Staff of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 21687,
+        "name": "Half a mushroom pie",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 21690,
+        "name": "Mushroom pie",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": 40,
+        "source": "content"
+      },
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 11074,
+        "name": "Bracelet of clay",
+        "qty": 8,
+        "source": "content"
+      },
+      {
+        "id": 1694,
+        "name": "Sapphire amulet",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1727,
+        "name": "Amulet of magic",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1698,
+        "name": "Ruby amulet",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1725,
+        "name": "Amulet of strength",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 5521,
+        "name": "Binding necklace",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1637,
+        "name": "Sapphire ring",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1639,
+        "name": "Emerald ring",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 255,
+        "name": "Harralander",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 23880,
+        "name": "Water-filled vial",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11194,
+        "name": "Digsite pendant (5)",
+        "qty": 45,
+        "source": "content"
+      },
+      {
+        "id": 6470,
+        "name": "Compost potion(4)",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": 120,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "250142 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "air/earth runes",
+        "qty": null
+      },
+      {
+        "rawToken": "108 cosmics",
+        "qty": 108
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "stepId": "1.4.4",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Teleport to Falador. Get a haircut from the hairdresser and fill a bucket at the pump for the diary. Continue Fairytale I (by climbing over the western Falador wall) until you have the list of three items needed to make the magic secateurs, stop by the crafting guild along the way and mine a gold ore for the diary and turn two cowhides into soft leather and one into a hard leather (so three hides total). Complete Melzar’s Maze for the map piece to progress Dragon Slayer I. Collect the three Fairytale items. Most items are not too difficult to obtain, see below for some suggestions for the harder ones. Use the Shades of Mort’ton minigame teleport to get to the Nature Grotto, killing a snail for thin snail meat and crafting its shell into a snelm along the way, and make the magic secateurs.\n",
+  "itemsNeeded": "5 gp, water runes, air staff, law runes, rune pickaxe, brown apron, maze key, wind strike runes, rune sword, salmon/trout, secateurs (from Step 11), symptoms list, Draynor skull, amulet of ghostspeak, three cowhides",
+  "gpStack": "445381 gp",
+  "mapping": {
+    "questIds": [
+      "FAIRYTALE_I_GROWING_PAINS",
+      "MELZARS_MAZE",
+      "DRAGON_SLAYER_I"
+    ],
+    "items": [
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1757,
+        "name": "Brown apron",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1542,
+        "name": "Maze key",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7411,
+        "name": "Symptoms list",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7408,
+        "name": "Draynor skull",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 552,
+        "name": "Ghostspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 444,
+        "name": "Gold ore",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1739,
+        "name": "Cowhide",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 1743,
+        "name": "Hard leather",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 211,
+        "name": "Grimy avantoe",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 209,
+        "name": "Grimy irit leaf",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3000,
+        "name": "Snapdragon",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1462,
+        "name": "Nature talisman",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 239,
+        "name": "White berries",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3369,
+        "name": "Thin snail meat",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 7409,
+        "name": "Magic secateurs",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "5 gp",
+        "label": "gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "soft leather",
+        "qty": 1
+      },
+      {
+        "rawToken": "snail",
+        "qty": 1
+      },
+      {
+        "rawToken": "snelm",
+        "qty": 1
+      },
+      {
+        "rawToken": "rune pouch",
+        "qty": null
+      },
+      {
+        "rawToken": "wind strike runes",
+        "qty": null
+      },
+      {
+        "rawToken": "salmon/trout",
+        "qty": null
+      },
+      {
+        "rawToken": "secateurs (from Step 11)",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "stepId": "1.3.31",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Build the camp on Fossil Island (then rebank to get new items), unlock the mushtree system including the teleport to the house on the hill by using a digsite pendant on the strange machine in said house, mine 1,000 volcanic ash while in the area, set up your first bird run.\n",
+  "itemsNeeded": "saw, hammer, 2 oak planks, 5 steel nails, 1 iron bar; rest after creating bank: rune pickaxe, steel axe, 4 clockworks, 4 logs, hammer, chisel, 40 barley seeds, 5 planks, 8 oak planks, 20 steel nails, 3 soft clay, empty bucket, tinderbox, 1 rope, 1 iron bar, 2 logs",
+  "gpStack": "445506 gp",
+  "mapping": {
+    "questIds": [
+      "FOSSIL_ISLAND_MUSHROOM_GROVE"
+    ],
+    "items": [
+      {
+        "id": 8794,
+        "name": "Saw",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8778,
+        "name": "Oak plank",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 1539,
+        "name": "Steel nails",
+        "qty": 5,
+        "source": "items_needed"
+      },
+      {
+        "id": 2351,
+        "name": "Iron bar",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8792,
+        "name": "Clockwork",
+        "qty": 4,
+        "source": "items_needed"
+      },
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": 4,
+        "source": "items_needed"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5305,
+        "name": "Barley seed",
+        "qty": 40,
+        "source": "items_needed"
+      },
+      {
+        "id": 960,
+        "name": "Plank",
+        "qty": 5,
+        "source": "items_needed"
+      },
+      {
+        "id": 1761,
+        "name": "Soft clay",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 3727,
+        "name": "Empty bucket",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1440,
+        "name": "Earth talisman",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2363,
+        "name": "Runite bar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21486,
+        "name": "Teak seed",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11194,
+        "name": "Digsite pendant (5)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "445506 gp"
+      },
+      {
+        "label": "best possible logs for your hunter and crafting level",
+        "rawToken": "best possible logs"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

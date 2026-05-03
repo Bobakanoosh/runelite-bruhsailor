@@ -1,0 +1,88 @@
+{
+  "stepId": "3.1.8",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "Optional but recommended: collect buckets of sand and giant seaweed to train your crafting level to 80 (or 75, boosting after) using SGM and arteglass. Make an amulet of glory. Regardless of whether you include the above: buy broad arrowhead packs with most of your money (leave ~500k in reserve, buy the broad arrowtip packs at any slayer master, if you are opening fast enough the stock will slowly deplete. Hop worlds if the stock ever hits 700 or lower). Do Pest Control, veteran i.e. 100+ cb boat, for enough points for full elite void range (other two helmets optional) while fletching – 1250 points for just ranging, 1650 points for a full set, fletching during the games and only contributing as much as necessary to get points. You can optionally get the other two helmets as well, or ignore them(/consider getting them later).\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "500k gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 1783,
+        "name": "Bucket of sand",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21504,
+        "name": "Giant seaweed",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11978,
+        "name": "Amulet of glory(6)",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 11885,
+        "name": "Broad arrowhead pack",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 13072,
+        "name": "Elite void top",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 13073,
+        "name": "Elite void robe",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "500k in reserve"
+      },
+      {
+        "label": "money",
+        "rawToken": "most of your money"
+      },
+      {
+        "label": "crafting resource/training materials",
+        "rawToken": "SGM and arteglass"
+      },
+      {
+        "label": "fletcher-friendly activity",
+        "rawToken": "Pest Control"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "broad arrowtip pack",
+        "qty": null
+      },
+      {
+        "rawToken": "elite void gloves",
+        "qty": 1
+      },
+      {
+        "rawToken": "void ranger helmet",
+        "qty": 1
+      },
+      {
+        "rawToken": "SGM",
+        "qty": null
+      },
+      {
+        "rawToken": "arteglass",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "stepId": "1.4.20",
+  "accurate": false,
+  "confidence": 0.78,
+  "issues": [
+    "Harralander (id:255, qty:1) not mentioned in step text - appears to be unrelated task context",
+    "Compost potion(4) and Energy potion(4) listed with high quantities (10, 120) but not referenced in step instructions",
+    "Water-filled vial unrelated to stated objectives of crafting jewelry and pies"
+  ],
+  "notes": "Core mapping of gems, runes, staffs, and crafted jewelry is accurate with correct quantities. Quest ID properly scoped. Cash stack appropriately abstracted. Unresolved rune types reasonable. Deduction due to extraneous items that clutter the actual step requirements."
+}

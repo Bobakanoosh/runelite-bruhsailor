@@ -1,0 +1,102 @@
+{
+  "stepId": "2.1.31",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Minigame teleport to Shades of Mort’ton, buy a limestone (if you already have this from wintertodt skip it), a plank and 8 limestone bricks from Razmire (or do this after the quest), do Haunted Mine. If you have any poisoned weapon (or ammunition), use that to inflict poison on Treus Dayth to speed up the fight and make it much easier. Collect (one inventory of) spare salve crystals.\n",
+  "itemsNeeded": "Iban staff, death runes, fire runes, ball of wool, chisel, energy potions, prayer potions, swordfish, premade choc bombs, any poisoned weapon or ammunition",
+  "gpStack": "1.5m gp",
+  "mapping": {
+    "questIds": [
+      "HAUNTED_MINE"
+    ],
+    "items": [
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 554,
+        "name": "Fire rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1759,
+        "name": "Ball of wool",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2229,
+        "name": "Premade choc bomb",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3211,
+        "name": "Limestone",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 960,
+        "name": "Plank",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 3420,
+        "name": "Limestone brick",
+        "qty": 8,
+        "source": "content"
+      },
+      {
+        "id": 1409,
+        "name": "Iban's staff",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "1.5m gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "salve crystal",
+        "qty": null
+      },
+      {
+        "rawToken": "any poisoned weapon or ammunition",
+        "qty": null
+      }
+    ]
+  }
+}

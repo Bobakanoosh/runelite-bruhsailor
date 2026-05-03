@@ -1,0 +1,82 @@
+{
+  "stepId": "3.1.4",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "Now that you have daeyalt mining https://streamable.com/it7kry unlocked, mine 28k daeyalt essence (you can also just afk mine this). Make 275 binding necklaces, 175 rings of dueling, a fire tiara, buy 28k earth runes (if needed). Swap to the Lunar spellbook. Using magic imbue, your binding necklaces and hallowed crystal shards (teleports) for banking, lava runecraft to 425,000 xp (level 64, midway to level 65). After this, start and complete The Final Dawn, putting the xp on prayer. The Arkan blade is now your default special attack weapon when meleeing. It is stronger than the dragon dagger. The Arkan blade is also sometimes better (typically against stab weak enemies) than the Dragon scimitar as a mainhand weapon.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "15m gp",
+  "mapping": {
+    "questIds": [
+      "THE_FINAL_DAWN",
+      "ARDOUGNE_HARD",
+      "LUMBRIDGE_HARD"
+    ],
+    "items": [
+      {
+        "id": 24704,
+        "name": "Daeyalt essence",
+        "qty": 28000,
+        "source": "content"
+      },
+      {
+        "id": 5521,
+        "name": "Binding necklace",
+        "qty": 275,
+        "source": "content"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": 175,
+        "source": "content"
+      },
+      {
+        "id": 5537,
+        "name": "Fire tiara",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": 28000,
+        "source": "content"
+      },
+      {
+        "id": 24709,
+        "name": "Hallowed crystal shard",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1215,
+        "name": "Dragon dagger",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4587,
+        "name": "Dragon scimitar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2366,
+        "name": "Shield left half",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "15m gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "arkan blade",
+        "qty": 1
+      }
+    ]
+  }
+}

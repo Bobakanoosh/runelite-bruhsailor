@@ -1,0 +1,1 @@
+{"stepId":"1.1.6","accurate":false,"confidence":0.92,"issues":["Normal log (itemsNeeded) mapped to unresolvedItems instead of concrete item ID 1511"],"notes":"Three quests correctly mapped and cash abstract properly categorized. Missing log resolution is the sole mapping error."}

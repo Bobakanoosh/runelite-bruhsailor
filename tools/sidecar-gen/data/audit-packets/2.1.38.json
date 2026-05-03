@@ -1,0 +1,45 @@
+{
+  "stepId": "2.1.38",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Buy a skiff, build an iron helm and an oak mast and linen sails on it. Buy 25 repair kits and put them in your cargo hold, using them whenever appropriate (keep in mind you can also repair your ship every time you are at a shipwright, which is recommended). Chart most of the Ardent Ocean using the route in red in 20260215OSRS24-30ChartingRoute.png. The starting point is near Catherby. After reaching the Ruins of Unkah, drink the Bottle of slug’s mind balm last (it teleports you to Witchhaven), then run to Ardougne docks, charter a ship to Musa Point and recover your skiff. Then sail the orange route, visiting current duck spots. Dock at the Pandemonium.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "650k gp",
+  "mapping": {
+    "questIds": [
+      "PANDEMONIUM"
+    ],
+    "items": [],
+    "abstractItems": [
+      {
+        "label": "starting cash",
+        "rawToken": "650k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "skiff",
+        "qty": 1
+      },
+      {
+        "rawToken": "iron helm",
+        "qty": 1
+      },
+      {
+        "rawToken": "oak mast",
+        "qty": 1
+      },
+      {
+        "rawToken": "linen sails",
+        "qty": 1
+      },
+      {
+        "rawToken": "repair kit",
+        "qty": 25
+      },
+      {
+        "rawToken": "bottle of slug's mind balm",
+        "qty": 1
+      }
+    ]
+  }
+}

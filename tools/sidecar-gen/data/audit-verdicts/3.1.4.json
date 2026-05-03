@@ -1,0 +1,48 @@
+{
+  "stepId": "3.1.4",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    {
+      "type": "extraneous_items",
+      "items": [
+        {
+          "id": 1215,
+          "name": "Dragon dagger",
+          "reason": "comparison item only, not required for step"
+        },
+        {
+          "id": 4587,
+          "name": "Dragon scimitar",
+          "reason": "comparison item only, not required for step"
+        },
+        {
+          "id": 2366,
+          "name": "Shield left half",
+          "reason": "not mentioned in step requirements"
+        }
+      ]
+    },
+    {
+      "type": "extraneous_questIds",
+      "questIds": [
+        {
+          "id": "ARDOUGNE_HARD",
+          "reason": "not mentioned in step text"
+        },
+        {
+          "id": "LUMBRIDGE_HARD",
+          "reason": "not mentioned in step text"
+        }
+      ]
+    }
+  ],
+  "notes": "Step requires cleanup of comparison items and unrelated quests. Core items (daeyalt essence, binding necklaces, rings of dueling, fire tiara, earth runes, hallowed crystal shards) are correctly specified. THE_FINAL_DAWN is the only active quest for this step. Confidence is below 0.85 threshold due to multiple extraneous items and questIds requiring removal.",
+  "recommendations": [
+    "Remove Dragon dagger (id: 1215) from items array",
+    "Remove Dragon scimitar (id: 4587) from items array",
+    "Remove Shield left half (id: 2366) from items array",
+    "Remove ARDOUGNE_HARD from questIds array",
+    "Remove LUMBRIDGE_HARD from questIds array"
+  ]
+}

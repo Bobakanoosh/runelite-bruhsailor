@@ -1,0 +1,12 @@
+{
+  "stepId": "1.1.11",
+  "accurate": false,
+  "confidence": 0.62,
+  "issues": [
+    "Woad leaves (qty 2) should resolve to item ID 267, not unresolved",
+    "Pirate's key is a concrete quest item, should not be unresolved",
+    "Sacks (qty 9) is ambiguous - needs type specification (potato/onion sacks); currently unresolved",
+    "Coins grabbed in step not captured separately from 3445 gp in itemsNeeded; gpStack is 5288 but allocation unclear"
+  ],
+  "notes": "Quest mapping is correct (7 active quests). Most items properly resolved, but 4 entries incorrectly placed in unresolved when they are specific items or need type clarification. Coin handling unclear between itemsNeeded amount and gpStack."
+}

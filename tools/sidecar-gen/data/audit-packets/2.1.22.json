@@ -1,0 +1,52 @@
+{
+  "stepId": "2.1.22",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Chronicle teleport to Varrock, world hop at the anvils south of Varrock West bank to find Bob for A Tail of Two Cats. Go to Gertrude, continue A Tail of Two Cats and start Ratcatchers. Visit Reldo for A Tail of Two Cats, return to Bob for A Tail of Two Cats, go back to the castle and chop some yew logs behind the castle and burn them at the top of the church for the diary, then head into the sewers and continue Ratcatchers until you need to visit Jimmy Dazzler, also kill rats for Rag and Bone Man II.\n",
+  "itemsNeeded": "cat, catspeak amulet, rune axe, tinderbox, rune sword",
+  "gpStack": "1.5m gp",
+  "mapping": {
+    "questIds": [
+      "A_TAIL_OF_TWO_CATS",
+      "RATCATCHERS",
+      "RAG_AND_BONE_MAN_II"
+    ],
+    "items": [
+      {
+        "id": 4677,
+        "name": "Catspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "1.5m gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "cat",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "stepId": "1.1.6",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "TL;DR: do Clock Tower, Monk’s Friend, Hazeel Cult and get level 35 woodcutting, burning the logs and swapping to oaks at 15. Eat your food if you take damage.\n",
+  "itemsNeeded": "jug of water, 1 normal log, steel axe, tinderbox",
+  "gpStack": "2500 gp",
+  "mapping": {
+    "questIds": [
+      "CLOCK_TOWER",
+      "MONKS_FRIEND",
+      "HAZEEL_CULT"
+    ],
+    "items": [
+      {
+        "id": 1937,
+        "name": "Jug of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "2500 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "normal log",
+        "qty": null
+      }
+    ]
+  }
+}

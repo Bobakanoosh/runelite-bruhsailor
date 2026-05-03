@@ -1,0 +1,10 @@
+{
+  "stepId": "3.2.4",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    "items[] contains 4 unmentioned items: Salve amulet (4081), Rune crossbow (9185), Mark of grace (11849), Stamina potion(4) (12625) - these should be removed or moved to unresolvedItems",
+    "itemsNeeded marked 'tbd' should be resolved based on mapping"
+  ],
+  "notes": "Core step extraction is sound: questIds correctly identify diary requirements, Gold ore (42.3k) and Runite bars (15) are explicitly quantified per step text. abstractItems appropriately captures '64m gp' as cash stack. Unresolved items (cut diamond, cut ruby, super energy potion) are reasonable - these are content references without standard item IDs. Confidence reduced due to erroneous items in primary items[] array; these appear to be copy-paste contamination from another step."
+}

@@ -1,0 +1,7 @@
+{
+  "stepId": "2.2.30",
+  "accurate": true,
+  "confidence": 0.90,
+  "issues": [],
+  "notes": "Mapping is accurate and complete. Quest ID selection is correct: KNIGHT_WAVES_TRAINING_GROUNDS is the only actively progressed quest in this step; King's Ransom is completed earlier for herblore XP but not actively engaged here. All 14 mapped items directly correspond to step requirements: looting bag for banking, melee armor/gear (Helm of neitiznot, Dragon scimitar, defender, Amulet of strength, Barrows gloves, Berserker ring, Climbing boots, Rada's blessing), teleport items (Games necklace, Ring of dueling), diary requirement item (Yew logs, Ardougne cloak), and stat boosting (Wizard's mind bomb). AbstractItems correctly represent genuine abstractions: 'melee gear' for the stated equipment category, 'stat-boosting potions' for consumables mentioned, 'thrall runes' for spellcasting, and 'cash stack' for the gp amount. All unresolved items (proselyte armor pieces, thrall spell variants, cheese potato, dragonfire potions) are appropriately flagged due to ambiguity or missing explicit specification in stepText, which is correct handling rather than false resolution."
+}

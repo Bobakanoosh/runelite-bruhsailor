@@ -1,0 +1,37 @@
+{
+  "stepId": "1.4.27",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Do arteglass to make 1580 unpowered orbs: Kharedst’s teleport to Piscarilius, do arteglass (Ferox every inventory to restore run energy, Shayzien teleport on the Kharedst’s to restore Kharedst’s charges) to make unpowered orbs. This also completes a diary task.\n",
+  "itemsNeeded": "Kharedst’s memoirs, lockpick,",
+  "gpStack": "239094 gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 1523,
+        "name": "Lockpick",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 567,
+        "name": "Unpowered orb",
+        "qty": 1580,
+        "source": "content"
+      },
+      {
+        "id": 21760,
+        "name": "Kharedst's memoirs",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "239094 gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

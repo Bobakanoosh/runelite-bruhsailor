@@ -1,0 +1,27 @@
+{
+  "stepId": "2.2.33",
+  "accurate": true,
+  "confidence": 0.87,
+  "issues": [
+    {
+      "type": "quest_classification",
+      "severity": "low",
+      "item": "VARROCK_HARD",
+      "description": "Listed in questIds but only indirectly referenced (praying at altar). Not actively started/progressed but included for diary completion. Consider if this meets the 'actively started/progressed' criteria."
+    },
+    {
+      "type": "unresolved_item",
+      "severity": "low",
+      "item": "Dragon'hai history book",
+      "description": "Included in unresolvedItems but is a specific, resolvable item (ID 29140 or similar). Could be resolved rather than left unresolved."
+    }
+  ],
+  "notes": [
+    "All items_needed entries are legitimate requirements for quest completion and crafting",
+    "Content items are all present in the step text and represent actual resources needed",
+    "Abstract item (1.7m gp as 'cash stack') is a genuine abstraction and appropriately labeled",
+    "Unresolved items for 'moss lizard', 'salve teleport', and 'rod of ivandis' are acceptable given ambiguity in game mechanics/item types",
+    "Quest list comprehensively covers all quests mentioned: Curse of the Empty Lord, At First Light, Perilous Moons, The Heart of Darkness, Scrambled, Shadows of Custodia, In Aid of the Myreque, Darkness of Hallowvale, A Taste of Hope, and Sins of the Father",
+    "Confidence score reflects high overall accuracy with minor classification questions around VARROCK_HARD and one resolvable item"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "stepId": "1.3.7",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "If you still have unclaimed rewards from Wintertodt, open those now to get 8-12 coal. Teleport to Camelot, if necessary run to the Coal Trucks and mine 8 coal (12 if you wish to own your own mind shield). Return to Seers Village and do Elemental Workshop I. Kill one of each elemental for the diary, but 3 earth elementals instead of 1 to save time for Elemental Workshop II later (these are some tough fights - take your best food and gear, or flinch the elementals as needed). Make 3 elemental bars, only make one elemental shield to complete the quest.\n",
+  "itemsNeeded": "air runes, law runes, rune sword, knife, bronze pickaxe, needle, thread, hammer, 12 coal",
+  "gpStack": "737352 gp",
+  "mapping": {
+    "questIds": [
+      "ELEMENTAL_WORKSHOP_I"
+    ],
+    "items": [
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1265,
+        "name": "Bronze pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1733,
+        "name": "Needle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1734,
+        "name": "Thread",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 453,
+        "name": "Coal",
+        "qty": 12,
+        "source": "items_needed"
+      },
+      {
+        "id": 2890,
+        "name": "Elemental shield",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "best food",
+        "label": "best food"
+      },
+      {
+        "rawToken": "best gear",
+        "label": "best gear"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "elemental bar",
+        "qty": 3
+      }
+    ]
+  }
+}

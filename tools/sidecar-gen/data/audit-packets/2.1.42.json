@@ -1,0 +1,56 @@
+{
+  "stepId": "2.1.42",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Teleport to Barbarian Assault, do at least one full queen run in any role and buy a granite platebody. Recommended: continue Barbarian Assault to obtain a Fighter Torso.\n",
+  "itemsNeeded": "rune sword, amulet of strength, berserker helm, etc. (henceforth ‘melee gear’)",
+  "gpStack": "450k gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3751,
+        "name": "Berserker helm",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1725,
+        "name": "Amulet of strength",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10551,
+        "name": "Fighter torso",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "450k gp",
+        "label": "cash stack"
+      },
+      {
+        "rawToken": "melee gear",
+        "label": "melee gear"
+      },
+      {
+        "rawToken": "flex or defensive gear",
+        "label": "defensive gear"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "granite platebody",
+        "qty": null
+      }
+    ]
+  }
+}

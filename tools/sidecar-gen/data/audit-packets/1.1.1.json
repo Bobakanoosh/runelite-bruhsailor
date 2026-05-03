@@ -1,0 +1,68 @@
+{
+  "stepId": "1.1.1",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Choose a swag look for your account (older guides will mention that you need to start as a female character - this is no longer required). Make sure you have two step authenticator enabled. For most of the guide it is assumed you carry your GP stack. All lamps, unless mentioned otherwise, go on Herblore until the end of Chapter 2 (Song Of The Elves completed). Grab a knife, jug and fill it with water, 2 buckets (hop once), cabbage, leather boots. Talk to Duke Horacio to start Rune Mysteries, burn logs to 15 firemaking, bank 5 ashes. Grab 110 logs and bank them.\n",
+  "itemsNeeded": "none",
+  "gpStack": "25 gp",
+  "mapping": {
+    "questIds": [
+      "RUNE_MYSTERIES"
+    ],
+    "items": [
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1935,
+        "name": "Jug",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1925,
+        "name": "Bucket",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1965,
+        "name": "Cabbage",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1061,
+        "name": "Leather boots",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": 110,
+        "source": "content"
+      },
+      {
+        "id": 592,
+        "name": "Ashes",
+        "qty": 5,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "25 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "water",
+        "qty": 1
+      }
+    ]
+  }
+}

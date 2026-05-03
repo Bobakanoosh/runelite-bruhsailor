@@ -1,0 +1,27 @@
+{
+  "stepId": "2.2.24",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    {
+      "field": "unresolvedItems",
+      "severity": "high",
+      "description": "Spurious items not mentioned in step text",
+      "items": [
+        "herb tar rock",
+        "air staves"
+      ]
+    },
+    {
+      "field": "abstractItems",
+      "severity": "low",
+      "description": "Redundant 'cash stack' entries with different rawTokens"
+    },
+    {
+      "field": "items vs unresolvedItems",
+      "severity": "medium",
+      "description": "Prospector hat mentioned in step but in unresolvedItems, not items[]"
+    }
+  ],
+  "notes": "questIds accurate - both diaries actively required. items[] all genuinely needed for MLM and Falador diaries. abstractItems present but redundant. Two unresolvedItems (herb tar rock, air staves) appear to be spurious - not in step text. Prospector hat should be resolved to item ID 40,599 (Prospector helmet/hat)."
+}

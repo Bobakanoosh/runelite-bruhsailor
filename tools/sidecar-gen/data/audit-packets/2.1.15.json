@@ -1,0 +1,120 @@
+{
+  "stepId": "2.1.15",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Go to Draynor to rebank, grab a harralander and turn the blamish snail slime into blamish snail oil, add it to a fishing rod to make an oily rod. Speak with Aggie to continue One Small Favour. Enter the HAM hideout, speak with Johannes Ulsbrecht to continue One Small favour, then pickpocket HAM members until you have two sets of HAM robes (you may already have some in the bank) and polished buttons (if you got polished buttons earlier you don’t need another one). Speak with Fred the Farmer for One Small Favour, use a sack on the hay to get a sack of hay, make a necklace of passage, then speak with Seth Groats to continue One Small Favour.\n",
+  "itemsNeeded": "blamish snail slime, harralander, vial of water, fishing rod, lockpick, jade, necklace mould, silver bar, air runes, cosmic rune, swordfish/cake/wines, pure essence, empty sack",
+  "gpStack": "1.6m gp",
+  "mapping": {
+    "questIds": [
+      "ONE_SMALL_FAVOUR"
+    ],
+    "items": [
+      {
+        "id": 1581,
+        "name": "Blamish snail slime",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 255,
+        "name": "Harralander",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 227,
+        "name": "Vial of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 307,
+        "name": "Fishing rod",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1523,
+        "name": "Lockpick",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1611,
+        "name": "Jade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1597,
+        "name": "Necklace mould",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2355,
+        "name": "Silver bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 564,
+        "name": "Cosmic rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7936,
+        "name": "Pure essence",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5418,
+        "name": "Empty sack",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4300,
+        "name": "Ham robe",
+        "qty": 2,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "1.6m gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "blamish snail oil",
+        "qty": null
+      },
+      {
+        "rawToken": "oily rod",
+        "qty": null
+      },
+      {
+        "rawToken": "polished button",
+        "qty": null
+      },
+      {
+        "rawToken": "sack of hay",
+        "qty": null
+      },
+      {
+        "rawToken": "swordfish/cake/wines",
+        "qty": null
+      }
+    ]
+  }
+}

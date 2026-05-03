@@ -1,0 +1,20 @@
+{
+  "stepId": "2.2.4",
+  "accurate": false,
+  "confidence": 0.90,
+  "issues": [
+    {
+      "severity": "HIGH",
+      "type": "missing_item",
+      "detail": "Cat is listed in itemsNeeded text but missing from items[] mapping. Required for RFD Evil Dave portion. Should include cat item (ID 1556) in items array.",
+      "rawToken": "cat"
+    },
+    {
+      "severity": "MEDIUM",
+      "type": "unresolved_ambiguity",
+      "detail": "Special runestone is unresolved but is produced as output, not input. Should either be resolved to specific item IDs or confirmed as tbd.",
+      "rawToken": "special runestone"
+    }
+  ],
+  "notes": "Quest IDs correctly scoped to actively progressed quests (RFD Evil Dave and Slug Menace). Item quantities accurately captured where specified. Output items (mind tiara, lunar staff, lava rune) correctly marked as content. Altar locations reasonably left unresolved as they are destinations, not items. Primary issue: cat item omitted from mapping despite explicit mention in itemsNeeded text."
+}

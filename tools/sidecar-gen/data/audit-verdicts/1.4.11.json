@@ -1,0 +1,14 @@
+{
+  "stepId": "1.4.11",
+  "accurate": false,
+  "confidence": 0.65,
+  "issues": [
+    "questIds contains 'WOODCUTTING' - not a quest ID (woodcutting is a skill, not a quest)",
+    "Rake (5341) - only needed for optional hourlies, not required for this step",
+    "Oak logs (1521) and Willow logs (1519) - not mentioned in step text",
+    "Antipoison(4) (2446) - not mentioned in step text",
+    "Amulet of nature (6040) - only useful if choosing optional forestry path",
+    "Items bloat: contains helpers not needed for core objective (train WC to 70/75)"
+  ],
+  "notes": "Core items correct (rune axe, forestry kit, necklace of passage) but mapping polluted with optional/unmentioned items. Invalid quest ID categorization. abstractItems handling of cash is appropriate. unresolvedItems for armour/food acceptable as abstractions but somewhat vague."
+}

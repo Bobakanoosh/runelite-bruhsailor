@@ -1,0 +1,57 @@
+{
+  "stepId": "1.2.5",
+  "section": "1.2: Some fishing and thieving",
+  "stepText": "Break another POH tab and return to Thurgo. Mine two blurite ore. Go back to Thurgo and make the sword. Run to a trader crewmember in Port Sarim for Ethically Acquired Antiquities, then talk to Betty to progress that quest. Run to Falador east bank. Grab your coins, ghostspeak amulet and skull. Pay to move your house to Pollnivneach at the estate agent. Complete The Knight’s Sword. Smelt the blurite ore into a bar.\n",
+  "itemsNeeded": "7500 gp, bronze pickaxe, POH tab, ghostspeak amulet, ghost skull, two iron bars",
+  "gpStack": "20248 gp",
+  "mapping": {
+    "questIds": [
+      "ETHICALLY_ACQUIRED_ANTIQUITIES",
+      "THE_KNIGHTS_SWORD"
+    ],
+    "items": [
+      {
+        "id": 1265,
+        "name": "Bronze pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8013,
+        "name": "Teleport to house",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 552,
+        "name": "Ghostspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 553,
+        "name": "Ghost's skull",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 668,
+        "name": "Blurite ore",
+        "qty": 2,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "7500 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "two iron bars",
+        "qty": 2
+      }
+    ]
+  }
+}

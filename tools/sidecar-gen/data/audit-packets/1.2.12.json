@@ -1,0 +1,100 @@
+{
+  "stepId": "1.2.12",
+  "section": "1.2: Some fishing and thieving",
+  "stepText": "Take the spirit tree to the Gnome Stronghold, start the Grand Tree. For the next shopping trip, make sure to leave 2586 GP. Grab your sacks from the bank and use them to reduce the amount of running. Buy dwellberries, 2 buckets of milk, 1 pineapple, 10 potatoes, 3 pots of flour, 4 cheese, 1 orange, 1 gnome spice and 120 produce items in any combination of the following (all of onion, potato, cabbage, tomato, cheese, lime, orange, lemon, pineapple and dwellberries work, cheapest in red) and 130 chocolate dust (2 for quests, 128 for energy potions) from the Grand Tree Groceries. Visit Blurberry’s bar for the barcrawl, buy a premade blurb’ sp. Collect two swamp toads and take off their legs.\n",
+  "itemsNeeded": "562 gp, barcrawl card",
+  "gpStack": "9008 gp",
+  "mapping": {
+    "questIds": [
+      "THE_GRAND_TREE"
+    ],
+    "items": [
+      {
+        "id": 455,
+        "name": "Barcrawl card",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2126,
+        "name": "Dwellberries",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1927,
+        "name": "Bucket of milk",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 2114,
+        "name": "Pineapple",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1942,
+        "name": "Potato",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 1933,
+        "name": "Pot of flour",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 1985,
+        "name": "Cheese",
+        "qty": 4,
+        "source": "content"
+      },
+      {
+        "id": 2108,
+        "name": "Orange",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 2169,
+        "name": "Gnome spice",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1975,
+        "name": "Chocolate dust",
+        "qty": 130,
+        "source": "content"
+      },
+      {
+        "id": 2150,
+        "name": "Swamp toad",
+        "qty": 2,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "562 gp"
+      },
+      {
+        "label": "produce items",
+        "rawToken": "120 produce items in any combination of the following (all of onion, potato, cabbage, tomato, cheese, lime, orange, lemon, pineapple and dwellberries work, cheapest in red)"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "premade blurb special",
+        "qty": null
+      },
+      {
+        "rawToken": "premade gnome food",
+        "qty": null
+      }
+    ]
+  }
+}

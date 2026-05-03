@@ -1,0 +1,101 @@
+{
+  "stepId": "2.2.12",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Dueling teleport, speak with Osman for Contact!. Camulet teleport to the quarry and head to Sophanem, speak with Simon Templeton, climb the agility pyramid and take the golden pyramid for the diary (hit spacebar after collecting it to complete the diary step, if not you’ll have to climb the pyramid again), sell your Pyramid Plunder artefact and golden pyramid to Simon Templeton, enter Sophanem and finish Contact! (pick up the Keris and kill a locust rider for the diary near the end), putting the lamp on Attack (unless you’ve already hit level 60, in which case you should put it on Defence). Speak with the Sphinx to progress A Tail of Two Cats. Games necklace to Burthorpe and progress A Tail of Two Cats, doing Bob’s chores including planting the potatoes (don’t wait for them to grow).\n",
+  "itemsNeeded": "cash stack, waterskins, dueling ring, Camulet, stone scarab, air runes (or staff), death runes, fire runes (or staff), swordfish, prayer potions, antipoison, light source, catspeak amulet",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "CONTACT",
+      "A_TAIL_OF_TWO_CATS"
+    ],
+    "items": [
+      {
+        "id": 1823,
+        "name": "Waterskin(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6707,
+        "name": "Camulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 9030,
+        "name": "Stone scarab",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 175,
+        "name": "Antipoison(3)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4548,
+        "name": "Bullseye lantern",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4677,
+        "name": "Catspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10581,
+        "name": "Keris",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "golden pyramid",
+        "qty": null
+      },
+      {
+        "rawToken": "air runes (or staff)",
+        "qty": null
+      },
+      {
+        "rawToken": "fire runes (or staff)",
+        "qty": null
+      }
+    ]
+  }
+}

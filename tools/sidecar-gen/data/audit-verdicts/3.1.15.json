@@ -1,0 +1,10 @@
+{
+  "stepId": "3.1.15",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    "itemsNeeded field is 'tbd' - should be resolved to: 'Uncut gems (sapphire/emerald/ruby/diamond), Gem bag, Amulet of glory'",
+    "abstractItems contains irrelevant entry: 'combination runes' → 'crafting output' - combination runes are not involved in Guardians of the Rift; this step focuses on gem cutting, not rune crafting"
+  ],
+  "notes": "questIds correctly identifies GUARDIANS_OF_THE_RIFT as the actively progressed quest. Concrete items (gem bag, uncut gems, amulet of glory) are accurately mapped. Two abstract items (cash stack, multiskilling method) are genuine abstractions. Confidence reduced due to spurious 'combination runes' entry and unresolved itemsNeeded."
+}

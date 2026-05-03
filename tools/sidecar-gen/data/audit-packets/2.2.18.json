@@ -1,0 +1,54 @@
+{
+  "stepId": "2.2.18",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "After solving Horvik’s problem go to the southeast corner of Varrock, make two eagle disguises for Eagles’ Peak (and the spottier cape if you had the hunter level). Next world hop at the west bank anvils until you find Bob again and complete A Tail of Two Cats (lamp on slayer). \n",
+  "itemsNeeded": "catspeak amulet, law runes, air staff, earth runes (all for next section)",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "A_TAIL_OF_TWO_CATS"
+    ],
+    "items": [
+      {
+        "id": 4677,
+        "name": "Catspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10071,
+        "name": "Spottier cape",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp_stack",
+        "rawToken": "30k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "eagle disguise",
+        "qty": 2
+      },
+      {
+        "rawToken": "earth runes (all for next section)",
+        "qty": null
+      }
+    ]
+  }
+}

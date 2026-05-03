@@ -1,0 +1,31 @@
+{
+  "stepId": "3.1.2",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "Optional but recommended: go to the Mage Training Arena and collect the Mage’s book and the infinity boots. \n",
+  "itemsNeeded": "tbd",
+  "gpStack": "20m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 6889,
+        "name": "Mage's book",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 6920,
+        "name": "Infinity boots",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "20m gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "stepId": "3.1.7",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "Train slayer to get to 100cb. Your target stats are 78 Attack, 85 Strength, 75(+) Defence and 72(+) prayer, which should probably give you 78(+)Hitpoints and ~75 Slayer around the time you hit 100cb.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "12m gp",
+  "mapping": {
+    "questIds": [
+      "WHILE_GUTHIX_SLEEPS",
+      "HIS_FAITHFUL_SERVANTS",
+      "ARDOUGNE_HARD",
+      "DESERT_HARD",
+      "FALADOR_HARD",
+      "KARAMJA_HARD",
+      "KOUREND_HARD",
+      "WILDERNESS_HARD"
+    ],
+    "items": [
+      {
+        "id": 19675,
+        "name": "Arclight",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 11978,
+        "name": "Amulet of glory(6)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11864,
+        "name": "Slayer helmet",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 9044,
+        "name": "Pharaoh's sceptre",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 2366,
+        "name": "Shield left half",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 4755,
+        "name": "Verac's flail",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 24736,
+        "name": "Ring of endurance",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 775,
+        "name": "Cooking gauntlets",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 25582,
+        "name": "Fish barrel",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1686,
+        "name": "Karamja gloves",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1513,
+        "name": "Magic logs",
+        "qty": 100,
+        "source": "content"
+      },
+      {
+        "id": 1609,
+        "name": "Opal",
+        "qty": 520,
+        "source": "content"
+      },
+      {
+        "id": 1611,
+        "name": "Jade",
+        "qty": 520,
+        "source": "content"
+      },
+      {
+        "id": 1613,
+        "name": "Red topaz",
+        "qty": 52,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "12m gp"
+      },
+      {
+        "label": "runes for thralls",
+        "rawToken": "runes for thralls"
+      },
+      {
+        "label": "barrage runes",
+        "rawToken": "runes for barrage"
+      },
+      {
+        "label": "smoke barrage runes",
+        "rawToken": "smoke barrage runes"
+      },
+      {
+        "label": "ice burst runes",
+        "rawToken": "ice burst runes"
+      },
+      {
+        "label": "ice barrage runes",
+        "rawToken": "ice barrage runes"
+      },
+      {
+        "label": "divine magic potions",
+        "rawToken": "divine magic potions"
+      },
+      {
+        "label": "trading sticks",
+        "rawToken": "100k trading sticks"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "vile vigour",
+        "qty": 1
+      },
+      {
+        "rawToken": "karambwan",
+        "qty": 10000
+      }
+    ]
+  }
+}

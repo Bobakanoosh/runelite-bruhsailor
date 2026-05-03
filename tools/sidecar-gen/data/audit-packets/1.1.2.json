@@ -1,0 +1,82 @@
+{
+  "stepId": "1.1.2",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Grab coins, a knife, 24 logs, your mind and air runes. Pickpocket men to 235 gp total, suiciding if you die (HCIM can grab cabbages by world hopping in the cellar). Fletch the logs into arrow shafts as you move. Talk with Hans to check your age for the diary step. Talk to Veos in The Sheared Ram pub to start X Marks the Spot. Drop your mind and air runes, talk with the magic tutor to get a set of starter runes, pick up your mind and air runes. Buy a spade, hammer and a chisel in the general store. Talk to father Aereck to start Restless Ghost. Buy a steel axe from Bob. Dig in the tile north of the north-western window of his house for X Marks the Spot. Don’t throw away your bronze axe from Tutorial Island.\n",
+  "itemsNeeded": "232 gp, knife, logs",
+  "gpStack": "0 gp",
+  "mapping": {
+    "questIds": [
+      "X_MARKS_THE_SPOT",
+      "RESTLESS_GHOST"
+    ],
+    "items": [
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": 24,
+        "source": "items_needed"
+      },
+      {
+        "id": 558,
+        "name": "Mind rune",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1351,
+        "name": "Bronze axe",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1965,
+        "name": "Cabbage",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "232 gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

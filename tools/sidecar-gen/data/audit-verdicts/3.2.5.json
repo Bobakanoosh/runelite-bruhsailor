@@ -1,0 +1,7 @@
+{
+  "stepId": "3.2.5",
+  "accurate": true,
+  "confidence": 0.90,
+  "issues": [],
+  "notes": "Step 3.2.5 mapping is accurate. No active questIds required (empty array is correct—this step has no quest progression, only activities). Items array captures genuinely needed resources: 3x Runite bars (boosted smithing requirement), 45x Rune nails (output of smithing), 4x Magic stones (storehouse purchase), and small key (collection activity). The 60m gp abstract is appropriate for the 'Buy 4 magic stones' and general step costs. All unresolved items are legitimately ambiguous (schematics, new ships/structures, potions with non-standard names like 'perildance bitter') or are intermediate outputs that don't need explicit tracking. QuestIds correctly empty—no quests started/progressed in this step."
+}

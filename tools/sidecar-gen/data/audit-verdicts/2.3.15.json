@@ -1,0 +1,7 @@
+{
+  "stepId": "2.3.15",
+  "accurate": true,
+  "confidence": 0.95,
+  "issues": [],
+  "notes": "All quest IDs verified as actively progressed items in the elf quest line. Items list contains only genuine items needed for this step. Abstract items appropriately represent the gp stack. Unresolved items are legitimate ambiguities: optional farming methods, randomly-chosen quest drops, and alternative sources. Song of the Elves confirmed as Sailing-skill quest. Structure and mapping are clean and accurate."
+}

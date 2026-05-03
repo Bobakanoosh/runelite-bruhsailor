@@ -1,0 +1,132 @@
+{
+  "stepId": "2.3.15",
+  "section": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
+  "stepText": "Make sure you have a runite bar (if you do not you have three options: 1) hunt Magpie implings in Puro Puro; 2) kill Vyrewatch Sentinels for 1/46.5; 3) trade rune platelegs for one at Nest (nice) - OSRS Wiki. This third method is recommended). Do the entire elf quest line: Regicide, Roving Elves, Mourning’s End Part I, Mourning’s End Part II, Song of the Elves. Pick the crystal bow reward from Roving Elves. You have all but one item on the regular part of the 50 item list for MEPII – you are missing unicorn horn dust (and whiteberries if you didn’t save any). Furthermore you need the randomly chosen ticket, book and key (all are easy to obtain). You may also want a spare hammer and chisel. Also make sure to farm belladonna(/nightshade) in the Draynor patch to collect at least 8 nightshades for the Seren fight (optional: use explosive liquid from the digsite instead), and also buy blood+death runes and make 6-10 phoenix necklaces.\n",
+  "itemsNeeded": "follow the wiki; the entire quest line is basically linear (no choice)",
+  "gpStack": "19.7m gp",
+  "mapping": {
+    "questIds": [
+      "REGICIDE",
+      "ROVING_ELVES",
+      "MOURNINGS_END_PART_I",
+      "MOURNINGS_END_PART_II",
+      "SONG_OF_THE_ELVES"
+    ],
+    "items": [
+      {
+        "id": 2363,
+        "name": "Runite bar",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1079,
+        "name": "Rune platelegs",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 23983,
+        "name": "Crystal bow",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 235,
+        "name": "Unicorn horn dust",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 27790,
+        "name": "Nightshade",
+        "qty": 8,
+        "source": "content"
+      },
+      {
+        "id": 565,
+        "name": "Blood rune",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11090,
+        "name": "Phoenix necklace",
+        "qty": 6,
+        "source": "content"
+      },
+      {
+        "id": 2379,
+        "name": "Rock cake",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "19.7m gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "magpie impling",
+        "qty": null
+      },
+      {
+        "rawToken": "whiteberries",
+        "qty": null
+      },
+      {
+        "rawToken": "belladonna",
+        "qty": null
+      },
+      {
+        "rawToken": "explosive liquid",
+        "qty": null
+      },
+      {
+        "rawToken": "guthix rest",
+        "qty": null
+      },
+      {
+        "rawToken": "ticket (randomly chosen)",
+        "qty": 1
+      },
+      {
+        "rawToken": "book (randomly chosen)",
+        "qty": 1
+      },
+      {
+        "rawToken": "key (randomly chosen)",
+        "qty": 1
+      },
+      {
+        "rawToken": "Vyrewatch Sentinels drops (runite bar)",
+        "qty": null
+      },
+      {
+        "rawToken": "ds2 orb",
+        "qty": null
+      }
+    ]
+  }
+}

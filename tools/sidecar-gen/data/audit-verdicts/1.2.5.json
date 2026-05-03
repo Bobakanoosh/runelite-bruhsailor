@@ -1,0 +1,9 @@
+{
+  "stepId": "1.2.5",
+  "accurate": false,
+  "confidence": 0.75,
+  "issues": [
+    "unresolvedItems contains 'two iron bars' (qty 2) which is resolvable to item ID 2 (Iron bar), not genuinely ambiguous"
+  ],
+  "notes": "Quest and abstract mappings are correct. Four named items properly resolved. Iron bars should be resolved to specific item ID rather than marked unresolved."
+}

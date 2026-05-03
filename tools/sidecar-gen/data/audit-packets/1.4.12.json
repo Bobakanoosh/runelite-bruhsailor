@@ -1,0 +1,94 @@
+{
+  "stepId": "1.4.12",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Complete The Grand Tree (Varrock teleport again for the spirit tree), speak with King Narnode Shareen again to start Monkey Madness I. Mine a gold ore in the mine under the Grand Tree for the diary. Leave and right click teleport with Brimstail to load the scrying orb (third scrying orb charge) and start The Eyes of Glouphrie to the step where you need to speak with Hazelmere. If you need magic logs, chop them on the tree in the southeast of the Gnome Stronghold. Return to the tree and take the glider to Gandius, go north and progress Monkey Madness I until you need to return to King Narnode. Use your Kharedst’s Memoirs to Arceuus and swap to the Arceuus spellbook. Mine a dense essence block and make it a dark essence block.\n",
+  "itemsNeeded": "lumber order, rune sword, scrying orb, kharedst’s memoirs, rune pickaxe, chisel, (rune axe), wind strike runes",
+  "gpStack": "305290 gp",
+  "mapping": {
+    "questIds": [
+      "THE_GRAND_TREE",
+      "MONKEY_MADNESS_I",
+      "THE_EYES_OF_GLOUPHRIE"
+    ],
+    "items": [
+      {
+        "id": 787,
+        "name": "Lumber order",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5518,
+        "name": "Scrying orb",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 444,
+        "name": "Gold ore",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1513,
+        "name": "Magic logs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 13445,
+        "name": "Dense essence block",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 13446,
+        "name": "Dark essence block",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 21760,
+        "name": "Kharedst's memoirs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "305290 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "wind strike runes",
+        "qty": null
+      }
+    ]
+  }
+}

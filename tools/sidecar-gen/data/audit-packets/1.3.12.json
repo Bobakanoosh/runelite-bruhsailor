@@ -1,0 +1,97 @@
+{
+  "stepId": "1.3.12",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Use your necklace of passage to Eagle’s Eyrie, catch a golden warbler (bird snare), get the phoenix feather, mine (and keep, do not drop) six clay and complete The Golem. Make sure to collect the gems as mentioned on the wiki.\n",
+  "itemsNeeded": "necklace of passage, bronze/adamant pickaxe, bird snare, statuette, papyrus, strange implement, phoenix feather, chisel, hammer, 1 black mushroom, pestle/mortar, vial (should get your vial back after emptying the chemical compound during Dig Site)",
+  "gpStack": "670171 gp",
+  "mapping": {
+    "questIds": [
+      "THE_GOLEM"
+    ],
+    "items": [
+      {
+        "id": 21146,
+        "name": "Necklace of passage(5)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10006,
+        "name": "Bird snare",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4618,
+        "name": "Statuette",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 970,
+        "name": "Papyrus",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4619,
+        "name": "Strange implement",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4621,
+        "name": "Phoenix feather",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4620,
+        "name": "Black mushroom",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 233,
+        "name": "Pestle and mortar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 9968,
+        "name": "Golden warbler",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 229,
+        "name": "Vial",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "bronze/adamant pickaxe",
+        "label": "pickaxe (bronze or adamant)"
+      },
+      {
+        "rawToken": "670171 gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

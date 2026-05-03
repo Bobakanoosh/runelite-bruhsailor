@@ -1,0 +1,1 @@
+{"stepId":"2.1.32","accurate":true,"confidence":0.98,"issues":[],"notes":"All 11 items correctly mapped. Items array has 9 specific resolvable items with accurate OSRS IDs. Cooked lava eel properly unresolved (food/consumable ambiguity). Cash stack correctly abstracted. HEROES_QUEST actively progressed, no extraneous quests. Perfect mapping."}

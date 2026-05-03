@@ -1,0 +1,119 @@
+{
+  "stepId": "2.1.17",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Do Another Slice of H.A.M., doing the Tears of Guthix quest (don’t participate in the minigame yet) while in the Lumbridge Swamp Cave. Buy one moving-over-distance sphere from Oldak to Dorgesh-Kaan (1 noted molten glass and 2 law runes). Kill Cave Goblins for Rag and Bone Man II. Take the train to Keldagrim for the diary. Use a gold bar (or ore) on Dondakan to progress Between a Rock.…\n",
+  "itemsNeeded": "cash stack, bullseye lantern, lantern lens, cut sapphire, chisel, tinderbox, rune pickaxe, wind bolt spells (wind staff, chaos runes), molten glass, law runes, gold bar, swordfish, energy potions, prayer potions, dueling ring, dwarven lore",
+  "gpStack": "1.6m gp",
+  "mapping": {
+    "questIds": [
+      "ANOTHER_SLICE_OF_HAM",
+      "TEARS_OF_GUTHIX",
+      "RAG_AND_BONE_MAN_II",
+      "BETWEEN_A_ROCK"
+    ],
+    "items": [
+      {
+        "id": 4548,
+        "name": "Bullseye lantern",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4542,
+        "name": "Lantern lens",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1775,
+        "name": "Molten glass",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 2357,
+        "name": "Gold bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4568,
+        "name": "Dwarven lore",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 562,
+        "name": "Chaos rune",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "cash stack",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "cut sapphire",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "stepId": "1.4.34",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Complete The Hand in the Sand (no multiquesting, unfortunately. Whiteberry from contracts should be grown by now). Collect sand from Bert for the diary.",
+  "itemsNeeded": "150 gp, 2 empty vials, redberries, white berries, lantern lens (blow from molten glass), 5 earth runes, bucket",
+  "gpStack": "14051 gp",
+  "mapping": {
+    "questIds": [
+      "THE_HAND_IN_THE_SAND"
+    ],
+    "items": [
+      {
+        "id": 9085,
+        "name": "Empty vial",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 1951,
+        "name": "Redberries",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 239,
+        "name": "White berries",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": 5,
+        "source": "items_needed"
+      },
+      {
+        "id": 1925,
+        "name": "Bucket",
+        "qty": null,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "150 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "lantern lens (blow from molten glass)",
+        "qty": null
+      }
+    ]
+  }
+}

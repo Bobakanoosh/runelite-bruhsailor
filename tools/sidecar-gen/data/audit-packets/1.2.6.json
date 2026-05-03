@@ -1,0 +1,208 @@
+{
+  "stepId": "1.2.6",
+  "section": "1.2: Some fishing and thieving",
+  "stepText": "Ferox teleporting for run energy if necessary, chronicle teleport to Varrock. Speak with Curator Haig Halen in the Varrock Museum and continue Ethically Acquired Antiquities until you have his confession, then take the quetzal to Varlamore and speak with Curator Herminius to complete Ethically Acquired Antiquities. Home teleport to Lumbridge, bank, grab items for the step below. Shear a sheep, complete the Restless Ghost. Cross the gate to Al-Kharid and start The Feud (buy the desert disguise). Run south and buy one of each mould in Dommik’s Crafting Store shop including tiara but not bolt, plus a second necklace mould, along with 3 needles and 10 thread, then some mithril platelegs. Go east, start and complete Sleeping Giants. Buy 9 bronze bars in the Shantay Pass, along with two sets of desert clothes (one pair of boots only), 5 Shantay passes, 16 bucket packs, 20 buckets of water, 4 bowls of water and 10 waterskins. Make 4 soft clay while you’re at the bank chest. Make sure to bring 5 buckets for Ugthanki dung and wear leather gloves during the following quests. Note: the following quests can be multiquested, but for the sake of inventory space and convenience it is fine to do Tourist Trap completely, then do The Feud after.\n",
+  "itemsNeeded": "12200 gp, shears, 3 oak logs, 10 steel nails, hammer, chisel, bucket, leather gloves, 50 feathers, Shantay pass, 3 waterskins, bronze pickaxe, knife (to slash cacti), wind strike and bolt runes, chaos runes",
+  "gpStack": "34189 gp",
+  "mapping": {
+    "questIds": [
+      "ETHICALLY_ACQUIRED_ANTIQUITIES",
+      "THE_RESTLESS_GHOST",
+      "THE_FEUD",
+      "SLEEPING_GIANTS",
+      "THE_TOURIST_TRAP"
+    ],
+    "items": [
+      {
+        "id": 1735,
+        "name": "Shears",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1521,
+        "name": "Oak logs",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 1539,
+        "name": "Steel nails",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1925,
+        "name": "Bucket",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1059,
+        "name": "Leather gloves",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": 50,
+        "source": "items_needed"
+      },
+      {
+        "id": 1854,
+        "name": "Shantay pass",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1823,
+        "name": "Waterskin(4)",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 1265,
+        "name": "Bronze pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 562,
+        "name": "Chaos rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4611,
+        "name": "Desert disguise",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 5523,
+        "name": "Tiara mould",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1597,
+        "name": "Necklace mould",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1733,
+        "name": "Needle",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 1734,
+        "name": "Thread",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 1071,
+        "name": "Mithril platelegs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2349,
+        "name": "Bronze bar",
+        "qty": 9,
+        "source": "content"
+      },
+      {
+        "id": 1837,
+        "name": "Desert boots",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1835,
+        "name": "Desert robe",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1929,
+        "name": "Bucket of water",
+        "qty": 20,
+        "source": "content"
+      },
+      {
+        "id": 1921,
+        "name": "Bowl of water",
+        "qty": 4,
+        "source": "content"
+      },
+      {
+        "id": 1761,
+        "name": "Soft clay",
+        "qty": 4,
+        "source": "content"
+      },
+      {
+        "id": 4601,
+        "name": "Ugthanki dung",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1917,
+        "name": "Beer",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 2015,
+        "name": "Vodka",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 1993,
+        "name": "Jug of wine",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "12200 gp",
+        "label": "gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "wind rune",
+        "qty": null
+      },
+      {
+        "rawToken": "bolt rune",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stepId": "2.2.31",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Cash in the prayer xp at the Chaos Altar when convenient (use the suicide method at off-peak hours in random worlds recommended). If you have spare red topazes you can make burning amulets.\n",
+  "itemsNeeded": "1.4k bones, melee gear (for PC)",
+  "gpStack": "120k gp",
+  "mapping": {
+    "questIds": [
+      "CURSE_OF_THE_EMPTY_LORD",
+      "VARROCK_HARD"
+    ],
+    "items": [
+      {
+        "id": 526,
+        "name": "Bones",
+        "qty": 1400,
+        "source": "items_needed"
+      },
+      {
+        "id": 1613,
+        "name": "Red topaz",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "melee gear (for pc)",
+        "rawToken": "melee gear (for PC)"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "120k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "smite",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "stepId": "2.1.36",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Chart around the area using the route described in this image, getting you to level 22 sailing as you arrive at Catherby 20260215OSRS14-22ChartingRoute.png. Do not forget the spyglass for Keep le Faye just north of the image. The start point is deep in the Lumbridge Basin, so make your way there first. Whenever charting, collect drinks in your inventory and only start drinking them after you have docked your boat at your destination, https://oldschool.runescape.wiki/w/Sealed_crate tells you which drinks have negative effects.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "670k gp",
+  "mapping": {
+    "questIds": [],
+    "items": [],
+    "abstractItems": [
+      {
+        "label": "drinks",
+        "rawToken": "drinks"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "670k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "spyglass",
+        "qty": null
+      }
+    ]
+  }
+}

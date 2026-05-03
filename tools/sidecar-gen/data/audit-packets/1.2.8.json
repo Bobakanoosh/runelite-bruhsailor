@@ -1,0 +1,184 @@
+{
+  "stepId": "1.2.8",
+  "section": "1.2: Some fishing and thieving",
+  "stepText": "Use the Fishing Trawler minigame to teleport to Port Khazard. Charter a ship Catherby (use the deposit box) or, if that shop is bought out, to Land’s end. Buy 1600 soda ash and 10 buckets of slime, 10/world at a time. If you were at Land’s end, now charter a ship to Catherby. Buy steel arrowtips to round out 46 fletching (if you don’t have that level yet). We recommend buying 250 tips/world to save hopping but if you are low on gp you can buy 100/world instead to save some cash here. Take out a knife from the bank and a light source (grab a candle along the way and light it with a tinderbox if you don’t have any). Grab insect repellant, collect two buckets of wax and ten flax (five for the diary, but we need ten) and speak with Sherlock (diary). Enter the Temple of Ikov and grab some Boots of Lightness, then leave again. Start Merlin’s Crystal up to the step where you need to visit Arhein. Run to Seers, grab the fishing pass and other items for fishing contest from the bank. Spin the flax into ten linen yarn. Continue Fishing Contest to the step where you get the trophy. Fly fish north of Seers bank to 35 fishing, banking the fish. Complete Murder Mystery while training (start the quest, get all relevant clues in the mansion, fish an inv, bank, do the relevant steps in the village, resume the quest etc.). Home teleport to Lumbridge, cross the gate to Al-Kharid (costs 10gp), run south and speak with Hassan to start Prince Ali Rescue, then Osman to resume the quest. Run south and board Ferryman Sathwood’s ferry. Train fishing at mass world Tempoross to level 56. It is most efficient to cook the harpoonfish instead of using them raw. Make sure to only cash in the reward permits after you have hit level 50 fishing - this is a significant boost to your loot!\n",
+  "itemsNeeded": "15600 gp, 2 buckets, knife, light source or tinderbox, fishing rod, fly fishing rod, feathers, empty pot, garlic, spade",
+  "gpStack": "18579 gp",
+  "mapping": {
+    "questIds": [
+      "TEMPLE_OF_IKOV",
+      "MERLIN_S_CRYSTAL",
+      "FISHING_CONTEST",
+      "MURDER_MYSTERY",
+      "PRINCE_ALI_RESCUE"
+    ],
+    "items": [
+      {
+        "id": 1925,
+        "name": "Bucket",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 307,
+        "name": "Fishing rod",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 309,
+        "name": "Fly fishing rod",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1931,
+        "name": "Pot",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1550,
+        "name": "Garlic",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1781,
+        "name": "Soda ash",
+        "qty": 1600,
+        "source": "content"
+      },
+      {
+        "id": 4286,
+        "name": "Bucket of slime",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 41,
+        "name": "Steel arrowtips",
+        "qty": 250,
+        "source": "content"
+      },
+      {
+        "id": 36,
+        "name": "Candle",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 30,
+        "name": "Bucket of wax",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1779,
+        "name": "Flax",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 88,
+        "name": "Boots of lightness",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 27,
+        "name": "Fishing pass",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 25565,
+        "name": "Harpoonfish",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 333,
+        "name": "Trout",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 329,
+        "name": "Salmon",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 9804,
+        "name": "Firemaking cape",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "15600 gp"
+      },
+      {
+        "label": "light source or tinderbox",
+        "rawToken": "light source or tinderbox"
+      },
+      {
+        "label": "steel arrowtips for headless arrows",
+        "rawToken": "steel arrowtips to round out 46 fletching"
+      },
+      {
+        "label": "fishing training",
+        "rawToken": "fly fish north of Seers bank to 35 fishing"
+      },
+      {
+        "label": "fishing training to level 56",
+        "rawToken": "Train fishing at mass world Tempoross to level 56"
+      },
+      {
+        "label": "cooking training",
+        "rawToken": "train some cooking on the side"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "insect repellant",
+        "qty": 1
+      },
+      {
+        "rawToken": "linen yarn",
+        "qty": 10
+      },
+      {
+        "rawToken": "raw fish",
+        "qty": null
+      }
+    ]
+  }
+}

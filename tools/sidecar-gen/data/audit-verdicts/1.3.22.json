@@ -1,0 +1,9 @@
+{
+  "stepId": "1.3.22",
+  "accurate": false,
+  "confidence": 0.75,
+  "issues": [
+    "Slashed book (item 10142) should be resolved in items[], not in unresolvedItems; it's a specific named item, not genuinely ambiguous"
+  ],
+  "notes": "Quest mapping accurate; most items correctly captured. Slashed book must be resolved to complete the mapping. Coal quantity is appropriately flagged as ambiguous."
+}

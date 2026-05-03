@@ -1,0 +1,13 @@
+{
+  "stepId": "2.2.38",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    "questIds includes diary quests (ARDOUGNE_MEDIUM, FALADOR_MEDIUM, KANDARIN_MEDIUM, LUMBRIDGE_MEDIUM, THE_CURSE_OF_ARRAV, THE_PATH_OF_GLOUPHRIE) that are NOT actively started/progressed in this step - only DEVIOUS_MINDS and DEFENDER_OF_VARROCK are explicitly engaged",
+    "unresolvedItems contains 'adamant nails' (qty: 4950) which should be resolved as item id 2332 in items array with qty: 4950",
+    "unresolvedItems lists 'mithril grapple' (qty: 5) but stepText mentions adamant grapples, not mithril - should be 'adamant grapple' or resolved to item id 11969",
+    "Lead ore unresolved - need item id 4303 with qty estimate from context (~enough to smelt into bars for the step)",
+    "Adamant grapple unresolved - stepText implies ~5 from bars, should be item id 11969 or removed if purchased via other means"
+  ],
+  "notes": "High-confidence core items extracted (ores, bars, ring of charos). questIds bloat reduces confidence score. Unresolved items are contextually reasonable but incomplete. Step requires careful quest filtering - only DEVIOUS_MINDS and DEFENDER_OF_VARROCK are actively progressed here. Recommend: (1) remove non-active quest diaries from questIds, (2) resolve adamant nails and grapples properly, (3) estimate lead ore quantity from smelting context."
+}

@@ -1,0 +1,45 @@
+{
+  "stepId": "2.1.14",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Start One Small Favour and continue it up to the step with Captain Shanks. Next, to get to Brian, take the Lady of the Waves to Port Khazard (for a diary task) then charter to Port Sarim and speak with Brian, completing that step of the quest. Go to Entrana, grab the fire feather, return to Port Sarim and collect the snail oil for Heroes’ Quest.\n",
+  "itemsNeeded": "1330 gp, ice gloves, blunt axe",
+  "gpStack": "1.6m gp",
+  "mapping": {
+    "questIds": [
+      "ONE_SMALL_FAVOUR",
+      "HEROES_QUEST"
+    ],
+    "items": [
+      {
+        "id": 1580,
+        "name": "Ice gloves",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4415,
+        "name": "Blunt axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1583,
+        "name": "Fire feather",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "1330 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "snail oil",
+        "qty": 1
+      }
+    ]
+  }
+}

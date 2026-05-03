@@ -1,0 +1,97 @@
+{
+  "stepId": "1.3.15",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Grab 15 compostable items, fill the bin at the Falador patch. Run to Port Sarim, claim your previously destroyed XP lamps from Veos (one in Port Sarim, one in Piscarillius!) and put them all on Herblore (level 20). Give the bread to the beggar at the jewellery shop (Merlin’s Crystal). Visit Thurgo and complete The Giant Dwarf (if you get a bars task you can’t do you can refuse it by clicking out of the dialogue and logging out and back in, at the risk of having to go back to the secretary. You can join any consortium you prefer though the Purple Pewter is more efficient if you have full HAM robes - the ones on the east side tend to be fastest to buy ores at the blast furnace). Use the Blast Furnace (costs 2500 gp per 10 minutes) or Superheat Item to make the bars where needed. It is probably best to use the Blast furnace for larger tasks and Superheat for smaller tasks. Start Forgettable Tale… and get a kelda seed from the drunken dwarf. Find out what random item is required for another one (Rowdy Dwarf in the Laughing Miner pub). Figure out how to obtain the item and weave it into the steps below if you wish. Take the train cart to the pub under the White Wolf Mountain and get (the second) kelda seed from Khorvak.\n",
+  "itemsNeeded": "25103 gp, dwarven battleaxe, exquisite clothes, exquisite boots, 1 bread, various ores/bars (bought with the gp), 1 redberry pie, 1 iron bar, 2 beers (buy), dwarven stout. If you get asked for a bar that you cannot smith you can reset them. If you do this too often you will be sent back for more ore tasks, but it is still the fastest way of progressing this quest.",
+  "gpStack": "645048 gp",
+  "mapping": {
+    "questIds": [
+      "THE_GIANT_DWARF",
+      "FORGETTABLE_TALE"
+    ],
+    "items": [
+      {
+        "id": 5056,
+        "name": "Dwarven battleaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5067,
+        "name": "Exquisite clothes",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5064,
+        "name": "Exquisite boots",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2309,
+        "name": "Bread",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 2325,
+        "name": "Redberry pie",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 2351,
+        "name": "Iron bar",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1917,
+        "name": "Beer",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1913,
+        "name": "Dwarven stout",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6112,
+        "name": "Kelda seed",
+        "qty": 2,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "25103 gp"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "2500 gp per 10 minutes"
+      },
+      {
+        "label": "various ores/bars",
+        "rawToken": "various ores/bars (bought with the gp)"
+      },
+      {
+        "label": "herblore experience",
+        "rawToken": "put them all on Herblore (level 20)"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "compostable items",
+        "qty": 15
+      },
+      {
+        "rawToken": "full HAM robes",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "stepId": "1.1.14",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Go to the Varrock East bank. Grab a bucket of milk, raw sardine, doogle leaves, steel axe, chronicle, 3650 gp, waxwood logs, knife and all but 10 of your logs (if you have more than that remaining). Fletch remaining logs (of the original 100, so 1500 arrow shafts) into arrow shafts as you run to the east and speak with Regulus Cento to take the quetzal to Varlamore. Travel back to Varrock via quetzal and run north to the sawmill. Enter the Lumber Yard, proceed with Gertrude's Cat until the cat goes home. Chop down a dying tree. Make the logs into a plank, buy 5 bolts of cloth and 100 steel nails, turn the waxwood logs into planks. Head east and start Rag and Bone Man I. Teleport using the chronicle, speak to Gertrude and complete the quest. Speak with Juliet. Go to the bank and grab a saw, hammer, 10 planks, 5 bolts of cloth, 3 waxwood logs, Julia’s letter and your steel nails. Give the letter to Romeo. Go to Old Man Yarlo and fix his house. Go to Marlo and complete Daddy’s Home, enter the church and speak with Father Lawrence to progress Romeo & Juliet.\n",
+  "itemsNeeded": "3650 gp, Chronicle, bucket of milk, raw sardine, doogle leaves, steel axe, wax logs",
+  "gpStack": "333 gp",
+  "mapping": {
+    "questIds": [
+      "RAG_AND_BONE_MAN_I",
+      "GERTRUDES_CAT",
+      "ROMEO_AND_JULIET",
+      "DADDYS_HOME"
+    ],
+    "items": [
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1927,
+        "name": "Bucket of milk",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 327,
+        "name": "Raw sardine",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1573,
+        "name": "Doogle leaves",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 19669,
+        "name": "Redwood logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 24938,
+        "name": "Waxwood log",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 8794,
+        "name": "Saw",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 960,
+        "name": "Plank",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 8790,
+        "name": "Bolt of cloth",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 1539,
+        "name": "Steel nails",
+        "qty": 100,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash",
+        "rawToken": "3650 gp"
+      },
+      {
+        "label": "logs",
+        "rawToken": "all but 10 of your logs"
+      },
+      {
+        "label": "arrow shafts",
+        "rawToken": "1500 arrow shafts"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "Julia's letter",
+        "qty": null
+      }
+    ]
+  }
+}

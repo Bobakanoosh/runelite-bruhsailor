@@ -1,0 +1,66 @@
+$ bun run --env-file=.env src/main.ts verify
+[verify] 227 total | 0 already verified | 227 to verify | concurrency=4
+  progress: 5/227 (ok=5 fail=0) | 11.6s | 0.43/s | queue=219
+  progress: 10/227 (ok=10 fail=0) | 18.1s | 0.55/s | queue=214
+  progress: 15/227 (ok=15 fail=0) | 25.7s | 0.58/s | queue=209
+  progress: 20/227 (ok=20 fail=0) | 40.0s | 0.50/s | queue=204
+  progress: 25/227 (ok=25 fail=0) | 48.3s | 0.52/s | queue=199
+  progress: 30/227 (ok=30 fail=0) | 57.0s | 0.53/s | queue=194
+  progress: 35/227 (ok=35 fail=0) | 67.2s | 0.52/s | queue=189
+  progress: 40/227 (ok=40 fail=0) | 90.1s | 0.44/s | queue=184
+  progress: 45/227 (ok=45 fail=0) | 107.9s | 0.42/s | queue=179
+  progress: 50/227 (ok=50 fail=0) | 124.6s | 0.40/s | queue=174
+  progress: 55/227 (ok=55 fail=0) | 140.5s | 0.39/s | queue=169
+  progress: 60/227 (ok=60 fail=0) | 162.7s | 0.37/s | queue=164
+  progress: 65/227 (ok=65 fail=0) | 179.3s | 0.36/s | queue=159
+  progress: 70/227 (ok=70 fail=0) | 198.7s | 0.35/s | queue=154
+  progress: 75/227 (ok=75 fail=0) | 218.1s | 0.34/s | queue=149
+  progress: 80/227 (ok=80 fail=0) | 233.6s | 0.34/s | queue=144
+  progress: 85/227 (ok=85 fail=0) | 252.5s | 0.34/s | queue=139
+  progress: 90/227 (ok=90 fail=0) | 266.6s | 0.34/s | queue=134
+  progress: 95/227 (ok=95 fail=0) | 286.6s | 0.33/s | queue=129
+  progress: 100/227 (ok=100 fail=0) | 307.5s | 0.33/s | queue=124
+  progress: 105/227 (ok=105 fail=0) | 326.8s | 0.32/s | queue=119
+  [worker 3] step 1.4.7 FAILED: 429 {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed your organization's rate limit of 30,000 input tokens per minute (org: 391da2ab-1ab9-42ef-badd-ea3e3ce5be8f, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing."},"request_id":"req_011CaezU8gQn91Cz1o5WE5QE"}
+  progress: 110/227 (ok=109 fail=1) | 341.5s | 0.32/s | queue=114
+  progress: 115/227 (ok=114 fail=1) | 356.7s | 0.32/s | queue=109
+  progress: 120/227 (ok=119 fail=1) | 374.9s | 0.32/s | queue=104
+  progress: 125/227 (ok=124 fail=1) | 395.9s | 0.32/s | queue=99
+  [worker 1] step 1.4.31 FAILED: 429 {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed your organization's rate limit of 30,000 input tokens per minute (org: 391da2ab-1ab9-42ef-badd-ea3e3ce5be8f, model: claude-sonnet-4-6). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Reduce the prompt length or the maximum tokens requested, or try again later. View your current limits at https://console.anthropic.com/settings/limits. To raise this limit, purchase credits to advance to the next usage tier at https://console.anthropic.com/settings/billing."},"request_id":"req_011CaezZ2mbr2DCS3nYu2PUL"}
+  progress: 130/227 (ok=128 fail=2) | 405.4s | 0.32/s | queue=94
+  progress: 135/227 (ok=133 fail=2) | 424.5s | 0.32/s | queue=89
+  progress: 140/227 (ok=138 fail=2) | 441.9s | 0.32/s | queue=84
+  progress: 145/227 (ok=143 fail=2) | 456.5s | 0.32/s | queue=79
+  progress: 150/227 (ok=148 fail=2) | 473.4s | 0.32/s | queue=74
+  progress: 155/227 (ok=153 fail=2) | 487.6s | 0.32/s | queue=69
+  progress: 160/227 (ok=158 fail=2) | 507.6s | 0.32/s | queue=64
+  progress: 165/227 (ok=163 fail=2) | 523.8s | 0.32/s | queue=59
+  progress: 170/227 (ok=168 fail=2) | 540.2s | 0.31/s | queue=54
+  progress: 175/227 (ok=173 fail=2) | 557.2s | 0.31/s | queue=49
+  progress: 180/227 (ok=178 fail=2) | 574.5s | 0.31/s | queue=44
+  progress: 185/227 (ok=183 fail=2) | 595.7s | 0.31/s | queue=39
+  progress: 190/227 (ok=188 fail=2) | 610.5s | 0.31/s | queue=34
+  progress: 195/227 (ok=193 fail=2) | 624.6s | 0.31/s | queue=29
+  progress: 200/227 (ok=198 fail=2) | 646.7s | 0.31/s | queue=24
+  progress: 205/227 (ok=203 fail=2) | 659.9s | 0.31/s | queue=19
+  progress: 210/227 (ok=208 fail=2) | 677.1s | 0.31/s | queue=14
+  progress: 215/227 (ok=213 fail=2) | 701.7s | 0.31/s | queue=9
+  progress: 220/227 (ok=218 fail=2) | 713.1s | 0.31/s | queue=4
+  progress: 224/227 (ok=222 fail=2) | 729.6s | 0.31/s | queue=0
+  progress: 225/227 (ok=223 fail=2) | 730.6s | 0.31/s | queue=0
+  progress: 226/227 (ok=224 fail=2) | 733.8s | 0.31/s | queue=0
+  progress: 227/227 (ok=225 fail=2) | 741.1s | 0.31/s | queue=0
+
+[verify] done in 741.1s | ok=225 fail=2
+[verify] failed: 1.4.7, 1.4.31
+
+[verify] confidence median=0.72 mean=0.68 | <0.85: 222/225
+[verify] flag counts: {
+  "missing-item": 192,
+  "qty-suspicious": 152,
+  "abstract-misuse": 84,
+  "wrong-quest": 105,
+  "item-mismatch": 139,
+  "missing-quest": 50,
+  "tbd-step": 49,
+}

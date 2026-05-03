@@ -1,0 +1,88 @@
+{
+  "stepId": "2.2.20",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Continue OSF (Misthalin steps), when in Draynor speak with the Wise Old Man for RFD/Varze then run to the Wizards’ Tower and speak with Wizard Traiborn for RFD/Lumbridge Guide. Run back, continue OSF. When in Port Sarim kill seagulls for Rag and Bone Man II then speak with The Face and Felkrash for Ratcatchers (until you need to go to the snake charmer).\n",
+  "itemsNeeded": "cash stack, chicken cages, blunt axe, hellcat, catspeak amulet, snake charm, charos(a), bucket of milk, egg, pot of flour, cake tin",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "ONE_SMALL_FAVOUR",
+      "RAG_AND_BONE_MAN_II",
+      "RATCATCHERS",
+      "RECIPE_FOR_DISASTER_SIR_AMIK_VARZE",
+      "RECIPE_FOR_DISASTER_LUMBRIDGE_GUIDE"
+    ],
+    "items": [
+      {
+        "id": 4443,
+        "name": "Chicken cage",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4415,
+        "name": "Blunt axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4677,
+        "name": "Catspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4605,
+        "name": "Snake charm",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1927,
+        "name": "Bucket of milk",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1944,
+        "name": "Egg",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1887,
+        "name": "Cake tin",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1933,
+        "name": "Pot of flour",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      },
+      {
+        "label": "30k gp",
+        "rawToken": "30k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "hellcat",
+        "qty": null
+      }
+    ]
+  }
+}

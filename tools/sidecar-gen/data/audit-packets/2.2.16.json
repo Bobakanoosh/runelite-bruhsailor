@@ -1,0 +1,103 @@
+{
+  "stepId": "2.2.16",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Teleport to Burthorpe to progress A Tail of Two Cats, then minigame teleport to Port Khazard, continue OSF, when in Ardougne rebank and start Legends’ Quest, grind your sweetcorn into a pot of cornflour if you have the sweetcorn (if not you can just grind it later). Continue OSF then continue Cold War until after the raw cod/ring of charos(a) step (so next up you have to collect the ‘Intelligence’.). Make sure to pick up 5 papyrus during Legends’ Quest start\n",
+  "itemsNeeded": "doctor’s hat, desert shirt/robe, vial of water, law runes, water staff, melee gear + rune pickaxe, prayer potions, hammer, ring of charos(a), Ardy Cloak 1, penguin suit",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "A_TAIL_OF_TWO_CATS",
+      "ONE_SMALL_FAVOUR",
+      "COLD_WAR",
+      "LEGENDS_QUEST"
+    ],
+    "items": [
+      {
+        "id": 227,
+        "name": "Vial of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1383,
+        "name": "Staff of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 13121,
+        "name": "Ardougne cloak 1",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 970,
+        "name": "Papyrus",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 5986,
+        "name": "Sweetcorn",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 7468,
+        "name": "Pot of cornflour",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6547,
+        "name": "Doctor's hat",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "melee gear + rune pickaxe",
+        "label": "melee gear + rune pickaxe"
+      },
+      {
+        "rawToken": "30k gp",
+        "label": "30k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "desert shirt/robe",
+        "qty": null
+      },
+      {
+        "rawToken": "penguin suit",
+        "qty": null
+      }
+    ]
+  }
+}

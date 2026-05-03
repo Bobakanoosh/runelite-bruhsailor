@@ -1,0 +1,31 @@
+{
+  "stepId": "3.2.8",
+  "section": "3.2: Quest cape, quality of life",
+  "stepText": "Cash your banked herblore XP, using MOGs force spawning at Ardy. Make some staminas for future use.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "60m gp",
+  "mapping": {
+    "questIds": [
+      "AGILITY"
+    ],
+    "items": [
+      {
+        "id": 12625,
+        "name": "Stamina potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "herblore XP",
+        "rawToken": "herblore XP"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "60m gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

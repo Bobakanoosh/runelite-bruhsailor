@@ -1,0 +1,115 @@
+{
+  "stepId": "1.4.17",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Salve teleport, take the fairy ring to AJR and continue Eadgar’s Ruse until the step you need to visit Taverley. Visit Elnock Inquisitor once a day to buy 10 impling jars (we most likely only need 27 – aka 7 free + 2x10 – or even 17). Take fairy ring CLS to Hazelmere to progress The Eyes of Glouphrie.\n",
+  "itemsNeeded": "40000 gp, rune axe, tinderbox, spade, drunk parrot, earth staff, law runes, soul runes, rune sword, salmon, dramen staff, climbing boots, good food, pickaxe, secateurs, water runes",
+  "gpStack": "272962 gp",
+  "mapping": {
+    "questIds": [
+      "THE_EYES_OF_GLOUPHRIE",
+      "EADGARS_RUSE"
+    ],
+    "items": [
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3266,
+        "name": "Drunk parrot",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 329,
+        "name": "Salmon",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3105,
+        "name": "Climbing boots",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5329,
+        "name": "Secateurs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 11260,
+        "name": "Impling jar",
+        "qty": 10,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "40000 gp",
+        "label": "cash"
+      },
+      {
+        "rawToken": "good food",
+        "label": "food"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "pickaxe",
+        "qty": null
+      }
+    ]
+  }
+}

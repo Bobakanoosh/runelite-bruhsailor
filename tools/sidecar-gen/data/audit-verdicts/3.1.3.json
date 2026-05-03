@@ -1,0 +1,7 @@
+{
+  "stepId": "3.1.3",
+  "accurate": true,
+  "confidence": 0.95,
+  "issues": [],
+  "notes": "All 18 items correctly mapped as needed for POH construction training to 75. Quest dependencies correctly empty (pure training step). Abstraction for '15m gp' properly identified. Quantities accurate where specified; null quantities appropriate for consumable-use items. No unresolved ambiguities."
+}

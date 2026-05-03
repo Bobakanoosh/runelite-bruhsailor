@@ -1,0 +1,162 @@
+{
+  "stepId": "2.1.19",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Run into Nardah, kill a goat northwest of the town for the horn (and grind it to dust), burn some yew logs on the mayor’s balcony for the diary, have Zahur clean a herb for you, buy rune platelegs (or a plateskirt) at Seddu’s Adventurer’s Store. Bank, do Spirits of the Elid (use your necklace of passage to Eagle’s Eyrie to save some time - note that the costume needle does not work for this quest). On the run back south to Nardah catch an orange salamander, make a combat potion and cut open a cactus to fill a waterskin. Visit the genie and pray at the statue after the quest for the diary.\n",
+  "itemsNeeded": "cash stack, rune sword, swordfish, waterskins, yew logs, grimy harralander, vial of water, pestle+mortar, necklace of passage, small fishing net, rope, law runes, air staff, light source, knife, rune pickaxe, yew longbow, steel arrows, regular needle, 2 thread, desert clothing, prayer potions",
+  "gpStack": "1.4m gp",
+  "mapping": {
+    "questIds": [
+      "SPIRITS_OF_THE_ELID"
+    ],
+    "items": [
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1823,
+        "name": "Waterskin(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1515,
+        "name": "Yew logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 205,
+        "name": "Grimy harralander",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 227,
+        "name": "Vial of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 21146,
+        "name": "Necklace of passage(5)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 303,
+        "name": "Small fishing net",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4548,
+        "name": "Bullseye lantern",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 855,
+        "name": "Yew longbow",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 886,
+        "name": "Steel arrow",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1734,
+        "name": "Thread",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10146,
+        "name": "Orange salamander",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 9739,
+        "name": "Combat potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      },
+      {
+        "label": "desert clothing",
+        "rawToken": "desert clothing"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "goat horn",
+        "qty": null
+      },
+      {
+        "rawToken": "cactus",
+        "qty": null
+      },
+      {
+        "rawToken": "pestle+mortar",
+        "qty": null
+      },
+      {
+        "rawToken": "regular needle",
+        "qty": null
+      }
+    ]
+  }
+}

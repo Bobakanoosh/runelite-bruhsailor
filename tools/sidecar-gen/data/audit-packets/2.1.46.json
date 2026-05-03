@@ -1,0 +1,56 @@
+{
+  "stepId": "2.1.46",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Shades of Mort’ton minigame teleport, go to the Haunted Mine. Mine a mithril ore for the diary (take the mine key for fast access). Visit the Lair of Tarn Razorlor, start and complete the miniquest (and kill a terror dog in the process).\n",
+  "itemsNeeded": "cash stack, melee gear, swordfish, prayer potions, energy potions, rune pickaxe, mine key",
+  "gpStack": "80k",
+  "mapping": {
+    "questIds": [
+      "HAUNTED_MINE",
+      "LAIR_OF_TARN_RAZORLOR"
+    ],
+    "items": [
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4077,
+        "name": "Crystal-mine key",
+        "qty": null,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      },
+      {
+        "label": "melee gear",
+        "rawToken": "melee gear"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

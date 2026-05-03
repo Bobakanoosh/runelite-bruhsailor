@@ -1,0 +1,59 @@
+{
+  "stepId": "2.2.19",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Get to Lumbridge, continue Cold War, complete RFD/Evil Dave, start RFD/Awowogei, RFD/Sir Amik Varze (speak with the cook to learn the recipe), RFD/Lumbridge Guide and RFD/Skrach. Buy black gloves.\n",
+  "itemsNeeded": "penguin suit, evil stew, air runes, water rune, law rune",
+  "gpStack": "30k gp",
+  "mapping": {
+    "questIds": [
+      "COLD_WAR",
+      "RECIPE_FOR_DISASTER_EVIL_DAVE",
+      "RECIPE_FOR_DISASTER_MONKEY_AMBASSADOR",
+      "RECIPE_FOR_DISASTER_SIR_AMIK_VARZE",
+      "RECIPE_FOR_DISASTER_LUMBRIDGE_GUIDE",
+      "RECIPE_FOR_DISASTER_SKRACH_UGLOGWEE"
+    ],
+    "items": [
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7457,
+        "name": "Black gloves",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "30k gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "penguin suit",
+        "qty": null
+      },
+      {
+        "rawToken": "evil stew",
+        "qty": null
+      }
+    ]
+  }
+}

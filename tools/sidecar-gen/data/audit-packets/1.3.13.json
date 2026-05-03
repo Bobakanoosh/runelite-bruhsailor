@@ -1,0 +1,169 @@
+{
+  "stepId": "1.3.13",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Teleport to your POH (bank in between, for example with Ferox minigame teleport or games necklace, if you don’t have enough inv space/don’t have all the items on you), collect the white pear for Mountain Daughter, teleport again, enter the dwarven tunnel under White Wolf Mountain, collect two rock cakes from An old dwarf (Rohak, make sure you complete the dialogue or you’ll have to get new asgoldian ales). Teleport a third time, speak with the Lady of the Lake for Merlin’s Crystal, chop and burn some willow logs for the diary, go to Doric and smith Blurite limbs on his anvil, run north and telegrab a wine of zamorak for the diary, run to the Goblin Village and continue RFD/Goblin to get a Slop of compromise.\n",
+  "itemsNeeded": "air runes, earth staff, law runes, 2 eggs, 2 pots of flour, 2 buckets of milk, 2 bowls of water, steel axe, tinderbox, hammer, bread, 1 orange, knife, purple dye, spice, 1 bucket of water, charcoal, 1 fishing bait (from Step 9!), 1 blurite bar, 4 asgoldian ales, 200 gp",
+  "gpStack": "670151 gp",
+  "mapping": {
+    "questIds": [
+      "MOUNTAIN_DAUGHTER",
+      "RECIPE_FOR_DISASTER_WARTFACE_AND_BENTNOZE"
+    ],
+    "items": [
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1944,
+        "name": "Egg",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 1933,
+        "name": "Pot of flour",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2309,
+        "name": "Bread",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2108,
+        "name": "Orange",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1773,
+        "name": "Purple dye",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2007,
+        "name": "Spice",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1929,
+        "name": "Bucket of water",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 973,
+        "name": "Charcoal",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 9467,
+        "name": "Blurite bar",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 7508,
+        "name": "Asgoldian ale",
+        "qty": 4,
+        "source": "items_needed"
+      },
+      {
+        "id": 1927,
+        "name": "Bucket of milk",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1921,
+        "name": "Bowl of water",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 313,
+        "name": "Fishing bait",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 2379,
+        "name": "Rock cake",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 245,
+        "name": "Wine of zamorak",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 7511,
+        "name": "Slop of compromise",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "200 gp"
+      },
+      {
+        "label": "gp",
+        "rawToken": "670151 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "white pear",
+        "qty": null
+      }
+    ]
+  }
+}

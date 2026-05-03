@@ -1,0 +1,99 @@
+{
+  "stepId": "1.1.17",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Minigame teleport to Fishing Trawler, grab your leather gloves, spade, hammer, saw, one beer, a house teleport, 1500 arrow shafts and 1501 feathers and head north. Complete the Tower of Life. Adding feathers to arrow shafts as you move, break another POH tab, walk to Port Sarim and talk to Veos to go to Zeah. Do the Client of Kourend quest up to and including the point where you activate the orb at the Dark Altar (use the mine cart system to move around). While visiting Jennifer, buy shears from her shop, then visit the Shayzien Styles directly west of her general store, buy a chef’s hat, grab an orange dye and a black wizard’s hat (spawn in the building), and do a lap of the Shayzien agility course for the diary. When leaving Shayzien dig up the Clue hunter garb along the way (just north of the bridge heading east, https://oldschool.runescape.wiki/w/Clue_hunter_garb#/media/File:Crack_the_Clue!_-_Week_2_map.png). Continue the quest until visiting the Dark Altar (use the mine cart to get there), then head to Wintertodt (again, mine card to Northern Tundras).\n",
+  "itemsNeeded": "saw, hammer, 1500 arrow shafts, 1501 feathers, POH tab, beer, leather gloves, spade",
+  "gpStack": "280 gp",
+  "mapping": {
+    "questIds": [
+      "TOWER_OF_LIFE",
+      "CLIENT_OF_KOUREND"
+    ],
+    "items": [
+      {
+        "id": 8794,
+        "name": "Saw",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 53,
+        "name": "Headless arrow",
+        "qty": 1500,
+        "source": "items_needed"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": 1501,
+        "source": "items_needed"
+      },
+      {
+        "id": 8013,
+        "name": "Teleport to house",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1917,
+        "name": "Beer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1059,
+        "name": "Leather gloves",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1735,
+        "name": "Shears",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1949,
+        "name": "Chef's hat",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1769,
+        "name": "Orange dye",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 19689,
+        "name": "Clue hunter garb",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "280 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "black wizard's hat",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "stepId": "1.4.26",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Collect 12 willow branches (6 per tree, 5 minutes to grow, only starts growing after checking health). If you had 3 trees grown, collect 18 instead. Buy 26 garden pies from Romily Weaklax in the Cooks’ Guild in Varrock along the way (or chronicle teleport to get there). Optional: buy a second inventory, they are useful. Do Enlightened Journey. If you only collected 12 branches earlier, collect 6 more now. Digsite teleport to the digsite, do A Soul’s Bane and re-enter the dungeon after completing it.\n",
+  "itemsNeeded": "magic secateurs, 3 papyrus, 1 ball of wool, 1 sack of 10 potatoes, 8 empty sacks, black candle (from Step 38), tinderbox, 10 silk, 10 logs, 12 willow branches",
+  "gpStack": "239094 gp",
+  "mapping": {
+    "questIds": [
+      "ENLIGHTENED_JOURNEY",
+      "A_SOULS_BANE"
+    ],
+    "items": [
+      {
+        "id": 7409,
+        "name": "Magic secateurs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 970,
+        "name": "Papyrus",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 1759,
+        "name": "Ball of wool",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 5418,
+        "name": "Empty sack",
+        "qty": 8,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 950,
+        "name": "Silk",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 7178,
+        "name": "Garden pie",
+        "qty": 26,
+        "source": "content"
+      },
+      {
+        "id": 5933,
+        "name": "Willow branch",
+        "qty": 18,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "239094 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "black candle (from Step 38)",
+        "qty": null
+      },
+      {
+        "rawToken": "sack of 10 potatoes",
+        "qty": 1
+      }
+    ]
+  }
+}

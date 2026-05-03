@@ -1,0 +1,36 @@
+{
+  "stepId": "2.1.34",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Keep wearing your ring of charos (a). Teleport to Falador. Run south to Port Sarim. Start and complete the Pandemonium quest. Whenever sailing you get some XP and a speed boost for trimming sails, so try to consistently click the sail when there’s a burst of wind. Do port courier tasks (between Pandemonium and Port Sarim) until level 13 sailing, aiming to finish the level at Port Sarim. Complete the following charting tasks along the way:\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "670k gp",
+  "mapping": {
+    "questIds": [
+      "PANDEMONIUM"
+    ],
+    "items": [
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "670k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "spyglass",
+        "qty": null
+      },
+      {
+        "rawToken": "lead ore",
+        "qty": 22
+      }
+    ]
+  }
+}

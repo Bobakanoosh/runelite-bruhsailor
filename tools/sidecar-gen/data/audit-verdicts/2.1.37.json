@@ -1,0 +1,1 @@
+{"stepId":"2.1.37","accurate":true,"confidence":0.9,"issues":[],"notes":"itemsNeeded marked tbd. questIds correctly includes CURRENT_AFFAIRS (active quest). items empty (appropriate—quest handles item requirements). abstractItems correctly captures cash stack abstraction. No unresolved items. Mapping is sound."}

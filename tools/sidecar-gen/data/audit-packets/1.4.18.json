@@ -1,0 +1,201 @@
+{
+  "stepId": "1.4.18",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Fenkenstrain teleport, harvest your harralanders and plant new ones and speak with Lyra to progress Garden of Tranquility. Fishing Trawler minigame teleport. Bank, grab combat gear (including mithril armour, your gnome amulet and an antidragon shield), an axe, a tinderbox, a knife, money, pickaxe optional, runes optional and charter a ship to Brimhaven. Go south to the general store near Tai Bwo Wannai village, buy a machete, a few bread and a few antipoisons. Using the snake boxing method (https://oldschool.runescape.wiki/w/Gout_tuber/Strategies), chop light jungle to get a gout tuber for the medium diary, when you get your first sticks repair the fence and speak to Murcaily then resume chopping. If you get a gout tuber before you reached 100% favour kill jungle spiders (north of the calquat farming patch) to get to 100%. Also prepare and cook a spider on a stick along the way for the diary. If you are taking too much damage, buy more bread from the general store.\n",
+  "itemsNeeded": "5203 gp, earth staff, law runes, soul runes, axe, tinderbox, knife, pickaxe, gnome amulet, mithril armour, seed dibber, spade, 5 compost, 3 harralander seeds, watering can, fire staff, air runes, water runes, rake, plague sample, touch paper",
+  "gpStack": "272296 gp",
+  "mapping": {
+    "questIds": [
+      "GARDEN_OF_TRANQUILLITY",
+      "FAMILY_CREST",
+      "EADGARS_RUSE",
+      "BIOHAZARD"
+    ],
+    "items": [
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 589,
+        "name": "Gnome amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8270,
+        "name": "Mithril armour",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5343,
+        "name": "Seed dibber",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6032,
+        "name": "Compost",
+        "qty": 5,
+        "source": "items_needed"
+      },
+      {
+        "id": 5294,
+        "name": "Harralander seed",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 5331,
+        "name": "Watering can",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5341,
+        "name": "Rake",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 418,
+        "name": "Plague sample",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 419,
+        "name": "Touch paper",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1540,
+        "name": "Anti-dragon shield",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 975,
+        "name": "Machete",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2309,
+        "name": "Bread",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3267,
+        "name": "Dirty robe",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 19662,
+        "name": "Botanical pie",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3261,
+        "name": "Goutweed",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 2446,
+        "name": "Antipoison(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "5203 gp",
+        "label": "gp"
+      },
+      {
+        "rawToken": "combat gear",
+        "label": "combat gear"
+      },
+      {
+        "rawToken": "money",
+        "label": "money"
+      },
+      {
+        "rawToken": "farming tools",
+        "label": "farming tools"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "pickaxe",
+        "qty": null
+      },
+      {
+        "rawToken": "axe",
+        "qty": null
+      }
+    ]
+  }
+}

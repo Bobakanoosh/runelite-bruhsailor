@@ -1,0 +1,59 @@
+{
+  "stepId": "2.2.26",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Do barbarian fishing to 99 fishing at CoX (buy as many feathers as needed), make sure to do Barblore as much as possible. Cut-eat the fish for cooking xp, you will need at least level 70 cooking for RFD/Awowogei.\n",
+  "itemsNeeded": "knife, teak log, barbarian rod, feathers, 2-dose potions",
+  "gpStack": "260k gp",
+  "mapping": {
+    "questIds": [
+      "RECIPE_FOR_DISASTER_MONKEY_AMBASSADOR",
+      "FREMENNIK_HARD"
+    ],
+    "items": [
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6333,
+        "name": "Teak logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 11323,
+        "name": "Barbarian rod",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": null,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "260k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "sturgeon",
+        "qty": null
+      },
+      {
+        "rawToken": "super defence potion",
+        "qty": null
+      },
+      {
+        "rawToken": "2-dose potions",
+        "qty": null
+      }
+    ]
+  }
+}

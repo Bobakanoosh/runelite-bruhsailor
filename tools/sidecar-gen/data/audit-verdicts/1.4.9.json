@@ -1,0 +1,15 @@
+{
+  "stepId": "1.4.9",
+  "accurate": false,
+  "confidence": 0.68,
+  "issues": [
+    "Wind runes unresolved - should resolve to ID 556 (wind strikes mentioned in itemsNeeded)",
+    "Face mask unresolved - should resolve to ID 10828 (concrete item, not ambiguous)",
+    "Soul runes (566, qty 200) included with source='content' - not mentioned in itemsNeeded text; inclusion unclear",
+    "Games necklace(8) only shows tier-8 variant - should note degradation to lower tiers acceptable",
+    "Quest IDs may include mention-only quests (CREATURE_OF_FENKENSTRAIN, THE_GARDEN_OF_DEATH) - verify active progression vs passive reference",
+    "Multiple unresolved items: compostable items (15), linen yarn (10), bolts of linen (5) - all needed for Getting Ahead tasks but not resolved",
+    "Content items (fly fishing rod, feathers, trout, bluegill) are tangential - acceptable but indicate possible scope creep"
+  ],
+  "notes": "Mapping partially complete but hampered by unresolved items that should resolve (wind runes, face mask) and unclear quest scope. The 'Getting Ahead items' phrase was correctly marked unresolved due to contextual nature, but its sub-components should have been decomposed. Confidence reduced due to multiple resolvable items left unresolved and potential over-inclusion of content-only items."
+}

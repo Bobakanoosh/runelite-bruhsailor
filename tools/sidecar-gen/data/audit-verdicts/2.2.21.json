@@ -1,0 +1,7 @@
+{
+  "stepId": "2.2.21",
+  "accurate": true,
+  "confidence": 0.95,
+  "issues": [],
+  "notes": "All three questIds (ONE_SMALL_FAVOUR, COLD_WAR, MAKING_HISTORY) are completion requirements explicitly stated in stepText. All 21 mapped items are traceable to itemsNeeded text with correct IDs and quantities. Abstractions (cash stack, melee gear, 30k gp) are genuine and appropriate. Three unresolved items (penguin suit, soft leather, cowbell) are legitimately ambiguous — cowbell references Step 57 creating cross-step ambiguity. No hallucinations, no contradictions, no mapping errors detected. High confidence mapping quality."
+}

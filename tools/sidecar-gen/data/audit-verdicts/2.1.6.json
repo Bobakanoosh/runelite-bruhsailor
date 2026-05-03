@@ -1,0 +1,1 @@
+{"stepId":"2.1.6","accurate":false,"confidence":0.75,"issues":["pickaxe listed in unresolvedItems but not mentioned in step text - appears to be spurious"],"notes":"Teak plank, feathers, arrow shafts, headless arrows, and plank sack correctly mapped. Abstract items appropriate (cash, POH move cost, cups of tea). No quests. Main issue: pickaxe inclusion unexplained."}

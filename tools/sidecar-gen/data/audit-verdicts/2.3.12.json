@@ -1,0 +1,7 @@
+{
+  "stepId": "2.3.12",
+  "accurate": true,
+  "confidence": 0.95,
+  "issues": [],
+  "notes": "Step mapping verified: Red spiders' eggs (qty 5) correctly sourced from wilderness location. No quest IDs required as this step is a standalone wilderness task + emblem trader interaction. Cash stack abstraction (19.7m gp) is a genuine abstraction for the GP requirement. All items are needed for progression. No ambiguities or unresolved items."
+}

@@ -1,0 +1,83 @@
+{
+  "stepId": "2.2.34",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Explorer’s ring teleport and run to Port Sarim to recruit Jobless Jim. You can set Jim to man the ship and trim the sails, reducing the xp from trimming by 50% but allowing you to multiskill (e.g. fletching headless arrows or alching) while sailing - from here on out you always have the freedom to include multiskilling during charting and port courier task activities. Charter to the Pandemonium. Take your skiff to the starting point of Troubled Tortugans and start and complete the quest in full. While on the Great Conch collect the spyglass and strange apple tree charter on the isle. Next do port courier tasks to Summer Shore until level 50 sailing (Sailing training - OSRS Wiki), completing the charting of the Unquiet Ocean in the process (the Sea of Shells after level 47). You can collect the ocean completion xp bonus (6k xp) to get to level 50. Once you hit level 50 (optional: keep going to level 51/52/53 instead, to reduce or eliminate the need for boosting while salvaging), use a dueling ring and run south all the way to the desert mining camp, then run out and recruit Ex-Captain Siad (don’t forget the key to the camp). Next, book of the dead teleport to Piscarillius (or charter if you were at Pandemonium for the xp bonus), recover your skiff here and sail south to Chinchompa Island. Chart the charred remains of a table and open the lockbox to get (and read) the salvaging station schematic. Sail to Port Roberts and dock there.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "1.7m gp",
+  "mapping": {
+    "questIds": [
+      "PANDEMONIUM",
+      "TROUBLED_TORTUGANS"
+    ],
+    "items": [
+      {
+        "id": 5095,
+        "name": "Explorer's ring",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 25818,
+        "name": "Book of the dead",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1507,
+        "name": "A small key",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "1.7m gp",
+        "label": "cash stack"
+      },
+      {
+        "rawToken": "multiskilling (e.g. fletching headless arrows or alching)",
+        "label": "multiskilling activities"
+      },
+      {
+        "rawToken": "port courier tasks",
+        "label": "port courier tasks"
+      },
+      {
+        "rawToken": "charting",
+        "label": "charting activities"
+      },
+      {
+        "rawToken": "coral farming",
+        "label": "coral farming"
+      },
+      {
+        "rawToken": "farm runs",
+        "label": "farm runs"
+      },
+      {
+        "rawToken": "super hunter potions and/or armadyl brews",
+        "label": "herblore materials"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "bottle of the way home",
+        "qty": null
+      },
+      {
+        "rawToken": "salvaging station schematic",
+        "qty": null
+      },
+      {
+        "rawToken": "medallion fragment",
+        "qty": null
+      }
+    ]
+  }
+}

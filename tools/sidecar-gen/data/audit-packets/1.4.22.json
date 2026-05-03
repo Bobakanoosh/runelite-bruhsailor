@@ -1,0 +1,124 @@
+{
+  "stepId": "1.4.22",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Plant willow saplings in at least two places (three for insurance is better. Varrock, Falador and Lumbridge are recommended). Pick a white tree fruit from the white tree for the diary. Games necklace teleport to Burthorpe, visit the Rogues Den and buy 1200 knives (15 bronze, 10 iron, 5 steel) per world from Martin Thwait (optional but not recommended: you can buy about 3x as many so you don’t have to pick them up later, but it’s more world hopping). Exit the Rogues Den and run south and complete Eadgar’s Ruse. Buy 25 water-filled vial packs.\n",
+  "itemsNeeded": "6834 gp, 3 willow seeds, 3 plant pots, watering can, 3 compost, air runes, earth staff, water staff, fire staff, law runes, spade, seed dibber",
+  "gpStack": "239208 gp",
+  "mapping": {
+    "questIds": [
+      "EADGARS_RUSE",
+      "KOUREND_EASY"
+    ],
+    "items": [
+      {
+        "id": 5313,
+        "name": "Willow seed",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 5356,
+        "name": "Plant pot",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 5331,
+        "name": "Watering can",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6032,
+        "name": "Compost",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1383,
+        "name": "Staff of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5343,
+        "name": "Seed dibber",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 864,
+        "name": "Bronze knife",
+        "qty": 15,
+        "source": "content"
+      },
+      {
+        "id": 863,
+        "name": "Iron knife",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 865,
+        "name": "Steel knife",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 6469,
+        "name": "White tree fruit",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 225,
+        "name": "Limpwurt root",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 11879,
+        "name": "Water-filled vial pack",
+        "qty": 25,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "6834 gp",
+        "label": "gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

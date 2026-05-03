@@ -1,0 +1,11 @@
+{
+  "stepId": "2.1.1",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    "Battlestaff (1391) appears alongside Staff (1379) - source text only mentions 'staves', unclear if both are needed or if one ID is incorrect",
+    "Staff (1379) has null quantity despite multiple purchase/alch cycles mentioned - should quantify or mark as 'unbounded'",
+    "itemsNeeded field appears incomplete (ends with comma) suggesting missing item specifications"
+  ],
+  "notes": "Core mapping mostly sound (earth orbs, mind bomb, mushroom pies, nature runes). Abstract 'cash stack' appropriately labeled. Main concern: Battlestaff vs Staff ambiguity and missing Staff quantities reduce confidence. Recommend clarify whether both staves are needed or consolidate to single item."
+}

@@ -1,0 +1,45 @@
+{
+  "stepId": "3.1.9",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "Do the Fremennik Exiles, A Night at the Theatre (lamps on ranging), Hopespear’s Will. Start Monkey Madness II until you have access to Kruk’s Dungeon (with the Maniacal monkeys).\n",
+  "itemsNeeded": "tons and tons of items (these are linear quests so just follow the wiki)",
+  "gpStack": "500k gp",
+  "mapping": {
+    "questIds": [
+      "THE_FREMENNIK_EXILES",
+      "A_NIGHT_AT_THE_THEATRE",
+      "HOPESPEARS_WILL",
+      "MONKEY_MADNESS_II"
+    ],
+    "items": [
+      {
+        "id": 3758,
+        "name": "Fremennik shield",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "500k gp"
+      },
+      {
+        "label": "ranged gear",
+        "rawToken": "lamps on ranging"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "tons and tons of items (these are linear quests so just follow the wiki)",
+        "qty": null
+      }
+    ]
+  }
+}

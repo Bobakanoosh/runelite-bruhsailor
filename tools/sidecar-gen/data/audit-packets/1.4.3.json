@@ -1,0 +1,64 @@
+{
+  "stepId": "1.4.3",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Grab your scrying orb and a pickaxe. Use your necklace of passage to teleport to the Wizards’ Tower. Have Wizard Sedridor send you to the rune essence mine (second scrying orb charge) and leave again. Run to Draynor and continue Fairytale I (and enter Zanaris) up to the step where you need to visit Zandar Horfyre. Teleport to Lumbridge and finish The Lost Tribe. Give Mistag the brooch for a mining helmet. Start Death to the Dorgeshuun (also Mistag), only the very very first step.\n",
+  "itemsNeeded": "necklace of passage, dramen staff, air runes, earth staff, law runes, brooch",
+  "gpStack": "445386 gp",
+  "mapping": {
+    "questIds": [
+      "THE_LOST_TRIBE",
+      "DEATH_TO_THE_DORGESHUUN",
+      "FAIRYTALE_I__A_FAIRYTALE_LOVE_STORY"
+    ],
+    "items": [
+      {
+        "id": 21146,
+        "name": "Necklace of passage(5)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5008,
+        "name": "Brooch",
+        "qty": null,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "445386 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "pickaxe",
+        "qty": null
+      }
+    ]
+  }
+}

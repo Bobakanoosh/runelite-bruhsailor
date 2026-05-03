@@ -1,0 +1,71 @@
+{
+  "stepId": "2.2.24",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "MLM for coal and gem bag (repair the strut along the way for the diary). Make sure not to use your celestial ring for this - it it bugged and reduces the amount of nuggets you get. Do low level group Volcanic Mine (this is a bit of a trek) for the prospector hat, and optionally for the rest of the gear as well. Check out https://discord.gg/FXPUrUp for finding teams. Complete the Falador hard diary step. Complete the Falador easy diary, putting the lamp on slayer. \n",
+  "itemsNeeded": "",
+  "gpStack": "240k gp",
+  "mapping": {
+    "questIds": [
+      "FALADOR_EASY",
+      "FALADOR_HARD"
+    ],
+    "items": [
+      {
+        "id": 766,
+        "name": "Gem bag",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 25541,
+        "name": "Celestial ring",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1271,
+        "name": "Adamant pickaxe",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 453,
+        "name": "Coal",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "200k total"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "gp"
+      },
+      {
+        "label": "goal mining level",
+        "rawToken": "72 mining"
+      },
+      {
+        "label": "mining experience",
+        "rawToken": "~68-70 mining"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "prospector hat",
+        "qty": null
+      },
+      {
+        "rawToken": "herb tar rock",
+        "qty": null
+      },
+      {
+        "rawToken": "air staves",
+        "qty": null
+      }
+    ]
+  }
+}

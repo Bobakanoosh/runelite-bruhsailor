@@ -1,0 +1,119 @@
+{
+  "stepId": "1.4.33",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Teleport to Varrock, then run to the quetzal to travel to Civitas illa Fortis. Start and complete Twilight’s Promise - this requires two combat styles (mage and melee recommended). From this point on you can include the Kastori fruit tree and calquat tree patch in your tree runs (if you have the appropriate farming level and spare seeds). Travel to Tal Teklan by quetzal. If you have at least 37 construction, start and complete Scrambled!. Buy cosmic runes at the Tal Teklan Rune Shop until you have 4900 total. Charge 1590 earth orbs (with corp suicide method. This costs ~33 tabs, 7 games necklaces and 9 rings of dueling). If you (somehow?) aren’t 60 magic yet use your Wizard’s Mind Bombs to boost at first.\n",
+  "itemsNeeded": "Wind strikes, rune sword, food, 247500 gp (to buy 4400 cosmics), knife, 1590 unpowered orbs, many Wizard Mind Bombs, 33 Paddewwa tabs (66 if HCIM), 7 games necklaces (0 if HCIM), 5 rings of dueling, earth staff, 4770 cosmic runes",
+  "gpStack": "14201 gp",
+  "mapping": {
+    "questIds": [
+      "TWILIGHTS_PROMISE",
+      "SCRAMBLED"
+    ],
+    "items": [
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 567,
+        "name": "Unpowered orb",
+        "qty": 1590,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 564,
+        "name": "Cosmic rune",
+        "qty": 4770,
+        "source": "items_needed"
+      },
+      {
+        "id": 2379,
+        "name": "Rock cake",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21800,
+        "name": "Enchanted symbol",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11941,
+        "name": "Looting bag",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2446,
+        "name": "Antipoison(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "food",
+        "rawToken": "food"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "247500 gp (to buy 4400 cosmics)"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "14201 gp"
+      },
+      {
+        "label": "many Wizard Mind Bombs",
+        "rawToken": "many Wizard Mind Bombs"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "33 Paddewwa tabs (66 if HCIM)",
+        "qty": 33
+      },
+      {
+        "rawToken": "7 games necklaces (0 if HCIM)",
+        "qty": 7
+      },
+      {
+        "rawToken": "5 rings of dueling",
+        "qty": 5
+      }
+    ]
+  }
+}

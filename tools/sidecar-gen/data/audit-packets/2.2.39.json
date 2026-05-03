@@ -1,0 +1,180 @@
+{
+  "stepId": "2.2.39",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Note: if you are not planning to max you can reduce this step, although the lack of prayer potions might prove to be an issue for slayer later. You will also need to obtain more planks and train construction at your own convenience if you do not go to at least level 96 agility during this step. That being said, 98 agility at Sepulchre is a loooong grind, so give serious consideration to reducing/splitting it. Read this step in its entirety carefully. This step contains a huge Hallowed Sepulchre grind.\n",
+  "itemsNeeded": "crossbow, Sara items, teak planks, addy nails, hammer, fire staff, nature runes, a lot of money (obtained during the step, spent during the step).",
+  "gpStack": "21.4m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 837,
+        "name": "Crossbow",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8780,
+        "name": "Teak plank",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 561,
+        "name": "Nature rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 24727,
+        "name": "Hallowed hammer",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 13226,
+        "name": "Herb sack",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 24882,
+        "name": "Plank sack",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 53,
+        "name": "Headless arrow",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 24709,
+        "name": "Hallowed crystal shard",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 564,
+        "name": "Cosmic rune",
+        "qty": 6100,
+        "source": "content"
+      },
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": 8100,
+        "source": "content"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": 44700,
+        "source": "content"
+      },
+      {
+        "id": 565,
+        "name": "Blood rune",
+        "qty": 44700,
+        "source": "content"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": 44700,
+        "source": "content"
+      },
+      {
+        "id": 9143,
+        "name": "Adamant bolts",
+        "qty": 12700,
+        "source": "content"
+      },
+      {
+        "id": 7946,
+        "name": "Monkfish",
+        "qty": 1100,
+        "source": "content"
+      },
+      {
+        "id": 207,
+        "name": "Grimy ranarr weed",
+        "qty": 152,
+        "source": "content"
+      },
+      {
+        "id": 5295,
+        "name": "Ranarr seed",
+        "qty": 336,
+        "source": "content"
+      },
+      {
+        "id": 24736,
+        "name": "Ring of endurance",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": 102,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack (obtained and spent during step)",
+        "rawToken": "a lot of money (obtained during the step, spent during the step)"
+      },
+      {
+        "label": "Agility training",
+        "rawToken": "Agility"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "rune bolts",
+        "qty": null
+      },
+      {
+        "rawToken": "sanfew serum",
+        "qty": 336
+      },
+      {
+        "rawToken": "strange lockpick",
+        "qty": 72
+      },
+      {
+        "rawToken": "hallowed teleport crystal",
+        "qty": 16200
+      },
+      {
+        "rawToken": "Sara items",
+        "qty": null
+      },
+      {
+        "rawToken": "addy nails",
+        "qty": null
+      }
+    ]
+  }
+}

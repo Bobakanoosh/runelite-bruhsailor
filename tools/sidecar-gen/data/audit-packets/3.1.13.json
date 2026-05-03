@@ -1,0 +1,84 @@
+{
+  "stepId": "3.1.13",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "Recruit Cabin Boy Jenkins (and Adventurer Ada while you’re at it) so you can get most xp out of multiskilling while charting. Use your skiff to chart the Sunset Ocean and Western Ocean in full, the lower level seas in the Shrouded Ocean along with all Miscellaneous charts in the same areas. Buy 5k mithril cannonballs at Port Roberts. Collect your charting xp bonuses from Chartin’ Charles McAtless. Optional and recommended, if you care for the rewards below from ship combat: also buy 25 Perildance bitters. Recruit Oarswoman Olga and Jittery Jim (boost to recruit him) and assign them to your sloop.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "35k gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 2446,
+        "name": "Antipoison(4)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1507,
+        "name": "A small key",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "35k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "mithril cannonball",
+        "qty": 5000
+      },
+      {
+        "rawToken": "bottle of portal nexus perry",
+        "qty": null
+      },
+      {
+        "rawToken": "bottle of sea shandy 2",
+        "qty": null
+      },
+      {
+        "rawToken": "bottle of banker's draught",
+        "qty": null
+      },
+      {
+        "rawToken": "bottle of delicate elven wine",
+        "qty": null
+      },
+      {
+        "rawToken": "perildance bitters",
+        "qty": 25
+      },
+      {
+        "rawToken": "berry",
+        "qty": null
+      },
+      {
+        "rawToken": "medallion fragment",
+        "qty": null
+      },
+      {
+        "rawToken": "medallion piece",
+        "qty": null
+      },
+      {
+        "rawToken": "gale catcher schematic",
+        "qty": null
+      },
+      {
+        "rawToken": "rosewood cargo hold schematic",
+        "qty": null
+      },
+      {
+        "rawToken": "rosewood hull schematic",
+        "qty": null
+      },
+      {
+        "rawToken": "lost schematics",
+        "qty": null
+      }
+    ]
+  }
+}

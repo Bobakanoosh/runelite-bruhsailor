@@ -1,0 +1,33 @@
+{
+  "stepId": "3.1.5",
+  "accurate": true,
+  "confidence": 0.92,
+  "issues": [
+    {
+      "type": "unresolved_item",
+      "item": "slayer gear",
+      "severity": "low",
+      "note": "Generic term for multiple gear pieces - acceptable as ambiguous reference"
+    },
+    {
+      "type": "non_tradeable_item",
+      "item": "ectotokens",
+      "severity": "low",
+      "note": "Currency/resource with qty 130 clearly specified; not a tradeable item but tracked correctly"
+    },
+    {
+      "type": "image_reference",
+      "item": "cave-horrors.png",
+      "severity": "low",
+      "note": "Image file reference for location guide; appropriately marked as unresolved"
+    },
+    {
+      "type": "method_reference",
+      "item": "imbue scroll + PVP Arena context",
+      "severity": "low",
+      "note": "Method/source references rather than items; appropriately categorized as unresolved"
+    }
+  ],
+  "notes": "Packet comprehensively documents step 3.1.5 requirements. All genuinely needed items are mapped (black mask, herb sack, bones qty 13, bonecrusher, etc). MORYTANIA_HARD quest is correctly identified as actively progressed objective. Abstract items (cash stack, herblore lamp, thralls) are genuine conceptual requirements. Unresolved items are legitimately ambiguous or contextual references. The tbd itemsNeeded field should be resolved to a human-readable summary string, but mapping is complete and accurate. No critical omissions or misclassifications detected.",
+  "verdict": "APPROVED"
+}

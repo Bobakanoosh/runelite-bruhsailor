@@ -1,0 +1,94 @@
+{
+  "stepId": "1.2.1",
+  "section": "1.2: Some fishing and thieving",
+  "stepText": "Grab your pickaxe and a POH tab, break it, mine 10 clay and 4 copper in the Rimmington mine. Run to Draynor, have Aggie make you 3 yellow dyes and 1 blue dye (you can use the ingredients on Aggie to skip the dialogue). Buy 10 chronicle cards. Grab your pie dish, a bucket, three pots of flour and three redberries.\n",
+  "itemsNeeded": "1545 gp, bronze pickaxe, POH tab, 3 pots of flour, 3 redberries, 6 onions, 2 woad leaves, pie dish, bucket",
+  "gpStack": "126465 gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 1265,
+        "name": "Bronze pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8013,
+        "name": "Teleport to house",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1933,
+        "name": "Pot of flour",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 1951,
+        "name": "Redberries",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 1957,
+        "name": "Onion",
+        "qty": 6,
+        "source": "items_needed"
+      },
+      {
+        "id": 2313,
+        "name": "Pie dish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1925,
+        "name": "Bucket",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 434,
+        "name": "Clay",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 436,
+        "name": "Copper ore",
+        "qty": 4,
+        "source": "content"
+      },
+      {
+        "id": 1765,
+        "name": "Yellow dye",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 1767,
+        "name": "Blue dye",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "1545 gp",
+        "label": "gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "chronicle card",
+        "qty": 10
+      },
+      {
+        "rawToken": "2 woad leaves",
+        "qty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "stepId": "1.3.27",
+  "accurate": false,
+  "confidence": 0.45,
+  "issues": [
+    "QUEST MISSING: FAIRYTALE_I explicitly started/progressed 3x in stepText ('start Fairytale I', 'dig up grave for Fairytale I', 'speak with Frizzy Skernip for Fairytale I') but absent from questIds",
+    "UNRESOLVED SHOULD BE ITEM: 'vinegar' (qty 35) is specific item ID 2022, not ambiguous; belongs in items[] not unresolvedItems",
+    "Items mapping otherwise accurate; quests critically incomplete"
+  ],
+  "notes": "Major omission of FAIRYTALE_I quest which is explicitly progressed this step. Vinegar should be resolved to item ID 2022 instead of left unresolved. Otherwise item ID mappings are correct."
+}

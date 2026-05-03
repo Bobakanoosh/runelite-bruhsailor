@@ -1,0 +1,45 @@
+{
+  "stepId": "3.2.10",
+  "section": "3.2: Quest cape, quality of life",
+  "stepText": "3t4s mine 20k sand (for level 93 crafting) or 70k sand (for level 99 crafting), buying all the sand (buy bucket packs first to match the amount required) 3 tick sandstone mining at new spot (easier method). Super glassmake all the sand with previously farmed giant seaweed. If you aren’t 91 thieving yet, arteglass the molten glass until you are.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "58m gp",
+  "mapping": {
+    "questIds": [
+      "MINING"
+    ],
+    "items": [
+      {
+        "id": 1925,
+        "name": "Bucket",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6958,
+        "name": "Sand",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21504,
+        "name": "Giant seaweed",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1775,
+        "name": "Molten glass",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "58m gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

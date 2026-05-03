@@ -1,0 +1,7 @@
+{
+  "stepId": "3.2.3",
+  "accurate": true,
+  "confidence": 0.95,
+  "issues": [],
+  "notes": "All quest IDs correctly map to actively progressed quests in step text. Items list contains essential equipment and tools needed (Bow of Faerdhinen for combat, Ancient staff/icon for upgrades, Rune crossbow for consumable bolts, Arclight for optional Phantom Muspah). Abstract items (cash stack 49m gp, lamp quest reward) properly identified. Unresolved items are acceptable (bowfa is slang variant already in items, quest cape is final completion reward, others are consumables/optional). Mapping is complete and accurate."
+}

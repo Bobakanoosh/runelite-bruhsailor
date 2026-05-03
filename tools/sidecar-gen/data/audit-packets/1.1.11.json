@@ -1,0 +1,188 @@
+{
+  "stepId": "1.1.11",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Go back to Draynor bank. Buy the rainbow scarf from Diango. Read the notice board to start a Porcine of Interest, talk to Morgan to start Vampyre Slayer and take three garlic. Grab coins, a small fishing net and one empty bucket. Walk to Port Sarim and speak to Veos to complete X Marks the Spot (destroy the lamp and reclaim them later to put them on herblore). Start Pirate’s Treasure, and continue the quest. Fish at Musa point for the diary, then continue Pirate’s Treasure until you get the rum from the crate in Port Sarim. Buy a raw chicken, three raw beef, two cheese, eight redberries, one banana and three pots of flour, depositing items (not the raw meat!) in the deposit box near the Entrana monks if you need inventory space. Buy 16 feather packs from Gerrant one by one. Open the packs while running north to the range. Use your incredible skill to burn one beef on the range (cook twice if needed), cook one and leave the last one raw. Buy an eye of newt from Betty. Talk to Frank to get the pirate’s key. Deposit all items except the bucket and coins in the deposit box. Head to Entrana and collect 10 planks (near the law altar) and two eggs (bank at deposit box). Speak with Captain Tock to start The Corsair Curse. Go to Sarah to progress A Porcine of Interest, buy 9 sacks, secateurs, seed dibber, rake, trowel, 3 plant pots, 1 watering can, 2 plant cures, then collect a bucket of milk from the dairy cow. Head to Falador, grab your coins, raw sardine and chronicle. Buy 2 woad leaves (offer 20gp to Wyson), start The Knight’s Sword and get told to talk to Reldo, start Black Knights’ Fortress.\n",
+  "itemsNeeded": "3445 gp, fishing net, bucket",
+  "gpStack": "5288 gp",
+  "mapping": {
+    "questIds": [
+      "THE_CORSAIR_CURSE",
+      "VAMPYRE_SLAYER",
+      "X_MARKS_THE_SPOT",
+      "A_PORCINE_OF_INTEREST",
+      "PIRATES_TREASURE",
+      "THE_KNIGHTS_SWORD",
+      "BLACK_KNIGHTS_FORTRESS"
+    ],
+    "items": [
+      {
+        "id": 303,
+        "name": "Small fishing net",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1925,
+        "name": "Bucket",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 21314,
+        "name": "Rainbow scarf",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1550,
+        "name": "Garlic",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 2138,
+        "name": "Raw chicken",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 2132,
+        "name": "Raw beef",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 1985,
+        "name": "Cheese",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1951,
+        "name": "Redberries",
+        "qty": 8,
+        "source": "content"
+      },
+      {
+        "id": 1963,
+        "name": "Banana",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1933,
+        "name": "Pot of flour",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 11881,
+        "name": "Feather pack",
+        "qty": 16,
+        "source": "content"
+      },
+      {
+        "id": 221,
+        "name": "Eye of newt",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 960,
+        "name": "Plank",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 1944,
+        "name": "Egg",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 5329,
+        "name": "Secateurs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 5343,
+        "name": "Seed dibber",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 5341,
+        "name": "Rake",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 676,
+        "name": "Trowel",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 5356,
+        "name": "Plant pot",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 5331,
+        "name": "Watering can",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 6036,
+        "name": "Plant cure",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 1927,
+        "name": "Bucket of milk",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 327,
+        "name": "Raw sardine",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "3445 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "coins",
+        "qty": null
+      },
+      {
+        "rawToken": "pirate's key",
+        "qty": null
+      },
+      {
+        "rawToken": "sacks",
+        "qty": 9
+      },
+      {
+        "rawToken": "woad leaves",
+        "qty": 2
+      }
+    ]
+  }
+}

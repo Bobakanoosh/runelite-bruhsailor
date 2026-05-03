@@ -1,0 +1,98 @@
+{
+  "stepId": "2.2.35",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Buy 62 lead ore. Steal from the silver stall to get a medallion fragment. Buy a sloop and build two kegs (fill one with whirlpool surprise and one with kraken ink stout), a salvaging station and two mithril salvaging hooks. Assign your two crewmembers to your boat. Sail your sloop to the large shipwrecks far south - do not go out of your way for charting with your slow sloop - north of the Isle of Serpents. Bring four empty beer glasses, a log basket and seed box (if you have them), and optionally methods to 1.5t the salvaging. Salvage until level 55 sailing, boosting sailing where necessary (it’s technically good to boost even if you have level 53 already). Your goal is to collect several hemp and cotton seeds for farming. Plant the hemp at your earliest convenience, making sure to have Attas up and using ultracompost to harvest at least 40 hemp in total.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "1.7m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 10885,
+        "name": "Keg",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 28140,
+        "name": "Log basket",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 13639,
+        "name": "Seed box",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "1.7m gp",
+        "label": "1.7m gp"
+      },
+      {
+        "rawToken": "sailing boost",
+        "label": "sailing boost"
+      },
+      {
+        "rawToken": "ultracompost",
+        "label": "ultracompost"
+      },
+      {
+        "rawToken": "Attas potion",
+        "label": "Attas potion"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "lead ore",
+        "qty": 62
+      },
+      {
+        "rawToken": "medallion fragment",
+        "qty": null
+      },
+      {
+        "rawToken": "sloop",
+        "qty": 1
+      },
+      {
+        "rawToken": "whirlpool surprise",
+        "qty": 1
+      },
+      {
+        "rawToken": "kraken ink stout",
+        "qty": 1
+      },
+      {
+        "rawToken": "salvaging station",
+        "qty": 1
+      },
+      {
+        "rawToken": "mithril salvaging hook",
+        "qty": 2
+      },
+      {
+        "rawToken": "empty beer glass",
+        "qty": 4
+      },
+      {
+        "rawToken": "hemp seed",
+        "qty": null
+      },
+      {
+        "rawToken": "cotton seed",
+        "qty": null
+      },
+      {
+        "rawToken": "two crewmembers",
+        "qty": 2
+      },
+      {
+        "rawToken": "methods to 1.5t the salvaging",
+        "qty": null
+      }
+    ]
+  }
+}

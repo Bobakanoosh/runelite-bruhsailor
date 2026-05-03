@@ -1,0 +1,166 @@
+{
+  "stepId": "2.1.2",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Run artefacts in Piscarillius while attaching the staves to the orbs and alching them while running, using your Kharedst’s memoirs for transportation and dueling rings to Ferox Enclave to bank and/or restore run energy as needed. Repeat this process of buying staves in Yanille, attaching and alching orbs while running artefacts until all 1590 have been processed. Also buy 500 law runes and 500 soul runes (50 per world) in Yanille in between buying battlestaves. Grab coins, a rope, antipoison, barcrawl card, 15 oak logs, digsite teleport and run to the sawmill, make them into planks and buy 101 iron and 700 steel nails (if you have spares from Tempoross you can skip those items) as well as five bolts of cloth. Head to the Jolly Boar Inn, complete the barcrawl and speak with the third brother for Family Crest. Games’ necklace teleport to the barbarian outpost, show the barcrawl card to the Barbarian Guard to complete the barcrawl. Toggle vial smashing. Teleport to your POH and buy two bedrooms, then build a bed in each (Oak or Wooden is fine). Next buy a dining room and build a rope bell-pull. Teleport to Ardougne, pay the estate agent to swap your POH location to Rimmington, then hire the highest tier servant possible at the Servant’s Guild - Cook for levels 39 and below, Butler for levels 40 and up (you shouldn’t be level 50+ construction yet but if you are: good for you, and hire the Demon Butler).\n",
+  "itemsNeeded": "Kharedst’s memoirs, 300k gp (obtained during the step), rings of dueling, earth orbs, battlestaves (obtained during the step), rope, antipoison, barcrawl card, 15 oak logs, digsite pendant, games necklace",
+  "gpStack": "3.0m gp",
+  "mapping": {
+    "questIds": [
+      "FAMILY_CREST"
+    ],
+    "items": [
+      {
+        "id": 575,
+        "name": "Earth orb",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 455,
+        "name": "Barcrawl card",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1521,
+        "name": "Oak logs",
+        "qty": 15,
+        "source": "items_needed"
+      },
+      {
+        "id": 11193,
+        "name": "Digsite pendant (4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 21760,
+        "name": "Kharedst's memoirs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1391,
+        "name": "Battlestaff",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": 500,
+        "source": "content"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": 500,
+        "source": "content"
+      },
+      {
+        "id": 1539,
+        "name": "Steel nails",
+        "qty": 700,
+        "source": "content"
+      },
+      {
+        "id": 8790,
+        "name": "Bolt of cloth",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 8778,
+        "name": "Oak plank",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 8031,
+        "name": "Wooden bed",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 8032,
+        "name": "Oak bed",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 8099,
+        "name": "Rope bell-pull",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2446,
+        "name": "Antipoison(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "3.0m gp",
+        "label": "starting cash stack"
+      },
+      {
+        "rawToken": "300k gp (obtained during the step)",
+        "label": "intermediate gold"
+      },
+      {
+        "rawToken": "Yanille staves purchase",
+        "label": "buyables during step"
+      },
+      {
+        "rawToken": "Ferox Enclave banking/restoration",
+        "label": "banking/restore point"
+      },
+      {
+        "rawToken": "highest tier servant possible",
+        "label": "servant tier"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "coins",
+        "qty": null
+      },
+      {
+        "rawToken": "iron",
+        "qty": 101
+      },
+      {
+        "rawToken": "kitten",
+        "qty": null
+      },
+      {
+        "rawToken": "Piscarillius artefacts",
+        "qty": 1590
+      },
+      {
+        "rawToken": "Ferox Enclave dueling ring teleport",
+        "qty": null
+      }
+    ]
+  }
+}

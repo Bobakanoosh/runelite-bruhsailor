@@ -1,0 +1,108 @@
+{
+  "stepId": "1.1.15",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Bank, grab your hammer, saw, steel nails, one POH tab, GP, burnt meat, eye of newt, onion, 18 planks, 5 noted bolts of cloth and 5 noted planks (so there are 3 planks left in your bank). Break the POH tab and use your planks to train construction (6 wooden chairs, unnote your planks and cloth at Phials, 1 crude wooden chair, 1 brown rug and 1 torn curtains). Talk to Hetty to start Witch’s Potion, kill a rat, then return to Hetty complete Witch’s Potion.\n",
+  "itemsNeeded": "saw, hammer, 86 steel nails, POH tab, burnt meat, eye of newt, onion, 100 air/mind runes, 5 bolts of cloth, 5 noted planks, 50gp",
+  "gpStack": "333 gp",
+  "mapping": {
+    "questIds": [
+      "WITCHS_POTION"
+    ],
+    "items": [
+      {
+        "id": 8794,
+        "name": "Saw",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1539,
+        "name": "Steel nails",
+        "qty": 86,
+        "source": "items_needed"
+      },
+      {
+        "id": 8013,
+        "name": "Teleport to house",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2146,
+        "name": "Burnt meat",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 221,
+        "name": "Eye of newt",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1957,
+        "name": "Onion",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8790,
+        "name": "Bolt of cloth",
+        "qty": 5,
+        "source": "items_needed"
+      },
+      {
+        "id": 960,
+        "name": "Plank",
+        "qty": 5,
+        "source": "items_needed"
+      },
+      {
+        "id": 8309,
+        "name": "Crude wooden chair",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 8316,
+        "name": "Brown rug",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 8322,
+        "name": "Torn curtains",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 8310,
+        "name": "Wooden chair",
+        "qty": 6,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "100 air/mind runes",
+        "label": "rune type"
+      },
+      {
+        "rawToken": "50gp",
+        "label": "gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "rat",
+        "qty": 1
+      }
+    ]
+  }
+}

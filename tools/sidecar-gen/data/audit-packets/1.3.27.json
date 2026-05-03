@@ -1,0 +1,165 @@
+{
+  "stepId": "1.3.27",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Enter the Lumbridge Swamp, collect 25 swamp tar for quests. Enter the Lumbridge swamp caves and kill a big frog for the big frog leg and a cave bug for the diary step (do not go north with the candle as a light source, you will die). Catch a raw slimy eel. Run to Draynor, chop some willow logs for the diary. Buy 35 vinegar, 2000 seeds (buy all seeds in every world, they’re for bird runs in the future) along with 10 cabbage and 10 onion seeds and 5 marigold seeds, start Fairytale I. Do a lap on the agility course and go into the sewers and kill a zombie for the diary. Complete Vampyre Slayer, grab two whistles from Draynor Manor for Holy Grail, dig up the grave outside to collect the skull for Fairytale I. Optional: visit the Falador patch for compost. Run to Port Sarim, speak with Frizzy Skernip (spirit tree patch) along the way for Fairytale I.\n",
+  "itemsNeeded": "6297 gp, rune sword, 1 rope, 1 candle or bruma torch/FM cape, fishing rod, fishing bait, trout/salmon, steel axe, garlic, stake, hammer, spade, holy table napkin",
+  "gpStack": "462299 gp",
+  "mapping": {
+    "questIds": [
+      "VAMPYRE_SLAYER",
+      "HOLY_GRAIL"
+    ],
+    "items": [
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 307,
+        "name": "Fishing rod",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 313,
+        "name": "Fishing bait",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1550,
+        "name": "Garlic",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1549,
+        "name": "Stake",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 15,
+        "name": "Holy table napkin",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1939,
+        "name": "Swamp tar",
+        "qty": 25,
+        "source": "content"
+      },
+      {
+        "id": 7908,
+        "name": "Big frog leg",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3379,
+        "name": "Raw slimy eel",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1519,
+        "name": "Willow logs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1965,
+        "name": "Cabbage",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 5319,
+        "name": "Onion seed",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 5096,
+        "name": "Marigold seed",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 964,
+        "name": "Skull",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6032,
+        "name": "Compost",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "6297 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "cave bug",
+        "qty": null
+      },
+      {
+        "rawToken": "vinegar",
+        "qty": 35
+      },
+      {
+        "rawToken": "seed",
+        "qty": 2000
+      },
+      {
+        "rawToken": "zombie",
+        "qty": null
+      },
+      {
+        "rawToken": "whistle",
+        "qty": 2
+      },
+      {
+        "rawToken": "candle or bruma torch/FM cape",
+        "qty": 1
+      },
+      {
+        "rawToken": "trout/salmon",
+        "qty": null
+      }
+    ]
+  }
+}

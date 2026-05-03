@@ -1,0 +1,94 @@
+{
+  "stepId": "2.1.9",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Mine 112 soft clay in the Varrock West mine, using the chronicle to get there, rings of dueling to bank and bracelets of clay. Teleport to your POH and make tea in a porcelain cup for a +2 construction boost, use the boost and crystal saw to build a Mahogany eagle lectern in your POH. Make up to 106 teleport to house tablets, having your butler bring you soft clay from the bank while you stand at the lectern. Make sure to leave two soft clay in the bank.\n",
+  "itemsNeeded": "pickaxe, chronicle, ring of dueling, bracelets of clay, law runes, earth runes, air runes, crystal saw, 2 mahogany planks, gold leaf, coins",
+  "gpStack": "1.6m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 9625,
+        "name": "Crystal saw",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8782,
+        "name": "Mahogany plank",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 4692,
+        "name": "Gold leaf",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4244,
+        "name": "Porcelain cup",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "coins",
+        "label": "coins"
+      },
+      {
+        "rawToken": "soft clay",
+        "label": "soft clay (mining material/resource)"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "pickaxe",
+        "qty": null
+      },
+      {
+        "rawToken": "mahogany eagle lectern",
+        "qty": null
+      },
+      {
+        "rawToken": "teleport to house tablet",
+        "qty": 106
+      },
+      {
+        "rawToken": "bracelets of clay",
+        "qty": null
+      }
+    ]
+  }
+}

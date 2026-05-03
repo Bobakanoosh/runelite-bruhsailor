@@ -1,0 +1,65 @@
+{
+  "stepId": "3.1.15",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "Go to Guardians of the Rift, participate in the minigame with the multiskilling method until you are completely out of uncut gems.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "35k gp",
+  "mapping": {
+    "questIds": [
+      "GUARDIANS_OF_THE_RIFT"
+    ],
+    "items": [
+      {
+        "id": 766,
+        "name": "Gem bag",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1607,
+        "name": "Sapphire",
+        "qty": 60,
+        "source": "content"
+      },
+      {
+        "id": 1605,
+        "name": "Emerald",
+        "qty": 60,
+        "source": "content"
+      },
+      {
+        "id": 1603,
+        "name": "Ruby",
+        "qty": 60,
+        "source": "content"
+      },
+      {
+        "id": 1601,
+        "name": "Diamond",
+        "qty": 60,
+        "source": "content"
+      },
+      {
+        "id": 11978,
+        "name": "Amulet of glory(6)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "cash stack",
+        "label": "35k gp"
+      },
+      {
+        "rawToken": "multiskilling method",
+        "label": "gameplay approach"
+      },
+      {
+        "rawToken": "combination runes",
+        "label": "crafting output"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

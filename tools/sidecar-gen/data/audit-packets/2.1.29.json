@@ -1,0 +1,97 @@
+{
+  "stepId": "2.1.29",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Swap to the normal spellbook and take the fairy ring/standard Clan Wars teleport to Edgeville (DKR) (and rebank, cook your lava eel). Run to the monastery and catch the scorpion for Scorpion Catcher. Defeat Chronozon for Family Crest. Teleport to Varrock and complete Family Crest (start the miniquest after), collect goldsmithing gauntlets (dueling ring teleport to Al Kharid).\n",
+  "itemsNeeded": "law runes, fire runes, air staff, death runes, earth runes, water runes, 2 crest pieces, swordfish, antipoison, lava eel, dramen staff, scorpion cage",
+  "gpStack": "1.5m gp",
+  "mapping": {
+    "questIds": [
+      "FAMILY_CREST",
+      "SCORPION_CATCHER"
+    ],
+    "items": [
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 554,
+        "name": "Fire rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1381,
+        "name": "Staff of air",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 175,
+        "name": "Antipoison(3)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2149,
+        "name": "Lava eel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 456,
+        "name": "Scorpion cage",
+        "qty": null,
+        "source": "items_needed"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "1.5m gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "goldsmithing gauntlets",
+        "qty": null
+      },
+      {
+        "rawToken": "2 crest pieces",
+        "qty": 2
+      }
+    ]
+  }
+}

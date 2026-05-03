@@ -1,0 +1,89 @@
+{
+  "stepId": "2.1.25",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Fenkenstrain teleport, visit Alice and her husband for Animal Magnetism. Kill an experiment for Rag and Bone Man II, undead cows for Rag and Bone Man II, then undead chickens to get 8 bones total. When you need to visit the Old Crone, enter Port Phasmatys instead (grind 8 bones at the Ectofuntus grinder to get 40 ecto-tokens, also grind a silver bar) and start and continue Ghosts Ahoy until you need to visit the Old Crone. Teleport to salve, take the fairy ring to the desert (DLQ) and kill a Desert Lizard (level 24) for the diary and Desert Lizard (level 42) for Rag and Bone Man II.\n",
+  "itemsNeeded": "law runes, soul runes, earth staff, ghostspeak amulet, 8 empty pots, 8 buckets of slime, 8 bones, silver bar, ice coolers, dramen staff, plank sack",
+  "gpStack": "1.5m gp",
+  "mapping": {
+    "questIds": [
+      "ANIMAL_MAGNETISM",
+      "RAG_AND_BONE_MAN_II",
+      "GHOSTS_AHOY"
+    ],
+    "items": [
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 552,
+        "name": "Ghostspeak amulet",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 526,
+        "name": "Bones",
+        "qty": 8,
+        "source": "items_needed"
+      },
+      {
+        "id": 2355,
+        "name": "Silver bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6696,
+        "name": "Ice cooler",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 24882,
+        "name": "Plank sack",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1931,
+        "name": "Pot",
+        "qty": 8,
+        "source": "content"
+      },
+      {
+        "id": 4286,
+        "name": "Bucket of slime",
+        "qty": 8,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "1.5m gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

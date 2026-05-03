@@ -1,0 +1,9 @@
+{
+  "stepId": "1.3.11",
+  "accurate": false,
+  "confidence": 0.75,
+  "issues": [
+    "Woad leaves should be resolved to item ID 1793 instead of unresolved; step explicitly states 'Buy 8 woad leaves' with known quantity"
+  ],
+  "notes": "Five of six items correctly mapped. Woad leaves is a specific, identifiable OSRS item that should be in items[] with qty 8, not unresolved. Quest progression is accurate (BELOW_ICE_MOUNTAIN and RECIPE_FOR_DISASTER_DWARF both actively progressed)."
+}

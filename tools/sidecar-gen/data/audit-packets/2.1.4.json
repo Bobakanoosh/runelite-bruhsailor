@@ -1,0 +1,85 @@
+{
+  "stepId": "2.1.4",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "If you have (at least) two grown teak trees on Fossil Island, use the butler method to chop and make 1175 teak planks (example video of 2 tick teaks with butler plankmake: https://www.youtube.com/watch?v=GA987x97AKQ) using digsite pendants instead of a mounted digsite and dueling rings to bank for more necklaces and/or run energy as necessary (alternatively you can grab a necklace from the museum camp bank chest on Fossil Island after it breaks). Note that you have to take the long way (east) instead of the shortcut to the trees.\n",
+  "itemsNeeded": "cash stack, knife, teak log, rune axe, saw, hammer",
+  "gpStack": "2.0m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6333,
+        "name": "Teak logs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 8794,
+        "name": "Saw",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2552,
+        "name": "Ring of dueling(8)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 8780,
+        "name": "Teak plank",
+        "qty": 1175,
+        "source": "content"
+      },
+      {
+        "id": 6332,
+        "name": "Mahogany logs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1521,
+        "name": "Oak logs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 22709,
+        "name": "Mounted digsite pendant",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11194,
+        "name": "Digsite pendant (5)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

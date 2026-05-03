@@ -1,0 +1,108 @@
+{
+  "stepId": "1.4.5",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Complete The Shadow of the Storm (you can flinch the demon with a rune shortsword just like during Holy Grail, and deal the last hit with darklight. Just don’t run away when you deal the last hit! Oziris recommends the northwest torch https://i.imgur.com/kvn6Mf5.png), put the xp on ranged. After the quest is done bank at Ferox, POH teleport and run north with 15 compostable items and a noted stack of buckets, volcanic ash and a compost potion to collect optional ultracompost and make a new batch (unnote the buckets by storing them with the leprechaun).\n",
+  "itemsNeeded": "rune sword, Silverlight, “evil gear” (Step 50), air runes, earth staff, law runes, trout, demonic sigil, demonic tome",
+  "gpStack": "445381 gp",
+  "mapping": {
+    "questIds": [
+      "SHADOW_OF_THE_STORM"
+    ],
+    "items": [
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2402,
+        "name": "Silverlight",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 333,
+        "name": "Trout",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6748,
+        "name": "Demonic sigil",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6749,
+        "name": "Demonic tome",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6746,
+        "name": "Darklight",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1925,
+        "name": "Bucket",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21622,
+        "name": "Volcanic ash",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21483,
+        "name": "Ultracompost",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6470,
+        "name": "Compost potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "evil gear (Step 50)",
+        "rawToken": "evil gear (Step 50)"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "445381 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "compostable items",
+        "qty": 15
+      }
+    ]
+  }
+}

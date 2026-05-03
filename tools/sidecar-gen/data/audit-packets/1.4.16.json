@@ -1,0 +1,109 @@
+{
+  "stepId": "1.4.16",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Run to the Edgeville Monastery, grab a set of monk’s robes (you can collect extras if you want). Speak with Brother Jered to bless your unblessed symbol. Speak with Brother Althric to continue Garden of Tranquillity. Continue the quest until you have his rose seeds and your ring of charos (a) again. Grab a pickaxe, a teleport to a bank and an inventory of pure essence and one empty inventory slot (bank everything else). Run to the Mage of Zamorak in the wilderness and mine an iron ore, then enter the abyss and exit through the water rift, craft an inventory of water runes for the diary. Teleport to the bank. Grab climbing boots from the bank if you aren’t wearing those already. Use a games necklace teleport to Burthorpe and continue Garden of Tranquillity to get the vine seeds.\n",
+  "itemsNeeded": "ring of charos(a), fishing rod, games necklace, pure essence, pestle/mortar, 2 plant cures, hammer",
+  "gpStack": "312296 gp",
+  "mapping": {
+    "questIds": [
+      "GARDEN_OF_TRANQUILLITY",
+      "ENTER_THE_ABYSS"
+    ],
+    "items": [
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 307,
+        "name": "Fishing rod",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3853,
+        "name": "Games necklace(8)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7936,
+        "name": "Pure essence",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 233,
+        "name": "Pestle and mortar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6036,
+        "name": "Plant cure",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 542,
+        "name": "Monk's robe",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1716,
+        "name": "Unblessed symbol",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 440,
+        "name": "Iron ore",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 555,
+        "name": "Water rune",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3105,
+        "name": "Climbing boots",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6456,
+        "name": "Vine seed",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "312296 gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "rose seeds",
+        "qty": null
+      },
+      {
+        "rawToken": "pickaxe",
+        "qty": null
+      }
+    ]
+  }
+}

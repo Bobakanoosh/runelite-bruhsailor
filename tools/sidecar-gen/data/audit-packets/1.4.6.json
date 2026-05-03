@@ -1,0 +1,272 @@
+{
+  "stepId": "1.4.6",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "You should be at least level 11 hunter by now from bird runs (you didn’t forget, did you?). Teleport to Lumbridge, collect a few anti-dragon shields from the Duke. Enter Zanaris and complete Fairytale I (make sure to take the low level agility shortcut to the cosmic altar for the diary) (Oziris recommends this safespot for flinching: https://i.imgur.com/2Ejgx0h.png). Leave Zanaris and run to Draynor, start Fairytale II (bank shields, withdraw the other items). Free Prince Ali with your key, do A Porcine of Interest, buy a mirror shield, rock hammer, two facemasks, earmuffs, nose peg, spiny helmet, unlit bug lantern, insulated boots, boots of stone, bag of salt, slayer gloves, 30 ice coolers and as many enchanted gems as you can carry, grab 10 grain. Return to Martin the Master Farmer (rebank), continue Fairytale II until you have access to fairy rings. Go to ring CIR (diary step), ALS (McGrubor’s Wood, diary step, run out and plant jute seeds for the diary, return to the fairy ring), BIS (Ardougne zoo, diary step), AIR (diary step), optional AIR to Auburnvale to purchase an addy axe (only if you do not have 60 woodcutting yet), DIS (diary step), AJP (Varlamore) and do The Ribbiting Tale of a Lily Pad Labour Dispute in full and include this fairy ring in future hardwood tree farming runs, also grab a sweetcorn for Recipe for Disaster, optional: also do Twilight’s Promise here, this requires some combat, fairy ring BJR (Fisher Realm) to continue Holy Grail (grab the holy grail, don’t blow the whistle), fairy ring to Hazelmere for The Grand Tree (CLS), fairy ring BLS and start The Garden of Death, exploring the cave below until you have enough words to be sent to Lake Molch, fairy ring DKS to start Olaf’s Quest, kill 5 rock crabs for the diary, catch a cerulean twitch for the diary.\n",
+  "itemsNeeded": "7500 gp, air runes, earth staff, law runes, dramen staff, pink skirt, paste, wig, 3 beers\u000bAfter banking: 3 jute seeds, seed dibber, rake, ultracompost, magic secateurs, trout, 2 ropes, knife, rune sword, steel axe, bronze key, magic whistle, bark sample, bird snare",
+  "gpStack": "444615 gp",
+  "mapping": {
+    "questIds": [
+      "FAIRYTALE_I",
+      "FAIRYTALE_II",
+      "A_PORCINE_OF_INTEREST",
+      "THE_RIBBITING_TALE_OF_A_LILY_PAD_LABOUR_DISPUTE",
+      "HOLY_GRAIL",
+      "THE_GRAND_TREE",
+      "THE_GARDEN_OF_DEATH",
+      "OLAFS_QUEST"
+    ],
+    "items": [
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1013,
+        "name": "Pink skirt",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2424,
+        "name": "Paste",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2419,
+        "name": "Wig",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5343,
+        "name": "Seed dibber",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5341,
+        "name": "Rake",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 21483,
+        "name": "Ultracompost",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7409,
+        "name": "Magic secateurs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 333,
+        "name": "Trout",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2418,
+        "name": "Bronze key",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 16,
+        "name": "Magic whistle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 783,
+        "name": "Bark sample",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10006,
+        "name": "Bird snare",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1540,
+        "name": "Anti-dragon shield",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4156,
+        "name": "Mirror shield",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 4162,
+        "name": "Rock hammer",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 4164,
+        "name": "Facemask",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 4166,
+        "name": "Earmuffs",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 4168,
+        "name": "Nose peg",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 4551,
+        "name": "Spiny helmet",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 7051,
+        "name": "Unlit bug lantern",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 7159,
+        "name": "Insulated boots",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 23037,
+        "name": "Boots of stone",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 4161,
+        "name": "Bag of salt",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 6708,
+        "name": "Slayer gloves",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 6696,
+        "name": "Ice cooler",
+        "qty": 30,
+        "source": "content"
+      },
+      {
+        "id": 4155,
+        "name": "Enchanted gem",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1947,
+        "name": "Grain",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 5306,
+        "name": "Jute seed",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 1357,
+        "name": "Adamant axe",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 5986,
+        "name": "Sweetcorn",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 19,
+        "name": "Holy grail",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 9967,
+        "name": "Cerulean twitch",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "7500 gp"
+      },
+      {
+        "label": "beer",
+        "rawToken": "3 beers"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

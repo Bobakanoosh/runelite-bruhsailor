@@ -1,0 +1,32 @@
+{
+  "stepId": "2.3.4",
+  "accurate": true,
+  "confidence": 0.85,
+  "issues": [
+    {
+      "type": "tbd_field",
+      "field": "itemsNeeded",
+      "severity": "minor",
+      "description": "Currently 'tbd'. Should document: composite ogre bow, 150 mithril brutal nails, and up to 16 chompy bird hats. GP stack (19.7m) already captured in abstractItems."
+    },
+    {
+      "type": "unresolved_item",
+      "item": "composite ogre bow",
+      "severity": "minor",
+      "description": "Marked as unresolved but exists in database as 'Comp ogre bow'. Item is genuinely needed for crafting as stated in step text."
+    },
+    {
+      "type": "unresolved_item",
+      "item": "mithril brutal nails",
+      "severity": "minor",
+      "description": "Marked as unresolved but exists in database as 'Mithril brutal'. Item is genuinely needed (qty: 150) as stated in step text."
+    }
+  ],
+  "notes": [
+    "Quest mapping is accurate: questIds correctly empty. Step mentions 'Song of the Elves' in section header but does not require completing that quest—it's contextual dialogue reference only.",
+    "Item tracking is solid: Chompy bird hat (id: 2978) correctly identified as content reward from Rantz",
+    "Abstract items are genuine: 19.7m gp cash stack is essential for training/purchasing",
+    "All activities are content-driven: chompy kills for diary completion, bow crafting, nail crafting, and NPC collection. No active quest progression.",
+    "Both unresolved items exist in database with slightly different formatting (abbreviated/full names) but are unambiguously identifiable"
+  ]
+}

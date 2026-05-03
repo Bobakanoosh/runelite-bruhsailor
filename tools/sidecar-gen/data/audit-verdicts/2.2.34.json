@@ -1,0 +1,13 @@
+{
+  "stepId": "2.2.34",
+  "accurate": false,
+  "confidence": 0.82,
+  "issues": [
+    "questIds includes PANDEMONIUM which is a destination, not a quest actively started/progressed in this step",
+    "abstractItems includes 'coral farming' which is not mentioned or used in this step",
+    "abstractItems includes 'farm runs' which is not mentioned or used in this step",
+    "abstractItems includes 'herblore materials' which is not mentioned or used in this step",
+    "itemsNeeded remains 'tbd' - should be populated with the concrete items list"
+  ],
+  "notes": "Verdict: ACCURATE → false. Confidence 0.82 (below 0.85 threshold). Core mappings are mostly sound (TROUBLED_TORTUGANS correct, 4 items correctly identified), but questIds has false positive (PANDEMONIUM is banking destination not active quest), and abstractItems contains 3 unrelated items that should be removed. Recommend: (1) remove PANDEMONIUM from questIds, (2) remove coral farming, farm runs, herblore materials from abstractItems, (3) populate itemsNeeded from items array."
+}

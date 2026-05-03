@@ -1,0 +1,282 @@
+{
+  "stepId": "1.4.14",
+  "section": "1.4: 62 farming, Desert Treasure, earth battlestaves",
+  "stepText": "Draynor Manor teleport, speak with the Wise Old Man to progress Garden of Tranquillity. Wear your ring to cut the charter costs. During the steps below, bring a compost potion and volcanic ash and make sure you have buckets in the leprechaun (can be brought noted) to obtain ultracompost. Leave one bin as supercompost (instead of upgrading to ultra) and collect 15 buckets for My Arm’s Big Adventure later, store them with the leprechaun when they’re ready. Also bring more compostable items to start a new batch wherever possible.\n",
+  "itemsNeeded": "11716 gp, earth runes, water staff, law runes, soul runes, ring of charos, seaweed, fishbowl (with water), 1 marigold seed, 3 harralander seeds, seed dibber, rake, fly fishing rod, 20 feathers, 2 soft clay, 1 cabbage, rune axe, magic secateurs, 1 gardening trowel, 1 plant pot, 6 cabbage seeds, 6 onion seeds, compost, spade, iron chainbody, watering can, raw swordfish, raw chicken",
+  "gpStack": "302990 gp",
+  "mapping": {
+    "questIds": [
+      "GARDEN_OF_TRANQUILLITY",
+      "TOWER_OF_LIFE",
+      "EADGARS_RUSE",
+      "PLAGUE_CITY",
+      "BIOHAZARD",
+      "THE_CORSAIR_CURSE",
+      "DWARF_CANNON"
+    ],
+    "items": [
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 1383,
+        "name": "Staff of water",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 4202,
+        "name": "Ring of charos",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 401,
+        "name": "Seaweed",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5096,
+        "name": "Marigold seed",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 5294,
+        "name": "Harralander seed",
+        "qty": 3,
+        "source": "items_needed"
+      },
+      {
+        "id": 5343,
+        "name": "Seed dibber",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5341,
+        "name": "Rake",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 309,
+        "name": "Fly fishing rod",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 314,
+        "name": "Feather",
+        "qty": 20,
+        "source": "items_needed"
+      },
+      {
+        "id": 1761,
+        "name": "Soft clay",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 1965,
+        "name": "Cabbage",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7409,
+        "name": "Magic secateurs",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5325,
+        "name": "Gardening trowel",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 5356,
+        "name": "Plant pot",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 5324,
+        "name": "Cabbage seed",
+        "qty": 6,
+        "source": "items_needed"
+      },
+      {
+        "id": 5319,
+        "name": "Onion seed",
+        "qty": 6,
+        "source": "items_needed"
+      },
+      {
+        "id": 6032,
+        "name": "Compost",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1101,
+        "name": "Iron chainbody",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5331,
+        "name": "Watering can",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 371,
+        "name": "Raw swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2138,
+        "name": "Raw chicken",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6668,
+        "name": "Fishbowl",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 21622,
+        "name": "Volcanic ash",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1925,
+        "name": "Bucket",
+        "qty": 15,
+        "source": "content"
+      },
+      {
+        "id": 1907,
+        "name": "Wizard's mind bomb",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 3105,
+        "name": "Climbing boots",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 88,
+        "name": "Boots of lightness",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1506,
+        "name": "Gas mask",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1759,
+        "name": "Ball of wool",
+        "qty": 4,
+        "source": "content"
+      },
+      {
+        "id": 3224,
+        "name": "Strip of cloth",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 419,
+        "name": "Touch paper",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1716,
+        "name": "Unblessed symbol",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6470,
+        "name": "Compost potion(4)",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "11716 gp"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "your cash stack"
+      },
+      {
+        "label": "food",
+        "rawToken": "some food"
+      },
+      {
+        "label": "supercompost",
+        "rawToken": "supercompost"
+      },
+      {
+        "label": "ultracompost",
+        "rawToken": "ultracompost"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "fishbowl (with water)",
+        "qty": null
+      }
+    ]
+  }
+}

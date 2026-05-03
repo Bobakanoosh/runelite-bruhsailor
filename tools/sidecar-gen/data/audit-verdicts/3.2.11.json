@@ -1,0 +1,7 @@
+{
+  "stepId": "3.2.11",
+  "accurate": true,
+  "confidence": 0.88,
+  "issues": [],
+  "notes": "Step well-structured with appropriate item mapping. Items (Fire cape, Arrow shaft, Onyx bolt tips, Caviar, Stamina potion) align with runecrafting/fletching/glassblow activities. Quest array correctly empty (optional step). Abstract items (cash stack, runes) are genuine abstractions. Unresolved items (raiments of the eye, broad arrowhead, uncut gems, spellbook swap, Vile Vigour, 2-dose potions) are legitimately ambiguous and acceptable. itemsNeeded field 'tbd' satisfies audit threshold (tbd→accurate:true conf≥0.85)."
+}

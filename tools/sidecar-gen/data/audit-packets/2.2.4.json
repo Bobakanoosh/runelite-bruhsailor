@@ -1,0 +1,147 @@
+{
+  "stepId": "2.2.4",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Teleport to the mind altar, create the special runestone for The Slug menace and a mind tiara for the diary. Fairy ring DKR to edgeville, continue RFD/Evil Dave. Visit the following four altars through the abyss: air altar, fire altar (carry 10+ pure essence, a full inv is fine, a binding necklace, your earth talisman and a stack of earth runes, then use the earth runes on the altar to make lava runes), water altar and earth altar in that order, creating your lunar staff/staves and the special runestones for The Slug menace.\n",
+  "itemsNeeded": "cat, 9 stews, tiara, mind talisman, 10 pure essence, binding necklace, earth talisman, earth runes, dramen staff, blank air rune, blank water rune, blank earth rune, blank fire rune, blank mind rune",
+  "gpStack": "60k gp",
+  "mapping": {
+    "questIds": [
+      "RECIPE_FOR_DISASTER_EVIL_DAVE",
+      "THE_SLUG_MENACE"
+    ],
+    "items": [
+      {
+        "id": 2003,
+        "name": "Stew",
+        "qty": 9,
+        "source": "items_needed"
+      },
+      {
+        "id": 5525,
+        "name": "Tiara",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1448,
+        "name": "Mind talisman",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7936,
+        "name": "Pure essence",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 5521,
+        "name": "Binding necklace",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1440,
+        "name": "Earth talisman",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 9692,
+        "name": "Blank air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 9690,
+        "name": "Blank water rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 9694,
+        "name": "Blank earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 9698,
+        "name": "Blank fire rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 9696,
+        "name": "Blank mind rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5529,
+        "name": "Mind tiara",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 9084,
+        "name": "Lunar staff",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4699,
+        "name": "Lava rune",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp stack",
+        "rawToken": "60k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "mind altar",
+        "qty": null
+      },
+      {
+        "rawToken": "special runestone",
+        "qty": null
+      },
+      {
+        "rawToken": "air altar",
+        "qty": null
+      },
+      {
+        "rawToken": "fire altar",
+        "qty": null
+      },
+      {
+        "rawToken": "water altar",
+        "qty": null
+      },
+      {
+        "rawToken": "earth altar",
+        "qty": null
+      },
+      {
+        "rawToken": "cat",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "stepId": "2.2.11",
+  "accurate": true,
+  "confidence": 0.95,
+  "issues": [],
+  "notes": "All mappings correct. questIds properly limited to actively progressed quests (ONE_SMALL_FAVOUR, MAKING_HISTORY). items[] correctly empty—fire blast runes are for future fight, dueling ring for next section. unresolvedItems appropriately captures ambiguous items. abstractItems correctly abstracts '30k gp' as 'cash stack'. No discrepancies found."
+}

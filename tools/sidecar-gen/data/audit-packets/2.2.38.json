@@ -1,0 +1,113 @@
+{
+  "stepId": "2.2.38",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Do Blast Mining https://streamable.com/l3ylry to get to 330 addy ore total, buying the dynamite from the shop as needed. Hybrid ore uim smelt (Hybrid ore UIM smelting) your mithril from MLM. Smelt your lead ore into bars. Smelt your gold ore from MLM. Use the UIM gold method (Lazy UIM Gold) to train your smithing to level 70, getting permission from the foreman to use the blast furnace for free at level 60. Go to Varrock west anvils, make 10 bars into 150 nails, make a mithril 2h sword for Devious Minds and ~5 bars into grapples. Turn the rest into mithril platebode and alch them (similar to before). Hybrid ore uim smelt your addy (buy coal as needed) into bars. Use UIM gold to train your smithing to (15,000 xp away from) level 74. Make sure to equip your ring of charos (a) until level 60 for reduced foreman costs.  Start and complete Defender of Varrock (there’s a free 5k xp lamp after the quest at Historian Minas in the Varrock Museum, put it on slayer if you aren’t level 58 yet and herblore otherwise). Make 4950 adamant nails (make sure to save an adamantite bar) with your bars at Varrock west anvils.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "900k gp",
+  "mapping": {
+    "questIds": [
+      "DEVIOUS_MINDS",
+      "DEFENDER_OF_VARROCK",
+      "ARDOUGNE_MEDIUM",
+      "FALADOR_MEDIUM",
+      "KANDARIN_MEDIUM",
+      "LUMBRIDGE_MEDIUM",
+      "THE_CURSE_OF_ARRAV",
+      "THE_PATH_OF_GLOUPHRIE"
+    ],
+    "items": [
+      {
+        "id": 13573,
+        "name": "Dynamite",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 447,
+        "name": "Mithril ore",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 444,
+        "name": "Gold ore",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 449,
+        "name": "Adamantite ore",
+        "qty": 330,
+        "source": "content"
+      },
+      {
+        "id": 453,
+        "name": "Coal",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2359,
+        "name": "Mithril bar",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 1315,
+        "name": "Mithril 2h sword",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1121,
+        "name": "Mithril platebody",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2361,
+        "name": "Adamantite bar",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": 1,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "900k gp"
+      },
+      {
+        "label": "mithril ore (from MLM)",
+        "rawToken": "mithril from MLM"
+      },
+      {
+        "label": "gold ore (from MLM)",
+        "rawToken": "gold ore from MLM"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "lead ore",
+        "qty": null
+      },
+      {
+        "rawToken": "adamant grapple",
+        "qty": null
+      },
+      {
+        "rawToken": "adamant nails",
+        "qty": 4950
+      },
+      {
+        "rawToken": "mithril grapple",
+        "qty": 5
+      }
+    ]
+  }
+}

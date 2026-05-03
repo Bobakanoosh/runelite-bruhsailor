@@ -1,0 +1,64 @@
+{
+  "stepId": "1.1.12",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Use your chronicle to teleport to Varrock (optional: clan wars teleport to restore run energy first). Start Gertrude's cat, pick up some doogle leaves, go to Varrock square. Talk to Aris Maye (formerly Gypsy Aris) to start Demon Slayer, Romeo to start Romeo and Juliet, Shilop and Wilough to progress Gertrude's Cat, Noah to start and complete Children of the Sun, Sir Prysin downstairs to progress Demon Slayer (and again), King Roald to start Priests in Peril, Reldo to progress The Knight's Sword and start Shield of Arrav (then check the book and speak with Reldo again), Captain Rovin to progress Demon Slayer, grab the pie dish in the kitchen, go upstairs and grab a bucket, go back downstairs and fill the bucket with water, use the bucket of water on the drain outside the kitchen to flush the Demon Slayer key, head east down the manhole and collect the key, go back out and north to the estate agent and collect a saw, start Daddy’s Home.\n",
+  "itemsNeeded": "101 gp, Chronicle",
+  "gpStack": "5187 gp",
+  "mapping": {
+    "questIds": [
+      "DEMON_SLAYER",
+      "ROMEO_AND_JULIET",
+      "GERTRUDES_CAT",
+      "CHILDREN_OF_THE_SUN",
+      "PRIESTS_IN_PERIL",
+      "THE_KNIGHTS_SWORD",
+      "SHIELD_OF_ARRAV",
+      "DADDYS_HOME"
+    ],
+    "items": [
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1573,
+        "name": "Doogle leaves",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2313,
+        "name": "Pie dish",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1925,
+        "name": "Bucket",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1929,
+        "name": "Bucket of water",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 8794,
+        "name": "Saw",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "101 gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

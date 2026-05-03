@@ -1,0 +1,168 @@
+{
+  "stepId": "3.2.13",
+  "section": "3.2: Quest cape, quality of life",
+  "stepText": "Once you have enough mahogany planks from Misc (or chop teaks at your own convenience), train construction to level 83 with mahogany benches (or tables, slightly lower xp but also lower effort). This takes approximately 10.5k mahogany logs (47 days of Misc at 10 workers). Once done, build/upgrade the following:\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "6m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 6332,
+        "name": "Mahogany logs",
+        "qty": 10500,
+        "source": "content"
+      },
+      {
+        "id": 8782,
+        "name": "Mahogany plank",
+        "qty": 4,
+        "source": "content"
+      },
+      {
+        "id": 9044,
+        "name": "Pharaoh's sceptre",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 9075,
+        "name": "Astral rune",
+        "qty": 10000,
+        "source": "content"
+      },
+      {
+        "id": 20611,
+        "name": "Ancient signet",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 20613,
+        "name": "Lunar signet",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 3420,
+        "name": "Limestone brick",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 1929,
+        "name": "Bucket of water",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": 1000,
+        "source": "content"
+      },
+      {
+        "id": 559,
+        "name": "Body rune",
+        "qty": 1000,
+        "source": "content"
+      },
+      {
+        "id": 12625,
+        "name": "Stamina potion(4)",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 8786,
+        "name": "Marble block",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 3024,
+        "name": "Super restore(4)",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 4692,
+        "name": "Gold leaf",
+        "qty": 9,
+        "source": "content"
+      },
+      {
+        "id": 565,
+        "name": "Blood rune",
+        "qty": 1000,
+        "source": "content"
+      },
+      {
+        "id": 6004,
+        "name": "Mushroom",
+        "qty": 10,
+        "source": "content"
+      },
+      {
+        "id": 20609,
+        "name": "Fairy enchantment",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 11118,
+        "name": "Combat bracelet(4)",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 11105,
+        "name": "Skills necklace(4)",
+        "qty": 5,
+        "source": "content"
+      },
+      {
+        "id": 1712,
+        "name": "Amulet of glory(4)",
+        "qty": 8,
+        "source": "content"
+      },
+      {
+        "id": 1615,
+        "name": "Dragonstone",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "6m gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "antivenom(4)",
+        "qty": 10
+      },
+      {
+        "rawToken": "ring of wealth(5)",
+        "qty": 8
+      },
+      {
+        "rawToken": "zulrah scales",
+        "qty": null
+      },
+      {
+        "rawToken": "antidote++",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "stepId": "3.2.2",
+  "accurate": false,
+  "confidence": 0.88,
+  "issues": [
+    "Ava's Assembler (22109) is a goal item (obtained from 50 Vorkath kills), not a prerequisite - should not be in items[] list",
+    "itemsNeeded field marked 'tbd' but mapping is substantially complete - actual prerequisites are accurately mapped"
+  ],
+  "notes": "Step covers three major quests (While Guthix Sleeps, Dragon Slayer II, Monkey Madness II) and 50 Vorkath kills. Quest IDs are correctly mapped for actively progressed/started content. Four actual prerequisite items are accurately identified (Bow of Faerdhinen, Anti-dragon Shield, Rune Crossbow, Antifire potions). Abstract items (cash stack, magic protection) are genuine abstractions for resource and mechanic requirements. Confidence 0.88 due to Ava's Assembler misclassification as a needed item rather than a goal item - this is the only substantive error. Recommend: remove Ava's Assembler from items[], update itemsNeeded to 'accurate'."
+}

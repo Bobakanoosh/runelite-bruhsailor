@@ -1,0 +1,95 @@
+{
+  "stepId": "3.2.4",
+  "section": "3.2: Quest cape, quality of life",
+  "stepText": "Use the money from CG to train smithing to level 86 with UIM gold. You’ll need to buy around 42.3k gold ores to get 86 Smithing for all diaries. Smelt at least 15 runite bars. Convert your cut diamonds and rubies into bracelets (optionally also enchant them, this is technically only worth it if you find a way to ‘0time’ it though) and charge enough unpowered orbs to match your battlestaves, then alch those/cash those in (e.g. at artefacts). Optional: also include ruby bracelets.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "64m gp",
+  "mapping": {
+    "questIds": [
+      "ARDOUGNE_ELITE",
+      "LUMBRIDGE_ELITE"
+    ],
+    "items": [
+      {
+        "id": 444,
+        "name": "Gold ore",
+        "qty": 42300,
+        "source": "content"
+      },
+      {
+        "id": 2363,
+        "name": "Runite bar",
+        "qty": 15,
+        "source": "content"
+      },
+      {
+        "id": 11092,
+        "name": "Diamond bracelet",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11085,
+        "name": "Ruby bracelet",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 567,
+        "name": "Unpowered orb",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1391,
+        "name": "Battlestaff",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4081,
+        "name": "Salve amulet",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 9185,
+        "name": "Rune crossbow",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11849,
+        "name": "Mark of grace",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 12625,
+        "name": "Stamina potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "64m gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "cut diamond",
+        "qty": null
+      },
+      {
+        "rawToken": "cut ruby",
+        "qty": null
+      },
+      {
+        "rawToken": "super energy potion",
+        "qty": null
+      }
+    ]
+  }
+}

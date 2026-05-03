@@ -1,0 +1,55 @@
+{
+  "stepId": "2.1.8",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "POH teleport and exit the house, head east and enter the Keldagrim mine and start Between a Rock… at Dondakan (bring gp for the ferry). Continue until the step where you talk to Rolad, buy a gold leaf at the stonemason. Buy 5 silk at the clothes stall. \n",
+  "itemsNeeded": "law rune, earth rune, air rune, coins",
+  "gpStack": "1.6m gp",
+  "mapping": {
+    "questIds": [
+      "BETWEEN_A_ROCK"
+    ],
+    "items": [
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 557,
+        "name": "Earth rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4692,
+        "name": "Gold leaf",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 950,
+        "name": "Silk",
+        "qty": 5,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "coins",
+        "label": "coins"
+      },
+      {
+        "rawToken": "gp for the ferry",
+        "label": "gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

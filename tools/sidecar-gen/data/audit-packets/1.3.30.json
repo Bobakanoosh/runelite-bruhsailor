@@ -1,0 +1,131 @@
+{
+  "stepId": "1.3.30",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Chronicle teleport to Varrock, speak with Dreven at the bush patch and the Guildmaster to progress Dragon Slayer I (go through all dialogue options, get the maze key). Run south and speak with Vasquen at the hops patch. Plant barley in the patch (make sure to pay the farmer with 3 regular compost, also use compost on the patch itself. Keep the weeds.). Run around and hop over the fence for the diary, kill a ram in the for the ram skull. Grab two cadava berries and mine an iron ore in the southeast Varrock mine for the diary. Grab the Rag and Bone Man I items (including axe and tinderbox, no logs because of inv space - put the bones in the vinegar while bankstanding), 4 oak logs, hammer and an iron bar. Use a digsite pendant, speak with the Lead Navigator for Bone Voyage. Turn around, go to the sawmill and make the logs into planks, buy 250 steel nails. Visit the Odd Old Man for Bone Voyage and complete Rag and Bone Man I, start Rag and Bone Man II. Teleport to Varrock (chronicle), speak with the Apothecary for Bone Voyage and Romeo & Juliet and give him the Diary of Herbi Flax, show The Lost Tribe brooch to Reldo. Pay the estate agent to move your POH to Kourend. Grab a hammer, 2 oak planks, 5 steel nails, 1 iron bar. Continue and complete Bone Voyage at the boat north of the Digsite.\n",
+  "itemsNeeded": "10500 gp, Chronicle, barley seeds, 4 compost (from Step 21), rake, seed dibber, rune pickaxe, brooch, diary, digsite pendant, axe, tinderbox, 4 oak logs, hammer, iron bar, Rag and Bone Man I bones, jugs of vinegar, marrentill potion(unf), 2 vodkas, cadava berries",
+  "gpStack": "445506 gp",
+  "mapping": {
+    "questIds": [
+      "DRAGON_SLAYER_I",
+      "RAG_AND_BONE_MAN_I",
+      "RAG_AND_BONE_MAN_II",
+      "BONE_VOYAGE"
+    ],
+    "items": [
+      {
+        "id": 13660,
+        "name": "Chronicle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5305,
+        "name": "Barley seed",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5341,
+        "name": "Rake",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5343,
+        "name": "Seed dibber",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 5008,
+        "name": "Brooch",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 11190,
+        "name": "Digsite pendant (1)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1521,
+        "name": "Oak logs",
+        "qty": 4,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2351,
+        "name": "Iron bar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2015,
+        "name": "Vodka",
+        "qty": 2,
+        "source": "items_needed"
+      },
+      {
+        "id": 753,
+        "name": "Cadava berries",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7810,
+        "name": "Jug of vinegar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 93,
+        "name": "Marrentill potion (unf)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "10500 gp"
+      },
+      {
+        "label": "compost",
+        "rawToken": "4 compost (from Step 21)"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "diary of herbi flax",
+        "qty": null
+      },
+      {
+        "rawToken": "axe",
+        "qty": null
+      },
+      {
+        "rawToken": "Rag and Bone Man I bones",
+        "qty": null
+      }
+    ]
+  }
+}

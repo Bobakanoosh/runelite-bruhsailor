@@ -1,0 +1,88 @@
+{
+  "stepId": "2.2.28",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "If you cannot yet enter the Warriors’ Guild (130 combined attack and strength), train your attack/strength with slayer tasks until you can (your goal is 60 atk 70 str). Enter the Warriors’ Guild, kill cyclopes to get a dragon defender (bank some black knives along the way). Your attack and defence should both be at least level 60, if they are not train attack to 60 first, then defence to 60. After this train defence as high as it will go during the defender grind.\n",
+  "itemsNeeded": "cash stack, cut diamond, melee gear (now incl. dscim/DDS), mithril armour set, prayer potions, stat-boosting potions, cheese potatoes (buy in guild)",
+  "gpStack": "120k gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6737,
+        "name": "Berserker ring",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4081,
+        "name": "Salve amulet",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 869,
+        "name": "Black knife",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 12954,
+        "name": "Dragon defender",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2379,
+        "name": "Rock cake",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2432,
+        "name": "Defence potion(4)",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 11734,
+        "name": "Absorption (4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      },
+      {
+        "label": "melee gear",
+        "rawToken": "melee gear (now incl. dscim/DDS)"
+      },
+      {
+        "label": "stat-boosting potions",
+        "rawToken": "stat-boosting potions"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "cheese potatoes",
+        "qty": 1000
+      },
+      {
+        "rawToken": "cut diamond",
+        "qty": null
+      },
+      {
+        "rawToken": "mithril armour set",
+        "qty": null
+      }
+    ]
+  }
+}

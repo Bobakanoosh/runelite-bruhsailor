@@ -1,0 +1,149 @@
+{
+  "stepId": "2.1.13",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Do Shilo Village (if you have rogue kits they can help save inventory space during this quest). While in Shilo Village mine (and successfully cut) a jade and three red topazes (you can tick manipulate this to speed it up), plus enough gems (including to sell) to exchange for a machete at Safta Doc (300 trading sticks + 3 opals). It’s worth considering getting a few extra in case all your gems for One Small Favour break. Buy four inventories of cooked karambwans from Alfonse the waiter in The Shrimp and Parrot (Brimhaven restaurant), banking in Shilo using the Hajedy & Vigroy cart system (right click to travel, going through dialogue is cheaper but not worth the time).\n",
+  "itemsNeeded": "spade, lit candle, rope, bronze wire, chisel, rune sword, swordfish, prayer potions, energy potions, dramen staff, Crumble Undead runes, 4 rogue kits (optional), rune pickaxe, gout tuber",
+  "gpStack": "1.6m gp",
+  "mapping": {
+    "questIds": [
+      "SHILO_VILLAGE",
+      "ONE_SMALL_FAVOUR"
+    ],
+    "items": [
+      {
+        "id": 952,
+        "name": "Spade",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 33,
+        "name": "Lit candle",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1794,
+        "name": "Bronze wire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3008,
+        "name": "Energy potion(4)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6311,
+        "name": "Gout tuber",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1611,
+        "name": "Jade",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1613,
+        "name": "Red topaz",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 1609,
+        "name": "Opal",
+        "qty": 3,
+        "source": "content"
+      },
+      {
+        "id": 3144,
+        "name": "Cooked karambwan",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 379,
+        "name": "Lobster",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 361,
+        "name": "Tuna",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 5558,
+        "name": "Rogue kit",
+        "qty": 4,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "1.6m gp",
+        "label": "cash stack"
+      },
+      {
+        "rawToken": "300 trading sticks",
+        "label": "currency/trading resource"
+      },
+      {
+        "rawToken": "gems (including to sell)",
+        "label": "gems"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "Crumble Undead runes",
+        "qty": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "stepId": "3.2.9",
+  "accurate": true,
+  "confidence": 0.95,
+  "issues": [],
+  "notes": "Step maps Falador and Kandarin Elite diary progression with 60m gp stack requirement and herblore boost allowance. All mapping categories correctly applied: questIds identify active diary progression, abstractItems properly represent cash requirement, items appropriately empty, unresolvedItems appropriately empty."
+}

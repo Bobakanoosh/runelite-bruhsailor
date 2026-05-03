@@ -1,0 +1,82 @@
+{
+  "stepId": "2.1.5",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "Teleport to Camelot, collect the Kandarin easy diary and put the lamp on herblore. Teleport to Lumbridge, collect the Lumbridge & Draynor easy diary and put the lamp on herblore. Run to Draynor, recruit Ned for Dragon Slayer I, buy 100 chronicle teleport cards and continue Dragon Slayer I to get to Crandor. Kill Moss Giants for Rag and Bone Man II. While on Crandor, make sure to go back up the rope to Crandor, kill Elvarg, and unlock the hidden wall door for two Karamja medium diary steps. Keep running and enter the Fight Cave, then leave immediately. Head to Oziach in Edgeville with the standard Clan Wars minigame teleport method and complete Dragon Slayer I. Buy a green d’hide body. \n",
+  "itemsNeeded": "cash stack, Crandor map, rune sword, anti-dragon shield, swordfish, prayer potions (make at bank if you haven’t already), ring of recoil (optional), teak logs + knife (optional)",
+  "gpStack": "2.0m gp",
+  "mapping": {
+    "questIds": [
+      "DRAGON_SLAYER_I",
+      "RAG_AND_BONE_MAN_II",
+      "KANDARIN_EASY",
+      "LUMBRIDGE_EASY",
+      "KARAMJA_MEDIUM"
+    ],
+    "items": [
+      {
+        "id": 1538,
+        "name": "Crandor map",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1540,
+        "name": "Anti-dragon shield",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2550,
+        "name": "Ring of recoil",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6333,
+        "name": "Teak logs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2434,
+        "name": "Prayer potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "Kandarin easy diary",
+        "qty": null
+      },
+      {
+        "rawToken": "Lumbridge & Draynor easy diary",
+        "qty": null
+      }
+    ]
+  }
+}

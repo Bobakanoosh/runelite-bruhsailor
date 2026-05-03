@@ -1,0 +1,7 @@
+{
+  "stepId": "2.3.7",
+  "accurate": true,
+  "confidence": 0.95,
+  "issues": [],
+  "notes": "Step packet is well-formed. itemsNeeded correctly marked as 'tbd' and items array is properly empty (no physical items needed). Two quest IDs correctly identified: FAIRYTALE_II__CURE_A_QUEEN (progressed) and THE_GENERALS_SHADOW (started). abstractItems correctly abstracts '19.7m gp' as cash stack. No unresolved ambiguities. Both quests are real OSRS content and appropriately selected for this guide step."
+}

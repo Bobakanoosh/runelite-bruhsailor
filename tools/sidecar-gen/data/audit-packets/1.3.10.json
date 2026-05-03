@@ -1,0 +1,182 @@
+{
+  "stepId": "1.3.10",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "House teleport, fill a bucket at the well, start The Fremennik Trials with Manni, start working on getting his vote, continue with Olaf and get sent to collect a lyre - this is the wiki order, not the RuneLite plugin order. Regrettably these are not the same. Continue questing for Olaf’s vote up to the step where you cut a branch from the swaying tree (YOU DO NOT NEED 40 CRAFTING). Chop some oak logs and burn them for the diary and kill the unicorn for the unicorn bone and horn as you pass it, start and continue Mountain Daughter until you have spoken to Svidi, house teleport and speak to Askeladden (Fremmy Trials) and Brundt (Mountain Daughter), get the golden fleece (Fremmy Trials) and get half a rock (Mountain Daughter), continue Mountain Daughter until you need to get the white pearl seed, run back out of the camp and do The Giant Dwarf (right-click open the Stonemason’s shop at the start for the diary) to the step where you need to visit Thurgo. Steal from the crafting or baker’s stall, and then from the gem stall, for the diary. While in Keldagrim, buy a rune pickaxe from the store in the eastern section.\n",
+  "itemsNeeded": "51012 gp, air runes, earth staff, law runes, 1 coal, 1 log, tinderbox, steel axe, 3 cut sapphires, rope, 1 plank, bronze pickaxe, empty bucket, beer, knife, rune sword, leather gloves, staff of fire, mind runes",
+  "gpStack": "675321 gp",
+  "mapping": {
+    "questIds": [
+      "THE_FREMENNIK_TRIALS",
+      "MOUNTAIN_DAUGHTER",
+      "THE_GIANT_DWARF"
+    ],
+    "items": [
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1385,
+        "name": "Staff of earth",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 453,
+        "name": "Coal",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 960,
+        "name": "Plank",
+        "qty": 1,
+        "source": "items_needed"
+      },
+      {
+        "id": 1265,
+        "name": "Bronze pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 3727,
+        "name": "Empty bucket",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1917,
+        "name": "Beer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1289,
+        "name": "Rune sword",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1059,
+        "name": "Leather gloves",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1387,
+        "name": "Staff of fire",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 558,
+        "name": "Mind rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1271,
+        "name": "Adamant pickaxe",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1521,
+        "name": "Oak logs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 7821,
+        "name": "Unicorn bone",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 237,
+        "name": "Unicorn horn",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3693,
+        "name": "Golden fleece",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4487,
+        "name": "Half a rock",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 4486,
+        "name": "White pearl seed",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp",
+        "rawToken": "51012 gp"
+      },
+      {
+        "label": "gp",
+        "rawToken": "675321 gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "3 cut sapphires",
+        "qty": 3
+      }
+    ]
+  }
+}

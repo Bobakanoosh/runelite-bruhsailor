@@ -1,0 +1,26 @@
+{
+  "stepId": "2.1.35",
+  "section": "2.1: Quests and combat, unlock Miscellania",
+  "stepText": "If you were at Port Sarim, charter to the Pandemonium. Start Prying Times (bank to grab the items necessary on Pandemonium). Charter or sail back (if you’re sailing, complete another port task as well). Pick up the crate of looty and return to the Pandemonium, grabbing and completing a second courier task as well along the way. Charter to Port Sarim, run to Thurgo, get the crowbar, return to the Pandemonium. Board your raft and head to the sealed crate, also chart the wreck of the Pandemonium II and the crashed gnome glider to the west. Open the crate, sail to the Pandemonium docks and drink the drink. You can either kill the troll or just disembark your ship, complete Prying Times. Search a nearby crate for the waterlogged journal and read it to unlock the ability to make the Medallion of the Deep.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "670k gp",
+  "mapping": {
+    "questIds": [
+      "PRYING_TIMES",
+      "PANDEMONIUM"
+    ],
+    "items": [],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "670k gp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "crowbar",
+        "qty": null
+      }
+    ]
+  }
+}

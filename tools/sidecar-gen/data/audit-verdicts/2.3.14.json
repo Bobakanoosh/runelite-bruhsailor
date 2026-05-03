@@ -1,0 +1,39 @@
+{
+  "stepId": "2.3.14",
+  "accurate": false,
+  "confidence": 0.72,
+  "issues": [
+    {
+      "type": "misclassified_item",
+      "item": "Fever spider",
+      "id": 6709,
+      "problem": "Monster to kill for diary, not an item needed. Marked source='content' but should not be in items array.",
+      "suggestion": "Remove from items array entirely - this is a task objective, not a required item."
+    },
+    {
+      "type": "unresolved_item_resolvable",
+      "rawToken": "fishbowl helmet + diving apparatus",
+      "problem": "These are specific resolved items in OSRS but mapped as unresolved. Fishbowl helmet (id: 6709) and Diving apparatus (id: 4946) should be resolved.",
+      "suggestion": "Resolve to two separate items in items array with appropriate quantities."
+    },
+    {
+      "type": "unresolved_item_ambiguous",
+      "rawToken": "stat-boosting potion",
+      "problem": "Too vague - could be multiple potion types (Strength, Attack, Defence, Herblore). Reasonably unresolved.",
+      "suggestion": "Keep in unresolvedItems (acceptable ambiguity) or promote to abstractItem if treating as generic boost consumable."
+    },
+    {
+      "type": "unresolved_item_acceptable",
+      "rawToken": "cheese potatoes",
+      "problem": "Mentioned in Cabin Fever step but likely food consumed during quest. Reasonably unresolved given quest flexibility.",
+      "suggestion": "Keep in unresolvedItems (acceptable - context-dependent provision)."
+    }
+  ],
+  "notes": [
+    "Quest IDs are correct and represent actively progressed quests in this step.",
+    "abstractItems 'melee gear' and 'cash stack' are genuine abstractions - cannot be resolved to specific items.",
+    "GP stack (19.7m) is properly extracted and justified.",
+    "Prayer potions and Energy potions marked as source='content' are reasonable consumption items for the step.",
+    "Primary accuracy issue: Fever spider is misclassified as a needed item when it's a task objective."
+  ]
+}

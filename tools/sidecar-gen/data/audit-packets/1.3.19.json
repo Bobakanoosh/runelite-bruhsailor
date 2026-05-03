@@ -1,0 +1,82 @@
+{
+  "stepId": "1.3.19",
+  "section": "1.3: Unlocking bird runs",
+  "stepText": "Dueling ring teleport to Ferox, take the portal to Soul Wars, then to Edgeville. Give the steak sandwich to Marley to progress Below Ice Mountain. Speak with Oziach to progress Dragon Slayer I. Make 1600 molten glass at the furnace. Cut all your sapphires, emeralds and rubies. Make all minus one of your gold bars into digsite pendants (note: this is 0-1 gold bars, unless you got extra from Tempoross. Don’t worry if you can’t make any pendants here). Make two fishbowls.\n",
+  "itemsNeeded": "1600 soda ash, 1600 buckets of sand, chisel, uncut sapphires/emeralds/rubies, matching gold bars for the gems, glassblowing pipe",
+  "gpStack": "535070 gp",
+  "mapping": {
+    "questIds": [
+      "BELOW_ICE_MOUNTAIN",
+      "DRAGON_SLAYER_I"
+    ],
+    "items": [
+      {
+        "id": 1781,
+        "name": "Soda ash",
+        "qty": 1600,
+        "source": "items_needed"
+      },
+      {
+        "id": 1783,
+        "name": "Bucket of sand",
+        "qty": 1600,
+        "source": "items_needed"
+      },
+      {
+        "id": 1755,
+        "name": "Chisel",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1785,
+        "name": "Glassblowing pipe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 25631,
+        "name": "Steak sandwich",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 1623,
+        "name": "Uncut sapphire",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1621,
+        "name": "Uncut emerald",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1619,
+        "name": "Uncut ruby",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 2357,
+        "name": "Gold bar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6668,
+        "name": "Fishbowl",
+        "qty": 2,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "535070 gp"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

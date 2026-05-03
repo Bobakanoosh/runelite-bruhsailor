@@ -1,0 +1,166 @@
+{
+  "stepId": "3.1.16",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "Do Corrupted Gauntlet for 6 armour seeds and one enhanced weapon seed (~70 hours) (tip: use longrange on staff hits for defence xp - alternatively you can use accurate for ~0.5% more accuracy, but we think the def xp is more valuable). Maintain hourlies as usual. You should be level 93 ranging after this step. On average, this will also give the following loot:\n",
+  "itemsNeeded": "none (!!!)",
+  "gpStack": "44m gp",
+  "mapping": {
+    "questIds": [],
+    "items": [
+      {
+        "id": 23866,
+        "name": "Crystal shards",
+        "qty": 2960,
+        "source": "content"
+      },
+      {
+        "id": 5312,
+        "name": "Acorn",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1391,
+        "name": "Battlestaff",
+        "qty": 500,
+        "source": "content"
+      },
+      {
+        "id": 1601,
+        "name": "Diamond",
+        "qty": 500,
+        "source": "content"
+      },
+      {
+        "id": 11092,
+        "name": "Diamond bracelet",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 11085,
+        "name": "Ruby bracelet",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 564,
+        "name": "Cosmic rune",
+        "qty": 10600,
+        "source": "content"
+      },
+      {
+        "id": 561,
+        "name": "Nature rune",
+        "qty": 6900,
+        "source": "content"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": 6400,
+        "source": "content"
+      },
+      {
+        "id": 562,
+        "name": "Chaos rune",
+        "qty": 13800,
+        "source": "content"
+      },
+      {
+        "id": 560,
+        "name": "Death rune",
+        "qty": 7500,
+        "source": "content"
+      },
+      {
+        "id": 565,
+        "name": "Blood rune",
+        "qty": 6300,
+        "source": "content"
+      },
+      {
+        "id": 888,
+        "name": "Mithril arrow",
+        "qty": 62500,
+        "source": "content"
+      },
+      {
+        "id": 890,
+        "name": "Adamant arrow",
+        "qty": 30600,
+        "source": "content"
+      },
+      {
+        "id": 892,
+        "name": "Rune arrow",
+        "qty": 17500,
+        "source": "content"
+      },
+      {
+        "id": 11212,
+        "name": "Dragon arrow",
+        "qty": 3800,
+        "source": "content"
+      },
+      {
+        "id": 6573,
+        "name": "Onyx",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 19493,
+        "name": "Zenyte",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 6821,
+        "name": "Orb",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "gp profit",
+        "rawToken": "51.5m gp profit"
+      },
+      {
+        "label": "cash stack",
+        "rawToken": "44m gp"
+      },
+      {
+        "label": "crafting xp",
+        "rawToken": "506k crafting xp"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "corrupted gauntlet",
+        "qty": null
+      },
+      {
+        "rawToken": "crystal armour",
+        "qty": 1
+      },
+      {
+        "rawToken": "corrupted bow of faerdhinen",
+        "qty": 1
+      },
+      {
+        "rawToken": "armour seed",
+        "qty": 6
+      },
+      {
+        "rawToken": "enhanced weapon seed",
+        "qty": 1
+      },
+      {
+        "rawToken": "weapon seed",
+        "qty": null
+      }
+    ]
+  }
+}

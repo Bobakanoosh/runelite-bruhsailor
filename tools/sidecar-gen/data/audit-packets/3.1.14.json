@@ -1,0 +1,57 @@
+{
+  "stepId": "3.1.14",
+  "section": "3.1: Slayer and the red prison",
+  "stepText": "If you have at least 825,000 sailing XP, boost to build an adamant helm on both your sloop and your skiff, then complete charting the Shrouded Ocean (if you do not, choose a training method between Jubbly Jive, courier tasks, bounty tasks or salvaging and get enough xp) by charting to Deepfin Point and following the following route Shrouded Ocean, part 2.png. Train your woodcutting to level 80 (e.g. at teaks or sulliusceps), then travel (back) to Sunbleak Island, collect the dragon helm schematic and build the bank chest there if you want to (if you intend to afk woodcut, ironwood trees are a very good option - take lunar Plank Make to produce 4 planks on the island) and chop enough logs for 20 ironwood planks, taking into account plank vouchers if you have them.\n",
+  "itemsNeeded": "tbd",
+  "gpStack": "35k gp",
+  "mapping": {
+    "questIds": [
+      "WOODCUTTING"
+    ],
+    "items": [],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "35k gp"
+      },
+      {
+        "label": "sailing xp",
+        "rawToken": "825,000 sailing XP"
+      },
+      {
+        "label": "woodcutting training methods",
+        "rawToken": "teaks or sulliusceps or ironwood trees"
+      },
+      {
+        "label": "plank vouchers",
+        "rawToken": "plank vouchers"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "adamant helm",
+        "qty": 2
+      },
+      {
+        "rawToken": "dragon helm schematic",
+        "qty": 1
+      },
+      {
+        "rawToken": "lunar Plank Make",
+        "qty": null
+      },
+      {
+        "rawToken": "ironwood planks",
+        "qty": 20
+      },
+      {
+        "rawToken": "Shrouded Ocean, part 2.png",
+        "qty": null
+      },
+      {
+        "rawToken": "Deepfin Point",
+        "qty": null
+      }
+    ]
+  }
+}

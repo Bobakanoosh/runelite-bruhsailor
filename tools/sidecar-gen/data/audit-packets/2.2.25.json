@@ -1,0 +1,247 @@
+{
+  "stepId": "2.2.25",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "Start Swan Song, continue Eagles’ Peak until you need to report back to Charlie (last step). Visit the Wise Old Man in Draynor Village. Visit Charlie to complete Eagles’ Peak, use a necklace of passage to Eagles Eyrie and take multiple eagle rides (back and forth to each location, finishing in the desert) to progress three diaries. Run to the Shantay Pass to collect the Desert medium diary reward and put the lamp on Slayer. Take the fairy ring to the Piscatoris hunter area (AKQ), optional: when in the Piscatoris region box trap a ferret and then rabbit snare + ferret to catch a rabbit for a rabbit’s foot, then string it for extra eggs on future bird runs, run to Piscatoris and continue Swan Song. Complete Swan Song. Start and complete Making Friends with My Arm, boosting your agility level with an agility potion if necessary. Good herb runs start here.\n",
+  "itemsNeeded": "cash stack, 10 mist runes, 10 lava runes, 5 blood runes, airtight pot, rune pickaxe, rune axe, tinderbox, hammer, ring of charos(a), dramen staff, Ardy Cloak 1, melee gear, prayer pots, swordfish, yellow dye, swamp tar, necklace of passage, rope, energy pots, teasing stick, box trap, rabbit snare, law runes, soul runes",
+  "gpStack": "260k gp",
+  "mapping": {
+    "questIds": [
+      "SWAN_SONG",
+      "EAGLES_PEAK",
+      "MAKING_FRIENDS_WITH_MY_ARM",
+      "DESERT_MEDIUM"
+    ],
+    "items": [
+      {
+        "id": 4695,
+        "name": "Mist rune",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 4699,
+        "name": "Lava rune",
+        "qty": 10,
+        "source": "items_needed"
+      },
+      {
+        "id": 565,
+        "name": "Blood rune",
+        "qty": 5,
+        "source": "items_needed"
+      },
+      {
+        "id": 4436,
+        "name": "Airtight pot",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1275,
+        "name": "Rune pickaxe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1359,
+        "name": "Rune axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6465,
+        "name": "Ring of charos(a)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 13121,
+        "name": "Ardougne cloak 1",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 373,
+        "name": "Swordfish",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1765,
+        "name": "Yellow dye",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1939,
+        "name": "Swamp tar",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 21146,
+        "name": "Necklace of passage(5)",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10029,
+        "name": "Teasing stick",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10008,
+        "name": "Box trap",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 10031,
+        "name": "Rabbit snare",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 1267,
+        "name": "Iron pickaxe",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 22603,
+        "name": "Basalt",
+        "qty": 200,
+        "source": "content"
+      },
+      {
+        "id": 22606,
+        "name": "Fire of eternal light",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 22601,
+        "name": "Stony basalt",
+        "qty": 100,
+        "source": "content"
+      },
+      {
+        "id": 22599,
+        "name": "Icy basalt",
+        "qty": 100,
+        "source": "content"
+      },
+      {
+        "id": 10092,
+        "name": "Ferret",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 9975,
+        "name": "Rabbit",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 10134,
+        "name": "Rabbit foot",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 22608,
+        "name": "Fire of nourishment",
+        "qty": 1,
+        "source": "content"
+      },
+      {
+        "id": 22607,
+        "name": "Fire of dehumidification",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 22609,
+        "name": "Fire of unseasonal warmth",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 3032,
+        "name": "Agility potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "label": "cash stack",
+        "rawToken": "cash stack"
+      },
+      {
+        "label": "melee gear",
+        "rawToken": "melee gear"
+      },
+      {
+        "label": "salts (varies by type)",
+        "rawToken": "1550 Efh, 1500 Urt and 1800 Te salt"
+      },
+      {
+        "label": "prayer pots",
+        "rawToken": "prayer pots"
+      },
+      {
+        "label": "energy pots",
+        "rawToken": "energy pots"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "salt",
+        "qty": null
+      },
+      {
+        "rawToken": "eternal brazier",
+        "qty": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "stepId": "1.1.16",
+  "section": "1.1: Tutorial island up to and including Wintertodt",
+  "stepText": "Minigame teleport to Soul Wars. Chop teak logs on a forestry world and burn them to level 50 firemaking (note: it would theoretically be faster to 2t, but the birds will actually just kill you at your current stats).\n",
+  "itemsNeeded": "steel axe, tinderbox, forestry kit",
+  "gpStack": "333 gp",
+  "mapping": {
+    "questIds": [
+      "WOODCUTTING"
+    ],
+    "items": [
+      {
+        "id": 1353,
+        "name": "Steel axe",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 590,
+        "name": "Tinderbox",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 28136,
+        "name": "Forestry kit",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 6333,
+        "name": "Teak logs",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "333 gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": []
+  }
+}

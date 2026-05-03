@@ -1,0 +1,175 @@
+{
+  "stepId": "2.2.33",
+  "section": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "stepText": "You should be level 51 (or higher) slayer. Make sure you have finished the Curse of the Empty Lord miniquest (if you haven’t, do it now, putting the lamp on slayer). Teleport to Varrock, make sure to grab the Dragon’hai history book from the Varrock Palace library if you don’t already have it, pray at the altar in the palace with smite active. Buy 20,000 air runes (if you already have these you can ignore this), then run through  the east gate to the quetzal to go to Varlamore and do At First Light (note: the hunter rumours are currently not efficient, but if you want the rewards you can go for them at any time after this quest). During At First Light catch a Sunlight antelope (east end of the island, requires level 72 hunter, a teasing stick, knife and logs - grab a Trapper’s tipple or two at the hunter’s guild for a +2 boost if needed) and kill a jaguar for their fur. At the hunter’s guild buy two mixed hide bases, and either pay Pellem to have the furs made into mixed hide boots (your best ranged boots for now) and a mixed hide cape (your best melee cape for now) or boost your crafting level if you have a spare mushroom pie to do it yourself. After this start and complete Perilous Moons (for the fights your dragon scimitar is fine, even for ice. Use the moss lizards and moonlight potions for supplies) and The Heart of Darkness. At the end of the quest travel to Tal Teklan (e.g. with the quetzal system). Buy four willow longbows at Arcuani’s Archery Supplies. If you haven’t done Scrambled! yet, do it now. Travel to Auburnvale (e.g. using the boat system). Start and complete Shadows of Custodia. Teleport out. Slay a Brine rat to complete the Fremennik medium diary, putting the lamp on herblore. Grab a rope, salve teleport, dip your enchanted silvthrill rod in the well to make the Rod of Ivandis and complete In Aid of the Myreque, Darkness of Hallowvale, A Taste of Hope and Sins of the Father (all lamps on herblore). Use the Efaritay’s aid during the Vanstrom Klause fight in Sins of the Father - you should only need one ring, the second is spare in case you die or run out of charges.\n",
+  "itemsNeeded": "law runes, soul runes, silvthrill rod, rope, dramen staff, plank, 8 nails, hammer",
+  "gpStack": "1.7m gp",
+  "mapping": {
+    "questIds": [
+      "CURSE_OF_THE_EMPTY_LORD",
+      "AT_FIRST_LIGHT",
+      "PERILOUS_MOON",
+      "THE_HEART_OF_DARKNESS",
+      "SCRAMBLED",
+      "SHADOWS_OF_CUSTODIA",
+      "IN_AID_OF_THE_MYREQUE",
+      "DARKNESS_OF_HALLOWVALE",
+      "A_TASTE_OF_HOPE",
+      "SINS_OF_THE_FATHER",
+      "FREMENNIK_MEDIUM",
+      "VARROCK_HARD"
+    ],
+    "items": [
+      {
+        "id": 563,
+        "name": "Law rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 566,
+        "name": "Soul rune",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 7637,
+        "name": "Silvthrill rod",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 954,
+        "name": "Rope",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 772,
+        "name": "Dramen staff",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 960,
+        "name": "Plank",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 4820,
+        "name": "Iron nails",
+        "qty": 8,
+        "source": "items_needed"
+      },
+      {
+        "id": 2347,
+        "name": "Hammer",
+        "qty": null,
+        "source": "items_needed"
+      },
+      {
+        "id": 556,
+        "name": "Air rune",
+        "qty": 20000,
+        "source": "content"
+      },
+      {
+        "id": 10029,
+        "name": "Teasing stick",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 946,
+        "name": "Knife",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 1511,
+        "name": "Logs",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 29277,
+        "name": "Trapper's tipple",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 29292,
+        "name": "Mixed hide base",
+        "qty": 2,
+        "source": "content"
+      },
+      {
+        "id": 4587,
+        "name": "Dragon scimitar",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 847,
+        "name": "Willow longbow",
+        "qty": 4,
+        "source": "content"
+      },
+      {
+        "id": 21140,
+        "name": "Efaritay's aid",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 29286,
+        "name": "Mixed hide boots",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 29289,
+        "name": "Mixed hide cape",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 21690,
+        "name": "Mushroom pie",
+        "qty": null,
+        "source": "content"
+      },
+      {
+        "id": 29080,
+        "name": "Moonlight potion(4)",
+        "qty": null,
+        "source": "content"
+      }
+    ],
+    "abstractItems": [
+      {
+        "rawToken": "1.7m gp",
+        "label": "cash stack"
+      }
+    ],
+    "unresolvedItems": [
+      {
+        "rawToken": "moss lizard",
+        "qty": null
+      },
+      {
+        "rawToken": "salve teleport",
+        "qty": null
+      },
+      {
+        "rawToken": "rod of ivandis",
+        "qty": null
+      },
+      {
+        "rawToken": "Dragon'hai history book",
+        "qty": null
+      }
+    ]
+  }
+}
