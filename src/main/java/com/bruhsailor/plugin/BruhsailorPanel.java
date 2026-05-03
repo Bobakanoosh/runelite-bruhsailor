@@ -250,8 +250,11 @@ public class BruhsailorPanel extends PluginPanel
         {
             if (f == null || f.text == null) continue;
             sb.append(f.text);
+            if (sb.length() >= 60) break;
         }
-        return sb.toString().replace('\n', ' ').trim();
+        String s = sb.toString().replace('\n', ' ').trim();
+        if (s.length() > 50) s = s.substring(0, 50) + "…";
+        return s;
     }
 
     private final class RowRenderer extends javax.swing.JLabel
@@ -293,10 +296,10 @@ public class BruhsailorPanel extends PluginPanel
                 StepRow r = (StepRow) value;
                 boolean isCurrent = r.id.equals(state.getCurrent());
                 boolean done = state.isComplete(r.id);
-                int wrapWidth = Math.max(120, list.getWidth() - 28);
-                String inner = escape(r.label);
-                if (done) inner = "<strike>" + inner + "</strike>";
-                setText(html(inner, wrapWidth));
+                String text = done
+                    ? "<html><strike>" + escape(r.label) + "</strike></html>"
+                    : r.label;
+                setText(text);
                 setFont(FontManager.getRunescapeFont().deriveFont(16f));
                 setForeground(done ? ColorScheme.LIGHT_GRAY_COLOR.darker() : ColorScheme.LIGHT_GRAY_COLOR);
                 setBackground(isCurrent ? ColorScheme.BRAND_ORANGE.darker() : ColorScheme.DARK_GRAY_COLOR);
