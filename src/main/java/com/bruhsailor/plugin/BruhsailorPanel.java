@@ -20,6 +20,7 @@ import javax.swing.SwingUtilities;
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Dimension;
+import java.awt.Font;
 
 public class BruhsailorPanel extends PluginPanel
 {
@@ -31,9 +32,9 @@ public class BruhsailorPanel extends PluginPanel
     private final JLabel sectionLabel = new JLabel();
     private final JPanel currentStepHolder = new JPanel(new BorderLayout());
     private final JLabel metadataLabel = new JLabel();
-    private final JButton prevButton = new JButton("Prev");
-    private final JButton nextButton = new JButton("Next");
-    private final JToggleButton completeToggle = new JToggleButton("Mark complete");
+    private final JButton prevButton = new JButton("◀");
+    private final JButton nextButton = new JButton("▶");
+    private final JToggleButton completeToggle = new JToggleButton("Done");
 
     private final javax.swing.DefaultListModel<ListRow> listModel = new javax.swing.DefaultListModel<>();
     private final javax.swing.JList<ListRow> stepList = new javax.swing.JList<>(listModel);
@@ -53,34 +54,44 @@ public class BruhsailorPanel extends PluginPanel
         root.setBackground(ColorScheme.DARK_GRAY_COLOR);
         root.setBorder(BorderFactory.createEmptyBorder(8, 8, 8, 8));
 
-        chapterLabel.setFont(FontManager.getRunescapeBoldFont());
+        Font headerFont = FontManager.getRunescapeBoldFont().deriveFont(15f);
+        chapterLabel.setFont(headerFont);
         chapterLabel.setForeground(ColorScheme.BRAND_ORANGE);
         chapterLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
-        sectionLabel.setFont(FontManager.getRunescapeFont());
+        sectionLabel.setFont(FontManager.getRunescapeFont().deriveFont(13f));
         sectionLabel.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
         sectionLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
 
         currentStepHolder.setBackground(ColorScheme.DARKER_GRAY_COLOR);
-        currentStepHolder.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
+        currentStepHolder.setBorder(BorderFactory.createEmptyBorder(8, 8, 8, 8));
         currentStepHolder.setAlignmentX(Component.LEFT_ALIGNMENT);
+        currentStepHolder.setMaximumSize(new Dimension(Integer.MAX_VALUE, Integer.MAX_VALUE));
 
-        JScrollPane stepScroll = new JScrollPane(currentStepHolder);
-        stepScroll.setAlignmentX(Component.LEFT_ALIGNMENT);
-        stepScroll.setPreferredSize(new Dimension(PluginPanel.PANEL_WIDTH - 16, 240));
-        stepScroll.setBorder(BorderFactory.createEmptyBorder());
-
-        metadataLabel.setFont(FontManager.getRunescapeSmallFont());
+        metadataLabel.setFont(FontManager.getRunescapeFont());
         metadataLabel.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
         metadataLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
+
+        Font arrowFont = FontManager.getRunescapeBoldFont().deriveFont(16f);
+        prevButton.setFont(arrowFont);
+        nextButton.setFont(arrowFont);
+        completeToggle.setFont(FontManager.getRunescapeFont());
+        Dimension arrowSize = new Dimension(36, 28);
+        prevButton.setPreferredSize(arrowSize);
+        prevButton.setMaximumSize(arrowSize);
+        nextButton.setPreferredSize(arrowSize);
+        nextButton.setMaximumSize(arrowSize);
+        prevButton.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        nextButton.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
         JPanel controls = new JPanel();
         controls.setLayout(new BoxLayout(controls, BoxLayout.X_AXIS));
         controls.setBackground(ColorScheme.DARK_GRAY_COLOR);
         controls.setAlignmentX(Component.LEFT_ALIGNMENT);
+        controls.setMaximumSize(new Dimension(Integer.MAX_VALUE, 32));
         controls.add(prevButton);
-        controls.add(Box.createHorizontalStrut(4));
+        controls.add(Box.createHorizontalStrut(6));
         controls.add(completeToggle);
-        controls.add(Box.createHorizontalStrut(4));
+        controls.add(Box.createHorizontalGlue());
         controls.add(nextButton);
 
         prevButton.addActionListener(e -> state.prev());
@@ -89,12 +100,13 @@ public class BruhsailorPanel extends PluginPanel
             state.setComplete(state.getCurrent(), completeToggle.isSelected()));
 
         root.add(chapterLabel);
+        root.add(Box.createVerticalStrut(2));
         root.add(sectionLabel);
         root.add(Box.createVerticalStrut(8));
-        root.add(stepScroll);
-        root.add(Box.createVerticalStrut(4));
-        root.add(metadataLabel);
+        root.add(currentStepHolder);
         root.add(Box.createVerticalStrut(6));
+        root.add(metadataLabel);
+        root.add(Box.createVerticalStrut(8));
         root.add(controls);
 
         add(root, BorderLayout.NORTH);
@@ -216,7 +228,6 @@ public class BruhsailorPanel extends PluginPanel
         RowRenderer()
         {
             setOpaque(true);
-            setBorder(BorderFactory.createEmptyBorder(2, 4, 2, 4));
         }
 
         @Override
@@ -228,9 +239,12 @@ public class BruhsailorPanel extends PluginPanel
             {
                 HeaderRow h = (HeaderRow) value;
                 setText(h.text);
-                setFont(h.isChapter ? FontManager.getRunescapeBoldFont() : FontManager.getRunescapeFont());
+                setFont(h.isChapter
+                    ? FontManager.getRunescapeBoldFont().deriveFont(14f)
+                    : FontManager.getRunescapeFont().deriveFont(13f));
                 setForeground(h.isChapter ? ColorScheme.BRAND_ORANGE : ColorScheme.LIGHT_GRAY_COLOR);
                 setBackground(ColorScheme.DARKER_GRAY_COLOR);
+                setBorder(BorderFactory.createEmptyBorder(h.isChapter ? 8 : 4, 6, 2, 6));
             }
             else
             {
@@ -241,9 +255,10 @@ public class BruhsailorPanel extends PluginPanel
                     ? "<html><strike>" + escape(r.label) + "</strike></html>"
                     : r.label;
                 setText(text);
-                setFont(FontManager.getRunescapeSmallFont());
+                setFont(FontManager.getRunescapeFont().deriveFont(13f));
                 setForeground(done ? ColorScheme.LIGHT_GRAY_COLOR.darker() : ColorScheme.LIGHT_GRAY_COLOR);
                 setBackground(isCurrent ? ColorScheme.BRAND_ORANGE.darker() : ColorScheme.DARK_GRAY_COLOR);
+                setBorder(BorderFactory.createEmptyBorder(4, 10, 4, 6));
             }
             return this;
         }
