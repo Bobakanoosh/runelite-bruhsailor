@@ -45,3 +45,12 @@ test {
     useJUnit()
     jvmArgs '-Dnet.bytebuddy.experimental=true'
 }
+
+tasks.register('runClient', JavaExec) {
+    group = 'application'
+    description = 'Launches RuneLite with the BRUHsailer plugin loaded.'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bruhsailor.plugin.BruhsailorPluginTest'
+    standardInput = System.in
+    jvmArgs '-ea'
+}
