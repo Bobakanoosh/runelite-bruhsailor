@@ -2223,39 +2223,6 @@
         "Sea Charting"
       ],
       "shortAliases": []
-    },
-    {
-      "enumName": "AGILITY",
-      "displayName": "Agility",
-      "aliases": [
-        "Agility"
-      ],
-      "shortAliases": []
-    },
-    {
-      "enumName": "WOODCUTTING_MEMBER",
-      "displayName": "Woodcutting - Member",
-      "aliases": [
-        "Woodcutting - Member",
-        "Woodcutting Member"
-      ],
-      "shortAliases": []
-    },
-    {
-      "enumName": "WOODCUTTING",
-      "displayName": "Woodcutting",
-      "aliases": [
-        "Woodcutting"
-      ],
-      "shortAliases": []
-    },
-    {
-      "enumName": "MINING",
-      "displayName": "Mining",
-      "aliases": [
-        "Mining"
-      ],
-      "shortAliases": []
     }
   ]
 }
