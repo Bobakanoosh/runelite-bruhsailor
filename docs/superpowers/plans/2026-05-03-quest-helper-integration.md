@@ -1148,7 +1148,7 @@ In the constructor, near the existing `this.bus = bus;` line, add:
         this.questBridge = questBridge;
 ```
 
-- [ ] **Step 2: Configure `chipsRow` and add it to `currentStepHolder.SOUTH`**
+- [ ] **Step 2: Configure `chipsRow`**
 
 In the constructor, after the existing `currentStepHolder.setBorder(...)` line and before the `JScrollPane stepScroll` block, add:
 
@@ -1156,16 +1156,29 @@ In the constructor, after the existing `currentStepHolder.setBorder(...)` line a
         chipsRow.setLayout(new FlowLayout(FlowLayout.LEFT, 6, 6));
         chipsRow.setBackground(ColorScheme.DARKER_GRAY_COLOR);
         chipsRow.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, 0));
-        currentStepHolder.add(chipsRow, BorderLayout.SOUTH);
 ```
+
+(Note: chipsRow gets attached to `currentStepHolder.SOUTH` inside `refreshAll()` in step 3 — adding it in the constructor would not survive the `currentStepHolder.removeAll()` call inside `refreshAll`.)
 
 - [ ] **Step 3: Rebuild chips during `refreshAll`**
 
-At the end of the existing `refreshAll()` method, AFTER the `SwingUtilities.invokeLater(...)` block that scrolls `stepScroll` to top, add:
+In `refreshAll()`, find the existing block:
+
+```java
+        currentStepHolder.removeAll();
+        JComponent rendered = (JComponent) StepRenderer.render(step);
+        // ... width-pref code ...
+        currentStepHolder.add(rendered, BorderLayout.CENTER);
+```
+
+Immediately AFTER `currentStepHolder.add(rendered, BorderLayout.CENTER);` and BEFORE the existing `currentStepHolder.revalidate(); currentStepHolder.repaint();` lines, insert:
 
 ```java
         rebuildChips(id);
+        currentStepHolder.add(chipsRow, BorderLayout.SOUTH);
 ```
+
+This re-attaches `chipsRow` after every `removeAll()`, so it survives step changes.
 
 Then add a new private method to the class (placement-wise: just below `refreshAll`):
 
@@ -1173,14 +1186,18 @@ Then add a new private method to the class (placement-wise: just below `refreshA
     private void rebuildChips(StepId id)
     {
         chipsRow.removeAll();
-        chipsRow.setVisible(false);
 
         java.util.Optional<StepMapping> mappingOpt = stepMappings.findById(id);
-        if (!mappingOpt.isPresent()) { chipsRow.revalidate(); chipsRow.repaint(); return; }
+        if (!mappingOpt.isPresent())
+        {
+            chipsRow.setVisible(false);
+            return;
+        }
         StepMapping mapping = mappingOpt.get();
         if (mapping.questIds == null || mapping.questIds.isEmpty())
         {
-            chipsRow.revalidate(); chipsRow.repaint(); return;
+            chipsRow.setVisible(false);
+            return;
         }
 
         int added = 0;
@@ -1193,8 +1210,6 @@ Then add a new private method to the class (placement-wise: just below `refreshA
         }
 
         chipsRow.setVisible(added > 0);
-        chipsRow.revalidate();
-        chipsRow.repaint();
     }
 ```
 
