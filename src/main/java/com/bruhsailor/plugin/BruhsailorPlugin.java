@@ -6,6 +6,7 @@ import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.EventBus;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
+import net.runelite.client.plugins.PluginManager;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
 import net.runelite.client.util.ImageUtil;
@@ -26,6 +27,7 @@ public class BruhsailorPlugin extends Plugin
     @Inject private ClientToolbar clientToolbar;
     @Inject private ConfigManager configManager;
     @Inject private EventBus eventBus;
+    @Inject private PluginManager pluginManager;
 
     private NavigationButton navButton;
     private BruhsailorPanel panel;
@@ -45,8 +47,21 @@ public class BruhsailorPlugin extends Plugin
             return;
         }
 
+        StepMappings mappings;
+        try
+        {
+            mappings = StepMappings.loadBundled();
+        }
+        catch (RuntimeException e)
+        {
+            log.error("Failed to load step_mappings.json; chips disabled", e);
+            mappings = StepMappings.empty();
+        }
+        QuestRegistry questRegistry = QuestRegistry.create(pluginManager);
+        QuestHelperBridge questBridge = new QuestHelperBridge(pluginManager);
+
         GuideStateService state = new GuideStateService(repo, configManager, eventBus);
-        panel = new BruhsailorPanel(repo, state, eventBus);
+        panel = new BruhsailorPanel(repo, state, eventBus, mappings, questRegistry, questBridge);
 
         BufferedImage icon = loadIcon();
         navButton = NavigationButton.builder()

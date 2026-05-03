@@ -1,6 +1,7 @@
 package com.bruhsailor.plugin;
 
 import com.bruhsailor.plugin.model.Step;
+import com.bruhsailor.plugin.model.StepMapping;
 import net.runelite.client.eventbus.EventBus;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.ui.ColorScheme;
@@ -21,6 +22,7 @@ import javax.swing.SwingUtilities;
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.Font;
 
 public class BruhsailorPanel extends PluginPanel
@@ -28,6 +30,10 @@ public class BruhsailorPanel extends PluginPanel
     private final GuideRepository repo;
     private final GuideStateService state;
     private final EventBus bus;
+    private final StepMappings stepMappings;
+    private final QuestRegistry questRegistry;
+    private final QuestHelperBridge questBridge;
+    private final JPanel chipsRow = new JPanel();
 
     private final JLabel chapterLabel = new JLabel();
     private final JLabel sectionLabel = new JLabel();
@@ -41,12 +47,17 @@ public class BruhsailorPanel extends PluginPanel
     private final javax.swing.JList<ListRow> stepList = new javax.swing.JList<>(listModel);
     private JScrollPane stepScroll;
 
-    public BruhsailorPanel(GuideRepository repo, GuideStateService state, EventBus bus)
+    public BruhsailorPanel(GuideRepository repo, GuideStateService state, EventBus bus,
+                           StepMappings stepMappings, QuestRegistry questRegistry,
+                           QuestHelperBridge questBridge)
     {
         super(false);
         this.repo = repo;
         this.state = state;
         this.bus = bus;
+        this.stepMappings = stepMappings;
+        this.questRegistry = questRegistry;
+        this.questBridge = questBridge;
 
         setLayout(new BorderLayout());
         setBackground(ColorScheme.DARK_GRAY_COLOR);
@@ -67,6 +78,10 @@ public class BruhsailorPanel extends PluginPanel
         currentStepHolder.setBackground(ColorScheme.DARKER_GRAY_COLOR);
         currentStepHolder.setBorder(BorderFactory.createEmptyBorder(8, 8, 8, 8));
         currentStepHolder.setAlignmentX(Component.LEFT_ALIGNMENT);
+
+        chipsRow.setLayout(new FlowLayout(FlowLayout.LEFT, 6, 6));
+        chipsRow.setBackground(ColorScheme.DARKER_GRAY_COLOR);
+        chipsRow.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, 0));
 
         stepScroll = new JScrollPane(currentStepHolder,
             JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
@@ -183,6 +198,8 @@ public class BruhsailorPanel extends PluginPanel
         Dimension pref = rendered.getPreferredSize();
         rendered.setPreferredSize(new Dimension(contentWidth, pref.height));
         currentStepHolder.add(rendered, BorderLayout.CENTER);
+        rebuildChips(id);
+        currentStepHolder.add(chipsRow, BorderLayout.SOUTH);
         currentStepHolder.revalidate();
         currentStepHolder.repaint();
         // Newly-rendered content has its caret at end; force the surrounding
@@ -200,6 +217,35 @@ public class BruhsailorPanel extends PluginPanel
 
         completeToggle.setSelected(state.isComplete(id));
         stepList.repaint();
+    }
+
+    private void rebuildChips(StepId id)
+    {
+        chipsRow.removeAll();
+
+        java.util.Optional<StepMapping> mappingOpt = stepMappings.findById(id);
+        if (!mappingOpt.isPresent())
+        {
+            chipsRow.setVisible(false);
+            return;
+        }
+        StepMapping mapping = mappingOpt.get();
+        if (mapping.questIds == null || mapping.questIds.isEmpty())
+        {
+            chipsRow.setVisible(false);
+            return;
+        }
+
+        int added = 0;
+        for (String enumName : mapping.questIds)
+        {
+            java.util.Optional<QuestEntry> entry = questRegistry.resolve(enumName);
+            if (!entry.isPresent()) continue;
+            chipsRow.add(QuestChip.create(entry.get(), questBridge));
+            added++;
+        }
+
+        chipsRow.setVisible(added > 0);
     }
 
     private static String formatMetadata(Step step)
