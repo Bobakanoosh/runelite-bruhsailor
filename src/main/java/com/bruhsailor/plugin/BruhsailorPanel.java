@@ -38,6 +38,7 @@ public class BruhsailorPanel extends PluginPanel
 
     private final javax.swing.DefaultListModel<ListRow> listModel = new javax.swing.DefaultListModel<>();
     private final javax.swing.JList<ListRow> stepList = new javax.swing.JList<>(listModel);
+    private JScrollPane stepScroll;
 
     public BruhsailorPanel(GuideRepository repo, GuideStateService state, EventBus bus)
     {
@@ -66,7 +67,7 @@ public class BruhsailorPanel extends PluginPanel
         currentStepHolder.setBorder(BorderFactory.createEmptyBorder(8, 8, 8, 8));
         currentStepHolder.setAlignmentX(Component.LEFT_ALIGNMENT);
 
-        JScrollPane stepScroll = new JScrollPane(currentStepHolder,
+        stepScroll = new JScrollPane(currentStepHolder,
             JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
             JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
         stepScroll.setAlignmentX(Component.LEFT_ALIGNMENT);
@@ -176,6 +177,12 @@ public class BruhsailorPanel extends PluginPanel
         currentStepHolder.add(rendered, BorderLayout.CENTER);
         currentStepHolder.revalidate();
         currentStepHolder.repaint();
+        // Newly-rendered content has its caret at end; force the surrounding
+        // viewport back to the top so users always see the start of the step.
+        SwingUtilities.invokeLater(() -> {
+            stepScroll.getVerticalScrollBar().setValue(0);
+            stepScroll.getViewport().setViewPosition(new java.awt.Point(0, 0));
+        });
 
         metadataLabel.setText(formatMetadata(step));
 
