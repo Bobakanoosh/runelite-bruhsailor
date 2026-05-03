@@ -43,4 +43,5 @@ checkstyle {
 
 test {
     useJUnit()
+    jvmArgs '-Dnet.bytebuddy.experimental=true'
 }
