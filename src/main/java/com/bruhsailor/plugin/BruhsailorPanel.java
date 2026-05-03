@@ -284,11 +284,11 @@ public class BruhsailorPanel extends PluginPanel
                 }
                 else
                 {
-                    setText(html(escape(h.text.toUpperCase(java.util.Locale.ROOT)), wrapWidth));
-                    setFont(FontManager.getRunescapeFont().deriveFont(15f));
-                    setForeground(ColorScheme.LIGHT_GRAY_COLOR.darker());
+                    setText(html(escape(h.text), wrapWidth));
+                    setFont(FontManager.getRunescapeBoldFont().deriveFont(17f));
+                    setForeground(ColorScheme.LIGHT_GRAY_COLOR);
                     setBackground(ColorScheme.DARK_GRAY_COLOR);
-                    setBorder(BorderFactory.createEmptyBorder(10, 8, 4, 8));
+                    setBorder(BorderFactory.createEmptyBorder(12, 8, 6, 8));
                 }
             }
             else
