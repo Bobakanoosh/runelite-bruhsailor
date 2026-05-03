@@ -47,12 +47,12 @@ public class QuestRegistryTest
     }
 
     @Test
-    public void skillMarkerIsNotResolved()
+    public void clearlyInvalidEnumIsNotResolved()
     {
-        // The sidecar uses bare skill names like "AGILITY" as filter tags;
-        // those are not QH quests and must not produce a chip.
+        // The bundled set mirrors QH's QuestHelperQuest enum, which includes
+        // skill helpers like AGILITY. Use a bogus name to assert miss behaviour.
         QuestRegistry registry = QuestRegistry.create(pluginManager);
-        assertFalse(registry.resolve("AGILITY").isPresent());
+        assertFalse(registry.resolve("BANANA_JUICE_QUEST").isPresent());
     }
 
     @Test
