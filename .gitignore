@@ -1,19 +1,6 @@
-node_modules/
-.env
-.env.local
-*.log
-
-# Build outputs
+.gradle/
 build/
-out/
-*.class
-*.jar
-
-# IDE
-.idea/
-.vscode/
 *.iml
-
-# OS
-.DS_Store
-Thumbs.db
+.idea/
+out/
+.vscode/
