@@ -3,6 +3,7 @@ import { buildItemTable } from "./items-table.ts";
 import { buildQuestTable } from "./quests-table.ts";
 import { resolveAll } from "./resolvers.ts";
 import { generateAll } from "./generate-all.ts";
+import { enrichAll } from "./enrich.ts";
 import { repolish } from "./repolish.ts";
 import { verifyAll } from "./verify.ts";
 
@@ -28,6 +29,9 @@ switch (cmd) {
   case "generate":
     await generateAll({ force: process.argv.includes("--force") });
     break;
+  case "enrich":
+    await enrichAll({ force: process.argv.includes("--force") });
+    break;
   case "repolish":
     await repolish();
     break;
@@ -36,6 +40,6 @@ switch (cmd) {
     break;
   default:
     console.error(`unknown command: ${cmd}`);
-    console.error(`usage: bun run src/main.ts {preprocess|fetch-tables|resolve|all|generate|verify}`);
+    console.error(`usage: bun run src/main.ts {preprocess|fetch-tables|resolve|all|generate|enrich|verify}`);
     process.exit(1);
 }

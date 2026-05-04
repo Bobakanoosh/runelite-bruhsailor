@@ -32,7 +32,7 @@ public class InlineMatcherTest
     @Test
     public void exactDisplayNameMatches()
     {
-        List<InlineMatcher.Match> ms = InlineMatcher.findFirstPerQuest(
+        List<InlineMatcher.Match<QuestEntry>> ms = InlineMatcher.findFirstPerQuest(
             "Go south and do Misthalin Mystery now.", Arrays.asList(mm));
         assertEquals(1, ms.size());
         assertEquals(mm, ms.get(0).entry);
@@ -42,7 +42,7 @@ public class InlineMatcherTest
     @Test
     public void caseInsensitiveMatch()
     {
-        List<InlineMatcher.Match> ms = InlineMatcher.findFirstPerQuest(
+        List<InlineMatcher.Match<QuestEntry>> ms = InlineMatcher.findFirstPerQuest(
             "do misthalin mystery", Arrays.asList(mm));
         assertEquals(1, ms.size());
     }
@@ -52,7 +52,7 @@ public class InlineMatcherTest
     {
         // "Cooked" should not match "Cook" candidate
         QuestEntry cook = new QuestEntry("COOK", "Cook");
-        List<InlineMatcher.Match> ms = InlineMatcher.findFirstPerQuest(
+        List<InlineMatcher.Match<QuestEntry>> ms = InlineMatcher.findFirstPerQuest(
             "Cooked redberry pie", Collections.singletonList(cook));
         assertTrue(ms.isEmpty());
     }
@@ -61,7 +61,7 @@ public class InlineMatcherTest
     public void longerCandidateBeatsShorter()
     {
         // Both DS1 and DS2 have aliases; "Dragon Slayer II" must win over DS1's "Dragon Slayer".
-        List<InlineMatcher.Match> ms = InlineMatcher.findFirstPerQuest(
+        List<InlineMatcher.Match<QuestEntry>> ms = InlineMatcher.findFirstPerQuest(
             "Complete Dragon Slayer II next.", Arrays.asList(ds1, ds2));
         assertEquals(1, ms.size());
         assertEquals(ds2, ms.get(0).entry);
@@ -70,7 +70,7 @@ public class InlineMatcherTest
     @Test
     public void firstOccurrenceOnlyPerQuest()
     {
-        List<InlineMatcher.Match> ms = InlineMatcher.findFirstPerQuest(
+        List<InlineMatcher.Match<QuestEntry>> ms = InlineMatcher.findFirstPerQuest(
             "Misthalin Mystery first time. Misthalin Mystery second time.",
             Arrays.asList(mm));
         assertEquals(1, ms.size());
@@ -82,7 +82,7 @@ public class InlineMatcherTest
     {
         // "DS" is 2 chars; should be skipped to avoid matching "DS" inside random words.
         QuestEntry q = new QuestEntry("X", "Some Quest", Arrays.asList("DS", "DSX"));
-        List<InlineMatcher.Match> ms = InlineMatcher.findFirstPerQuest(
+        List<InlineMatcher.Match<QuestEntry>> ms = InlineMatcher.findFirstPerQuest(
             "Use DSX for the route.", Collections.singletonList(q));
         assertEquals(1, ms.size());
         assertEquals("DSX", "Use DSX for the route.".substring(ms.get(0).start, ms.get(0).end));
@@ -91,7 +91,7 @@ public class InlineMatcherTest
     @Test
     public void matchesReturnedInOrder()
     {
-        List<InlineMatcher.Match> ms = InlineMatcher.findFirstPerQuest(
+        List<InlineMatcher.Match<QuestEntry>> ms = InlineMatcher.findFirstPerQuest(
             "Cook's Assistant first, then Misthalin Mystery, finally Dragon Slayer II.",
             Arrays.asList(mm, cooks, ds2));
         assertEquals(3, ms.size());

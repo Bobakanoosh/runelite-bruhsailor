@@ -4,29 +4,32 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.Function;
 
 /**
- * Finds substring matches of quest names (and aliases) inside step prose.
+ * Finds substring matches of named entities (quests, NPCs, locations) inside step prose.
  *
  * Rules:
  * - Case-insensitive.
  * - Word-boundary aware: must be flanked by non-letter-or-digit on both sides
  *   (so "Cook" inside "Cookery" doesn't match).
  * - Longest candidate wins ("Dragon Slayer II" before "Dragon Slayer").
- * - First-occurrence per quest. We don't link every mention, only the first —
+ * - First-occurrence per entry. We don't link every mention, only the first —
  *   keeps the prose readable.
  * - Matches never overlap: once a span is consumed, no other candidate may
  *   reuse those characters.
+ * - Curly punctuation (smart quotes, em/en dashes) is normalized to ASCII so
+ *   "Heroes' Quest" matches prose typed as "Heroes’ Quest".
  */
 public final class InlineMatcher
 {
-    public static final class Match
+    public static final class Match<T>
     {
         public final int start;
         public final int end;
-        public final QuestEntry entry;
+        public final T entry;
 
-        Match(int start, int end, QuestEntry entry)
+        Match(int start, int end, T entry)
         {
             this.start = start;
             this.end = end;
@@ -36,37 +39,54 @@ public final class InlineMatcher
 
     private InlineMatcher() {}
 
-    public static List<Match> findFirstPerQuest(String text, Collection<QuestEntry> quests)
+    public static List<Match<QuestEntry>> findFirstPerQuest(String text, Collection<QuestEntry> quests)
     {
-        if (text == null || text.isEmpty() || quests == null || quests.isEmpty())
+        return findFirstPer(text, quests, q -> {
+            List<String> all = new ArrayList<>();
+            all.add(q.displayName());
+            all.addAll(q.aliases());
+            return all;
+        });
+    }
+
+    /** Convenience for plain-string entries (NPCs, locations). The matched value is the name itself. */
+    public static List<Match<String>> findFirstPerString(String text, Collection<String> names)
+    {
+        return findFirstPer(text, names, n -> Collections.singletonList(n));
+    }
+
+    public static <T> List<Match<T>> findFirstPer(
+        String text,
+        Collection<T> entries,
+        Function<T, List<String>> aliasesOf)
+    {
+        if (text == null || text.isEmpty() || entries == null || entries.isEmpty())
         {
             return Collections.emptyList();
         }
 
-        // Build sorted candidate list: (text, entry) pairs, longest first.
-        List<Candidate> candidates = new ArrayList<>();
-        for (QuestEntry q : quests)
+        List<Candidate<T>> candidates = new ArrayList<>();
+        for (T e : entries)
         {
-            if (q == null) continue;
-            addCandidate(candidates, q.displayName(), q);
-            for (String a : q.aliases()) addCandidate(candidates, a, q);
+            if (e == null) continue;
+            for (String a : aliasesOf.apply(e)) addCandidate(candidates, a, e);
         }
         candidates.sort((a, b) -> b.text.length() - a.text.length());
 
         String lower = normalizePunctuation(text).toLowerCase();
         boolean[] consumed = new boolean[text.length()];
-        List<QuestEntry> linked = new ArrayList<>();
-        List<Match> matches = new ArrayList<>();
+        List<T> linked = new ArrayList<>();
+        List<Match<T>> matches = new ArrayList<>();
 
-        for (Candidate c : candidates)
+        for (Candidate<T> c : candidates)
         {
-            if (linked.contains(c.entry)) continue; // first-occurrence per quest
+            if (linked.contains(c.entry)) continue;
             int idx = findWordBoundary(lower, text, c.lower, 0, consumed);
             if (idx < 0) continue;
             int end = idx + c.lower.length();
             for (int i = idx; i < end; i++) consumed[i] = true;
             linked.add(c.entry);
-            matches.add(new Match(idx, end, c.entry));
+            matches.add(new Match<>(idx, end, c.entry));
         }
 
         matches.sort((a, b) -> Integer.compare(a.start, b.start));
@@ -98,7 +118,7 @@ public final class InlineMatcher
     }
 
     /**
-     * Map smart/curly quotes to their ASCII equivalents so quest names like
+     * Map smart/curly quotes to their ASCII equivalents so display names like
      * "Heroes' Quest" match prose containing the typographic "Heroes’ Quest".
      * Replacement is char-for-char so match indices stay aligned with the
      * original text.
@@ -131,19 +151,19 @@ public final class InlineMatcher
         return Character.isLetterOrDigit(c);
     }
 
-    private static void addCandidate(List<Candidate> out, String text, QuestEntry entry)
+    private static <T> void addCandidate(List<Candidate<T>> out, String text, T entry)
     {
-        if (text == null || text.length() < 3) return; // skip noise like "DT"
-        out.add(new Candidate(text, entry));
+        if (text == null || text.length() < 3) return;
+        out.add(new Candidate<>(text, entry));
     }
 
-    private static final class Candidate
+    private static final class Candidate<T>
     {
         final String text;
         final String lower;
-        final QuestEntry entry;
+        final T entry;
 
-        Candidate(String text, QuestEntry entry)
+        Candidate(String text, T entry)
         {
             this.text = text;
             this.lower = normalizePunctuation(text).toLowerCase();

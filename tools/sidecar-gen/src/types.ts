@@ -132,6 +132,8 @@ export interface SidecarStep {
   contentHash: string;
   title: string;
   questIds: string[];
+  npcs: string[];       // canonical OSRS wiki page titles, e.g. "Captain Shanks"
+  locations: string[];  // canonical OSRS wiki page titles, e.g. "Port Khazard"
   items: SidecarItem[];
   abstractItems: SidecarAbstractItem[];
   unresolvedItems: SidecarUnresolvedItem[];

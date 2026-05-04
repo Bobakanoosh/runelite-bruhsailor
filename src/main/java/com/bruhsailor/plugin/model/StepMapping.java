@@ -7,6 +7,8 @@ public class StepMapping
     public String contentHash;
     public String title;
     public List<String> questIds;
+    public List<String> npcs;
+    public List<String> locations;
     public List<Item> items;
     public List<Object> abstractItems;
     public List<Object> unresolvedItems;

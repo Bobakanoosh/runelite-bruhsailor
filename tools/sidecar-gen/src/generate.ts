@@ -22,6 +22,18 @@ const TOOL_SCHEMA = {
       description:
         "QuestHelperQuest enum names that this step ACTIVELY STARTS OR PROGRESSES. Drop quests merely mentioned in passing (e.g. 'lamps go on Herblore until Song of the Elves' does NOT make this a SOTE step). When specific RFD subquests are present, drop the bare RECIPE_FOR_DISASTER_START fallback.",
     },
+    npcs: {
+      type: "array",
+      items: { type: "string" },
+      description:
+        "Named NPCs the player must interact with in this step (talk, trade, fight, pickpocket, etc.). Use the CANONICAL OSRS WIKI PAGE TITLE — proper capitalization, full name, real apostrophes (e.g. 'Captain Shanks', 'Aggie', 'Wizard Mizgog', 'Doric'). DO NOT include monsters/creatures referenced only as types ('rats', 'cows') — only named NPCs. The matched NPC name MUST appear verbatim somewhere in the step text. Skip NPCs that aren't mentioned by name in the prose.",
+    },
+    locations: {
+      type: "array",
+      items: { type: "string" },
+      description:
+        "Named in-game locations the player visits in this step (cities, regions, dungeons, landmarks). Use the CANONICAL OSRS WIKI PAGE TITLE (e.g. 'Port Sarim', 'Edgeville', 'Lumbridge Castle', 'HAM Hideout'). The location name MUST appear verbatim in the step text. Skip generic words ('the bank', 'the dungeon') — only specific named places. Avoid duplicating with NPC entries.",
+    },
     items: {
       type: "array",
       description:
@@ -76,7 +88,7 @@ const TOOL_SCHEMA = {
       },
     },
   },
-  required: ["questIds", "items", "contentItems", "abstractItems", "unresolvedItems"],
+  required: ["questIds", "npcs", "locations", "items", "contentItems", "abstractItems", "unresolvedItems"],
 } as const;
 
 function buildPrompt(step: ResolvedStep, quests: QuestTable): string {
@@ -136,7 +148,8 @@ function buildPrompt(step: ResolvedStep, quests: QuestTable): string {
     `3. abstractItems[]: ONLY for genuine abstractions — gear-tier labels ("melee gear", "ranged gear"), money ("cash stack", "X gp"), and category words ("food", "good food", "warm clothing"). A specifically-named item NEVER goes here. Specific items go in items[] (with id) or contentItems[] (without id) or unresolvedItems[] (raw text).`,
     `4. unresolvedItems[]: tokens you can't categorize cleanly — preserve raw text, no guessing.`,
     `5. questIds[]: include only quests this step ACTIVELY STARTS OR PROGRESSES. Drop quests mentioned for context/future reference. When specific RFD subquests are present, drop the bare RECIPE_FOR_DISASTER_START fallback.`,
-    `6. Each token/item appears in EXACTLY ONE category. Never duplicate.`,
+    `6. npcs[] / locations[]: extract named NPCs and named locations the player actually engages with in this step. Use canonical OSRS wiki page titles. Each entry's name (or its case-insensitive form) MUST appear verbatim in the step text — these become inline wiki links. Don't include generic terms ("the bank", "monsters") and don't duplicate the same name across both lists.`,
+    `7. Each token/item appears in EXACTLY ONE category. Never duplicate.`,
   ].join("\n");
 }
 
@@ -184,6 +197,8 @@ export async function generateOne(
 
 interface ModelOut {
   questIds: string[];
+  npcs: string[];
+  locations: string[];
   items: { id: number; name: string; qty: number | null }[]; // no source field — we assign it
   contentItems: { name: string; qty: number | null }[];
   abstractItems: SidecarStep["abstractItems"];
@@ -192,6 +207,8 @@ interface ModelOut {
 
 interface PostProcessed {
   questIds: string[];
+  npcs: string[];
+  locations: string[];
   items: SidecarStep["items"];
   abstractItems: SidecarStep["abstractItems"];
   unresolvedItems: SidecarStep["unresolvedItems"];
@@ -281,12 +298,38 @@ export function postProcess(out: ModelOut, items: ItemTable): PostProcessed {
     return !claimed.has(norm(a.label)) && !claimed.has(norm(a.rawToken));
   });
 
+  // 7. Trim and dedupe npcs/locations. We trust the model's strings (no item table
+  //    to validate against) but normalize whitespace and de-duplicate
+  //    case-insensitively. Locations that already appear as NPCs are dropped to
+  //    avoid double-linking the same span.
+  const cleanNpcs = uniqueByLower((out.npcs ?? []).map(s => s.trim()).filter(Boolean));
+  const cleanLocs = uniqueByLower(
+    (out.locations ?? [])
+      .map(s => s.trim())
+      .filter(Boolean)
+      .filter(l => !cleanNpcs.some(n => n.toLowerCase() === l.toLowerCase())),
+  );
+
   return {
     questIds: out.questIds,
+    npcs: cleanNpcs,
+    locations: cleanLocs,
     items: dedupedItems,
     abstractItems: dedupedAbstract,
     unresolvedItems: dedupedUnresolved,
   };
+}
+
+function uniqueByLower(xs: string[]): string[] {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const x of xs) {
+    const k = x.toLowerCase();
+    if (seen.has(k)) continue;
+    seen.add(k);
+    out.push(x);
+  }
+  return out;
 }
 
 export function getPrompt(step: ResolvedStep, quests: QuestTable): string {

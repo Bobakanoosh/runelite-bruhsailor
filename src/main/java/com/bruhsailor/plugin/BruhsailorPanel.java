@@ -75,7 +75,7 @@ public class BruhsailorPanel extends PluginPanel
 
         currentStepHolder.setLayout(new BoxLayout(currentStepHolder, BoxLayout.Y_AXIS));
         currentStepHolder.setBackground(ColorScheme.DARKER_GRAY_COLOR);
-        currentStepHolder.setBorder(BorderFactory.createEmptyBorder(8, 8, 8, 8));
+        currentStepHolder.setBorder(BorderFactory.createEmptyBorder(6, 4, 6, 4));
         currentStepHolder.setAlignmentX(Component.LEFT_ALIGNMENT);
 
         stepScroll = new JScrollPane(currentStepHolder,
@@ -95,6 +95,8 @@ public class BruhsailorPanel extends PluginPanel
         prevButton.setFont(arrowFont);
         nextButton.setFont(arrowFont);
         completeToggle.setFont(FontManager.getRunescapeFont());
+        completeToggle.setFocusPainted(false);
+        completeToggle.setOpaque(true);
         Dimension arrowSize = new Dimension(36, 28);
         prevButton.setPreferredSize(arrowSize);
         prevButton.setMaximumSize(arrowSize);
@@ -186,13 +188,18 @@ public class BruhsailorPanel extends PluginPanel
 
         // Render rich-text first so we know the document text for inline
         // matching against quest names.
-        JComponent rendered = (JComponent) StepRenderer.render(step);
-        int contentWidth = Math.max(120, PluginPanel.PANEL_WIDTH - 36);
+        StepRenderer.Rendered renderResult = StepRenderer.render(step,
+            idx -> state.isBulletComplete(id, idx));
+        JComponent rendered = renderResult.component;
+        // Budget: 4+4 holder padding, 0 textpane margin, ~16 scrollbar, ~4 safety.
+        int contentWidth = Math.max(120, PluginPanel.PANEL_WIDTH - 28);
         rendered.setSize(new Dimension(contentWidth, Short.MAX_VALUE));
 
         if (rendered instanceof javax.swing.JTextPane)
         {
-            annotateInlineQuests((javax.swing.JTextPane) rendered, id);
+            javax.swing.JTextPane pane = (javax.swing.JTextPane) rendered;
+            installBulletHandlers(pane, id, renderResult.bullets);
+            annotateInlineLinks(pane, id);
         }
 
         // Recompute preferred size AFTER annotation (styling can change line wrapping).
@@ -219,27 +226,93 @@ public class BruhsailorPanel extends PluginPanel
         prevButton.setEnabled(idx > 0);
         nextButton.setEnabled(idx >= 0 && idx < repo.steps().size() - 1);
 
-        completeToggle.setSelected(state.isComplete(id));
+        boolean complete = state.isComplete(id);
+        completeToggle.setSelected(complete);
+        if (complete)
+        {
+            completeToggle.setText("Done ✓");
+            completeToggle.setBackground(DONE_BG);
+            completeToggle.setForeground(DONE_FG);
+        }
+        else
+        {
+            completeToggle.setText("Done");
+            completeToggle.setBackground(ColorScheme.DARKER_GRAY_COLOR);
+            completeToggle.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
+        }
         stepList.repaint();
     }
 
+    private static final java.awt.Color DONE_BG = new java.awt.Color(0x3F7A3F);
+    private static final java.awt.Color DONE_FG = new java.awt.Color(0xE6FFE6);
+
+    private void installBulletHandlers(javax.swing.JTextPane pane, StepId id,
+                                       java.util.List<StepRenderer.BulletHit> bullets)
+    {
+        if (bullets == null || bullets.isEmpty()) return;
+        pane.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            @Override
+            public void mouseClicked(java.awt.event.MouseEvent e)
+            {
+                int pos = pane.viewToModel2D(e.getPoint());
+                for (StepRenderer.BulletHit hit : bullets)
+                {
+                    if (pos >= hit.glyphStart && pos < hit.glyphEnd)
+                    {
+                        state.toggleBullet(id, hit.idx);
+                        return;
+                    }
+                }
+            }
+        });
+        pane.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            @Override
+            public void mouseMoved(java.awt.event.MouseEvent e)
+            {
+                int pos = pane.viewToModel2D(e.getPoint());
+                for (StepRenderer.BulletHit hit : bullets)
+                {
+                    if (pos >= hit.glyphStart && pos < hit.glyphEnd)
+                    {
+                        pane.setCursor(java.awt.Cursor.getPredefinedCursor(java.awt.Cursor.HAND_CURSOR));
+                        return;
+                    }
+                }
+                // Don't reset cursor here — the link hover handler manages it for non-bullet positions.
+            }
+        });
+    }
+
+    /** A linkified span in the rendered step. Click action and color depend on the kind. */
+    private static final class InlineLink
+    {
+        final int start;
+        final int end;
+        final java.awt.Color color;
+        final Runnable onClick;
+
+        InlineLink(int start, int end, java.awt.Color color, Runnable onClick)
+        {
+            this.start = start;
+            this.end = end;
+            this.color = color;
+            this.onClick = onClick;
+        }
+    }
+
     /**
-     * Find quest mentions inside the given pane's text, style them as blue
-     * underlined "links", and install click + hover handlers.
+     * Find quest / NPC / location mentions inside the given pane's text, style
+     * them as blue underlined "links", and install click + hover handlers.
+     * Quest links open the Quest Helper plugin; NPC and location links open the
+     * OSRS wiki page in the user's browser.
      */
-    private void annotateInlineQuests(javax.swing.JTextPane pane, StepId id)
+    private void annotateInlineLinks(javax.swing.JTextPane pane, StepId id)
     {
         java.util.Optional<StepMapping> mappingOpt = stepMappings.findById(id);
         if (!mappingOpt.isPresent()) return;
         StepMapping mapping = mappingOpt.get();
-        if (mapping.questIds == null || mapping.questIds.isEmpty()) return;
-
-        java.util.List<QuestEntry> resolved = new java.util.ArrayList<>();
-        for (String enumName : mapping.questIds)
-        {
-            questRegistry.resolve(enumName).ifPresent(resolved::add);
-        }
-        if (resolved.isEmpty()) return;
 
         javax.swing.text.StyledDocument doc = pane.getStyledDocument();
         String text;
@@ -252,31 +325,58 @@ public class BruhsailorPanel extends PluginPanel
             return;
         }
 
-        java.util.List<InlineMatcher.Match> matches = InlineMatcher.findFirstPerQuest(text, resolved);
-        if (matches.isEmpty()) return;
+        java.util.List<InlineLink> links = new java.util.ArrayList<>();
 
-        javax.swing.text.SimpleAttributeSet linkAttrs = new javax.swing.text.SimpleAttributeSet();
-        javax.swing.text.StyleConstants.setForeground(linkAttrs, QUEST_LINK_BLUE);
-        javax.swing.text.StyleConstants.setUnderline(linkAttrs, true);
-
-        for (InlineMatcher.Match m : matches)
+        if (mapping.questIds != null && !mapping.questIds.isEmpty())
         {
-            doc.setCharacterAttributes(m.start, m.end - m.start, linkAttrs, false);
+            java.util.List<QuestEntry> resolved = new java.util.ArrayList<>();
+            for (String enumName : mapping.questIds)
+            {
+                questRegistry.resolve(enumName).ifPresent(resolved::add);
+            }
+            for (InlineMatcher.Match<QuestEntry> m : InlineMatcher.findFirstPerQuest(text, resolved))
+            {
+                final QuestEntry q = m.entry;
+                links.add(new InlineLink(m.start, m.end, QUEST_LINK_BLUE, () -> questBridge.open(q)));
+            }
         }
 
-        // Single mouse listener that resolves clicks/hovers to a match.
-        java.util.List<InlineMatcher.Match> finalMatches = matches;
+        addWikiLinks(text, mapping.npcs, NPC_LINK_COLOR, links);
+        addWikiLinks(text, mapping.locations, LOCATION_LINK_COLOR, links);
+
+        if (links.isEmpty()) return;
+
+        // Sort by start to keep behaviour deterministic when spans somehow overlap
+        // across the three matchers (they don't share a `consumed` set).
+        links.sort((a, b) -> Integer.compare(a.start, b.start));
+
+        // Preserve existing character attributes (font size set per-fragment by
+        // StepRenderer, plus the pane's font family) when applying link styling.
+        // Without this, Swing falls back to a default font family for the styled
+        // run, which is wider than the pixel RuneScape font and overflows the
+        // panel width, visually collapsing spaces around the link.
+        for (InlineLink link : links)
+        {
+            javax.swing.text.Element el = doc.getCharacterElement(link.start);
+            javax.swing.text.SimpleAttributeSet attrs = new javax.swing.text.SimpleAttributeSet(el.getAttributes());
+            javax.swing.text.StyleConstants.setFontFamily(attrs, pane.getFont().getFamily());
+            javax.swing.text.StyleConstants.setForeground(attrs, link.color);
+            javax.swing.text.StyleConstants.setUnderline(attrs, true);
+            doc.setCharacterAttributes(link.start, link.end - link.start, attrs, true);
+        }
+
+        java.util.List<InlineLink> finalLinks = links;
         pane.addMouseListener(new java.awt.event.MouseAdapter()
         {
             @Override
             public void mouseClicked(java.awt.event.MouseEvent e)
             {
                 int pos = pane.viewToModel2D(e.getPoint());
-                for (InlineMatcher.Match m : finalMatches)
+                for (InlineLink link : finalLinks)
                 {
-                    if (pos >= m.start && pos < m.end)
+                    if (pos >= link.start && pos < link.end)
                     {
-                        questBridge.open(m.entry);
+                        link.onClick.run();
                         return;
                     }
                 }
@@ -289,9 +389,9 @@ public class BruhsailorPanel extends PluginPanel
             {
                 int pos = pane.viewToModel2D(e.getPoint());
                 boolean over = false;
-                for (InlineMatcher.Match m : finalMatches)
+                for (InlineLink link : finalLinks)
                 {
-                    if (pos >= m.start && pos < m.end) { over = true; break; }
+                    if (pos >= link.start && pos < link.end) { over = true; break; }
                 }
                 pane.setCursor(java.awt.Cursor.getPredefinedCursor(
                     over ? java.awt.Cursor.HAND_CURSOR : java.awt.Cursor.DEFAULT_CURSOR));
@@ -299,7 +399,21 @@ public class BruhsailorPanel extends PluginPanel
         });
     }
 
+    private static void addWikiLinks(String text, java.util.List<String> names,
+                                     java.awt.Color color,
+                                     java.util.List<InlineLink> out)
+    {
+        if (names == null || names.isEmpty()) return;
+        for (InlineMatcher.Match<String> m : InlineMatcher.findFirstPerString(text, names))
+        {
+            final String pageTitle = m.entry;
+            out.add(new InlineLink(m.start, m.end, color, () -> WikiLink.open(pageTitle)));
+        }
+    }
+
     private static final java.awt.Color QUEST_LINK_BLUE = new java.awt.Color(0x4FB3FF);
+    private static final java.awt.Color NPC_LINK_COLOR = new java.awt.Color(0xFFB347);      // warm amber — distinct from quest blue
+    private static final java.awt.Color LOCATION_LINK_COLOR = new java.awt.Color(0x9CE37D); // soft green
 
     private static String formatMetadata(Step step)
     {

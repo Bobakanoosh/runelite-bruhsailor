@@ -5,6 +5,7 @@ import net.runelite.client.eventbus.EventBus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
@@ -17,6 +18,7 @@ public class GuideStateService
     static final String GROUP = "bruhsailor";
     static final String CURRENT_KEY = "currentStepId";
     static final String COMPLETED_KEY = "completedStepIds";
+    static final String COMPLETED_BULLETS_KEY = "completedBullets";
 
     private final GuideRepository repo;
     private final ConfigManager config;
@@ -24,6 +26,8 @@ public class GuideStateService
 
     private StepId current;
     private final Set<StepId> completed = new TreeSet<>();
+    // Per-bullet completion: stored as "{stepId}#{bulletIdx}" tokens.
+    private final Set<String> completedBullets = new HashSet<>();
 
     public GuideStateService(GuideRepository repo, ConfigManager config, EventBus bus)
     {
@@ -88,6 +92,41 @@ public class GuideStateService
                 log.warn("Dropped {} unknown/malformed entries from completedStepIds", dropped);
             }
         }
+
+        String rawBullets = config.getConfiguration(GROUP, COMPLETED_BULLETS_KEY);
+        if (rawBullets != null && !rawBullets.isEmpty())
+        {
+            for (String token : rawBullets.split(","))
+            {
+                String t = token.trim();
+                if (t.isEmpty()) continue;
+                completedBullets.add(t);
+            }
+        }
+    }
+
+    private static String bulletKey(StepId id, int idx)
+    {
+        return id.toString() + "#" + idx;
+    }
+
+    public boolean isBulletComplete(StepId id, int idx)
+    {
+        return completedBullets.contains(bulletKey(id, idx));
+    }
+
+    public void toggleBullet(StepId id, int idx)
+    {
+        String k = bulletKey(id, idx);
+        if (!completedBullets.add(k)) completedBullets.remove(k);
+        persistBullets();
+        bus.post(new GuideStateChanged(current, current, true));
+    }
+
+    private void persistBullets()
+    {
+        String joined = completedBullets.stream().sorted().collect(Collectors.joining(","));
+        config.setConfiguration(GROUP, COMPLETED_BULLETS_KEY, joined);
     }
 
     public StepId getCurrent()

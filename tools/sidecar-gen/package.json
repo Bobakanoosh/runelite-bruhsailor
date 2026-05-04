@@ -8,6 +8,7 @@
     "fetch-tables": "bun run src/main.ts fetch-tables",
     "resolve": "bun run src/main.ts resolve",
     "generate": "bun run --env-file=.env src/main.ts generate",
+    "enrich": "bun run --env-file=.env src/main.ts enrich",
     "verify": "bun run --env-file=.env src/main.ts verify",
     "all": "bun run src/main.ts all",
     "test-one": "bun run --env-file=.env src/test-one.ts"
