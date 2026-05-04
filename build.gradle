@@ -1,56 +1,63 @@
 plugins {
-    id 'java'
-    id 'checkstyle'
+	id 'java'
+	id 'checkstyle'
 }
 
 repositories {
-    mavenLocal()
-    mavenCentral()
-    maven { url = 'https://repo.runelite.net/' }
+	mavenLocal()
+	maven {
+		url = 'https://repo.runelite.net'
+		content {
+			includeGroupByRegex("net\\.runelite.*")
+		}
+	}
+	mavenCentral()
 }
 
-def runeLiteVersion = project.property('runeLiteVersion')
+def runeLiteVersion = 'latest.release'
+def pluginMainClass = 'com.bruhsailor.plugin.BruhsailorPluginTest'
 
 dependencies {
-    compileOnly group: 'net.runelite', name: 'client', version: runeLiteVersion
+	compileOnly group: 'net.runelite', name: 'client', version: runeLiteVersion
 
-    compileOnly 'org.projectlombok:lombok:1.18.46'
-    annotationProcessor 'org.projectlombok:lombok:1.18.46'
+	compileOnly 'org.projectlombok:lombok:1.18.46'
+	annotationProcessor 'org.projectlombok:lombok:1.18.46'
 
-    testImplementation 'junit:junit:4.13.2'
-    testImplementation 'org.mockito:mockito-core:5.7.0'
-    testImplementation 'org.slf4j:slf4j-simple:1.7.36'
-    testImplementation group: 'net.runelite', name: 'client', version: runeLiteVersion
-    testImplementation group: 'net.runelite', name: 'jshell', version: runeLiteVersion
+	testImplementation 'junit:junit:4.13.2'
+	testImplementation 'org.mockito:mockito-core:5.7.0'
+	testImplementation 'org.slf4j:slf4j-simple:1.7.36'
+	testImplementation group: 'net.runelite', name: 'client', version: runeLiteVersion
+	testImplementation group: 'net.runelite', name: 'jshell', version: runeLiteVersion
 }
 
 group = 'com.bruhsailor'
 version = '0.1.0-SNAPSHOT'
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+	sourceCompatibility = JavaVersion.VERSION_11
+	targetCompatibility = JavaVersion.VERSION_11
 }
 
 tasks.withType(JavaCompile).configureEach {
-    options.encoding = 'UTF-8'
+	options.encoding = 'UTF-8'
+	options.release.set(11)
 }
 
 checkstyle {
-    toolVersion = '10.12.4'
-    configFile = file('checkstyle.xml')
+	toolVersion = '10.12.4'
+	configFile = file('checkstyle.xml')
 }
 
 test {
-    useJUnit()
-    jvmArgs '-Dnet.bytebuddy.experimental=true'
+	useJUnit()
+	jvmArgs '-Dnet.bytebuddy.experimental=true'
 }
 
 tasks.register('runClient', JavaExec) {
-    group = 'application'
-    description = 'Launches RuneLite with the BRUHsailer plugin loaded.'
-    classpath = sourceSets.test.runtimeClasspath
-    mainClass = 'com.bruhsailor.plugin.BruhsailorPluginTest'
-    standardInput = System.in
-    jvmArgs '-ea'
+	group = 'application'
+	description = 'Launches RuneLite with the BRUHsailer plugin loaded.'
+	classpath = sourceSets.test.runtimeClasspath
+	mainClass = pluginMainClass
+	standardInput = System.in
+	jvmArgs '-ea'
 }
