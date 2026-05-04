@@ -53,7 +53,7 @@ public final class InlineMatcher
         }
         candidates.sort((a, b) -> b.text.length() - a.text.length());
 
-        String lower = text.toLowerCase();
+        String lower = normalizePunctuation(text).toLowerCase();
         boolean[] consumed = new boolean[text.length()];
         List<QuestEntry> linked = new ArrayList<>();
         List<Match> matches = new ArrayList<>();
@@ -97,6 +97,35 @@ public final class InlineMatcher
         return -1;
     }
 
+    /**
+     * Map smart/curly quotes to their ASCII equivalents so quest names like
+     * "Heroes' Quest" match prose containing the typographic "Heroes’ Quest".
+     * Replacement is char-for-char so match indices stay aligned with the
+     * original text.
+     */
+    private static String normalizePunctuation(String s)
+    {
+        StringBuilder sb = new StringBuilder(s.length());
+        for (int i = 0; i < s.length(); i++)
+        {
+            char c = s.charAt(i);
+            switch (c)
+            {
+                case '‘': case '’': case '‚': case '‛':
+                case '′': case 'ʼ':
+                    sb.append('\''); break;
+                case '“': case '”': case '„': case '‟':
+                case '″':
+                    sb.append('"'); break;
+                case '–': case '—': case '−':
+                    sb.append('-'); break;
+                default:
+                    sb.append(c);
+            }
+        }
+        return sb.toString();
+    }
+
     private static boolean isWordChar(char c)
     {
         return Character.isLetterOrDigit(c);
@@ -117,7 +146,7 @@ public final class InlineMatcher
         Candidate(String text, QuestEntry entry)
         {
             this.text = text;
-            this.lower = text.toLowerCase();
+            this.lower = normalizePunctuation(text).toLowerCase();
             this.entry = entry;
         }
     }
