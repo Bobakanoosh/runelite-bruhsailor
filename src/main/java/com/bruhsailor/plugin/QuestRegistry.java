@@ -67,7 +67,16 @@ public final class QuestRegistry
                 JsonObject q = e.getAsJsonObject();
                 String enumName = q.get("enumName").getAsString();
                 String displayName = q.get("displayName").getAsString();
-                map.put(enumName, new QuestEntry(enumName, displayName));
+                java.util.List<String> aliases = new java.util.ArrayList<>();
+                if (q.has("aliases") && q.get("aliases").isJsonArray())
+                {
+                    for (JsonElement a : q.getAsJsonArray("aliases")) aliases.add(a.getAsString());
+                }
+                if (q.has("shortAliases") && q.get("shortAliases").isJsonArray())
+                {
+                    for (JsonElement a : q.getAsJsonArray("shortAliases")) aliases.add(a.getAsString());
+                }
+                map.put(enumName, new QuestEntry(enumName, displayName, aliases));
             }
         }
         catch (Exception e)

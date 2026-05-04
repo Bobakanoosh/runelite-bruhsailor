@@ -191,24 +191,34 @@ public class BruhsailorPanel extends PluginPanel
 
         currentStepHolder.removeAll();
 
-        // Block 1: chip row (only when there's at least one resolvable quest)
-        rebuildChips(id);
+        // Render rich-text first so we know the document text for inline
+        // matching against quest names.
+        JComponent rendered = (JComponent) StepRenderer.render(step);
+        int contentWidth = Math.max(120, PluginPanel.PANEL_WIDTH - 36);
+        rendered.setSize(new Dimension(contentWidth, Short.MAX_VALUE));
+
+        java.util.Set<QuestEntry> linkedInline = new java.util.HashSet<>();
+        if (rendered instanceof javax.swing.JTextPane)
+        {
+            linkedInline.addAll(annotateInlineQuests((javax.swing.JTextPane) rendered, id));
+        }
+
+        // Recompute preferred size AFTER annotation (styling can change line wrapping).
+        rendered.setSize(new Dimension(contentWidth, Short.MAX_VALUE));
+        Dimension pref = rendered.getPreferredSize();
+        rendered.setPreferredSize(new Dimension(contentWidth, pref.height));
+        rendered.setMaximumSize(new Dimension(Integer.MAX_VALUE, pref.height));
+        rendered.setAlignmentX(Component.LEFT_ALIGNMENT);
+
+        // Block 1: chip-row fallback for quests whose names DIDN'T appear in prose
+        rebuildChips(id, linkedInline);
         if (chipsRow.isVisible())
         {
             chipsRow.setMaximumSize(new Dimension(Integer.MAX_VALUE, Integer.MAX_VALUE));
             currentStepHolder.add(chipsRow);
         }
 
-        // Block 2: rich-text body
-        JComponent rendered = (JComponent) StepRenderer.render(step);
-        // Force the rendered JTextPane to wrap at the panel's content width
-        // so its preferred height reflects its real wrapped size.
-        int contentWidth = Math.max(120, PluginPanel.PANEL_WIDTH - 36);
-        rendered.setSize(new Dimension(contentWidth, Short.MAX_VALUE));
-        Dimension pref = rendered.getPreferredSize();
-        rendered.setPreferredSize(new Dimension(contentWidth, pref.height));
-        rendered.setMaximumSize(new Dimension(Integer.MAX_VALUE, pref.height));
-        rendered.setAlignmentX(Component.LEFT_ALIGNMENT);
+        // Block 2: rich-text body (with inline quest links applied)
         currentStepHolder.add(rendered);
 
         currentStepHolder.revalidate();
@@ -230,7 +240,7 @@ public class BruhsailorPanel extends PluginPanel
         stepList.repaint();
     }
 
-    private void rebuildChips(StepId id)
+    private void rebuildChips(StepId id, java.util.Set<QuestEntry> alreadyLinked)
     {
         chipsRow.removeAll();
 
@@ -252,12 +262,96 @@ public class BruhsailorPanel extends PluginPanel
         {
             java.util.Optional<QuestEntry> entry = questRegistry.resolve(enumName);
             if (!entry.isPresent()) continue;
+            if (alreadyLinked.contains(entry.get())) continue; // already linked inline
             chipsRow.add(QuestChip.create(entry.get(), questBridge));
             added++;
         }
 
         chipsRow.setVisible(added > 0);
     }
+
+    /**
+     * Find quest mentions inside the given pane's text, style them as blue
+     * underlined "links", and install click + hover handlers. Returns the set
+     * of quests linked so the chip-row can avoid duplicating them.
+     */
+    private java.util.Set<QuestEntry> annotateInlineQuests(javax.swing.JTextPane pane, StepId id)
+    {
+        java.util.Optional<StepMapping> mappingOpt = stepMappings.findById(id);
+        if (!mappingOpt.isPresent()) return java.util.Collections.emptySet();
+        StepMapping mapping = mappingOpt.get();
+        if (mapping.questIds == null || mapping.questIds.isEmpty()) return java.util.Collections.emptySet();
+
+        java.util.List<QuestEntry> resolved = new java.util.ArrayList<>();
+        for (String enumName : mapping.questIds)
+        {
+            questRegistry.resolve(enumName).ifPresent(resolved::add);
+        }
+        if (resolved.isEmpty()) return java.util.Collections.emptySet();
+
+        javax.swing.text.StyledDocument doc = pane.getStyledDocument();
+        String text;
+        try
+        {
+            text = doc.getText(0, doc.getLength());
+        }
+        catch (javax.swing.text.BadLocationException e)
+        {
+            return java.util.Collections.emptySet();
+        }
+
+        java.util.List<InlineMatcher.Match> matches = InlineMatcher.findFirstPerQuest(text, resolved);
+        if (matches.isEmpty()) return java.util.Collections.emptySet();
+
+        javax.swing.text.SimpleAttributeSet linkAttrs = new javax.swing.text.SimpleAttributeSet();
+        javax.swing.text.StyleConstants.setForeground(linkAttrs, QUEST_LINK_BLUE);
+        javax.swing.text.StyleConstants.setUnderline(linkAttrs, true);
+
+        java.util.Set<QuestEntry> linked = new java.util.HashSet<>();
+        for (InlineMatcher.Match m : matches)
+        {
+            doc.setCharacterAttributes(m.start, m.end - m.start, linkAttrs, false);
+            linked.add(m.entry);
+        }
+
+        // Single mouse listener that resolves clicks/hovers to a match.
+        java.util.List<InlineMatcher.Match> finalMatches = matches;
+        pane.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            @Override
+            public void mouseClicked(java.awt.event.MouseEvent e)
+            {
+                int pos = pane.viewToModel2D(e.getPoint());
+                for (InlineMatcher.Match m : finalMatches)
+                {
+                    if (pos >= m.start && pos < m.end)
+                    {
+                        questBridge.open(m.entry);
+                        return;
+                    }
+                }
+            }
+        });
+        pane.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            @Override
+            public void mouseMoved(java.awt.event.MouseEvent e)
+            {
+                int pos = pane.viewToModel2D(e.getPoint());
+                boolean over = false;
+                for (InlineMatcher.Match m : finalMatches)
+                {
+                    if (pos >= m.start && pos < m.end) { over = true; break; }
+                }
+                pane.setCursor(java.awt.Cursor.getPredefinedCursor(
+                    over ? java.awt.Cursor.HAND_CURSOR : java.awt.Cursor.DEFAULT_CURSOR));
+            }
+        });
+
+        return linked;
+    }
+
+    private static final java.awt.Color QUEST_LINK_BLUE = new java.awt.Color(0x4FB3FF);
 
     private static String formatMetadata(Step step)
     {
