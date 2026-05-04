@@ -37,7 +37,7 @@ public class BruhsailorPanel extends PluginPanel
 
     private final JLabel chapterLabel = new JLabel();
     private final JLabel sectionLabel = new JLabel();
-    private final JPanel currentStepHolder = new JPanel(new BorderLayout());
+    private final JPanel currentStepHolder = new JPanel();
     private final JLabel metadataLabel = new JLabel();
     private final JButton prevButton = new JButton("◀");
     private final JButton nextButton = new JButton("▶");
@@ -75,14 +75,15 @@ public class BruhsailorPanel extends PluginPanel
         sectionLabel.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
         sectionLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
 
+        currentStepHolder.setLayout(new BoxLayout(currentStepHolder, BoxLayout.Y_AXIS));
         currentStepHolder.setBackground(ColorScheme.DARKER_GRAY_COLOR);
         currentStepHolder.setBorder(BorderFactory.createEmptyBorder(8, 8, 8, 8));
         currentStepHolder.setAlignmentX(Component.LEFT_ALIGNMENT);
 
         chipsRow.setLayout(new WrapLayout(FlowLayout.LEFT, 6, 6));
-        chipsRow.setBackground(ColorScheme.DARK_GRAY_COLOR);
+        chipsRow.setBackground(ColorScheme.DARKER_GRAY_COLOR);
         chipsRow.setAlignmentX(Component.LEFT_ALIGNMENT);
-        chipsRow.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, 0));
+        chipsRow.setBorder(BorderFactory.createEmptyBorder(0, -6, 4, 0));
 
         stepScroll = new JScrollPane(currentStepHolder,
             JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
@@ -128,9 +129,7 @@ public class BruhsailorPanel extends PluginPanel
         root.add(chapterLabel);
         root.add(Box.createVerticalStrut(2));
         root.add(sectionLabel);
-        root.add(Box.createVerticalStrut(6));
-        root.add(chipsRow);
-        root.add(Box.createVerticalStrut(2));
+        root.add(Box.createVerticalStrut(8));
         root.add(stepScroll);
         root.add(Box.createVerticalStrut(6));
         root.add(metadataLabel);
@@ -191,21 +190,29 @@ public class BruhsailorPanel extends PluginPanel
         sectionLabel.setText(repo.sectionTitleFor(id));
 
         currentStepHolder.removeAll();
+
+        // Block 1: chip row (only when there's at least one resolvable quest)
+        rebuildChips(id);
+        if (chipsRow.isVisible())
+        {
+            chipsRow.setMaximumSize(new Dimension(Integer.MAX_VALUE, Integer.MAX_VALUE));
+            currentStepHolder.add(chipsRow);
+        }
+
+        // Block 2: rich-text body
         JComponent rendered = (JComponent) StepRenderer.render(step);
         // Force the rendered JTextPane to wrap at the panel's content width
-        // so its preferred height reflects its real wrapped size — without this
-        // the pane reports its longest unwrapped line as preferred width and
-        // the surrounding scroll viewport never trips its max-height cap.
+        // so its preferred height reflects its real wrapped size.
         int contentWidth = Math.max(120, PluginPanel.PANEL_WIDTH - 36);
         rendered.setSize(new Dimension(contentWidth, Short.MAX_VALUE));
         Dimension pref = rendered.getPreferredSize();
         rendered.setPreferredSize(new Dimension(contentWidth, pref.height));
-        currentStepHolder.add(rendered, BorderLayout.CENTER);
+        rendered.setMaximumSize(new Dimension(Integer.MAX_VALUE, pref.height));
+        rendered.setAlignmentX(Component.LEFT_ALIGNMENT);
+        currentStepHolder.add(rendered);
+
         currentStepHolder.revalidate();
         currentStepHolder.repaint();
-        // Chips row lives in `root` above stepScroll so it stays visible
-        // regardless of how long the step text gets.
-        rebuildChips(id);
         // Newly-rendered content has its caret at end; force the surrounding
         // viewport back to the top so users always see the start of the step.
         SwingUtilities.invokeLater(() -> {
