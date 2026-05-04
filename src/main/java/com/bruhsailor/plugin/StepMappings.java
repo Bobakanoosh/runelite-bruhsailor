@@ -33,14 +33,13 @@ public final class StepMappings
         return new StepMappings(Collections.emptyMap());
     }
 
-    public static StepMappings loadBundled()
+    public static StepMappings loadBundled(Gson gson)
     {
         InputStream in = StepMappings.class.getResourceAsStream(RESOURCE);
         if (in == null)
         {
             throw new IllegalStateException("Missing classpath resource " + RESOURCE);
         }
-        Gson gson = new Gson();
         try (InputStreamReader r = new InputStreamReader(in, StandardCharsets.UTF_8))
         {
             JsonObject root = gson.fromJson(r, JsonObject.class);

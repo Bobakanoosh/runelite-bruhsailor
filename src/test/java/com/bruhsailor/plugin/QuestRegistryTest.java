@@ -25,14 +25,14 @@ public class QuestRegistryTest
     @Test
     public void bundledLoadHasAtLeastTwoHundredEntries()
     {
-        QuestRegistry registry = QuestRegistry.create(pluginManager);
+        QuestRegistry registry = QuestRegistry.create(pluginManager, new com.google.gson.Gson());
         assertTrue(registry.size() >= 200);
     }
 
     @Test
     public void resolvesKnownEnumNameToDisplayName()
     {
-        QuestRegistry registry = QuestRegistry.create(pluginManager);
+        QuestRegistry registry = QuestRegistry.create(pluginManager, new com.google.gson.Gson());
         Optional<QuestEntry> e = registry.resolve("COOKS_ASSISTANT");
         assertTrue(e.isPresent());
         assertEquals("COOKS_ASSISTANT", e.get().enumName());
@@ -42,7 +42,7 @@ public class QuestRegistryTest
     @Test
     public void resolvesUnknownEnumNameToEmpty()
     {
-        QuestRegistry registry = QuestRegistry.create(pluginManager);
+        QuestRegistry registry = QuestRegistry.create(pluginManager, new com.google.gson.Gson());
         assertFalse(registry.resolve("NOT_A_REAL_QUEST_XYZ").isPresent());
     }
 
@@ -51,14 +51,14 @@ public class QuestRegistryTest
     {
         // The bundled set mirrors QH's QuestHelperQuest enum, which includes
         // skill helpers like AGILITY. Use a bogus name to assert miss behaviour.
-        QuestRegistry registry = QuestRegistry.create(pluginManager);
+        QuestRegistry registry = QuestRegistry.create(pluginManager, new com.google.gson.Gson());
         assertFalse(registry.resolve("BANANA_JUICE_QUEST").isPresent());
     }
 
     @Test
     public void enrichedFromRuntimeIsFalseWhenNoQHPluginPresent()
     {
-        QuestRegistry registry = QuestRegistry.create(pluginManager);
+        QuestRegistry registry = QuestRegistry.create(pluginManager, new com.google.gson.Gson());
         assertFalse(registry.enrichedFromRuntime());
     }
 }

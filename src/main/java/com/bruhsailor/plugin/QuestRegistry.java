@@ -34,10 +34,10 @@ public final class QuestRegistry
         this.enrichedFromRuntime = enrichedFromRuntime;
     }
 
-    public static QuestRegistry create(PluginManager pluginManager)
+    public static QuestRegistry create(PluginManager pluginManager, Gson gson)
     {
         Map<String, QuestEntry> map = new HashMap<>();
-        loadBundled(map);
+        loadBundled(map, gson);
         boolean enriched = false;
         try
         {
@@ -50,7 +50,7 @@ public final class QuestRegistry
         return new QuestRegistry(map, enriched);
     }
 
-    private static void loadBundled(Map<String, QuestEntry> map)
+    private static void loadBundled(Map<String, QuestEntry> map, Gson gson)
     {
         InputStream in = QuestRegistry.class.getResourceAsStream(RESOURCE);
         if (in == null)
@@ -60,7 +60,7 @@ public final class QuestRegistry
         }
         try (InputStreamReader r = new InputStreamReader(in, StandardCharsets.UTF_8))
         {
-            JsonObject root = new Gson().fromJson(r, JsonObject.class);
+            JsonObject root = gson.fromJson(r, JsonObject.class);
             JsonArray quests = root.getAsJsonArray("quests");
             for (JsonElement e : quests)
             {

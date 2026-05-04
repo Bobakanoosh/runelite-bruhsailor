@@ -1,5 +1,6 @@
 package com.bruhsailor.plugin;
 
+import com.google.gson.Gson;
 import com.google.inject.Provides;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.config.ConfigManager;
@@ -28,6 +29,7 @@ public class BruhsailorPlugin extends Plugin
     @Inject private ConfigManager configManager;
     @Inject private EventBus eventBus;
     @Inject private PluginManager pluginManager;
+    @Inject private Gson gson;
 
     private NavigationButton navButton;
     private BruhsailorPanel panel;
@@ -38,7 +40,7 @@ public class BruhsailorPlugin extends Plugin
         GuideRepository repo;
         try
         {
-            repo = GuideRepository.loadBundled();
+            repo = GuideRepository.loadBundled(gson);
         }
         catch (RuntimeException e)
         {
@@ -50,14 +52,14 @@ public class BruhsailorPlugin extends Plugin
         StepMappings mappings;
         try
         {
-            mappings = StepMappings.loadBundled();
+            mappings = StepMappings.loadBundled(gson);
         }
         catch (RuntimeException e)
         {
             log.error("Failed to load step_mappings.json; chips disabled", e);
             mappings = StepMappings.empty();
         }
-        QuestRegistry questRegistry = QuestRegistry.create(pluginManager);
+        QuestRegistry questRegistry = QuestRegistry.create(pluginManager, gson);
         QuestHelperBridge questBridge = new QuestHelperBridge(pluginManager);
 
         GuideStateService state = new GuideStateService(repo, configManager, eventBus);
