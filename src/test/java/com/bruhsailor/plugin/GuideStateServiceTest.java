@@ -26,7 +26,7 @@ public class GuideStateServiceTest
     {
         config = mock(ConfigManager.class);
         bus = mock(EventBus.class);
-        repo = GuideRepository.loadBundled();
+        repo = GuideRepository.loadBundled(new com.google.gson.Gson());
     }
 
     @Test

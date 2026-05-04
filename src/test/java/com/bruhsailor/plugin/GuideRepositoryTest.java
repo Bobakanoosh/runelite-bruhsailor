@@ -16,7 +16,7 @@ public class GuideRepositoryTest
     @Before
     public void setUp()
     {
-        repo = GuideRepository.loadBundled();
+        repo = GuideRepository.loadBundled(new com.google.gson.Gson());
     }
 
     @Test

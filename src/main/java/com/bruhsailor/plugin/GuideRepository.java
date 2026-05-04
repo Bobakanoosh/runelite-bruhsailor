@@ -38,7 +38,7 @@ public final class GuideRepository
         this.sectionTitleByStep = sectionTitleByStep;
     }
 
-    public static GuideRepository loadBundled()
+    public static GuideRepository loadBundled(Gson gson)
     {
         InputStream in = GuideRepository.class.getResourceAsStream(RESOURCE);
         if (in == null)
@@ -48,7 +48,7 @@ public final class GuideRepository
         GuideData data;
         try (InputStreamReader r = new InputStreamReader(in, StandardCharsets.UTF_8))
         {
-            data = new Gson().fromJson(r, GuideData.class);
+            data = gson.fromJson(r, GuideData.class);
         }
         catch (Exception e)
         {
