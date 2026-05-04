@@ -80,8 +80,9 @@ public class BruhsailorPanel extends PluginPanel
         currentStepHolder.setAlignmentX(Component.LEFT_ALIGNMENT);
 
         chipsRow.setLayout(new WrapLayout(FlowLayout.LEFT, 6, 6));
-        chipsRow.setBackground(ColorScheme.DARKER_GRAY_COLOR);
-        chipsRow.setBorder(BorderFactory.createEmptyBorder(4, 0, 0, 0));
+        chipsRow.setBackground(ColorScheme.DARK_GRAY_COLOR);
+        chipsRow.setAlignmentX(Component.LEFT_ALIGNMENT);
+        chipsRow.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, 0));
 
         stepScroll = new JScrollPane(currentStepHolder,
             JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
@@ -127,7 +128,9 @@ public class BruhsailorPanel extends PluginPanel
         root.add(chapterLabel);
         root.add(Box.createVerticalStrut(2));
         root.add(sectionLabel);
-        root.add(Box.createVerticalStrut(8));
+        root.add(Box.createVerticalStrut(6));
+        root.add(chipsRow);
+        root.add(Box.createVerticalStrut(2));
         root.add(stepScroll);
         root.add(Box.createVerticalStrut(6));
         root.add(metadataLabel);
@@ -198,10 +201,11 @@ public class BruhsailorPanel extends PluginPanel
         Dimension pref = rendered.getPreferredSize();
         rendered.setPreferredSize(new Dimension(contentWidth, pref.height));
         currentStepHolder.add(rendered, BorderLayout.CENTER);
-        rebuildChips(id);
-        currentStepHolder.add(chipsRow, BorderLayout.SOUTH);
         currentStepHolder.revalidate();
         currentStepHolder.repaint();
+        // Chips row lives in `root` above stepScroll so it stays visible
+        // regardless of how long the step text gets.
+        rebuildChips(id);
         // Newly-rendered content has its caret at end; force the surrounding
         // viewport back to the top so users always see the start of the step.
         SwingUtilities.invokeLater(() -> {
