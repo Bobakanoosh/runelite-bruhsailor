@@ -79,9 +79,9 @@ public class BruhsailorPanel extends PluginPanel
         currentStepHolder.setBorder(BorderFactory.createEmptyBorder(8, 8, 8, 8));
         currentStepHolder.setAlignmentX(Component.LEFT_ALIGNMENT);
 
-        chipsRow.setLayout(new FlowLayout(FlowLayout.LEFT, 6, 6));
+        chipsRow.setLayout(new WrapLayout(FlowLayout.LEFT, 6, 6));
         chipsRow.setBackground(ColorScheme.DARKER_GRAY_COLOR);
-        chipsRow.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, 0));
+        chipsRow.setBorder(BorderFactory.createEmptyBorder(4, 0, 0, 0));
 
         stepScroll = new JScrollPane(currentStepHolder,
             JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
