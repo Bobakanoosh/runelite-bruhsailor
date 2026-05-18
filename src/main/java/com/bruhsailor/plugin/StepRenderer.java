@@ -3,7 +3,6 @@ package com.bruhsailor.plugin;
 import com.bruhsailor.plugin.model.ContentFragment;
 import com.bruhsailor.plugin.model.Step;
 import net.runelite.client.ui.ColorScheme;
-import net.runelite.client.ui.FontManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -27,9 +26,9 @@ public final class StepRenderer
 {
     private static final Logger log = LoggerFactory.getLogger(StepRenderer.class);
 
-    private static final int BASE_SIZE = 18;
-    private static final int SMALL_SIZE = 15;
-    private static final int LARGE_SIZE = 20;
+    private static final int BASE_SIZE = 13;
+    private static final int SMALL_SIZE = 11;
+    private static final int LARGE_SIZE = 15;
     private static final float NESTED_INDENT = 12f;
     private static final float BULLET_HANG = 10f;
 
@@ -83,11 +82,7 @@ public final class StepRenderer
         pane.setBackground(ColorScheme.DARKER_GRAY_COLOR);
         // JTextPane has a default ~3px margin on every side; reclaim it for prose width.
         pane.setMargin(new java.awt.Insets(0, 0, 0, 0));
-        Font base = FontManager.getRunescapeFont();
-        if (base != null)
-        {
-            pane.setFont(base);
-        }
+        pane.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, BASE_SIZE));
 
         StyledDocument doc = pane.getStyledDocument();
         BulletCounter counter = new BulletCounter();

@@ -31,7 +31,6 @@ public class BruhsailorPanel extends PluginPanel
     private final EventBus bus;
     private final StepMappings stepMappings;
     private final QuestRegistry questRegistry;
-    private final QuestHelperBridge questBridge;
 
     private final JLabel chapterLabel = new JLabel();
     private final JLabel sectionLabel = new JLabel();
@@ -46,8 +45,7 @@ public class BruhsailorPanel extends PluginPanel
     private JScrollPane stepScroll;
 
     public BruhsailorPanel(GuideRepository repo, GuideStateService state, EventBus bus,
-                           StepMappings stepMappings, QuestRegistry questRegistry,
-                           QuestHelperBridge questBridge)
+                           StepMappings stepMappings, QuestRegistry questRegistry)
     {
         super(false);
         this.repo = repo;
@@ -55,7 +53,6 @@ public class BruhsailorPanel extends PluginPanel
         this.bus = bus;
         this.stepMappings = stepMappings;
         this.questRegistry = questRegistry;
-        this.questBridge = questBridge;
 
         setLayout(new BorderLayout());
         setBackground(ColorScheme.DARK_GRAY_COLOR);
@@ -305,8 +302,7 @@ public class BruhsailorPanel extends PluginPanel
     /**
      * Find quest / NPC / location mentions inside the given pane's text, style
      * them as blue underlined "links", and install click + hover handlers.
-     * Quest links open the Quest Helper plugin; NPC and location links open the
-     * OSRS wiki page in the user's browser.
+     * Quest, NPC, and location links all open the OSRS wiki page in the user's browser.
      */
     private void annotateInlineLinks(javax.swing.JTextPane pane, StepId id)
     {
@@ -337,7 +333,7 @@ public class BruhsailorPanel extends PluginPanel
             for (InlineMatcher.Match<QuestEntry> m : InlineMatcher.findFirstPerQuest(text, resolved))
             {
                 final QuestEntry q = m.entry;
-                links.add(new InlineLink(m.start, m.end, QUEST_LINK_BLUE, () -> questBridge.open(q)));
+                links.add(new InlineLink(m.start, m.end, QUEST_LINK_BLUE, () -> WikiLink.open(q.displayName())));
             }
         }
 
