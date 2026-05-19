@@ -11,6 +11,9 @@ A RuneLite side panel for the [BRUHsailer ironman guide](https://bruhsailer.com/
   - **NPC names** (amber) and **locations** (green) open the OSRS wiki page in your browser.
 - **Sentence bullets** — long step paragraphs are split into per-sentence checkbox bullets so it's easier to keep your place.
 
+<img width="244" height="1376" alt="image" src="https://github.com/user-attachments/assets/63f1b897-1658-43c5-8947-d783e1421dfe" />
+
+
 ## Sources
 
 - Step text: [BRUHsailer guide](https://bruhsailer.com/) (a public Google Doc maintained by the BRUHsailer team, fetched and bundled as JSON).
