@@ -1,6 +1,6 @@
 # BRUHsailer Guide
 
-A RuneLite side panel for the [BRUHsailer ironman guide]([https://bruhsailer.com/](https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE)) — keeps the guide alongside the game with click-to-track progress and inline links into Quest Helper / the OSRS wiki.
+A RuneLite side panel for the [BRUHsailer ironman guide](https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE) — keeps the guide alongside the game with click-to-track progress and inline links into Quest Helper / the OSRS wiki.
 
 ## Features
 
