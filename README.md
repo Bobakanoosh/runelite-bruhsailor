@@ -1,3 +1,7 @@
+## Outdated
+
+Beware this plugin is outdated, check the up-to-date guide [here](https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE/edit?tab=t.0#heading=h.jeorbgdacn98)
+
 # BRUHsailer Guide
 
 A RuneLite side panel for the [BRUHsailer ironman guide](https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE) — keeps the guide alongside the game with click-to-track progress and inline links into Quest Helper / the OSRS wiki.
