@@ -1,15 +1,20 @@
+## Beware this plugin is outdated, check the up-to-date guide [here](https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE/edit?tab=t.0#heading=h.jeorbgdacn98)
+
 # BRUHsailer Guide
 
-A RuneLite side panel for the [BRUHsailer ironman guide](https://bruhsailer.com/) — keeps the guide alongside the game with click-to-track progress and inline links into Quest Helper / the OSRS wiki.
+A RuneLite side panel for the [BRUHsailer ironman guide](https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE) — keeps the guide alongside the game with click-to-track progress and inline links into Quest Helper / the OSRS wiki.
 
 ## Features
 
 - **Side panel guide** — chapter / section / step navigation, with a list view for jumping around and `◀` / `▶` arrows for sequential reading.
 - **Per-step tracking** — mark whole steps complete with the `Done` toggle; mark individual sentences complete with checkbox bullets that strike through when checked.
 - **Inline link-outs**
-  - **Quest names** (blue) open the matching quest in [Quest Helper](https://github.com/Zoinkwiz/quest-helper) when it's installed.
+  - **Quest names** (blue) open the matching quest in the Wiki
   - **NPC names** (amber) and **locations** (green) open the OSRS wiki page in your browser.
 - **Sentence bullets** — long step paragraphs are split into per-sentence checkbox bullets so it's easier to keep your place.
+
+<img width="244" height="1376" alt="image" src="https://github.com/user-attachments/assets/63f1b897-1658-43c5-8947-d783e1421dfe" />
+
 
 ## Sources
 
@@ -23,7 +28,3 @@ A RuneLite side panel for the [BRUHsailer ironman guide](https://bruhsailer.com/
 ./gradlew runClient   # launches RuneLite with the plugin loaded
 ./gradlew jar         # produces a thin jar (Plugin Hub builds the shaded jar itself)
 ```
-
-## Soft dependency
-
-The plugin links to Quest Helper through reflection — if Quest Helper isn't installed, quest links fall back to the wiki link behavior. No hard dependency.
