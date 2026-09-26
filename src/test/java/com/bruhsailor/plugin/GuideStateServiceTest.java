@@ -196,8 +196,9 @@ public class GuideStateServiceTest
         assertEquals("2.2.9,2.2.10,2.2.36,2.3.14", store.get(COMPLETED_KEY));
         assertTrue(svc.isComplete(StepId.parse("2.2.10")));
         assertFalse(svc.isComplete(StepId.parse("2.3.10")));
-        assertEquals("1.1.1#0,2.2.34#2", store.get(BULLETS_KEY));
-        assertTrue(svc.isBulletComplete(StepId.parse("2.2.34"), 2));
+        // Old 2.2.36 (chins) is now 2.2.34 and gained a sentence before bullet 2.
+        assertEquals("1.1.1#0,2.2.34#3", store.get(BULLETS_KEY));
+        assertTrue(svc.isBulletComplete(StepId.parse("2.2.34"), 3));
         assertEquals("2026-08-30", store.get(VERSION_KEY));
     }
 
@@ -240,5 +241,61 @@ public class GuideStateServiceTest
         assertEquals("2026-08-30", store.get(VERSION_KEY));
         assertNull(store.get(CURRENT_KEY));
         assertNull(store.get(COMPLETED_KEY));
+    }
+
+    @Test
+    public void currentIsPulledBackToStepsMovedAheadOfIt()
+    {
+        Map<String, String> initial = new HashMap<>();
+        // Old 2.2.35 (sloop) came before chins; chins now precede it at 2.2.34.
+        initial.put(CURRENT_KEY, "2.2.35");
+        backConfigWith(initial);
+        assertEquals(StepId.parse("2.2.34"), new GuideStateService(repo, config, bus).getCurrent());
+
+        initial.put(CURRENT_KEY, "2.2.38");
+        backConfigWith(initial);
+        // New 2.2.35 (smelting + sepulchre prep) was split out of old 2.2.38.
+        assertEquals(StepId.parse("2.2.35"), new GuideStateService(repo, config, bus).getCurrent());
+    }
+
+    @Test
+    public void bulletsFollowTheirSentence()
+    {
+        Map<String, String> initial = new HashMap<>();
+        // 2.2.5 gained a new first sentence; 1.1.11 lost its sentence 1.
+        initial.put(BULLETS_KEY, "2.2.5#0,1.1.11#1,1.1.11#2");
+        Map<String, String> store = backConfigWith(initial);
+
+        new GuideStateService(repo, config, bus);
+
+        assertEquals("1.1.11#1,2.2.5#1", store.get(BULLETS_KEY));
+    }
+
+    @Test
+    public void rewrittenStepsAreNoLongerComplete()
+    {
+        Map<String, String> initial = new HashMap<>();
+        // 3.1.12 now includes starting The Red Reef.
+        initial.put(COMPLETED_KEY, "3.1.11,3.1.12");
+        Map<String, String> store = backConfigWith(initial);
+
+        GuideStateService svc = new GuideStateService(repo, config, bus);
+
+        assertEquals("3.1.11", store.get(COMPLETED_KEY));
+        assertFalse(svc.isComplete(StepId.parse("3.1.12")));
+    }
+
+    @Test
+    public void unknownVersionIsNotStampedOver()
+    {
+        Map<String, String> initial = new HashMap<>();
+        initial.put(VERSION_KEY, "2020-01-01");
+        initial.put(COMPLETED_KEY, "2.2.20");
+        Map<String, String> store = backConfigWith(initial);
+
+        new GuideStateService(repo, config, bus);
+
+        assertEquals("2020-01-01", store.get(VERSION_KEY));
+        assertEquals("2.2.20", store.get(COMPLETED_KEY));
     }
 }

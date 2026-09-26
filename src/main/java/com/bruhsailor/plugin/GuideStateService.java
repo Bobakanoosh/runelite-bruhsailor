@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Optional;
+import java.util.OptionalInt;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
@@ -76,18 +77,20 @@ public class GuideStateService
             version = migration.to;
         }
 
-        if (!version.equals(target))
+        if (!version.equals(stored))
         {
-            log.warn("No step ID migration path from guide {} to {}; unknown steps will be dropped", stored, target);
-        }
-        else if (!version.equals(stored))
-        {
-            log.info("Migrated saved progress from guide {} to {}", stored, target);
+            log.info("Migrated saved progress from guide {} to {}", stored, version);
             if (rawCurrent != null) config.setConfiguration(GROUP, CURRENT_KEY, rawCurrent);
             if (rawCompleted != null) config.setConfiguration(GROUP, COMPLETED_KEY, rawCompleted);
             if (rawBullets != null) config.setConfiguration(GROUP, COMPLETED_BULLETS_KEY, rawBullets);
+            config.setConfiguration(GROUP, GUIDE_VERSION_KEY, version);
         }
-        config.setConfiguration(GROUP, GUIDE_VERSION_KEY, target);
+        if (!version.equals(target))
+        {
+            // Leave the stamp at the last version we could reach so a later release that adds the
+            // missing migration still runs. Until then some saved IDs may point at the wrong steps.
+            log.warn("No step ID migration path from guide {} to {}; saved progress may be misaligned", version, target);
+        }
     }
 
     private static String migrateCurrent(String raw, StepIdMigrations.Migration m)
@@ -113,7 +116,7 @@ public class GuideStateService
             if (t.isEmpty()) continue;
             try
             {
-                m.remap(StepId.parse(t)).ifPresent(out::add);
+                m.remapCompleted(StepId.parse(t)).ifPresent(out::add);
             }
             catch (IllegalArgumentException e)
             {
@@ -134,8 +137,14 @@ public class GuideStateService
             if (hash < 0) continue;
             try
             {
-                String idx = t.substring(hash);
-                m.remap(StepId.parse(t.substring(0, hash))).ifPresent(id -> out.add(id + idx));
+                StepId oldId = StepId.parse(t.substring(0, hash));
+                int oldIdx = Integer.parseInt(t.substring(hash + 1));
+                Optional<StepId> newId = m.remapStep(oldId);
+                OptionalInt newIdx = m.remapBullet(oldId, oldIdx);
+                if (newId.isPresent() && newIdx.isPresent())
+                {
+                    out.add(bulletKey(newId.get(), newIdx.getAsInt()));
+                }
             }
             catch (IllegalArgumentException e)
             {
