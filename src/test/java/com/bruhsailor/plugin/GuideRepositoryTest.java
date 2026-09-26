@@ -22,7 +22,7 @@ public class GuideRepositoryTest
     @Test
     public void loadsExpectedStepCount()
     {
-        assertEquals(227, repo.steps().size());
+        assertEquals(226, repo.steps().size());
     }
 
     @Test

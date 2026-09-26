@@ -10,12 +10,12 @@ import static org.junit.Assert.*;
 public class StepMappingsTest
 {
     @Test
-    public void loadsAll227StepIds()
+    public void loadsAll226StepIds()
     {
         StepMappings mappings = StepMappings.loadBundled(new com.google.gson.Gson());
         // Sanity check: every step id from the guide should have a mapping.
-        // Guide is 227 entries; mappings.size() == 227 unless the JSON drifted.
-        assertEquals(227, mappings.size());
+        // Guide is 226 entries; mappings.size() == 226 unless the JSON drifted.
+        assertEquals(226, mappings.size());
     }
 
     @Test

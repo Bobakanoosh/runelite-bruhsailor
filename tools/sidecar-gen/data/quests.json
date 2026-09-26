@@ -1,5 +1,5 @@
 {
-  "fetchedOn": "2026-05-02T21:47:37.313Z",
+  "fetchedOn": "2026-09-26T16:56:33.092Z",
   "quests": [
     {
       "enumName": "BELOW_ICE_MOUNTAIN",
@@ -1572,6 +1572,30 @@
       "displayName": "Troubled Tortugans",
       "aliases": [
         "Troubled Tortugans"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_RED_REEF",
+      "displayName": "The Red Reef",
+      "aliases": [
+        "The Red Reef"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "THE_BLOOD_MOON_RISES",
+      "displayName": "The Blood Moon Rises",
+      "aliases": [
+        "The Blood Moon Rises"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "FALLEN_FROM_GRACE",
+      "displayName": "Fallen From Grace",
+      "aliases": [
+        "Fallen From Grace"
       ],
       "shortAliases": []
     },

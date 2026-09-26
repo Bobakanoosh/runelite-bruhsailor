@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.Optional;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
@@ -19,6 +20,7 @@ public class GuideStateService
     static final String CURRENT_KEY = "currentStepId";
     static final String COMPLETED_KEY = "completedStepIds";
     static final String COMPLETED_BULLETS_KEY = "completedBullets";
+    static final String GUIDE_VERSION_KEY = "guideVersion";
 
     private final GuideRepository repo;
     private final ConfigManager config;
@@ -37,8 +39,121 @@ public class GuideStateService
         loadFromConfig();
     }
 
+    /**
+     * Step IDs are positional, so a guide update that inserts/removes steps shifts them.
+     * Rewrites persisted IDs from the guide version they were saved against to the bundled one.
+     */
+    private void migrateStoredProgress()
+    {
+        String target = repo.updatedOn();
+        String stored = config.getConfiguration(GROUP, GUIDE_VERSION_KEY);
+        if (target == null || target.equals(stored)) return;
+
+        String rawCurrent = config.getConfiguration(GROUP, CURRENT_KEY);
+        String rawCompleted = config.getConfiguration(GROUP, COMPLETED_KEY);
+        String rawBullets = config.getConfiguration(GROUP, COMPLETED_BULLETS_KEY);
+
+        if (stored == null)
+        {
+            boolean hasProgress = !isNullOrEmpty(rawCurrent) || !isNullOrEmpty(rawCompleted) || !isNullOrEmpty(rawBullets);
+            if (!hasProgress)
+            {
+                config.setConfiguration(GROUP, GUIDE_VERSION_KEY, target);
+                return;
+            }
+            stored = StepIdMigrations.LEGACY_GUIDE_VERSION;
+        }
+
+        String version = stored;
+        while (!version.equals(target))
+        {
+            Optional<StepIdMigrations.Migration> m = StepIdMigrations.from(version);
+            if (!m.isPresent()) break;
+            StepIdMigrations.Migration migration = m.get();
+            rawCurrent = migrateCurrent(rawCurrent, migration);
+            rawCompleted = migrateCompleted(rawCompleted, migration);
+            rawBullets = migrateBullets(rawBullets, migration);
+            version = migration.to;
+        }
+
+        if (!version.equals(target))
+        {
+            log.warn("No step ID migration path from guide {} to {}; unknown steps will be dropped", stored, target);
+        }
+        else if (!version.equals(stored))
+        {
+            log.info("Migrated saved progress from guide {} to {}", stored, target);
+            if (rawCurrent != null) config.setConfiguration(GROUP, CURRENT_KEY, rawCurrent);
+            if (rawCompleted != null) config.setConfiguration(GROUP, COMPLETED_KEY, rawCompleted);
+            if (rawBullets != null) config.setConfiguration(GROUP, COMPLETED_BULLETS_KEY, rawBullets);
+        }
+        config.setConfiguration(GROUP, GUIDE_VERSION_KEY, target);
+    }
+
+    private static String migrateCurrent(String raw, StepIdMigrations.Migration m)
+    {
+        if (isNullOrEmpty(raw)) return raw;
+        try
+        {
+            return m.remapCurrent(StepId.parse(raw.trim())).toString();
+        }
+        catch (IllegalArgumentException e)
+        {
+            return raw;
+        }
+    }
+
+    private static String migrateCompleted(String raw, StepIdMigrations.Migration m)
+    {
+        if (isNullOrEmpty(raw)) return raw;
+        Set<StepId> out = new TreeSet<>();
+        for (String token : raw.split(","))
+        {
+            String t = token.trim();
+            if (t.isEmpty()) continue;
+            try
+            {
+                m.remap(StepId.parse(t)).ifPresent(out::add);
+            }
+            catch (IllegalArgumentException e)
+            {
+                // Malformed: drop now rather than carry it forward.
+            }
+        }
+        return out.stream().map(StepId::toString).collect(Collectors.joining(","));
+    }
+
+    private static String migrateBullets(String raw, StepIdMigrations.Migration m)
+    {
+        if (isNullOrEmpty(raw)) return raw;
+        Set<String> out = new TreeSet<>();
+        for (String token : raw.split(","))
+        {
+            String t = token.trim();
+            int hash = t.indexOf('#');
+            if (hash < 0) continue;
+            try
+            {
+                String idx = t.substring(hash);
+                m.remap(StepId.parse(t.substring(0, hash))).ifPresent(id -> out.add(id + idx));
+            }
+            catch (IllegalArgumentException e)
+            {
+                // Malformed: drop.
+            }
+        }
+        return String.join(",", out);
+    }
+
+    private static boolean isNullOrEmpty(String s)
+    {
+        return s == null || s.isEmpty();
+    }
+
     private void loadFromConfig()
     {
+        migrateStoredProgress();
+
         String rawCurrent = config.getConfiguration(GROUP, CURRENT_KEY);
         StepId resolved = null;
         if (rawCurrent != null && !rawCurrent.isEmpty())

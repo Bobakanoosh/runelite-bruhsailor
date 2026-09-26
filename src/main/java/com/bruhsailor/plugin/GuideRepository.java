@@ -18,6 +18,7 @@ public final class GuideRepository
 {
     private static final String RESOURCE = "/guide_data.json";
 
+    private final String updatedOn;
     private final List<Step> steps;
     private final Map<StepId, Step> byId;
     private final Map<StepId, Integer> indexById;
@@ -25,12 +26,14 @@ public final class GuideRepository
     private final Map<StepId, String> sectionTitleByStep;
 
     private GuideRepository(
+        String updatedOn,
         List<Step> steps,
         Map<StepId, Step> byId,
         Map<StepId, Integer> indexById,
         Map<StepId, String> chapterTitleByStep,
         Map<StepId, String> sectionTitleByStep)
     {
+        this.updatedOn = updatedOn;
         this.steps = Collections.unmodifiableList(steps);
         this.byId = byId;
         this.indexById = indexById;
@@ -85,7 +88,13 @@ public final class GuideRepository
             }
         }
 
-        return new GuideRepository(flat, byId, indexById, chapterTitle, sectionTitle);
+        return new GuideRepository(data.updatedOn, flat, byId, indexById, chapterTitle, sectionTitle);
+    }
+
+    /** Guide version date (e.g. "2026-08-30"); keys persisted progress for {@link StepIdMigrations}. */
+    public String updatedOn()
+    {
+        return updatedOn;
     }
 
     public List<Step> steps()
