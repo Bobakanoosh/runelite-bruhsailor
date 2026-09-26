@@ -1,4 +1,4 @@
-## Beware this plugin is outdated, check the up-to-date guide [here](https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE/edit?tab=t.0#heading=h.jeorbgdacn98)
+## May be outdated, last updated on 9/26/2026 — check the up-to-date guide [here](https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE/edit?tab=t.0#heading=h.jeorbgdacn98)
 
 # BRUHsailer Guide
 
