@@ -5,7 +5,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { mkdir } from "node:fs/promises";
 import { dirname } from "node:path";
 import type { QuestTable, ResolvedStep, Sidecar, SidecarStep } from "./types.ts";
-import { QUEST_TABLE_PATH, RESOLVED_PATH, SHIPPED_SIDECAR } from "./paths.ts";
+import { GUIDE_RAW_PATH, QUEST_TABLE_PATH, RESOLVED_PATH, SHIPPED_SIDECAR } from "./paths.ts";
 import { generateOne } from "./generate.ts";
 
 const CONCURRENCY = 4;
@@ -94,9 +94,7 @@ export async function generateAll(opts: { force?: boolean } = {}) {
   // Final flush + summary
   // Pull guideUpdatedOn from the source guide if we can.
   try {
-    const guideRaw = (await Bun.file(
-      "C:/Users/Jack/Documents/Programming/oss/osrs/runelite-bruhsailor/tools/sidecar-gen/data/guide_data.raw.json",
-    ).json()) as { updatedOn?: string };
+    const guideRaw = (await Bun.file(GUIDE_RAW_PATH).json()) as { updatedOn?: string };
     if (guideRaw.updatedOn) sidecar.guideUpdatedOn = guideRaw.updatedOn;
   } catch {}
   await flush(sidecar);
