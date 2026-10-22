@@ -35,6 +35,7 @@ public class BruhsailorPanel extends PluginPanel
     private final JLabel chapterLabel = new JLabel();
     private final JLabel sectionLabel = new JLabel();
     private final JPanel currentStepHolder = new JPanel();
+    private final JLabel itemsLabel = new JLabel();
     private final JLabel metadataLabel = new JLabel();
     private final JButton prevButton = new JButton("◀");
     private final JButton nextButton = new JButton("▶");
@@ -83,6 +84,11 @@ public class BruhsailorPanel extends PluginPanel
         stepScroll.getVerticalScrollBar().setUnitIncrement(16);
         // The step block expands to fill the top half of the split (sized below).
         stepScroll.setMinimumSize(new Dimension(0, 80));
+
+        itemsLabel.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 12));
+        itemsLabel.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
+        itemsLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
+        itemsLabel.setBorder(BorderFactory.createEmptyBorder(0, 0, 6, 0));
 
         metadataLabel.setFont(FontManager.getRunescapeFont());
         metadataLabel.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
@@ -206,6 +212,12 @@ public class BruhsailorPanel extends PluginPanel
         rendered.setMaximumSize(new Dimension(Integer.MAX_VALUE, pref.height));
         rendered.setAlignmentX(Component.LEFT_ALIGNMENT);
 
+        String items = formatItemsNeeded(step, contentWidth);
+        if (!items.isEmpty())
+        {
+            itemsLabel.setText(items);
+            currentStepHolder.add(itemsLabel);
+        }
         currentStepHolder.add(rendered);
 
         currentStepHolder.revalidate();
@@ -420,6 +432,33 @@ public class BruhsailorPanel extends PluginPanel
         appendMeta(sb, "skills", step.metadata.skills_quests_met);
         sb.append("</html>");
         return sb.toString();
+    }
+
+    private static final String ITEMS_HEADER_HEX =
+        String.format("#%06x", ColorScheme.BRAND_ORANGE.getRGB() & 0xFFFFFF);
+
+    /** "Items needed" block shown above the step text; empty when the guide lists nothing. */
+    private static String formatItemsNeeded(Step step, int widthPx)
+    {
+        if (step.metadata == null || step.metadata.items_needed == null) return "";
+        String raw = step.metadata.items_needed.trim();
+        if (raw.isEmpty()) return "";
+        String body;
+        if (raw.equalsIgnoreCase("tbd"))
+        {
+            body = "<i>Not listed in the guide yet</i>";
+        }
+        else if (raw.equalsIgnoreCase("none"))
+        {
+            body = "None";
+        }
+        else
+        {
+            body = raw.replace("&", "&amp;").replace("<", "&lt;");
+        }
+        return "<html><div style='width:" + widthPx + "px'>"
+            + "<b><font color='" + ITEMS_HEADER_HEX + "'>Items needed:</font></b> " + body
+            + "</div></html>";
     }
 
     private static void appendMeta(StringBuilder sb, String label, String value)

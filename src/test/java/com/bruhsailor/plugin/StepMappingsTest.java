@@ -48,6 +48,21 @@ public class StepMappingsTest
     }
 
     @Test
+    public void everyQuestIdResolvesInQuestRegistry()
+    {
+        com.google.gson.Gson gson = new com.google.gson.Gson();
+        StepMappings mappings = StepMappings.loadBundled(gson);
+        QuestRegistry registry = QuestRegistry.create(gson);
+        mappings.allIds().forEach(id -> {
+            StepMapping m = mappings.findById(id).orElseThrow(AssertionError::new);
+            for (String questId : m.questIds)
+            {
+                assertTrue("unknown quest " + questId + " in " + id, registry.resolve(questId).isPresent());
+            }
+        });
+    }
+
+    @Test
     public void emptyInstanceReturnsEmptyForAnyId()
     {
         StepMappings empty = StepMappings.empty();

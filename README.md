@@ -1,4 +1,4 @@
-## May be outdated, last updated on 9/26/2026 — check the up-to-date guide [here](https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE/edit?tab=t.0#heading=h.jeorbgdacn98)
+## May be outdated, last updated on 10/21/2026 — check the up-to-date guide [here](https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE/edit?tab=t.0#heading=h.jeorbgdacn98)
 
 # BRUHsailer Guide
 
@@ -7,6 +7,7 @@ A RuneLite side panel for the [BRUHsailer ironman guide](https://docs.google.com
 ## Features
 
 - **Side panel guide** — chapter / section / step navigation, with a list view for jumping around and `◀` / `▶` arrows for sequential reading.
+- **Items needed** — each step lists the items to grab from the bank before starting it.
 - **Per-step tracking** — mark whole steps complete with the `Done` toggle; mark individual sentences complete with checkbox bullets that strike through when checked.
 - **Inline link-outs**
   - **Quest names** (blue) open the matching quest in the Wiki
