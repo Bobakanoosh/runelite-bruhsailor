@@ -177,7 +177,7 @@ public class GuideStateServiceTest
     @Test
     public void bundledGuideIsTheMigrationTarget()
     {
-        assertEquals("2026-08-30", repo.updatedOn());
+        assertEquals("2026-10-19", repo.updatedOn());
     }
 
     @Test
@@ -199,7 +199,7 @@ public class GuideStateServiceTest
         // Old 2.2.36 (chins) is now 2.2.34 and gained a sentence before bullet 2.
         assertEquals("1.1.1#0,2.2.34#3", store.get(BULLETS_KEY));
         assertTrue(svc.isBulletComplete(StepId.parse("2.2.34"), 3));
-        assertEquals("2026-08-30", store.get(VERSION_KEY));
+        assertEquals("2026-10-19", store.get(VERSION_KEY));
     }
 
     @Test
@@ -219,7 +219,7 @@ public class GuideStateServiceTest
     public void currentVersionProgressIsNotRemapped()
     {
         Map<String, String> initial = new HashMap<>();
-        initial.put(VERSION_KEY, "2026-08-30");
+        initial.put(VERSION_KEY, "2026-10-19");
         initial.put(CURRENT_KEY, "2.2.20");
         initial.put(COMPLETED_KEY, "2.3.10");
         backConfigWith(initial);
@@ -238,7 +238,7 @@ public class GuideStateServiceTest
 
         new GuideStateService(repo, config, bus);
 
-        assertEquals("2026-08-30", store.get(VERSION_KEY));
+        assertEquals("2026-10-19", store.get(VERSION_KEY));
         assertNull(store.get(CURRENT_KEY));
         assertNull(store.get(COMPLETED_KEY));
     }
@@ -283,6 +283,28 @@ public class GuideStateServiceTest
 
         assertEquals("3.1.11", store.get(COMPLETED_KEY));
         assertFalse(svc.isComplete(StepId.parse("3.1.12")));
+    }
+
+    @Test
+    public void varlamoreTripReshuffleFollowsItsSteps()
+    {
+        Map<String, String> initial = new HashMap<>();
+        initial.put(VERSION_KEY, "2026-08-30");
+        // Old 1.1.14 (Gertrude's Cat) done, on old 1.1.15 (construction); old 1.1.16 was teak firemaking.
+        initial.put(CURRENT_KEY, "1.1.15");
+        initial.put(COMPLETED_KEY, "1.1.13,1.1.14");
+        initial.put(BULLETS_KEY, "1.1.14#0,1.1.14#4,1.1.15#1,1.3.1#1");
+        Map<String, String> store = backConfigWith(initial);
+
+        GuideStateService svc = new GuideStateService(repo, config, bus);
+
+        // Teak firemaking now comes first, at 1.1.14.
+        assertEquals(StepId.parse("1.1.14"), svc.getCurrent());
+        assertEquals("1.1.13,1.1.15", store.get(COMPLETED_KEY));
+        // Old 1.1.14's opening sentences moved to the new 1.1.14 and are dropped; the rest follow to
+        // 1.1.15. Construction moved verbatim to 1.1.16. 1.3.1 gained a sentence before bullet 1.
+        assertEquals("1.1.15#3,1.1.16#1,1.3.1#2", store.get(BULLETS_KEY));
+        assertEquals("2026-10-19", store.get(VERSION_KEY));
     }
 
     @Test

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "guideUpdatedOn": "2026-08-30",
+  "guideUpdatedOn": "2026-10-19",
   "steps": {
     "1.1.1": {
       "contentHash": "a6c548211f69149b04bcabb4bae7db90ea9fde78",
@@ -84,7 +84,7 @@
       "title": "1.1: Tutorial island up to and including Wintertodt",
       "questIds": [
         "X_MARKS_THE_SPOT",
-        "RESTLESS_GHOST"
+        "THE_RESTLESS_GHOST"
       ],
       "items": [
         {
@@ -368,9 +368,18 @@
       ]
     },
     "1.1.7": {
-      "contentHash": "f9335b4cddf89630c6eeac444119b200119b959e",
+      "contentHash": "201b8baa142ceaeb7b8fe254998e5621c21fa7cc",
       "title": "1.1: Tutorial island up to and including Wintertodt",
       "questIds": [],
+      "npcs": [
+        "Aemad",
+        "Probita",
+        "Silver Merchant"
+      ],
+      "locations": [
+        "Ardougne",
+        "East Ardougne church"
+      ],
       "items": [
         {
           "id": 954,
@@ -397,9 +406,9 @@
           "source": "content"
         },
         {
-          "id": 1891,
-          "name": "Cake",
-          "qty": 98,
+          "id": 2355,
+          "name": "Silver bar",
+          "qty": 2,
           "source": "content"
         },
         {
@@ -409,21 +418,21 @@
           "source": "content"
         },
         {
-          "id": 950,
-          "name": "Silk",
-          "qty": 84,
+          "id": 1891,
+          "name": "Cake",
+          "qty": null,
           "source": "content"
         },
         {
-          "id": 2355,
-          "name": "Silver bar",
-          "qty": 2,
+          "id": 950,
+          "name": "Silk",
+          "qty": 84,
           "source": "content"
         }
       ],
       "abstractItems": [
         {
-          "label": "gp",
+          "label": "cash",
           "rawToken": "781 gp"
         }
       ],
@@ -436,20 +445,10 @@
       "verified": false,
       "verifierConfidence": 0.72,
       "verifierFlags": [
-        "item-mismatch",
-        "qty-suspicious",
-        "missing-item"
+        "missing-item",
+        "qty-suspicious"
       ],
-      "verifierNotes": "Three issues: (1) The step says \"1 water-filled vial pack\" — this is a pack item (likely item ID 227 is a single vial of water, but the pack would yield multiple; qty x1 for a single vial of water looks wrong vs. buying a whole pack). (2) The \"gp_stack\" is listed as 1719 gp but items_needed says 781 gp — the abstractItem captures 781 gp, which may undercount total GP needed including the silver bars and other purchases; worth flagging as qty-suspicious on the GP abstraction. (3) Two silver bars (item 2355) are correct per the step, but the Silver Merchant sells them for ~75 gp each, and the 781 gp figure in items_needed may already account for all purchases — the discrepancy between 781 gp (items_needed) and 1719 gp (gp_stack) is unexplained in the mapping and could indicate a missing-item or undercounted cost. The cake count of 98 and bread of 14 match the minimum thresholds stated in the step text exactly.",
-      "npcs": [
-        "Aemad",
-        "Probita",
-        "Silver Merchant"
-      ],
-      "locations": [
-        "Ardougne",
-        "East Ardougne church"
-      ]
+      "verifierNotes": "Two issues: (1) The step says \"1 water-filled vial pack\" — this is a pack/set item (item ID 10972, Vial of water pack, containing 30 vials), not a single Vial of water (227) x1. Mapping the pack as a single vial of water is an item-mismatch/missing quantity concern. (2) Cake (1891) has no quantity specified in items[]; the step says \"as many cakes as you get\" which is intentionally vague, but a minimum of 1 or a note quantity should be recorded — consider qty-suspicious. (3) The \"will need to bank while buying from Aemad and while stealing cakes/silk\" unresolved item is correctly left unresolved (it's a logistical note, not an item), so no flag there. The cash abstract item correctly captures the 781 gp raw token."
     },
     "1.1.8": {
       "contentHash": "6654e69ebd251e4e943ad72fb337edb092a7b727",
@@ -509,13 +508,98 @@
       ]
     },
     "1.1.14": {
-      "contentHash": "fab07b65fa2e610c3ebaea32ad72fb47531f618a",
+      "contentHash": "86093b83fbde42d5888406e34cde0d333cce8fe3",
+      "title": "1.1: Tutorial island up to and including Wintertodt",
+      "questIds": [
+        "THE_RIBBITING_TALE_OF_A_LILY_PAD_LABOUR_DISPUTE"
+      ],
+      "npcs": [
+        "Regulus Cento"
+      ],
+      "locations": [
+        "Varrock",
+        "Varlamore"
+      ],
+      "items": [
+        {
+          "id": 1353,
+          "name": "Steel axe",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 946,
+          "name": "Knife",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 1511,
+          "name": "Logs",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 590,
+          "name": "Tinderbox",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 28136,
+          "name": "Forestry kit",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 53,
+          "name": "Headless arrow",
+          "qty": 1500,
+          "source": "content"
+        },
+        {
+          "id": 6333,
+          "name": "Teak logs",
+          "qty": null,
+          "source": "content"
+        }
+      ],
+      "abstractItems": [
+        {
+          "label": "cash stack",
+          "rawToken": "3983 gp"
+        }
+      ],
+      "unresolvedItems": [],
+      "verified": false,
+      "verifierConfidence": 0.72,
+      "verifierFlags": [
+        "item-mismatch",
+        "missing-item"
+      ],
+      "verifierNotes": "The mapping includes Headless arrows (item 53) instead of Arrow shafts (item 9 or equivalent) — fletching logs into arrow shafts produces Arrow shafts, not Headless arrows (headless arrows require feathers). This is a clear item-mismatch. Additionally, the step explicitly mentions the player grabs arrow shafts fletched from the original 100 logs (~1500 shafts), so Arrow shafts should be present in items[] as a produced/carried item, not Headless arrows. Teak logs (6333) are reasonably included as content since they are chopped and burned this step. The quest THE_RIBBITING_TALE_OF_A_LILY_PAD_LABOUR_DISPUTE is correctly identified as started and completed this step."
+    },
+    "1.1.15": {
+      "contentHash": "79ee0554a784dd66479a30b78580d315ddcfef4d",
       "title": "1.1: Tutorial island up to and including Wintertodt",
       "questIds": [
         "RAG_AND_BONE_MAN_I",
         "GERTRUDES_CAT",
-        "ROMEO_AND_JULIET",
-        "DADDYS_HOME"
+        "DADDYS_HOME",
+        "ROMEO__JULIET"
+      ],
+      "npcs": [
+        "Gertrude",
+        "Juliet",
+        "Romeo",
+        "Old Man Yarlo",
+        "Marlo",
+        "Father Lawrence"
+      ],
+      "locations": [
+        "Varrock",
+        "Lumber Yard",
+        "East bank"
       ],
       "items": [
         {
@@ -549,21 +633,27 @@
           "source": "items_needed"
         },
         {
-          "id": 19669,
-          "name": "Redwood logs",
-          "qty": null,
-          "source": "items_needed"
-        },
-        {
-          "id": 946,
-          "name": "Knife",
+          "id": 24938,
+          "name": "Waxwood log",
           "qty": null,
           "source": "content"
         },
         {
-          "id": 24938,
-          "name": "Waxwood log",
-          "qty": 3,
+          "id": 5986,
+          "name": "Sweetcorn",
+          "qty": null,
+          "source": "content"
+        },
+        {
+          "id": 8790,
+          "name": "Bolt of cloth",
+          "qty": 5,
+          "source": "content"
+        },
+        {
+          "id": 1539,
+          "name": "Steel nails",
+          "qty": 100,
           "source": "content"
         },
         {
@@ -583,179 +673,33 @@
           "name": "Plank",
           "qty": 10,
           "source": "content"
-        },
-        {
-          "id": 8790,
-          "name": "Bolt of cloth",
-          "qty": 5,
-          "source": "content"
-        },
-        {
-          "id": 1539,
-          "name": "Steel nails",
-          "qty": 100,
-          "source": "content"
         }
       ],
       "abstractItems": [
         {
-          "label": "cash",
-          "rawToken": "3650 gp"
-        },
-        {
-          "label": "logs",
-          "rawToken": "all but 10 of your logs"
-        },
-        {
-          "label": "arrow shafts",
-          "rawToken": "1500 arrow shafts"
-        }
-      ],
-      "unresolvedItems": [
-        {
-          "rawToken": "Julia's letter",
-          "qty": null
-        }
-      ],
-      "verified": false,
-      "verifierConfidence": 0.6,
-      "verifierFlags": [
-        "item-mismatch",
-        "missing-item",
-        "qty-suspicious"
-      ],
-      "verifierNotes": "1) Item ID 19669 is Redwood logs, but the step calls for \"wax logs\" / waxwood logs — this is a clear item-mismatch; the waxwood log entry (24938) separately appears in items[] as a content item (x3), so the items_needed mapping should resolve \"wax logs\" to waxwood logs (24938), not redwood logs (19669). 2) The gp_stack shows only 333 gp but the step explicitly calls for 3650 gp from the bank, plus purchases of 5 bolts of cloth and 100 steel nails at the sawmill — the abstract cash token of \"3650 gp\" seems plausible for what's grabbed from the bank, but the gp_stack of 333 gp is suspiciously low for covering those purchases (bolts of cloth + 100 steel nails cost several thousand gp), suggesting the gp quantity/stack may be miscalculated. 3) \"Julia's letter\" is left as unresolved but it is a specific obtainable quest item (used in Romeo & Juliet) that should be resolvable to an item ID rather than left unresolved.",
-      "npcs": [
-        "Regulus Cento",
-        "Gertrude",
-        "Marlo",
-        "Juliet",
-        "Father Lawrence",
-        "Romeo",
-        "Old Man Yarlo"
-      ],
-      "locations": [
-        "Varrock East bank",
-        "Varlamore",
-        "Varrock",
-        "Lumber Yard"
-      ]
-    },
-    "1.1.15": {
-      "contentHash": "3d2d7b6d7cf86d9c05bb20fc9632ad6a4a856f23",
-      "title": "1.1: Tutorial island up to and including Wintertodt",
-      "questIds": [
-        "WITCHS_POTION"
-      ],
-      "items": [
-        {
-          "id": 8794,
-          "name": "Saw",
-          "qty": null,
-          "source": "items_needed"
-        },
-        {
-          "id": 2347,
-          "name": "Hammer",
-          "qty": null,
-          "source": "items_needed"
-        },
-        {
-          "id": 1539,
-          "name": "Steel nails",
-          "qty": 86,
-          "source": "items_needed"
-        },
-        {
-          "id": 8013,
-          "name": "Teleport to house",
-          "qty": null,
-          "source": "items_needed"
-        },
-        {
-          "id": 2146,
-          "name": "Burnt meat",
-          "qty": null,
-          "source": "items_needed"
-        },
-        {
-          "id": 221,
-          "name": "Eye of newt",
-          "qty": null,
-          "source": "items_needed"
-        },
-        {
-          "id": 1957,
-          "name": "Onion",
-          "qty": null,
-          "source": "items_needed"
-        },
-        {
-          "id": 8790,
-          "name": "Bolt of cloth",
-          "qty": 5,
-          "source": "items_needed"
-        },
-        {
-          "id": 960,
-          "name": "Plank",
-          "qty": 5,
-          "source": "items_needed"
-        },
-        {
-          "id": 8309,
-          "name": "Crude wooden chair",
-          "qty": 1,
-          "source": "content"
-        },
-        {
-          "id": 8316,
-          "name": "Brown rug",
-          "qty": 1,
-          "source": "content"
-        },
-        {
-          "id": 8322,
-          "name": "Torn curtains",
-          "qty": 1,
-          "source": "content"
-        },
-        {
-          "id": 8310,
-          "name": "Wooden chair",
-          "qty": 6,
-          "source": "content"
-        }
-      ],
-      "abstractItems": [
-        {
-          "rawToken": "100 air/mind runes",
-          "label": "rune type"
-        },
-        {
-          "rawToken": "50gp",
+          "rawToken": "3650 gp",
           "label": "gp"
         }
       ],
       "unresolvedItems": [
         {
-          "rawToken": "rat",
-          "qty": 1
+          "rawToken": "dying tree logs",
+          "qty": null
+        },
+        {
+          "rawToken": "julia's letter",
+          "qty": null
         }
       ],
       "verified": false,
-      "verifierConfidence": 0.72,
+      "verifierConfidence": 0.62,
       "verifierFlags": [
+        "item-mismatch",
         "missing-item",
-        "abstract-misuse",
-        "qty-suspicious"
+        "qty-suspicious",
+        "abstract-misuse"
       ],
-      "verifierNotes": "Three issues: (1) The 18 planks mentioned in the step text (and the 5 noted planks in items_needed) are ambiguous — item 960 (Plank) is mapped at x5 (the noted planks), but the step also references 18 planks total used for construction including 6 wooden chairs; the qty of x5 likely only reflects the noted planks to unnote at Phials and may be correct for items_needed, but the full plank count used (18) is never captured anywhere, making this qty-suspicious. (2) \"100 air/mind runes\" is listed as an abstract item with label \"rune type\", but air runes (556) and mind runes (558) are fully resolvable, specific, common items — they should be in items[] as a concrete entry (or two), not abstracted; this is an abstract-misuse. (3) The \"50gp\" abstract entry and the gp_stack of 333gp are both present but GP itself is missing from items[] entirely as a concrete item, which is a minor missing-item. The constructed furniture items (8309, 8316, 8322, 8310) are correctly tagged as [content]. WITCHS_POTION is correctly identified as the quest started and completed this step.",
-      "npcs": [
-        "Phials",
-        "Hetty"
-      ],
-      "locations": []
+      "verifierNotes": "Several issues: (1) **item-mismatch** – \"Waxwood log\" (24938) appears in items[] as [content] but the step text explicitly calls for waxwood logs to be turned into planks and the raw_items_needed lists \"wax logs\" — the waxwood *planks* produced and the 3 waxwood logs retrieved from the bank later are both referenced; the single entry with no quantity is ambiguous and likely undercounts. (2) **missing-item** – \"Julia's letter\" is listed in unresolvedItems but it is a concrete, specific in-game item (item ID 6401) and should be resolved into items[] rather than left unresolved; similarly \"dying tree logs\" (used to make a plank) could be resolved. (3) **abstract-misuse** – \"3650 gp\" is a specific quantity of a standard currency item and should not be in abstractItems given the gp_stack is only 333 gp; the large discrepancy (3650 gp needed vs 333 gp on hand) also suggests a **qty-suspicious** budget issue that may warrant a flag in the guide itself. (4) **missing-item** – The 10 planks retrieved from the bank (960 x10) are present, but the step also mentions making *one* log into a plank at the sawmill earlier, which is not captured separately. Minor: Sweetcorn (5986) and the saw/hammer/cloth/nails are reasonably captured."
     },
     "1.2.1": {
       "contentHash": "12df8c9e31c0c2129dc36f7d43785e2c3a9aa78a",
@@ -1696,10 +1640,16 @@
       ]
     },
     "1.3.1": {
-      "contentHash": "f46eb0a7f331ffc323398a3adf727142e0632c35",
+      "contentHash": "db07798eb42afd7b210737c500bf851503526205",
       "title": "1.3: Unlocking bird runs",
       "questIds": [
-        "THE_MAGE_ARENA"
+        "A_RUFF_SITUATION"
+      ],
+      "npcs": [],
+      "locations": [
+        "Edgeville",
+        "Dog Shelter",
+        "Mage Arena"
       ],
       "items": [
         {
@@ -1741,18 +1691,12 @@
       ],
       "unresolvedItems": [],
       "verified": false,
-      "verifierConfidence": 0.62,
+      "verifierConfidence": 0.72,
       "verifierFlags": [
-        "wrong-quest",
-        "item-mismatch",
-        "qty-suspicious"
+        "qty-suspicious",
+        "missing-item"
       ],
-      "verifierNotes": "THE_MAGE_ARENA is not a quest — it's a minigame/activity. No quest is started or progressed in this step; questIds should be empty. The Cosmic rune entry (item 564) is missing a quantity — the step gives a best-case estimate of ~20/world over 18 hops (~360 cosmics), which should at least have an approximate quantity noted rather than being left bare. Nature rune quantity (1250) maps correctly to \"100 nats x ~12.5 worlds\" and Law/Chaos quantities look consistent with the step text, so those are fine.",
-      "npcs": [],
-      "locations": [
-        "Edgeville",
-        "Mage Arena"
-      ]
+      "verifierNotes": "Cosmic rune quantity is missing — the step specifies \"all cosmics per world\" with a best-case of 20/world over ~18 hops, implying ~360 cosmics, so a quantity of 1 is clearly wrong (should be something like 360). The gp abstraction looks reasonable given the raw token matches items_needed closely. However, the gp stack (777349) differs notably from items_needed (784932), which may indicate the mapping is using a net cost rather than the upfront amount — worth flagging as qty-suspicious on gp, though gp is handled via abstractItems so the impact is limited. A_RUFF_SITUATION is correctly included as the quest is explicitly started this step."
     },
     "1.3.2": {
       "contentHash": "b06cd449bbe725779c61ff76eae1cbc8c78ec96f",
@@ -1952,7 +1896,7 @@
       "contentHash": "8533007315d2bef904f5d3e8ff2c6dc8a68c20f7",
       "title": "1.3: Unlocking bird runs",
       "questIds": [
-        "MERLIN_CRYSTAL",
+        "MERLINS_CRYSTAL",
         "FAMILY_CREST",
         "RECIPE_FOR_DISASTER_PIRATE_PETE"
       ],
@@ -2075,14 +2019,33 @@
       ]
     },
     "1.3.6": {
-      "contentHash": "5e3b275e26f437100a71d2d0511f89379e84ead9",
+      "contentHash": "d9d8f0bb62f5ab11f5f94f8549bb8949c146b37f",
       "title": "1.3: Unlocking bird runs",
       "questIds": [
         "BELOW_ICE_MOUNTAIN",
         "DRAGON_SLAYER_I",
+        "A_RUFF_SITUATION",
         "THE_GOLEM",
-        "THE_DIG_SITE",
-        "PRIESTS_IN_PERIL"
+        "PRIEST_IN_PERIL",
+        "THE_DIG_SITE"
+      ],
+      "npcs": [
+        "Scavvo",
+        "Valaine",
+        "Cook",
+        "Thessalia",
+        "Benny",
+        "Baraek",
+        "Horvik",
+        "Gertrude",
+        "King Roald",
+        "Curator Haig Halen"
+      ],
+      "locations": [
+        "Varrock",
+        "Champions' Guild",
+        "Blue Moon Inn",
+        "Varrock Rooftop Course"
       ],
       "items": [
         {
@@ -2152,12 +2115,6 @@
           "source": "items_needed"
         },
         {
-          "id": 1061,
-          "name": "Leather boots",
-          "qty": null,
-          "source": "content"
-        },
-        {
           "id": 1099,
           "name": "Green d'hide chaps",
           "qty": null,
@@ -2182,6 +2139,12 @@
           "source": "content"
         },
         {
+          "id": 25631,
+          "name": "Steak sandwich",
+          "qty": 1,
+          "source": "content"
+        },
+        {
           "id": 1757,
           "name": "Brown apron",
           "qty": null,
@@ -2200,6 +2163,12 @@
           "source": "content"
         },
         {
+          "id": 6814,
+          "name": "Fur",
+          "qty": null,
+          "source": "content"
+        },
+        {
           "id": 1125,
           "name": "Black platebody",
           "qty": null,
@@ -2212,26 +2181,28 @@
           "source": "content"
         },
         {
-          "id": 25631,
-          "name": "Steak sandwich",
+          "id": 29920,
+          "name": "Costume needle",
+          "qty": null,
+          "source": "content"
+        },
+        {
+          "id": 1061,
+          "name": "Leather boots",
           "qty": null,
           "source": "content"
         },
         {
           "id": 712,
           "name": "Cup of tea",
-          "qty": null,
+          "qty": 1,
           "source": "content"
         }
       ],
       "abstractItems": [
         {
-          "rawToken": "27313 gp",
-          "label": "cash for purchases"
-        },
-        {
-          "rawToken": "+ 7708 (Black Arm Gang) gp",
-          "label": "additional cash if Black Arm Gang"
+          "rawToken": "+ 7708 (black arm gang) gp",
+          "label": "black arm gang variant gp cost"
         },
         {
           "rawToken": "~10 food",
@@ -2252,31 +2223,10 @@
       "verifierConfidence": 0.72,
       "verifierFlags": [
         "missing-item",
-        "wrong-quest",
         "missing-quest",
-        "item-mismatch"
+        "wrong-quest"
       ],
-      "verifierNotes": "Several issues: (1) Priest gown top and bottom (item IDs 426 and 428) are in unresolvedItems but should be resolved into items[] — they are specific, purchasable items from Thessalia explicitly named in the step. (2) SHIELD_OF_ARRAV is not in questIds but the step references completing the Shield of Arrav condition (Black Arm Gang) — however this is a conditional branch, so this is minor. (3) BELOW_ICE_MOUNTAIN is listed in questIds, but the step only has the player visit the Blue Moon Inn for the barcrawl and make a steak sandwich — it does not explicitly say the quest is started or advanced to a tracked checkpoint this step, making its inclusion ambiguous; similarly Dragon Slayer I is only started conditionally (Black Arm Gang members only), so it should arguably be flagged as conditional. (4) The cup of tea (712) is mapped to [content] but is explicitly listed in items_needed — it should be tagged [items_needed] instead. (5) Leather boots are tagged [content] with a note \"from Step 1!\" matching the source, which is correct. Overall the unresolved priest gown items and the cup of tea source-tag mismatch are the clearest concrete errors.",
-      "npcs": [
-        "Scavvo",
-        "Valaine",
-        "Cook",
-        "Thessalia",
-        "Benny",
-        "Horvik",
-        "Temple Guardian",
-        "King Roald",
-        "Curator Haig Halen"
-      ],
-      "locations": [
-        "Varrock",
-        "Champions' Guild",
-        "Black Arm Gang",
-        "Blue Moon Inn",
-        "Below Ice Mountain",
-        "Varrock Rooftop Course",
-        "Temple"
-      ]
+      "verifierNotes": "Several issues: (1) BELOW_ICE_MOUNTAIN is listed in questIds but the step only has the player learn a recipe and make a steak sandwich — it does not appear to be started or completed this step in a quest-progression sense; verify whether this quest is actually advanced here. (2) The \"priest gown top\" and \"priest gown bottom\" are left as unresolvedItems but these are concrete, purchasable items (IDs 406/405) and should be in items[]. (3) Leather boots (item 1061) is present in items[] but is NOT listed in items_needed (the raw text says \"leather boots (from Step 1!)\" indicating it's already owned, not acquired here — its presence as a carried item rather than something to obtain is fine, but its classification as [content] is slightly misleading). (4) The rune sword is listed in items_needed but the step explicitly warns \"not a longsword!\" — ID 1289 is correct for rune sword, so no mismatch there. (5) The gp abstract for Black Arm Gang variant is reasonable. (6) The ~10 food abstract is reasonable. Overall solid mapping but unresolved priest gown items and potential quest classification issue with BELOW_ICE_MOUNTAIN are real gaps."
     },
     "1.3.7": {
       "contentHash": "b572cba43c4955a9777146b065f6f9c25ee4271e",
@@ -2382,7 +2332,7 @@
       "title": "1.3: Unlocking bird runs",
       "questIds": [
         "COOKS_ASSISTANT",
-        "RECIPE_FOR_DISASTER_COOK",
+        "RECIPE_FOR_DISASTER_START",
         "RECIPE_FOR_DISASTER_WARTFACE_AND_BENTNOZE",
         "RECIPE_FOR_DISASTER_DWARF",
         "RECIPE_FOR_DISASTER_PIRATE_PETE"
@@ -3991,11 +3941,11 @@
       "contentHash": "791a1b11d28a55005b0f453c83da5defaf256ea6",
       "title": "1.3: Unlocking bird runs",
       "questIds": [
-        "MERLIN_S_CRYSTAL",
+        "MERLINS_CRYSTAL",
         "HOLY_GRAIL",
         "ELEMENTAL_WORKSHOP_II",
-        "FREMMY_TRIALS",
-        "BARCRAWL"
+        "THE_FREMENNIK_TRIALS",
+        "ALFRED_GRIMHANDS_BARCRAWL"
       ],
       "items": [
         {
@@ -5227,7 +5177,7 @@
       "questIds": [
         "CREATURE_OF_FENKENSTRAIN",
         "SHADOW_OF_THE_STORM",
-        "FAIRYTALE_I_GRILL_THE_QUEST_GIVER",
+        "FAIRYTALE_I__GROWING_PAINS",
         "EADGARS_RUSE",
         "HOLY_GRAIL",
         "THE_LOST_TRIBE"
@@ -5349,7 +5299,7 @@
       "questIds": [
         "THE_LOST_TRIBE",
         "DEATH_TO_THE_DORGESHUUN",
-        "FAIRYTALE_I__A_FAIRYTALE_LOVE_STORY"
+        "FAIRYTALE_I__GROWING_PAINS"
       ],
       "items": [
         {
@@ -5425,8 +5375,7 @@
       "contentHash": "e057f31445c8652e155c6b03e3f86eabd6d144d8",
       "title": "1.4: 62 farming, Desert Treasure, earth battlestaves",
       "questIds": [
-        "FAIRYTALE_I_GROWING_PAINS",
-        "MELZARS_MAZE",
+        "FAIRYTALE_I__GROWING_PAINS",
         "DRAGON_SLAYER_I"
       ],
       "items": [
@@ -5983,7 +5932,7 @@
         "FORGETTABLE_TALE",
         "GARDEN_OF_TRANQUILLITY",
         "ENTER_THE_ABYSS",
-        "ROMEO_AND_JULIET"
+        "ROMEO__JULIET"
       ],
       "items": [
         {
@@ -7284,11 +7233,22 @@
       ]
     },
     "1.4.30": {
-      "contentHash": "d48a99b047933b56b2db52ce2f6c54eaf8353583",
+      "contentHash": "81074e02fa353b098bb2d36e94098770bdf5da43",
       "title": "1.4: 62 farming, Desert Treasure, earth battlestaves",
       "questIds": [
         "DRAGON_SLAYER_I",
         "VARROCK_MEDIUM"
+      ],
+      "npcs": [
+        "Klarense",
+        "Security Guard"
+      ],
+      "locations": [
+        "Port Sarim",
+        "Falador Farm",
+        "Entrana",
+        "Varrock",
+        "Castle Wars"
       ],
       "items": [
         {
@@ -7340,9 +7300,45 @@
           "source": "items_needed"
         },
         {
+          "id": 556,
+          "name": "Air rune",
+          "qty": null,
+          "source": "content"
+        },
+        {
+          "id": 8007,
+          "name": "Varrock teleport",
+          "qty": null,
+          "source": "content"
+        },
+        {
           "id": 1511,
           "name": "Logs",
           "qty": 2,
+          "source": "content"
+        },
+        {
+          "id": 5933,
+          "name": "Willow branch",
+          "qty": 6,
+          "source": "content"
+        },
+        {
+          "id": 9003,
+          "name": "Security book",
+          "qty": 1,
+          "source": "content"
+        },
+        {
+          "id": 5376,
+          "name": "Basket",
+          "qty": 1,
+          "source": "content"
+        },
+        {
+          "id": 225,
+          "name": "Limpwurt root",
+          "qty": null,
           "source": "content"
         }
       ],
@@ -7354,30 +7350,24 @@
       ],
       "unresolvedItems": [
         {
-          "rawToken": "willow branches",
-          "qty": 6
+          "rawToken": "telegrab",
+          "qty": null
+        },
+        {
+          "rawToken": "goblin map piece",
+          "qty": 1
         }
       ],
       "verified": false,
-      "verifierConfidence": 0.72,
+      "verifierConfidence": 0.62,
       "verifierFlags": [
+        "item-mismatch",
         "missing-item",
         "wrong-quest",
-        "missing-quest",
-        "abstract-misuse"
+        "abstract-misuse",
+        "qty-suspicious"
       ],
-      "verifierNotes": "Several issues: (1) \"willow branches x6\" is left unresolved but is a specific, mappable item (item ID 6055) — it should be in items[], not unresolvedItems[]. (2) \"gp\" is abstracted but 2000 gp is a concrete, specific quantity and should arguably be a coin stack item rather than an abstract. (3) VARROCK_MEDIUM is listed as a questId, but the step text only mentions it as an optional side note (\"if you want to complete some diaries\") — it is not directly progressed this step and should not be in questIds[]. (4) The 6 willow branches being unresolved means they are effectively missing from the mapping. The logs (item 1511 x2) being sourced from [content] rather than [items_needed] is acceptable since they appear in the step text but not the items_needed list.",
-      "npcs": [
-        "Klarense",
-        "Security Guard"
-      ],
-      "locations": [
-        "Port Sarim",
-        "Falador Farm",
-        "Entrana",
-        "Varrock",
-        "Castle Wars"
-      ]
+      "verifierNotes": "Several issues: (1) item-mismatch: Steel nails ID 1539 is correct but \"steel nails\" in OSRS is item 1539 — however the step says 90 nails and that matches. More critically, the step text says \"wind strikes\" and \"telegrab runes\" — wind strike uses air runes + mind runes (covered), but telegrab requires law runes + air runes (covered via staff of air + law rune), so those are OK. (2) missing-item: 2000 gp is only in abstractItems as a label \"gp\" — gp (item ID 995) should arguably remain abstract, but 2000 gp is explicitly listed in items_needed and the amount is known, so it's acceptable as abstract; however the raw token \"2000 gp\" should ideally surface the quantity. (3) item-mismatch: \"8007 Varrock teleport\" is a tablet; the step text specifies \"varrock teleport runes,\" implying the player is on standard spellbook using law + air runes to teleport — a Varrock teleport tablet is the wrong variant here. The runes for Varrock teleport (law rune already present, air runes via staff) make the tablet redundant and incorrect. (4) wrong-quest: VARROCK_MEDIUM is listed as a questId but it is only a conditional/optional diary mentioned in a sub-bullet (\"if you want to complete some diaries\"), not a main step progression — it should not be in questIds or should be flagged as optional. (5) missing-item: \"goblin map piece\" in unresolvedItems is fine as unresolved, but the limpwurt root (225) appearing in items[] as [content] is speculative/optional (only needed if doing the optional diary sub-step). (6) qty-suspicious: 90 steel nails matches the text exactly, but planks (3) and logs (2 regular, 11 yew, 10 willow) also match — quantities look correct overall."
     },
     "1.4.33": {
       "contentHash": "83e2d28bfd60124e1c03f326af3c68555ac0ef5c",
@@ -11528,19 +11518,19 @@
       ]
     },
     "2.2.23": {
-      "contentHash": "bd7f79cab151754ecbf8398065de944be99976e9",
+      "contentHash": "79eb91c12e5f3da3f27f9c0d59742e4bf9592941",
       "title": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
       "questIds": [
         "FALADOR_EASY",
         "FALADOR_HARD"
       ],
+      "npcs": [],
+      "locations": [
+        "Motherload Mine",
+        "Falador",
+        "Volcanic Mine"
+      ],
       "items": [
-        {
-          "id": 766,
-          "name": "Gem bag",
-          "qty": null,
-          "source": "content"
-        },
         {
           "id": 25541,
           "name": "Celestial ring",
@@ -11550,12 +11540,24 @@
         {
           "id": 1271,
           "name": "Adamant pickaxe",
+          "qty": 1,
+          "source": "content"
+        },
+        {
+          "id": 1381,
+          "name": "Staff of air",
           "qty": null,
           "source": "content"
         },
         {
-          "id": 453,
-          "name": "Coal",
+          "id": 766,
+          "name": "Gem bag",
+          "qty": null,
+          "source": "content"
+        },
+        {
+          "id": 680,
+          "name": "Nuggets",
           "qty": null,
           "source": "content"
         }
@@ -11563,19 +11565,23 @@
       "abstractItems": [
         {
           "label": "cash stack",
-          "rawToken": "200k total"
+          "rawToken": "650k gp"
         },
         {
-          "label": "cash stack",
-          "rawToken": "gp"
+          "label": "coal",
+          "rawToken": "coal"
         },
         {
-          "label": "goal mining level",
-          "rawToken": "72 mining"
+          "label": "prospector gear",
+          "rawToken": "prospector gear"
         },
         {
           "label": "mining experience",
-          "rawToken": "~68-70 mining"
+          "rawToken": "mining xp"
+        },
+        {
+          "label": "slayer experience",
+          "rawToken": "slayer lamp"
         }
       ],
       "unresolvedItems": [
@@ -11584,30 +11590,32 @@
           "qty": null
         },
         {
-          "rawToken": "herb tar rock",
+          "rawToken": "herb tar",
           "qty": null
         },
         {
-          "rawToken": "air staves",
+          "rawToken": "strut",
+          "qty": null
+        },
+        {
+          "rawToken": "sandstone",
+          "qty": null
+        },
+        {
+          "rawToken": "blast mining",
           "qty": null
         }
       ],
       "verified": false,
-      "verifierConfidence": 0.55,
+      "verifierConfidence": 0.52,
       "verifierFlags": [
         "item-mismatch",
         "missing-item",
-        "wrong-quest",
+        "missing-quest",
         "abstract-misuse",
         "qty-suspicious"
       ],
-      "verifierNotes": "Several issues: (1) Celestial ring (25541) is listed as an item to obtain/use, but the step explicitly says NOT to use it — it shouldn't appear in items[] at all, or at best needs a strong caveat; this is a clear item-mismatch/misuse. (2) Coal (453) has no quantity — the step doesn't specify an exact coal target so qty-suspicious applies. (3) FALADOR_EASY and FALADOR_HARD diary quests are listed in questIds, but the step says to \"complete the Falador hard diary step\" (a single step/task, not the full diary), and the easy diary is also completed — these may be valid but the hard diary completion at this stage is worth scrutinizing. (4) Prospector hat is left in unresolvedItems but it is a specific obtainable item (item ID 12013) from Volcanic Mine and should be in items[]. (5) \"herb tar rock\" in unresolvedItems is not an item — it's a tick-manipulation technique reference (likely means guam tar, item 10143, used for 3t mining); this is an abstract-misuse and should either be resolved to guam tar or flagged as a method description. (6) \"air staves\" is a conditional/optional item mentioned only as a fallback path and is reasonably left unresolved, no penalty there.",
-      "npcs": [],
-      "locations": [
-        "Motherload Mine",
-        "Falador",
-        "Port Khazard"
-      ]
+      "verifierNotes": "Several issues: (1) Celestial ring (25541) is mentioned as something NOT to use/that is bugged — it should not appear as a content item here, or at most as a warning note, not a needed item. (2) Staff of air (1381) appears in items[] but the step only mentions making air staves as an optional alternative path if skipping MLM — it shouldn't be a primary content item. (3) Gem bag (766) is listed as an item obtained this step (correct), but the coal bag is also a key reward from MLM nuggets and is completely absent from items[] and abstractItems[]. (4) Nuggets (680) are an intermediate currency/reward from MLM, not really an 'item needed' in the traditional sense — this is borderline abstract-misuse; they should arguably be abstract. (5) \"slayer experience\" in abstractItems uses rawToken \"slayer lamp\" — the lamp itself is a concrete item (item ID 4447) that should be in items[], not abstracted. (6) The Falador Easy and Hard diary quests are correctly captured in questIds. (7) \"prospector hat\" and \"herb tar\" in unresolvedItems are valid; herb tar has a known item ID (14031) and should be resolvable to items[]. (8) Quantities are largely absent where they'd be useful (e.g., no quantity on gem bag, no coal bag at all)."
     },
     "2.2.28": {
       "contentHash": "229357b715aae9432d9fef7a73c5aec73b3e5500",
@@ -11980,7 +11988,7 @@
       "contentHash": "6394fb4dab14cda903bbaf4437cb04e995066bbf",
       "title": "2.3: Wait there’s even more quests? And one of them is Song of the Elves?",
       "questIds": [
-        "THE_GENERAL_S_SHADOW"
+        "THE_GENERALS_SHADOW"
       ],
       "items": [],
       "abstractItems": [
@@ -13002,9 +13010,7 @@
     "3.1.15": {
       "contentHash": "2623bb97467300bba73bd8a4b62fbb6f3f51e18a",
       "title": "3.1: Slayer and the red prison",
-      "questIds": [
-        "GUARDIANS_OF_THE_RIFT"
-      ],
+      "questIds": [],
       "items": [
         {
           "id": 766,
@@ -13146,9 +13152,7 @@
     "3.2.6": {
       "contentHash": "b6c55ae6883dc364810c1a826e65c9d1f82683f9",
       "title": "3.2: Quest cape, quality of life",
-      "questIds": [
-        "FIGHT_CAVES"
-      ],
+      "questIds": [],
       "items": [
         {
           "id": 6570,
@@ -13832,7 +13836,7 @@
       "verifierNotes": "Three issues: (1) \"gp\" is listed as an abstractItem but the step text specifies taking your gp and the gp_stack is 9349 — gp is a concrete currency item (995) and the items_needed even lists \"290gp\", so this should be in items[] as coins (id 995) with a quantity, not left as abstract. (2) The step explicitly mentions taking a small fishing net from the bank (items_needed lists it), but the mapping has it as x1 [items_needed] — that part is fine — however the raw items_needed also lists \"290gp\" which is entirely unrepresented in items[]. (3) Oyster pearl (id 411) has no quantity listed — the step says \"oyster pearls\" (plural) but the mapping omits a quantity entirely (qty-suspicious). Additionally, Logs are mapped as x5 [items_needed] but items_needed only says \"logs\" with no quantity; the x5 figure comes from the step text's parenthetical guidance, which is reasonable, but worth noting the source items_needed doesn't confirm this number."
     },
     "1.1.6": {
-      "contentHash": "371347120634c2b3705913781b68e38d7f3f2ff5",
+      "contentHash": "217c44ca8cd67896446a41daf6ccf208f7b9822d",
       "title": "1.1: Tutorial island up to and including Wintertodt",
       "questIds": [
         "CLOCK_TOWER",
@@ -13842,12 +13846,14 @@
       "npcs": [
         "Brother Kojo",
         "Brother Omad",
+        "Ceril Cratanes",
         "Clivet",
         "Brother Cedric",
         "Alomone",
         "Butler Jones"
       ],
       "locations": [
+        "Clocktower",
         "Ardougne Monastery"
       ],
       "items": [
@@ -13868,95 +13874,17 @@
           "name": "Tinderbox",
           "qty": null,
           "source": "items_needed"
-        },
-        {
-          "id": 24,
-          "name": "Rat poison",
-          "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 90,
-          "name": "Child's blanket",
-          "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 20,
-          "name": "White cog",
-          "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 22,
-          "name": "Blue cog",
-          "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 21,
-          "name": "Black cog",
-          "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 23,
-          "name": "Red cog",
-          "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 1925,
-          "name": "Bucket",
-          "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 432,
-          "name": "Chest key",
-          "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 6758,
-          "name": "Scroll",
-          "qty": null,
-          "source": "content"
         }
       ],
       "abstractItems": [
         {
-          "label": "cash stack",
-          "rawToken": "2500 gp"
-        },
-        {
-          "label": "food",
-          "rawToken": "food"
-        },
-        {
-          "label": "woodcutting level",
-          "rawToken": "level 35 woodcutting"
-        },
-        {
-          "label": "firemaking level",
-          "rawToken": "level 39 firemaking"
+          "rawToken": "2500 gp",
+          "label": "cash stack"
         }
       ],
       "unresolvedItems": [
         {
           "rawToken": "normal log",
-          "qty": 1
-        },
-        {
-          "rawToken": "oak log",
-          "qty": null
-        },
-        {
-          "rawToken": "bottle of poison",
-          "qty": null
-        },
-        {
-          "rawToken": "1 normal log",
           "qty": 1
         }
       ],
@@ -13964,21 +13892,21 @@
       "verifierConfidence": 0.72,
       "verifierFlags": [
         "missing-item",
-        "item-mismatch"
+        "missing-quest"
       ],
-      "verifierNotes": "Two clear problems: (1) \"1 normal log\" appears twice in unresolvedItems — once as \"normal log\" x1 and once as \"1 normal log\" x1 — indicating a deduplication failure, and neither resolved to item ID 1511 (Logs) which should be in items[] per items_needed. (2) \"bottle of poison\" is unresolved but is a concrete quest item (used on the cooking range for Hazeel Cult); it should resolve to item ID 181 (Bottle of poison) and belong in items[]. \"oak log\" being unresolved is acceptable since oaks are cut in-step, but the normal log from items_needed being fully absent from items[] is a genuine missing-item. The quest IDs (CLOCK_TOWER, MONKS_FRIEND, HAZEEL_CULT) are all legitimately started/completed this step. abstractItems look appropriate for their tokens."
+      "verifierNotes": "The \"normal log\" x1 is left in unresolvedItems but should be resolvable — it maps to item ID 1511 (Logs) and should be in items[]. Additionally, the step text explicitly mentions grabbing \"rat poison\" (item ID 4421) and a \"bucket\" during Clock Tower — rat poison especially is a required quest item that's absent from items_needed and the mapping entirely. Hazeel Cult is listed in questIds but the step only progresses it partway (talking to Alomone, then finishing it after Monk's Friend); this is acceptable. However, the step text also references \"bottle of poison\" for Hazeel Cult (a quest item obtained in-step or carried forward) which is unaccounted for. The cash stack abstractItem looks fine for this stage."
     },
     "1.1.11": {
-      "contentHash": "4bd922da1b2d0d16735c90ae03fefb7f054413c0",
+      "contentHash": "8cf1c1af8a5637e4397c9825fdfb8c3751af03cb",
       "title": "1.1: Tutorial island up to and including Wintertodt",
       "questIds": [
         "X_MARKS_THE_SPOT",
+        "PIRATES_TREASURE",
         "VAMPYRE_SLAYER",
         "A_PORCINE_OF_INTEREST",
-        "PIRATE'S_TREASURE",
         "THE_CORSAIR_CURSE",
-        "THE_KNIGHT'S_SWORD",
-        "BLACK_KNIGHTS'_FORTRESS"
+        "THE_KNIGHTS_SWORD",
+        "BLACK_KNIGHTS_FORTRESS"
       ],
       "npcs": [
         "Morgan",
@@ -14029,12 +13957,6 @@
           "source": "content"
         },
         {
-          "id": 1951,
-          "name": "Redberries",
-          "qty": 8,
-          "source": "content"
-        },
-        {
           "id": 1963,
           "name": "Banana",
           "qty": 1,
@@ -14047,8 +13969,8 @@
           "source": "content"
         },
         {
-          "id": 314,
-          "name": "Feather",
+          "id": 11881,
+          "name": "Feather pack",
           "qty": 16,
           "source": "content"
         },
@@ -14129,26 +14051,141 @@
           "name": "Chronicle",
           "qty": 1,
           "source": "content"
+        },
+        {
+          "id": 1793,
+          "name": "Woad leaf",
+          "qty": 2,
+          "source": "content"
+        }
+      ],
+      "abstractItems": [],
+      "unresolvedItems": [
+        {
+          "rawToken": "coins",
+          "qty": 3445
+        },
+        {
+          "rawToken": "redberry",
+          "qty": 8
+        },
+        {
+          "rawToken": "sack",
+          "qty": 9
+        }
+      ],
+      "verified": false,
+      "verifierConfidence": 0.72,
+      "verifierFlags": [
+        "missing-item",
+        "missing-quest"
+      ],
+      "verifierNotes": "Three items remain unresolved that should be in items[]: \"coins\" (3445 gp, which is in items_needed), \"redberry\" x8 (item ID 1951), and \"sack\" x9 (item ID 5418) — all are concrete, resolvable OSRS items and should not sit in unresolvedItems[]. Additionally, the step text mentions buying \"9 sacks\" from Sarah, which is a real item (Sack, ID 5418). On quests: BLACK_KNIGHTS_FORTRESS is listed but the step only says \"start Black Knights' Fortress,\" which is correct; however, THE_KNIGHTS_SWORD has the player only told to talk to Reldo — this is at most the very beginning of the quest, so including it is borderline but acceptable. No obviously wrong quest IDs or item variants detected otherwise."
+    },
+    "1.1.16": {
+      "contentHash": "3d2d7b6d7cf86d9c05bb20fc9632ad6a4a856f23",
+      "title": "1.1: Tutorial island up to and including Wintertodt",
+      "questIds": [
+        "WITCHS_POTION"
+      ],
+      "npcs": [
+        "Hetty"
+      ],
+      "locations": [],
+      "items": [
+        {
+          "id": 8794,
+          "name": "Saw",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 2347,
+          "name": "Hammer",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 1539,
+          "name": "Steel nails",
+          "qty": 86,
+          "source": "items_needed"
+        },
+        {
+          "id": 8013,
+          "name": "Teleport to house",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 2146,
+          "name": "Burnt meat",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 221,
+          "name": "Eye of newt",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 1957,
+          "name": "Onion",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 8790,
+          "name": "Bolt of cloth",
+          "qty": 5,
+          "source": "items_needed"
+        },
+        {
+          "id": 960,
+          "name": "Plank",
+          "qty": 5,
+          "source": "items_needed"
+        },
+        {
+          "id": 8310,
+          "name": "Wooden chair",
+          "qty": 6,
+          "source": "content"
+        },
+        {
+          "id": 8309,
+          "name": "Crude wooden chair",
+          "qty": 1,
+          "source": "content"
+        },
+        {
+          "id": 8316,
+          "name": "Brown rug",
+          "qty": 1,
+          "source": "content"
+        },
+        {
+          "id": 8322,
+          "name": "Torn curtains",
+          "qty": 1,
+          "source": "content"
         }
       ],
       "abstractItems": [
         {
-          "rawToken": "3445 gp",
-          "label": "gp"
+          "rawToken": "50gp",
+          "label": "cash"
+        },
+        {
+          "rawToken": "283 gp",
+          "label": "cash"
         }
       ],
       "unresolvedItems": [
         {
-          "rawToken": "coins",
-          "qty": null
-        },
-        {
-          "rawToken": "sacks",
-          "qty": 9
-        },
-        {
-          "rawToken": "woad leaves",
-          "qty": 2
+          "rawToken": "100 air/mind runes",
+          "qty": 100
         }
       ],
       "verified": false,
@@ -14158,64 +14195,19 @@
         "qty-suspicious",
         "abstract-misuse"
       ],
-      "verifierNotes": "Several issues: (1) \"coins\" and \"sacks x9\" are in unresolvedItems but coins (item ID 995) and sacks (item ID 5572) are resolvable OSRS items that should be in items[] — especially coins which are explicitly called out in items_needed as \"3445 gp\" (abstractItem is fine for the gp stack, but the physical coins item should also appear). (2) Woad leaves (item ID 1793) x2 are a real, specific item and should be in items[], not unresolvedItems. (3) Feathers are listed as x16, but the step says \"16 feather packs\" — each pack contains 100 feathers (1,600 total), so the quantity 16 likely reflects packs rather than individual feathers; this should be clarified or corrected to 1600. (4) The watering can listed is an empty watering can (ID 5331); the step says to buy a watering can from Sarah which is correct, but worth confirming it's the (0) variant. Overall the unresolved items list is too large for items that have clear OSRS item IDs."
-    },
-    "1.1.16": {
-      "contentHash": "52b38db3ea12b1dac72ffb49163b123e4186fdf1",
-      "title": "1.1: Tutorial island up to and including Wintertodt",
-      "questIds": [
-        "WOODCUTTING"
-      ],
-      "npcs": [],
-      "locations": [
-        "Soul Wars"
-      ],
-      "items": [
-        {
-          "id": 1353,
-          "name": "Steel axe",
-          "qty": null,
-          "source": "items_needed"
-        },
-        {
-          "id": 590,
-          "name": "Tinderbox",
-          "qty": null,
-          "source": "items_needed"
-        },
-        {
-          "id": 28136,
-          "name": "Forestry kit",
-          "qty": null,
-          "source": "items_needed"
-        }
-      ],
-      "abstractItems": [
-        {
-          "label": "cash stack",
-          "rawToken": "333 gp"
-        }
-      ],
-      "unresolvedItems": [],
-      "verified": false,
-      "verifierConfidence": 0.6,
-      "verifierFlags": [
-        "wrong-quest",
-        "missing-quest"
-      ],
-      "verifierNotes": "\"WOODCUTTING\" is not a valid quest ID — it appears to be a skill name misused as a quest identifier. No quest is actually started or progressed in this step; it is a skilling/minigame activity (Soul Wars teleport, chopping teaks, firemaking). The questIds field should be empty. This is a clear abstract-misuse/wrong-quest error. Items and abstractItems look correct and reasonable for the stage."
+      "verifierNotes": "Three issues: (1) The 18 planks mentioned in the step text (and implicitly in items_needed as \"5 noted planks\" + leftover bank planks) are only represented as x5 in items[] — the mapping captures only the noted planks brought but not the full 18 used for construction; this is a qty-suspicious concern since the construction training explicitly uses 18 planks total. (2) \"100 air/mind runes\" is left in unresolvedItems[] but these are a specific, concrete item — air runes (556) and/or mind runes (558) should be resolved into items[] rather than left unresolved; this is an abstract-misuse / missing-item since they appear in items_needed. (3) The GP (50gp for Phials unnoting + gp_stack of 283gp) is only captured as abstractItems \"cash,\" which is acceptable for GP, but the runes being unresolved is the more critical gap."
     },
     "1.1.12": {
       "contentHash": "dabb6613264c7231522365701c07c96c742fefd1",
       "title": "1.1: Tutorial island up to and including Wintertodt",
       "questIds": [
         "DEMON_SLAYER",
-        "ROMEO_AND_JULIET",
+        "ROMEO__JULIET",
         "GERTRUDES_CAT",
         "CHILDREN_OF_THE_SUN",
-        "PRIESTS_IN_PERIL",
+        "PRIEST_IN_PERIL",
         "THE_KNIGHTS_SWORD",
-        "SHIELD_OF_ARRAV",
+        "SHIELD_OF_ARRAV_PHOENIX_GANG",
         "DADDYS_HOME"
       ],
       "npcs": [
@@ -14281,7 +14273,7 @@
       "questIds": [
         "FAMILY_CREST",
         "VAMPYRE_SLAYER",
-        "SHIELD_OF_ARRAV"
+        "SHIELD_OF_ARRAV_PHOENIX_GANG"
       ],
       "npcs": [
         "Baraek",
@@ -14512,14 +14504,14 @@
       "verifierNotes": "Three issues: (1) Item 53 is \"Headless arrows\" not \"Arrow shafts\" — arrow shafts are item 9. The step explicitly says \"1500 arrow shafts\" and \"adding feathers to arrow shafts,\" so these should resolve to item 9 (arrow shaft), not item 53 (headless arrow). (2) \"Black wizard's hat\" is left as unresolved but it is a concrete, specific item (item 1169) that should be in items[] as [content], not left unresolved. (3) The Shayzien agility course lap done for the diary implies Shayzien favour/diary progress — this is minor and not a quest, but the diary lap and Clue hunter garb dig are notable content steps. More critically, the step says to do a lap of the Shayzien agility course \"for the diary\" — no diary quest is captured, though this may be intentional if diaries aren't tracked as quests. Overall confidence is moderate due to the arrow shaft item-mismatch being a clear factual error and the unresolved black wizard's hat."
     },
     "1.2.3": {
-      "contentHash": "52ace2ba103081d5ca854f68e15ad04d897374db",
+      "contentHash": "48e2cdf4a08c3372c3a5250d4cfe12ff2eab47c7",
       "title": "1.2: Some fishing and thieving",
       "questIds": [
         "THE_QUEEN_OF_THIEVES"
       ],
       "npcs": [
-        "Estate Agent",
-        "Vannah"
+        "Vannah",
+        "Estate Agent"
       ],
       "locations": [
         "Piscarilius",
@@ -14528,6 +14520,12 @@
         "Varrock"
       ],
       "items": [
+        {
+          "id": 2003,
+          "name": "Stew",
+          "qty": null,
+          "source": "items_needed"
+        },
         {
           "id": 556,
           "name": "Air rune",
@@ -14541,26 +14539,26 @@
           "source": "items_needed"
         },
         {
-          "id": 952,
-          "name": "Spade",
-          "qty": null,
-          "source": "items_needed"
-        },
-        {
-          "id": 2003,
-          "name": "Stew",
-          "qty": null,
-          "source": "items_needed"
-        },
-        {
           "id": 2347,
           "name": "Hammer",
           "qty": null,
           "source": "items_needed"
         },
         {
+          "id": 952,
+          "name": "Spade",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
           "id": 7824,
           "name": "Giant rat bone",
+          "qty": null,
+          "source": "content"
+        },
+        {
+          "id": 19704,
+          "name": "Compost pack",
           "qty": null,
           "source": "content"
         },
@@ -14585,13 +14583,17 @@
       ],
       "abstractItems": [
         {
-          "rawToken": "8812 gp",
-          "label": "gp"
+          "label": "cash",
+          "rawToken": "8812 gp"
         }
       ],
       "unresolvedItems": [
         {
-          "rawToken": "rat meat",
+          "rawToken": "wind strike runes",
+          "qty": null
+        },
+        {
+          "rawToken": "giant rat meat",
           "qty": null
         },
         {
@@ -14611,10 +14613,9 @@
       "verifierConfidence": 0.72,
       "verifierFlags": [
         "missing-item",
-        "qty-suspicious",
-        "abstract-misuse"
+        "item-mismatch"
       ],
-      "verifierNotes": "Several issues: (1) \"gp\" is treated as abstract, but 8812 gp is a concrete currency amount used to buy specific things (compost pack from Vannah, possibly Warrens General Store browse) — not truly abstract, though gp-as-item is a common edge case so this is borderline. (2) Jangerberry and golovanova top (x2 minimum) are in unresolvedItems but are explicitly called out in the step text as bank targets the player needs — they should at least be flagged for resolution; papaya and rat meat are more incidental but rat meat is needed for the quest progress. (3) Wind strike runes: the step says to \"grab wind strike runes\" (air + mind already captured), but the stew is the only food listed in items_needed and is already in items[], so that's fine. (4) The jangerberry quantity is noted as \"optionally x2\" in the source but mapped as x1 with no note about the optional second — qty-suspicious for an ironman guide where the Fairytale pt. 1 use is explicitly flagged. (5) Chronicle is listed under items[] as content-sourced, which is reasonable. Overall the mapping is workable but the unresolved items (especially golovanova top x2 and jangerberry) represent real gaps for actionable ironman tracking."
+      "verifierNotes": "Several issues: (1) \"wind strike runes\" in unresolvedItems should resolve to Air runes (556) + Mind runes (558) — but those are already in items[] from items_needed, so \"wind strike runes\" is effectively a duplicate/alias and the unresolved entry is misleading rather than wrong. (2) \"giant rat meat\" (item ID 2876 or similar) is genuinely unresolved and missing from items[] — it's explicitly needed per the step text for a quest/diary interaction and should not just sit in unresolvedItems without an ID. (3) \"jangerberry\" (item ID 247) is a standard resolvable item and should be in items[], not unresolvedItems — it is explicitly banked for Fairytale Pt. 1. (4) \"golovanova top\" (item ID 13424) x2 is also a standard resolvable item that should be in items[], not unresolvedItems. (5) \"papaya fruit\" (item ID 5972) is optional consumption and is acceptable in unresolvedItems. (6) Chronicle (13660) appearing in items[] is fine as it's used in the step. Overall, the unresolved list contains at least two clearly resolvable, non-trivial items (jangerberry, golovanova top) that belong in items[], and giant rat meat lacks resolution entirely."
     },
     "1.2.5": {
       "contentHash": "d9bac113cc8258a13182d08f2ce476d796992741",
@@ -14697,27 +14698,26 @@
       "verifierNotes": "Several issues: (1) The Ghostspeak amulet (item 552) is incorrect — the actual OSRS item ID for the Ghostspeak amulet is 552, but the step says to grab it from the bank, so its presence is valid; however the skull (item ID 964 is \"Edgeville teleport\" not a skull — likely wrong ID). (2) \"Two iron bars\" from items_needed are placed in unresolvedItems but these are explicit required items and should be in items[] (item ID 2351, x2); this is a real missing-item. (3) ETHICALLY_ACQUIRED_ANTIQUITIES is listed as a questId but the step only says \"talk to Betty to progress that quest\" — it's not clear this quest is started or completed this step, just progressed; this may be fine, but the quest ID should be verified as correct since that quest name is unusual for OSRS. (4) The Blurite ore quantity (x2) is correct per the step. (5) The \"Teleport to house\" tab (8013) is listed from items_needed (\"POH tab\") — this is correct. (6) The abstractItems include \"house relocation fee\" which is a specific gp cost rather than a named item, so abstract treatment is reasonable, but the 7500 gp token and the coins from the bank could arguably be consolidated — minor issue. The unresolved \"two iron bars\" is the clearest gap as they appear explicitly in items_needed."
     },
     "1.1.18": {
-      "contentHash": "2bd8725f1fecb322f5f02dd8832f65b4bf2e4e78",
+      "contentHash": "3de32262a965f66b7fd0d0ac0e8604b4d6896f2f",
       "title": "1.1: Tutorial island up to and including Wintertodt",
       "questIds": [],
       "npcs": [
         "Lunami"
       ],
       "locations": [
-        "Wintertodt",
         "Auburnvale"
       ],
       "items": [
         {
           "id": 1353,
           "name": "Steel axe",
-          "qty": null,
+          "qty": 1,
           "source": "items_needed"
         },
         {
           "id": 590,
           "name": "Tinderbox",
-          "qty": null,
+          "qty": 1,
           "source": "items_needed"
         },
         {
@@ -14729,25 +14729,25 @@
         {
           "id": 19689,
           "name": "Clue hunter garb",
-          "qty": null,
+          "qty": 1,
           "source": "content"
         },
         {
           "id": 19691,
           "name": "Clue hunter gloves",
-          "qty": null,
+          "qty": 1,
           "source": "content"
         },
         {
           "id": 19695,
           "name": "Clue hunter boots",
-          "qty": null,
+          "qty": 1,
           "source": "content"
         },
         {
           "id": 21314,
           "name": "Rainbow scarf",
-          "qty": null,
+          "qty": 1,
           "source": "content"
         },
         {
@@ -14869,60 +14869,43 @@
           "name": "Adamant axe",
           "qty": 1,
           "source": "content"
-        },
-        {
-          "id": 13241,
-          "name": "Infernal axe",
-          "qty": 1,
-          "source": "content"
         }
       ],
       "abstractItems": [
         {
-          "label": "warm clothing pieces",
+          "label": "cash stack",
+          "rawToken": "128k gp"
+        },
+        {
+          "label": "warmth gear",
           "rawToken": "4 pieces of warm clothing"
         },
         {
-          "label": "cash stack",
-          "rawToken": "128k gp + 2.62 gp/xp for fletching"
-        },
-        {
-          "label": "cash stack",
-          "rawToken": "200k gp for HCIM"
-        },
-        {
-          "label": "firemaking experience",
-          "rawToken": "almost 99 firemaking"
-        },
-        {
-          "label": "fletching goal",
-          "rawToken": "level 46 fletching"
-        },
-        {
-          "label": "woodcutting experience",
-          "rawToken": "60 woodcutting"
-        },
-        {
-          "label": "construction experience",
-          "rawToken": "30 construction"
+          "label": "cash (HCIM)",
+          "rawToken": "200k gp"
         }
       ],
-      "unresolvedItems": [],
-      "verified": false,
-      "verifierConfidence": 0.62,
-      "verifierFlags": [
-        "item-mismatch",
-        "missing-item",
-        "abstract-misuse",
-        "qty-suspicious"
+      "unresolvedItems": [
+        {
+          "rawToken": "bruma pottage",
+          "qty": null
+        }
       ],
-      "verifierNotes": "Several issues: (1) item-mismatch: Adamant axe (1357) is listed as a concrete item in items[], but the step only mentions buying one \"at your convenience later\" if you didn't reach 60 WC — it's conditional and future, not needed this step. Infernal axe (13241) is similarly speculative/future and shouldn't be a concrete item here. (2) missing-item: The step explicitly lists ~50 silver ore as a goal loot item, but silver ore only appears as quantity 1 (the 1 silver ore from items_needed), not the ~50 recommended from content. (3) abstract-misuse: \"warm clothing pieces\" is flagged as an abstractItem, but the four warm items are already fully enumerated as concrete items (clue hunter garb, gloves, boots, rainbow scarf) — the abstract label is redundant and potentially confusing. (4) qty-suspicious: Oak logs are listed as x33 (for bird runs), but the step also calls for oaks to cut into arrow shafts for fletching and 3 extra for Sleeping Giants — no consolidated oak log quantity is present. Willow logs listed as x60 (bird runs) but step also needs 10 willow logs for Varrock medium diary, 1 for Icthlarin's Little Helper — again not consolidated. The Cake quantity is unspecified (listed as just \"Cake\" with no qty) despite \"cakes\" being a plural items_needed entry. Gold ore x100 is captured but silver ore ~50 is not reflected."
+      "verified": false,
+      "verifierConfidence": 0.72,
+      "verifierFlags": [
+        "missing-item",
+        "item-mismatch",
+        "qty-suspicious",
+        "abstract-misuse"
+      ],
+      "verifierNotes": "Several issues: (1) Adamant axe (1357) is listed but the step says to buy it \"at your convenience later\" — it's not a this-step item. (2) Oak logs quantity is wrong: items[] lists 33 oak logs (that's the bird-run amount), but the step also requires oak logs for arrow shafts (fletching to 46) plus 3 more for Sleeping Giants, totalling significantly more; the 33 figure alone is insufficient and misleading. (3) Willow logs quantity (60) covers only bird runs but the step also needs 10 willow logs for Varrock medium diary, 1 for Icthlarin's Little Helper — arguably these should be summed (71+). (4) Yew logs: 11 for Ardougne medium diary + 1 for Desert hard diary + 1 for Enakhra's Lament = 13 total, but only 11 are listed. (5) Maple logs: 1 listed, but the text says \"1 oak, willow and maple log for Enakhra's Lament\" — the oak and willow for this quest are not separately broken out (absorbed into other totals, but worth noting). (6) Cake quantity is missing (items_needed says \"cakes\" plural, but no quantity is given — the mapping omits any count). (7) \"warmth gear\" as an abstractItem is reasonable given the four items are already individually listed in items[], making the abstract entry redundant rather than useful — minor abstract-misuse. (8) \"bruma pottage\" (bruma potion/pottage) in unresolvedItems is correct to flag as unresolved; no penalty there."
     },
     "1.2.4": {
       "contentHash": "499a6430c3bbf2d51adbdce3fa931b63ebd72c36",
       "title": "1.2: Some fishing and thieving",
       "questIds": [
-        "SHIELD_OF_ARRAV",
+        "SHIELD_OF_ARRAV_PHOENIX_GANG",
         "THE_KNIGHTS_SWORD",
         "PIRATES_TREASURE",
         "DORICS_QUEST",
@@ -15323,8 +15306,7 @@
       "contentHash": "a7de2a21b160ff763892164dde4444d4b46734c5",
       "title": "1.2: Some fishing and thieving",
       "questIds": [
-        "FISHING_TRAWLER",
-        "MERLIN_S_CRYSTAL",
+        "MERLINS_CRYSTAL",
         "FISHING_CONTEST",
         "MURDER_MYSTERY",
         "TEMPLE_OF_IKOV",
@@ -16402,13 +16384,12 @@
       "verifierNotes": "1) questIds contains \"WOODCUTTING\" — woodcutting is a skill, not a quest. No quest is started or progressed in this step; questIds should be empty. 2) Amulet of nature (6040) is listed as a concrete item, but the step says to *make* one from magic roots — the amulet itself is a crafting output, not something brought; magic roots (6051) are the input and are already listed, so including the finished amulet is premature/misleading. 3) Oak logs x300 and willow logs x300 (1521/1519) are listed as items to bring, but the step says to *chop* them — they're outputs, not inputs; including them as items[] is an item-mismatch in intent and the qty is only meaningful as a target, not a carry quantity. 4) Necklace of passage(5) (21146) is reasonable for the fairy ring transit, but the step also mentions \"Salve graveyard teleport\" via Arceuus spellbook as an alternative — no runes or spellbook item captured, though this is minor given it's optional. Overall the quest tag and the conflation of output logs/amulet as carried items are clear errors."
     },
     "1.4.6": {
-      "contentHash": "f500a766a0d060f073b5c9ca78b456ca3af7f975",
+      "contentHash": "b387f59252c9c32081e281ae95f101eab39ab861",
       "title": "1.4: 62 farming, Desert Treasure, earth battlestaves",
       "questIds": [
-        "FAIRYTALE_I",
-        "FAIRYTALE_II",
+        "FAIRYTALE_I__GROWING_PAINS",
+        "FAIRYTALE_II__CURE_A_QUEEN",
         "A_PORCINE_OF_INTEREST",
-        "THE_RIBBITING_TALE_OF_A_LILY_PAD_LABOUR_DISPUTE",
         "HOLY_GRAIL",
         "THE_GRAND_TREE",
         "THE_GARDEN_OF_DEATH",
@@ -16425,7 +16406,7 @@
         "Draynor",
         "McGrubor's Wood",
         "Ardougne Zoo",
-        "Varlamore",
+        "Auburnvale",
         "Fisher Realm",
         "Hazelmere",
         "Lake Molch"
@@ -16560,13 +16541,13 @@
         {
           "id": 4156,
           "name": "Mirror shield",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 4162,
           "name": "Rock hammer",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
@@ -16578,49 +16559,49 @@
         {
           "id": 4166,
           "name": "Earmuffs",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 4168,
           "name": "Nose peg",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 4551,
           "name": "Spiny helmet",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 7051,
           "name": "Unlit bug lantern",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 7159,
           "name": "Insulated boots",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 23037,
           "name": "Boots of stone",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 4161,
           "name": "Bag of salt",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 6708,
           "name": "Slayer gloves",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
@@ -16654,15 +16635,9 @@
           "source": "content"
         },
         {
-          "id": 5986,
-          "name": "Sweetcorn",
-          "qty": 1,
-          "source": "content"
-        },
-        {
           "id": 19,
           "name": "Holy grail",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
@@ -16670,35 +16645,42 @@
           "name": "Cerulean twitch",
           "qty": 1,
           "source": "content"
-        },
-        {
-          "id": 1917,
-          "name": "Beer",
-          "qty": 3,
-          "source": "content"
         }
       ],
       "abstractItems": [
         {
-          "rawToken": "7500 gp",
-          "label": "gp"
+          "label": "gp",
+          "rawToken": "7500 gp"
+        },
+        {
+          "label": "cash stack",
+          "rawToken": "444615 gp"
         }
       ],
       "unresolvedItems": [
         {
           "rawToken": "slayer gem",
           "qty": null
+        },
+        {
+          "rawToken": "rock crab",
+          "qty": 5
+        },
+        {
+          "rawToken": "3 beers",
+          "qty": 3
         }
       ],
       "verified": false,
-      "verifierConfidence": 0.72,
+      "verifierConfidence": 0.62,
       "verifierFlags": [
         "missing-quest",
         "missing-item",
-        "wrong-quest",
-        "item-mismatch"
+        "item-mismatch",
+        "abstract-misuse",
+        "qty-suspicious"
       ],
-      "verifierNotes": "Several issues: (1) \"Twilight's Promise\" is mentioned as optional in the step text but is absent from questIds[]. (2) \"Prince Ali Rescue\" (Free Prince Ali) is completed this step but is missing from questIds[] — \"A Porcine of Interest\" is included but \"Prince Ali Rescue\" (PRINCE_ALI_RESCUE) is not. (3) \"slayer gem\" in unresolvedItems[] should resolve to item ID 4155 (Enchanted gem), but that item is already in items[] — the unresolved entry appears to be a duplicate reference rather than a truly unresolvable item; it should be collapsed. (4) The beer quantity (x3) is listed in items[] as item 1917, but \"beer\" appears in items_needed as \"3 beers\" before the banking divider — this is fine, but the paste (item 2424) should be verified as \"Wig glue\" (ID 2424 is indeed Wig glue, not \"Paste\" — \"Paste\" maps to a different item); this is a potential item-mismatch on the label."
+      "verifierNotes": "Several issues: (1) TWILIGHT'S_PROMISE is mentioned as optional combat content in the step text but is missing from questIds[]. (2) The step text says \"3 beers\" which are in unresolvedItems — beers (item ID 1917) are a specific item and should be in items[], not left unresolved. (3) \"slayer gem\" in unresolvedItems is almost certainly Enchanted gem (4155), which is already in items[] as purchased content — this duplication/unresolved is fine, but the unresolved label is misleading. (4) \"rock crab\" x5 in unresolvedItems represents a kill target, not an item to carry, so leaving it unresolved is reasonable, but it could be flagged as a tbd-step style note. (5) The abstractItems include \"cash stack | 444615 gp\" — the gp_stack is a running total for the section, not a spend this step; however \"7500 gp\" is a legitimate spend token and is correctly abstract. Including the full gp_stack as an abstractItem is a mild abstract-misuse. (6) Item ID 2418 is mapped to \"Bronze key\" but the bronze key used in Prince Ali Rescue is actually item ID 983 (or 987 depending on variant); ID 2418 is a different bronze key — possible item-mismatch worth checking. (7) Magic whistle (ID 16) is correct for Holy Grail. Overall the mapping captures most content but has a missing quest, a misplaced beer item, a suspicious bronze key ID, and an erroneous gp_stack abstract entry."
     },
     "1.4.12": {
       "contentHash": "a42ad49a67781e50251715d70857bfe15f22ae24",
@@ -17263,9 +17245,7 @@
     "1.4.27": {
       "contentHash": "5bf5be9b917a25afed2fd4f8547698cea4a8e8ab",
       "title": "1.4: 62 farming, Desert Treasure, earth battlestaves",
-      "questIds": [
-        "HARD_ARDOUGNE_DIARY"
-      ],
+      "questIds": [],
       "npcs": [],
       "locations": [
         "Piscarilius",
@@ -17631,7 +17611,7 @@
       "verifierNotes": "Several issues: (1) item-mismatch: ID 1289 is \"Rune sword\" but the step text calls for a \"rune shortsword\" (item ID 1303); (2) item-mismatch: ID 6668 is an empty Fishbowl but the items_needed specifies \"fishbowl (with water)\" — should be a filled fishbowl (ID 6667); (3) missing-item: the lobster pot required for the step is completely absent from items[] and unresolvedItems[]; (4) missing-item: the unblessed symbol (ID 1716) is listed as [content] but is explicitly in items_needed and should be [items_needed]; (5) wrong-quest: EADGARS_RUSE — the step only involves \"getting the parrot\" as a very early prerequisite action, not actually progressing/starting the quest in any meaningful quest-log sense; similarly DWARF_CANNON is only progressed to finding Lollk and returning to Lawgof, so inclusion is defensible, but EADGARS_RUSE progress here is extremely minor; (6) missing-quest: Biohazard is progressed (vials obtained) but is absent from questIds[]; (7) qty-suspicious: watering can is listed as x1 (ID 5331) but the step explicitly has the player buy 14 watering cans — the 14 watering cans are in unresolvedItems but the single watering can in items[] is also unexplained duplication."
     },
     "1.4.18": {
-      "contentHash": "37da3c6a0822cba1f937cfcf2c9a6a17b7649a66",
+      "contentHash": "09738e24b5eb7aa766806101a0dbf4e59722dfdd",
       "title": "1.4: 62 farming, Desert Treasure, earth battlestaves",
       "questIds": [
         "GARDEN_OF_TRANQUILLITY",
@@ -17643,13 +17623,14 @@
         "Lyra",
         "Murcaily",
         "Kragen",
-        "Elstan",
-        "Eadgar"
+        "Elstan"
       ],
       "locations": [
+        "Fenkenstrain",
         "Brimhaven",
         "Tai Bwo Wannai",
-        "Witchhaven dungeon",
+        "Ardougne",
+        "Witchhaven Dungeon",
         "Draynor Manor",
         "Falador",
         "Taverley",
@@ -17801,12 +17782,6 @@
           "source": "items_needed"
         },
         {
-          "id": 1540,
-          "name": "Anti-dragon shield",
-          "qty": null,
-          "source": "content"
-        },
-        {
           "id": 975,
           "name": "Machete",
           "qty": null,
@@ -17831,9 +17806,9 @@
           "source": "content"
         },
         {
-          "id": 444,
-          "name": "Gold ore",
-          "qty": 2,
+          "id": 3267,
+          "name": "Dirty robe",
+          "qty": null,
           "source": "content"
         },
         {
@@ -17849,40 +17824,40 @@
           "source": "content"
         },
         {
-          "id": 3267,
-          "name": "Dirty robe",
+          "id": 1540,
+          "name": "Anti-dragon shield",
           "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 6952,
-          "name": "Truth serum",
-          "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 3261,
-          "name": "Goutweed",
-          "qty": 3,
           "source": "content"
         }
       ],
       "abstractItems": [
         {
-          "rawToken": "5203 gp",
-          "label": "gp"
+          "label": "gp",
+          "rawToken": "5203 gp"
         },
         {
-          "rawToken": "combat gear",
-          "label": "combat gear"
+          "label": "combat gear",
+          "rawToken": "combat gear"
         },
         {
-          "rawToken": "money",
-          "label": "money"
+          "label": "cash stack",
+          "rawToken": "money"
         },
         {
-          "rawToken": "farming tools",
-          "label": "farming tools"
+          "label": "teleport runes",
+          "rawToken": "Draynor manor teleport runes"
+        },
+        {
+          "label": "farming tools",
+          "rawToken": "farming tools"
+        },
+        {
+          "label": "teleport runes",
+          "rawToken": "salve teleport runes"
+        },
+        {
+          "label": "teleport runes",
+          "rawToken": "varrock teleport runes"
         }
       ],
       "unresolvedItems": [
@@ -17895,23 +17870,11 @@
           "qty": null
         },
         {
-          "rawToken": "jungle spiders",
-          "qty": null
-        },
-        {
           "rawToken": "spider on a stick",
           "qty": null
         },
         {
-          "rawToken": "salve teleport runes",
-          "qty": null
-        },
-        {
-          "rawToken": "varrock teleport runes",
-          "qty": null
-        },
-        {
-          "rawToken": "Draynor manor teleport runes",
+          "rawToken": "jungle spiders",
           "qty": null
         }
       ],
@@ -17923,7 +17886,7 @@
         "abstract-misuse",
         "qty-suspicious"
       ],
-      "verifierNotes": "Several issues: (1) ID 8270 is not \"Mithril armour\" — mithril armour is a set of individual pieces (mithril platebody 1121, platelegs 1071, etc.); 8270 is a specific item ID that doesn't represent a full set, so this is an item-mismatch/abstract-misuse — \"mithril armour\" should either be abstracted or broken into individual pieces. (2) ID 19659 is \"Half a botanical pie\" — the raw token says \"a botanical pie\" (full pie, ID 6954 or similar), so this is an item-mismatch. (3) ID 99 is not \"Ranarr potion (unf)\" — the correct ID for ranarr potion (unf) is 97; ID 99 is harralander potion (unf), a clear item-mismatch. (4) \"salve teleport runes,\" \"varrock teleport runes,\" and \"Draynor manor teleport runes\" are left as unresolved but should be resolvable as specific rune combinations (e.g., law + soul for salve, law + air for Varrock) or at minimum abstracted rather than unresolved. (5) \"gnome amulet\" ID 589 — this appears to be the correct amulet for the Gnome quest chain, looks fine. (6) The antidragon shield (1540) is correctly sourced from content. Overall the ranarr potion (unf) ID mismatch and half-pie vs full-pie are clear errors."
+      "verifierNotes": "Several issues: (1) Item 8270 is not a valid single OSRS item ID for \"mithril armour\" — mithril armour is a set of separate pieces (mithril platebody 1121, mithril platelegs 1071, etc.), so this ID is suspicious/wrong. (2) The ranarr potion (unf) is mapped as item ID 99, which is incorrect — the correct ID for ranarr potion (unf) is 97. (3) The dramen staff (772) is listed under [content] but it appears explicitly in items_needed and should be [items_needed]. (4) The anti-dragon shield (1540) is in [content] but is explicitly called out in the step text as a required grab, making it closer to items_needed. (5) \"salve teleport runes\" and \"Draynor manor teleport runes\" and \"varrock teleport runes\" are all collapsed into generic \"teleport runes\" abstract labels — at minimum the varrock teleport runes could resolve to Varrock teleport (8007) or law+air runes, and salve teleport could be resolved. (6) The antidragon shield is referenced in items_needed raw as implied (the step says \"grab... an antidragon shield\") but it's missing from items_needed raw entirely — the mapping correctly captures it but tags it [content] rather than [items_needed]. (7) The botanical pie is mapped as 19659 (Half a botanical pie) rather than the full botanical pie (7218) — a full pie should be brought and only becomes half after use, so the starting item should be 7218."
     },
     "1.4.28": {
       "contentHash": "2c3ff455375dc4cdad629cfb419cdc7c1cf3a907",
@@ -17934,7 +17897,7 @@
         "BIOHAZARD",
         "UNDERGROUND_PASS",
         "WATCHTOWER",
-        "HAND_IN_THE_SAND",
+        "THE_HAND_IN_THE_SAND",
         "RAG_AND_BONE_MAN_II",
         "ARDOUGNE_EASY"
       ],
@@ -18281,11 +18244,12 @@
       "verifierNotes": "Several issues: (1) Item 26914 \"Amulet of the eye\" is explicitly called out in the step text as NOT the item needed — the step says to get the quest item \"eye amulet,\" not the rare drop \"Amulet of the eye.\" Including 26914 is a direct item-mismatch/error. (2) The questIds list PRINCE_ALI_RESCUE and TEMPLE_OF_THE_EYE, but this step is about making Paddewwa tabs (requires Desert Treasure completion) — Prince Ali Rescue and Temple of the Eye are only mentioned as prerequisites for obtaining the eye amulet, not as quests being started or progressed in this step; Desert Treasure should be listed instead (or at minimum Temple of the Eye as \"start\" is debatable, but Prince Ali Rescue is already done). (3) The \"Ancient spellbook\" and \"normal spellbook\" abstractItems are reasonable as abstract entries since they're not inventory items, but listing them as abstract is slightly odd — they could simply be omitted as pure gameplay state. More critically, \"Shantay passes\" are mentioned as a required purchase to enter the desert and are missing from items[] entirely (missing-item). (4) The Ring of Dueling variant x1 is reasonable for content tracking."
     },
     "1.4.29": {
-      "contentHash": "91e9f1e5451177ff336d1558809bb00ae4db5437",
+      "contentHash": "1b7e222eab4b0288ec6a61c02fdb8e41df2272c8",
       "title": "1.4: 62 farming, Desert Treasure, earth battlestaves",
       "questIds": [
         "MAKING_FRIENDS_WITH_MY_ARM",
         "TAI_BWO_WANNAI_TRIO",
+        "TREE_GNOME_VILLAGE",
         "SONG_OF_THE_ELVES",
         "GETTING_AHEAD",
         "VARROCK_MEDIUM"
@@ -18294,19 +18258,22 @@
         "Master Farmer"
       ],
       "locations": [
+        "Tithe Farm",
         "Farming Guild",
         "Wintertodt",
-        "Kourend",
+        "Kourend Library",
         "Morytania",
+        "Fenkenstrain",
         "Varlamore",
         "Falador",
+        "Catherby",
         "Champions' Guild",
         "Ardougne Monastery",
+        "Ardougne",
         "Brimhaven",
         "Tree Gnome Village",
         "Varrock",
-        "Draynor",
-        "Kourend Library"
+        "Draynor"
       ],
       "items": [
         {
@@ -18358,14 +18325,26 @@
           "source": "items_needed"
         },
         {
+          "id": 13226,
+          "name": "Herb sack",
+          "qty": null,
+          "source": "content"
+        },
+        {
+          "id": 13639,
+          "name": "Seed box",
+          "qty": null,
+          "source": "content"
+        },
+        {
           "id": 7178,
           "name": "Garden pie",
           "qty": null,
           "source": "content"
         },
         {
-          "id": 3853,
-          "name": "Games necklace(8)",
+          "id": 13424,
+          "name": "Bologano seed",
           "qty": null,
           "source": "content"
         },
@@ -18400,9 +18379,21 @@
           "source": "content"
         },
         {
+          "id": 113,
+          "name": "Strength potion(4)",
+          "qty": null,
+          "source": "content"
+        },
+        {
           "id": 2998,
           "name": "Toadflax",
           "qty": 2,
+          "source": "content"
+        },
+        {
+          "id": 3032,
+          "name": "Agility potion(4)",
+          "qty": null,
           "source": "content"
         },
         {
@@ -18418,6 +18409,12 @@
           "source": "content"
         },
         {
+          "id": 2434,
+          "name": "Prayer potion(4)",
+          "qty": null,
+          "source": "content"
+        },
+        {
           "id": 5982,
           "name": "Watermelon",
           "qty": null,
@@ -18426,6 +18423,12 @@
         {
           "id": 255,
           "name": "Harralander",
+          "qty": null,
+          "source": "content"
+        },
+        {
+          "id": 3008,
+          "name": "Energy potion(4)",
           "qty": null,
           "source": "content"
         },
@@ -18454,8 +18457,8 @@
           "source": "content"
         },
         {
-          "id": 13226,
-          "name": "Herb sack",
+          "id": 1135,
+          "name": "Green d'hide body",
           "qty": null,
           "source": "content"
         },
@@ -18466,49 +18469,33 @@
           "source": "content"
         },
         {
-          "id": 3008,
-          "name": "Energy potion(4)",
-          "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 13424,
-          "name": "Bologano seed",
-          "qty": null,
-          "source": "content"
-        },
-        {
           "id": 13353,
           "name": "Gricoller's can",
           "qty": null,
           "source": "content"
         },
         {
-          "id": 5095,
-          "name": "Explorer's ring",
+          "id": 3853,
+          "name": "Games necklace(8)",
           "qty": null,
           "source": "content"
         }
       ],
       "abstractItems": [
         {
-          "rawToken": "243951 gp",
-          "label": "cash stack"
+          "label": "cash stack",
+          "rawToken": "243951 gp"
         },
         {
-          "rawToken": "farming experience",
-          "label": "farming xp"
+          "label": "herb runs",
+          "rawToken": "herb runs"
         },
         {
-          "rawToken": "farming contracts",
-          "label": "farming contracts"
+          "label": "farming contracts",
+          "rawToken": "farming contracts"
         }
       ],
       "unresolvedItems": [
-        {
-          "rawToken": "minecart",
-          "qty": null
-        },
         {
           "rawToken": "whiteberry",
           "qty": null
@@ -18530,15 +18517,19 @@
           "qty": 6
         },
         {
-          "rawToken": "attas anima seed",
-          "qty": null
+          "rawToken": "Attas anima seed",
+          "qty": 1
         },
         {
           "rawToken": "Kharedst's teleport",
           "qty": null
         },
         {
-          "rawToken": "Arceuus spellbook",
+          "rawToken": "Explorer's ring teleport",
+          "qty": null
+        },
+        {
+          "rawToken": "Kourend library teleport",
           "qty": null
         },
         {
@@ -18547,6 +18538,10 @@
         },
         {
           "rawToken": "fairy ring AJP",
+          "qty": null
+        },
+        {
+          "rawToken": "green dragons",
           "qty": null
         }
       ],
@@ -18560,7 +18555,7 @@
         "qty-suspicious",
         "abstract-misuse"
       ],
-      "verifierNotes": "**Quests:** MAKING_FRIENDS_WITH_MY_ARM, TAI_BWO_WANNAI_TRIO, SONG_OF_THE_ELVES, GETTING_AHEAD, and VARROCK_MEDIUM are all referenced in the step text but none are actually started or progressed in this step — they are mentioned as future goals (e.g. \"you will need nightshade for the Seren fight\", \"toadflax for Tai Bwo Wannai Trio\"). Only GETTING_AHEAD is plausibly relevant because the player visits that farm to grab dyes, but the others are clearly wrong-quest inclusions. **Items:** `13353 Gricoller's can` is flagged as a content item despite the step explicitly saying you do NOT need to buy Gricoller's can (\"no need to buy Gricoller's can\"). `5095 Explorer's ring` is generic — a specific tier (e.g. Explorer's ring 2/3/4) should be used. `22856 Celastrus sapling` appears as a content item but the step only mentions planting celastrus saplings at level 85 (boostable), which is far beyond what this step covers; similarly `1391 Battlestaff` is a downstream product not relevant here. `27790 Nightshade` — item ID 27790 should be verified; nightshade (item 210) is the standard in-game item. **Missing items:** Whiteberry bush seed is mentioned prominently (\"make sure to grow a whiteberry bush\") but is unresolved rather than identified — it should be item 5100 (whiteberry seed). Ranarr seed (5295) is also unresolved despite being explicitly called out. Yew seed (5316), yew roots (1568), spirit tree seed (5317), and Attas seed (22877) are all unresolved but could reasonably be resolved. **Quantities:** Limpwurt root x22 matches the text. Watering cans x15 matches items_needed. **Abstract misuse:** \"farming contracts\" as an abstract is fine, but \"farming xp\" is trivially abstract and arguably unnecessary."
+      "verifierNotes": "Multiple issues: (1) **wrong-quest / missing-quest**: VARROCK_MEDIUM is a diary not a quest and shouldn't be in questIds[]. GETTING_AHEAD is completed for the dyes but the step says \"Getting Ahead farm\" as a location to grab dyes — it may already be done; needs verification. MAKING_FRIENDS_WITH_MY_ARM and TAI_BWO_WANNAI_TRIO are merely referenced as future context for toadflax use, not started this step. TREE_GNOME_VILLAGE is referenced only for palm tree planting location, not progressed here. SONG_OF_THE_ELVES is referenced only as a future need for nightshade — not started here. (2) **item-mismatch**: Strength potion(4) (113) and Agility potion(4) (3032) and Energy potion(4) (3008) and Prayer potion(4) (2434) are derived products listed as [content] but the step only mentions growing ingredients/herbs — these potions are not actually obtained this step. Similarly Gricoller's can (13353) is mentioned only as an alternative method tool, not something purchased this step. (3) **missing-item**: Whiteberry bush seed (5106) and ranarr seed (5295) and yew tree seed (5315) and spirit tree seed (5315→5312) and Attas anima seed (22876) are in unresolvedItems[] but these are specific, resolvable OSRS items that should be in items[]. Kharedst's memoirs and Explorer's ring are also resolvable items left unresolved. (4) **qty-suspicious**: Limpwurt root x22 is flagged as a content item quantity — the step says to *grow* 22 limpwurt roots over time, so representing them as 22 harvested roots is misleading; limpwurt seed quantities would be more appropriate. Nightshade x20 similarly represents a grow target, not an item to acquire. (5) **abstract-misuse**: \"herb runs\" and \"farming contracts\" are reasonably abstract, but \"cash stack\" for 243,951 gp is a carried gp value that is standard and fine."
     },
     "2.1.5": {
       "contentHash": "2b6f2f5aec8b0dd198041494d5a0779246c41d27",
@@ -20004,7 +19999,7 @@
       "contentHash": "499bf01986b5e8d34783c4a063d437ab7c894c56",
       "title": "2.1: Quests and combat, unlock Miscellania",
       "questIds": [
-        "ICHTLARINS_LITTLE_HELPER",
+        "ICTHLARINS_LITTLE_HELPER",
         "CONTACT",
         "SCORPION_CATCHER"
       ],
@@ -20138,7 +20133,7 @@
         "VARROCK_EASY",
         "TEARS_OF_GUTHIX",
         "RAG_AND_BONE_MAN_II",
-        "ENAKHRA_S_LAMENT"
+        "ENAKHRAS_LAMENT"
       ],
       "npcs": [
         "Apothecary",
@@ -20808,7 +20803,7 @@
       "questIds": [
         "MONKEY_MADNESS_I",
         "DREAM_MENTOR",
-        "MOURNING_S_END_PART_II",
+        "MOURNINGS_END_PART_II",
         "RAG_AND_BONE_MAN_II",
         "THRONE_OF_MISCELLANIA",
         "RECIPE_FOR_DISASTER_START"
@@ -21219,22 +21214,21 @@
       "verifierNotes": "1) WATCHTOWER is listed in questIds but it is not started/completed this step — it's only mentioned as a teleport location to buy death runes; it should not be in questIds. 2) The rune pouch (item ID 12791) is listed in unresolvedItems but it is a concrete item obtained in this step (via LMS) and should be in items[]; same for the axe (needed for Big Chompy Bird Hunting) and gold gauntlets (listed in items_needed, clearly a specific item). 3) Energy potion(4) (ID 3008) is used as a stand-in for energy potions, but the guide says \"energy pots\" generically and the ironman is likely using lower-dose pots at this stage — qty-suspicious as well since no quantity is specified in items_needed but 4-dose is assumed. 4) The magic shortbow scroll quantity is listed as x1 but the guide implies obtaining it (quantity is fine, but the rune pouch being unresolved while the scroll is resolved is inconsistent — both come from the same LMS reward). 5) Chaos runes are in items[] from items_needed but the step text mentions \"chaos runes\" without a quantity, which is fine, but it's worth noting the death rune abstract could arguably be a concrete item (top up to 3k) — however this is minor."
     },
     "2.1.40": {
-      "contentHash": "fb109a9e45f4d3266623b5393bb769d8302cd8c6",
-      "title": "2.1: Quests and combat, unlock Miscellania",
+      "contentHash": "3c3ef2cae25aa282ef6061c7d80f57928c2e0ae6",
+      "title": "2.1: Quests and combat",
       "questIds": [
-        "PANDEMONIUM"
+        "CRAB_QUEST"
       ],
       "npcs": [
         "Chartin' Charles McAtless"
       ],
       "locations": [
         "Unquiet Ocean",
-        "Port Khazard",
         "Oo'glog Channel",
         "Gu'tanoth Bay",
         "Ardent Ocean",
-        "Dognose Island",
-        "Pandemonium"
+        "Pandemonium",
+        "Dognose Island"
       ],
       "items": [
         {
@@ -21273,14 +21267,13 @@
         }
       ],
       "verified": false,
-      "verifierConfidence": 0.52,
+      "verifierConfidence": 0.62,
       "verifierFlags": [
         "tbd-step",
-        "wrong-quest",
         "missing-item",
         "qty-suspicious"
       ],
-      "verifierNotes": "items_needed is \"tbd\" so the source is incomplete — flag tbd-step accordingly. The questId PANDEMONIUM is suspect: the step describes charting/sailing activities and visiting a location called \"the Pandemonium,\" but no quest appears to be started or progressed here — it reads more like a location/pub name than a quest being unlocked this step; wrong-quest or at minimum needs verification. The keg (10885) is mentioned in the step (\"build a keg on your skiff\") but item ID should be confirmed — likely fine if the ID is correct. Missing items that appear concrete in the step text: the inoculation station build materials and mermaid diving charts are not captured, and the \"rusty chest\" in unresolvedItems is a container not an item to carry. qty-suspicious on whirlpool surprise: 48 units is an oddly specific quantity worth confirming against the source (step says 48, so it matches, but the keg fill quantity/ratio is not cross-checked). The \"medallion fragment\" obtained from the rusty chest is a loot item and arguably should be in items[] rather than unresolvedItems if its item ID is known."
+      "verifierNotes": "items_needed is \"tbd\" so the source is incomplete — flagged. The keg (10885 x1) seems plausible but needs confirmation. Several items appear missing from items[]: the inoculation station build materials and the mermaid diving charts are not captured at all. The \"medallion fragment\" and \"rusty chest\" are correctly placed in unresolvedItems as quest rewards/objects rather than brought items. The kraken ink stout quantity is 25 but the step says \"buy 25\" — that checks out. The whirlpool surprise quantity of 48 matches the step text exactly. However, \"rusty chest\" in unresolvedItems is an interactable object, not an item to track — minor misclassification. The gp_stack of 620k covering the stout purchases (25) and 48 whirlpool surprises plus any chartering costs is plausible but unverifiable without item prices. CRAB_QUEST in questIds is correct — the step explicitly says \"Start and complete Crab Quest in full.\""
     },
     "2.1.41": {
       "contentHash": "7336d47ece4efa4a1009ce2cbd81cab3f8ccdfea",
@@ -21362,17 +21355,18 @@
       "verifierNotes": "Several issues: (1) item-mismatch — \"lead ore\" doesn't exist in OSRS; the step almost certainly means \"silver ore\" or \"iron ore\" to smelt into bars, and this is left unresolved rather than flagged as a mismatch. (2) missing-item — the smelted bars (e.g. 2355 silver bar or equivalent) are not captured anywhere in items[] or unresolvedItems[]. (3) missing-quest — the Fremennik Easy diary is explicitly collected and completed this step (lamp on Herblore, pet rock menagerie task), so FREMENNIK_EASY_DIARY (or equivalent diary ID) should appear, not just a bare FREMENNIK_EASY quest entry which refers to the Fremennik Trials quest. (4) abstract-misuse — \"550k gp\" duplicates the \"cash stack\" abstract; only one abstract entry for currency is needed, and 550k is specific enough that it could be its own note rather than a second abstract. (5) qty-suspicious — \"11 bars\" is a specific quantity called out in the step text but no quantity is attached to any bar or ore item in the mapping. Overall the quest ID appears to be the wrong entity (quest vs. diary), and the ore/bar items are poorly handled."
     },
     "2.2.1": {
-      "contentHash": "802d9a2461cdfa201692c761946eb95e535833e8",
+      "contentHash": "c89f675270404862f3fbbeb8842bae83f6653127",
       "title": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
       "questIds": [
-        "AGILITY"
+        "RECIPE_FOR_DISASTER_MONKEY_AMBASSADOR"
       ],
-      "npcs": [],
+      "npcs": [
+        "Awowogei"
+      ],
       "locations": [
-        "Chambers of Xeric",
-        "Arceuus",
+        "Catacombs of Kourend",
+        "Arceuus Library",
         "Lovakengj",
-        "Zeah",
         "Mount Quidamortem",
         "Ardougne",
         "Kourend",
@@ -21406,24 +21400,33 @@
       ],
       "abstractItems": [
         {
-          "rawToken": "620k gp",
-          "label": "cash stack"
+          "label": "cash stack",
+          "rawToken": "620k gp"
         },
         {
-          "rawToken": "gp",
-          "label": "money"
+          "label": "digsite pendant",
+          "rawToken": "digsite pendants"
         }
       ],
-      "unresolvedItems": [],
+      "unresolvedItems": [
+        {
+          "rawToken": "Kharedst's",
+          "qty": null
+        },
+        {
+          "rawToken": "see20230127LowLevelBarblore",
+          "qty": null
+        }
+      ],
       "verified": false,
       "verifierConfidence": 0.62,
       "verifierFlags": [
         "tbd-step",
         "wrong-quest",
-        "missing-item",
-        "abstract-misuse"
+        "missing-quest",
+        "qty-suspicious"
       ],
-      "verifierNotes": "items_needed is \"tbd\" so the source is incomplete — flag tbd-step. The questId \"AGILITY\" is not a quest; it's a skill, so this is a wrong-quest flag (no quest is started or progressed this step). Feathers (314) are correctly included, but the specific item \"Digsite pendant\" (9245) is mentioned explicitly (\"go buy ~80 more rubies\" implies pendant crafting, and pendants are called out to maintain) and is missing from items[]. The \"money\" abstractItem is redundant/duplicative of the \"cash stack\" abstractItem already present — these should likely be merged or the generic \"money\" token dropped as an abstract-misuse."
+      "verifierNotes": "items_needed is \"tbd\" so flag tbd-step appropriately. The questIds entry RECIPE_FOR_DISASTER_MONKEY_AMBASSADOR is wrong — the step mentions needing level 70 cooking for RFD/Awowogei, but no quest is actively started or progressed this step; it's merely a future requirement reminder. If any RFD subquest were included it should be RECIPE_FOR_DISASTER_STARTED or similar, but none belong here at all — flag wrong-quest and missing-quest (no quest should be listed). Feather quantity of 314 (item ID for feathers) looks like a raw item ID used as a quantity rather than an actual quantity — \"buy as many feathers as needed\" gives no specific number, making 314 suspicious and likely an ID collision artifact (qty-suspicious). Fish offcuts x1700 and Soul rune x200 are well-supported by the text. Ruby x80 is also explicitly stated."
     },
     "2.1.46": {
       "contentHash": "4467367576e652a334ce51348dba6ca656d73ca1",
@@ -21741,11 +21744,11 @@
       "verifierNotes": "Several issues: (1) The Berserker ring (6737) is listed as a [content] item but the step says to *imbue* it at the PVP Arena — the imbued version (Berserker ring (i), ID 11773) is what the player ends up with; listing the un-imbued ring is a minor item-mismatch. (2) \"melee gear (incl. torso/ring now)\" is kept as an abstract item, which is reasonable, but \"cash stack\" is also abstract — the step specifies 650k gp which could be a concrete coin quantity; minor. (3) Dragon dagger is listed plainly (ID 1215), but at this stage players commonly use the poisoned variant (Dragon dagger(p++), ID 5698) for combat; the plain dagger is a plausible mismatch. (4) Copper longtail (9966) quantity x1 is fine for diary, but Dashing kebbit fur x2 is correct per step text — quantities look OK. (5) The step mentions buying a dragon scimitar (requiring coins from the cash stack) but the cash stack abstraction covers this. Overall the mapping is broadly correct but the un-imbued berserker ring and the plain dragon dagger variant are real concerns."
     },
     "2.2.7": {
-      "contentHash": "2670a8086ef6101e3e5e1b9c4b3d97bda3829b0e",
+      "contentHash": "464faa8ec26ac697420de89a763d3a4d03b5e57c",
       "title": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
       "questIds": [
-        "COLD_WAR",
-        "RATCATCHERS"
+        "RATCATCHERS",
+        "COLD_WAR"
       ],
       "npcs": [
         "Barnaby",
@@ -21842,6 +21845,12 @@
           "source": "items_needed"
         },
         {
+          "id": 1554,
+          "name": "Fluffs' kitten",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
           "id": 13121,
           "name": "Ardougne cloak 1",
           "qty": null,
@@ -21850,8 +21859,8 @@
       ],
       "abstractItems": [
         {
-          "label": "cash stack",
-          "rawToken": "cash stack"
+          "rawToken": "cash stack",
+          "label": "cash stack"
         }
       ],
       "unresolvedItems": [
@@ -21860,18 +21869,18 @@
           "qty": null
         },
         {
-          "rawToken": "cat",
+          "rawToken": "penguin suit",
           "qty": null
         }
       ],
       "verified": false,
       "verifierConfidence": 0.72,
       "verifierFlags": [
-        "missing-item",
         "item-mismatch",
+        "missing-item",
         "qty-suspicious"
       ],
-      "verifierNotes": "Three issues: (1) \"cat\" is unresolved but it's a specific in-game item — a regular Cat (item ID 1433 or variant) used for Ratcatchers; it should be in items[] not unresolvedItems[]. (2) \"any log\" is similarly concrete enough to resolve to Logs (item 1511) or similar; leaving it unresolved is acceptable but worth noting. (3) Steel nails (item 1539) are the *medium* nail — the raw text just says \"steel nails\" which is correct, but the ID 1539 maps to \"Steel nails\" (noted fine). More critically, the items_needed includes a \"cash stack\" (gp_stack 630k) which is in abstractItems — that's appropriate. (4) The emerald lantern (9064) is listed but the step says to *swap out the emerald for a lantern lens*, implying the lantern should be the unlit/lens-loaded bullseye lantern; the mapping captures both the emerald lantern and lantern lens which correctly reflects the swap needed. (5) \"Staff of water\" (1383) is mapped for \"water staff\" — correct. Overall the cat omission from items[] is the main real problem, and steel nails qty of x10 matches the raw text fine."
+      "verifierNotes": "Three issues: (1) Item 1554 is \"Fluffs' kitten\" (a specific named kitten), but the source says \"cat\" — a fully grown cat (e.g. item 1567 \"Cat\") is required for Ratcatchers, not a kitten; this is a wrong-variant mismatch. (2) \"any log\" is left in unresolvedItems but could reasonably be mapped to Logs (item 1511) with a note; not a hard flag but worth resolving. (3) Steel nails qty is 10, but Ratcatchers typically requires more nails (the plank-and-nail segment for the Keldagrim/Varrock mansion roof can consume more); x10 may be sufficient but is worth double-checking. The cash stack is correctly abstracted. \"Penguin suit\" in unresolvedItems is fine since it is crafted during the quest, not an item_needed pre-step."
     },
     "2.2.2": {
       "contentHash": "bdf850abf1d4b6c5e16f181bd8d25ff9d44f2562",
@@ -22790,11 +22799,12 @@
       "verifierNotes": "Several issues: (1) Item 1897 is \"Chocolate cake\" but the correct OSRS item for chocolate cake is ID 1897 — however, more critically, the step mentions selling \"Pyramid Plunder artefacts\" (stone scarab is captured but other plunder artefacts like stone seal, gold statuette etc. are not listed, though they may be assumed held already). (2) \"air runes (or staff)\" and \"fire runes (or staff)\" are left unresolved but these are needed for Contact! spell-casting and should at minimum be in abstractItems or resolved — leaving them fully unresolved with no abstractItem entry is a gap. (3) Keris (10581) is listed as [content] which is reasonable since it's picked up during the quest, but it is not in items_needed — this is fine. (4) \"locust rider\" in unresolvedItems is a monster, not an item — it should not appear in unresolvedItems at all; this indicates a parser confusion. (5) \"golden pyramid\" is unresolved but item ID 4603 exists in OSRS and should be resolvable. (6) The questIds include both CONTACT and A_TAIL_OF_TWO_CATS — Contact! is fully completed this step, but A Tail of Two Cats is only progressed (spoken to Sphinx, Bob's chores), not completed, so including it is acceptable. However, the Agility Pyramid diary climb is associated with the Kharidian Desert diary, not a quest — no quest ID issue there. (7) Overgrown hellcat (7581) is one variant; the step just says \"hellcat\" which could be normal (7572) or overgrown — this is a minor item-mismatch risk."
     },
     "2.2.25": {
-      "contentHash": "1d8b17bd8d7a4fdf49d74b5811bd46e969fb502d",
+      "contentHash": "78d5fb0fc7f5990f474ba737af33f95570f2b8ad",
       "title": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
       "questIds": [
         "RECIPE_FOR_DISASTER_MONKEY_AMBASSADOR",
-        "FREMENNIK_HARD"
+        "FREMENNIK_HARD",
+        "AGILITY"
       ],
       "npcs": [
         "Awowogei"
@@ -22802,9 +22812,9 @@
       "locations": [
         "Chambers of Xeric",
         "Arceuus Library",
-        "Lovakengj",
         "Mount Quidamortem",
-        "Fremennik province"
+        "Fremennik province",
+        "Hallowed Sepulchre"
       ],
       "items": [
         {
@@ -22836,6 +22846,26 @@
         {
           "label": "cash stack",
           "rawToken": "670k gp"
+        },
+        {
+          "label": "fishing target",
+          "rawToken": "99 fishing"
+        },
+        {
+          "label": "cooking target",
+          "rawToken": "level 70 cooking"
+        },
+        {
+          "label": "herblore threshold",
+          "rawToken": "66 herblore"
+        },
+        {
+          "label": "agility target",
+          "rawToken": "level 72 agility"
+        },
+        {
+          "label": "seaweed cap",
+          "rawToken": "12.5k seaweed"
         }
       ],
       "unresolvedItems": [
@@ -22844,19 +22874,24 @@
           "qty": null
         },
         {
+          "rawToken": "sturgeon",
+          "qty": null
+        },
+        {
           "rawToken": "2-dose potions",
           "qty": null
         }
       ],
       "verified": false,
-      "verifierConfidence": 0.52,
+      "verifierConfidence": 0.55,
       "verifierFlags": [
         "wrong-quest",
         "missing-quest",
         "missing-item",
+        "abstract-misuse",
         "qty-suspicious"
       ],
-      "verifierNotes": "Several issues: (1) RECIPE_FOR_DISASTER_MONKEY_AMBASSADOR is wrong — the step references RFD/Awowogei as a future cooking level requirement, not as a quest being progressed this step; neither RFD subquest is started here. (2) FREMENNIK_HARD is plausible (the super defence potion diary step is done this step), but the super defence potion itself is listed in unresolvedItems instead of items[] — it should be resolved as item 3051 (Super defence potion 3-dose) or similar. (3) \"2-dose potions\" is left unresolved but likely refers to existing potions being decanted/used rather than a new item; still, leaving it unresolved without a note is a gap. (4) Feathers (314) have no quantity captured despite the step explicitly saying \"buy as many feathers as needed\" — a qty-suspicious flag is warranted as this is a major consumable for a long grind. (5) The cash stack abstractItem (670k gp) seems reasonable as an abstract since it's a pre-existing gp stack reference."
+      "verifierNotes": "Several issues: (1) `AGILITY` is not a quest — it's a skill, and including it as a questId is an abstract-misuse; the step only mentions agility as an optional alternative to this step. (2) `FREMENNIK_HARD` is a diary, not a quest — it's referenced for the super defence potion unlock, but the diary is not started/completed this step in any meaningful quest-progress sense; if it must be included it should be flagged as a diary, not a quest. (3) `RECIPE_FOR_DISASTER_MONKEY_AMBASSADOR` (RFD/Awowogei) is only cited as a future cooking-level requirement — it is not started or progressed this step, so it's a wrong-quest. (4) `2-dose potions` is listed in items_needed but left in unresolvedItems[] — it should at minimum be flagged or partially resolved (likely refers to stamina or ranging potions at this guide stage). (5) `super defence potion` is actionable and specific enough to be in items[] (item ID 3014) rather than unresolvedItems[]. (6) No quantity is provided for Feathers (item 314), which is suspicious given the step explicitly says \"buy as many feathers as needed\" — a qty placeholder or note is warranted."
     },
     "2.2.26": {
       "contentHash": "1bca91406c97e5db7929b2fbb1254a1d2bd93230",
@@ -22867,7 +22902,8 @@
         "LEGENDS_QUEST",
         "RECIPE_FOR_DISASTER_MONKEY_AMBASSADOR",
         "RECIPE_FOR_DISASTER_START",
-        "KARAMJA_DIARY",
+        "KARAMJA_EASY",
+        "KARAMJA_MEDIUM",
         "SHILO_VILLAGE"
       ],
       "npcs": [
@@ -23310,19 +23346,17 @@
       "verifierNotes": "Several issues: (1) The rune spear is listed as item 1247 (plain rune spear) but the step text explicitly calls for a \"karambwan poisoned rune spear\" (kp = karambwan poisoned), which is a different item ID (item 1249). This is a clear item-mismatch. (2) DESERT_MEDIUM is listed as a questId — it is a diary reward collection, not a quest started/progressed in the traditional sense; it may be better represented as an abstract or diary entry, and \"wrong-quest\" applies if the system conflates diary tiers with quest IDs. (3) The rabbit foot (10134) is listed under items[] as a [content] item but it is an optional crafted output, not an input — its inclusion is debatable but not severely wrong. (4) Energy potions appear in items_needed as \"energy pots\" but are mapped to 3008 (Energy potion(4)) — reasonable, though qty=1 implied by default could be suspicious given the long run sections; minor. (5) The gp_stack of 670k is captured in abstractItems which is appropriate, but \"cash stack\" and \"670k gp\" are listed as two separate abstract entries for what is essentially one thing — minor redundancy but not a hard flag."
     },
     "2.2.29": {
-      "contentHash": "c16bcbf566f06cced276357fab00accf7d0490a8",
+      "contentHash": "4636c2ab2ce085c9d6152aba3de521bacea48c14",
       "title": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
       "questIds": [
         "KNIGHT_WAVES_TRAINING_GROUNDS",
         "KINGS_RANSOM"
       ],
-      "npcs": [
-        "Corporeal Beast"
-      ],
+      "npcs": [],
       "locations": [
-        "Wilderness",
         "Chaos Altar",
         "Camelot",
+        "Corporeal Beast",
         "Ferox Enclave",
         "Arceuus Cemetery",
         "Varlamore"
@@ -23371,9 +23405,9 @@
           "source": "content"
         },
         {
-          "id": 13121,
-          "name": "Ardougne cloak 1",
-          "qty": null,
+          "id": 770,
+          "name": "Ardougne cloak",
+          "qty": 1,
           "source": "content"
         },
         {
@@ -23383,8 +23417,14 @@
           "source": "content"
         },
         {
-          "id": 22943,
-          "name": "Rada's blessing 2",
+          "id": 22803,
+          "name": "Rada's blessing",
+          "qty": 2,
+          "source": "content"
+        },
+        {
+          "id": 2552,
+          "name": "Ring of dueling(8)",
           "qty": null,
           "source": "content"
         },
@@ -23395,26 +23435,14 @@
           "source": "content"
         },
         {
-          "id": 2552,
-          "name": "Ring of dueling(8)",
-          "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 1907,
-          "name": "Wizard's mind bomb",
-          "qty": null,
-          "source": "content"
-        },
-        {
           "id": 1515,
           "name": "Yew logs",
           "qty": null,
           "source": "content"
         },
         {
-          "id": 526,
-          "name": "Bones",
+          "id": 1907,
+          "name": "Wizard's mind bomb",
           "qty": null,
           "source": "content"
         },
@@ -23427,37 +23455,45 @@
       ],
       "abstractItems": [
         {
-          "label": "melee gear (as mentioned)",
+          "label": "defensive melee gear",
           "rawToken": "melee gear (as mentioned)"
         },
         {
-          "label": "stat-boosting pots",
+          "label": "stat-boosting potions",
           "rawToken": "stat-boosting pots"
-        },
-        {
-          "label": "runes for thralls",
-          "rawToken": "runes for thralls"
         },
         {
           "label": "food",
           "rawToken": "cheese potatoes"
+        },
+        {
+          "label": "thrall runes or gp to buy them",
+          "rawToken": "runes for thralls or gp to buy them"
+        },
+        {
+          "label": "70k gp minimum cash stack",
+          "rawToken": "gp_stack: 70k gp"
         }
       ],
       "unresolvedItems": [
         {
-          "rawToken": "proselyte top",
+          "rawToken": "Proselyte top",
           "qty": null
         },
         {
-          "rawToken": "proselyte bottom",
+          "rawToken": "Proselyte bottom",
           "qty": null
         },
         {
-          "rawToken": "dragonfire potion",
+          "rawToken": "Dragonfire potion",
           "qty": null
         },
         {
-          "rawToken": "dragon hides",
+          "rawToken": "Resurrect Superior Skeletal/Ghostly thrall runes",
+          "qty": null
+        },
+        {
+          "rawToken": "Greater spell",
           "qty": null
         },
         {
@@ -23470,10 +23506,10 @@
       "verifierFlags": [
         "item-mismatch",
         "missing-item",
-        "abstract-misuse",
-        "wrong-quest"
+        "wrong-quest",
+        "qty-suspicious"
       ],
-      "verifierNotes": "Several issues: (1) item-mismatch: Dragon Defender should be item ID for the standard Dragon Defender (12954 is actually the Dragon Defender — this needs checking; the standard Dragon Defender is 12954, that appears correct actually). More critically, the Proselyte top/bottom are listed as unresolved but ARE specific known items (IDs 9374/9376) that should be in items[] not unresolvedItems[]. (2) missing-item: Chaos altar usage implies needing to travel there — no Arceuus Cemetery Teleport runes or similar noted; also dragonfire potions are referenced in the step text as part of the setup and are left unresolved rather than abstracted or resolved (minor). (3) abstract-misuse: \"food\" is labeled with rawToken \"cheese potatoes\" — cheese potatoes (item 7063) is a specific item and should be in items[], not abstracted. (4) wrong-quest: KNIGHT_WAVES_TRAINING_GROUNDS is a minigame, not a quest — King's Ransom (KINGS_RANSOM) is correct as it is done this step, but Knight Waves Training Grounds is a post-quest minigame activity and its inclusion as a questId is a misclassification. (5) Bones (526) and Yew logs (1515) are incidental outputs/byproducts of the step rather than items_needed inputs, making their inclusion in items[] questionable but not severely wrong."
+      "verifierNotes": "Several issues: (1) item-mismatch: Ardougne cloak is listed as ID 770 (Ardougne cloak 1) but that ID is actually a placeholder/wrong — the Ardougne Cloak 1 correct ID is 10330; similarly Rada's Blessing 2 ID 22803 should be verified (actual ID is 22780). (2) missing-item: Proselyte top (9672) and Proselyte bottom (9674) are in unresolvedItems but are explicitly named gear in the standard setup and should be resolved to items[]. Dragonfire potion (11511) is also a named optional item that could be resolved. (3) wrong-quest: KNIGHT_WAVES_TRAINING_GROUNDS is not a quest — it is a minigame/activity; it should not appear in questIds[]. Only KINGS_RANSOM is a proper quest done this step. (4) qty-suspicious: Blessed bone shards (29381) are listed in items[] as content, but they are only mentioned as a HCIM-optional alternative method note, making their inclusion as a concrete item arguably out of scope; they belong at most in abstractItems or a conditional note. (5) minor: \"food\" abstractItem rawToken is \"cheese potatoes\" which is a specific food item that could reasonably be resolved to an item ID, though it is somewhat generic for this guide stage."
     },
     "2.2.31": {
       "contentHash": "22f154644898ded3d1f5c1f0c774025a070d04eb",
@@ -23607,39 +23643,39 @@
       "verifierNotes": "Several issues: (1) \"coins\" is left as an abstractItem but coins (item ID 995) is a real, specific in-game item and should be in items[] — this is an abstract-misuse. (2) \"superantipoison potion\" is unresolved but it's a concrete item (item ID 2448) that should be in items[]; it's clearly required by the step text. (3) \"kyatt futs\" is unresolved — this should resolve to \"Kyatt fur\" (item ID 10095), which is a concrete required item for upgrading the medium fur pouch; leaving it unresolved is a missing-item. (4) Kharedst's memoirs (21760) is placed under [content] but it appears in items_needed and is a carried item (not crafted/produced this step), so it belongs in [items_needed] rather than [content]. These together represent meaningful coverage gaps and a classification error."
     },
     "2.2.32": {
-      "contentHash": "e98c76da90ba249120b2f11daf2fc3b32b63d4a7",
+      "contentHash": "8d022cf69e0685a4f9122962eae5ecb3f50119b4",
       "title": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
       "questIds": [
         "CURSE_OF_THE_EMPTY_LORD",
         "AT_FIRST_LIGHT",
         "PERILOUS_MOON",
         "THE_HEART_OF_DARKNESS",
+        "SHADOWS_OF_CUSTODIA",
         "SCRAMBLED",
         "VALE_TOTEMS",
-        "SHADOWS_OF_CUSTODIA",
         "IN_AID_OF_THE_MYREQUE",
         "DARKNESS_OF_HALLOWVALE",
         "A_TASTE_OF_HOPE",
         "SINS_OF_THE_FATHER",
-        "FREMENNIK_MEDIUM",
-        "VARROCK_HARD"
+        "VARROCK_HARD",
+        "FREMENNIK_MEDIUM"
       ],
       "npcs": [
         "Huntmaster Gilman",
         "Pellem",
         "Arcuani",
-        "Orlando Smith",
+        "Information clerk",
         "Historian Minas",
-        "Information Clerk",
-        "Vanstrom Klause"
+        "Orlando Smith"
       ],
       "locations": [
-        "Varrock",
         "Varrock Palace",
+        "Varrock",
         "Varlamore",
         "The Burrow",
         "Tal Teklan",
-        "Auburnvale"
+        "Auburnvale",
+        "Paterdomus"
       ],
       "items": [
         {
@@ -23675,7 +23711,7 @@
         {
           "id": 960,
           "name": "Plank",
-          "qty": null,
+          "qty": 2,
           "source": "items_needed"
         },
         {
@@ -23691,14 +23727,68 @@
           "source": "items_needed"
         },
         {
+          "id": 946,
+          "name": "Knife",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 1605,
+          "name": "Emerald",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 1755,
+          "name": "Chisel",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
           "id": 556,
           "name": "Air rune",
-          "qty": 20000,
-          "source": "content"
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 564,
+          "name": "Cosmic rune",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 233,
+          "name": "Pestle and mortar",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 227,
+          "name": "Vial of water",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 1603,
+          "name": "Ruby",
+          "qty": null,
+          "source": "items_needed"
+        },
+        {
+          "id": 554,
+          "name": "Fire rune",
+          "qty": null,
+          "source": "items_needed"
         },
         {
           "id": 4587,
           "name": "Dragon scimitar",
+          "qty": null,
+          "source": "content"
+        },
+        {
+          "id": 29080,
+          "name": "Moonlight potion(4)",
           "qty": null,
           "source": "content"
         },
@@ -23709,15 +23799,15 @@
           "source": "content"
         },
         {
-          "id": 21690,
-          "name": "Mushroom pie",
+          "id": 21140,
+          "name": "Efaritay's aid",
           "qty": null,
           "source": "content"
         },
         {
-          "id": 21140,
-          "name": "Efaritay's aid",
-          "qty": null,
+          "id": 29292,
+          "name": "Mixed hide base",
+          "qty": 2,
           "source": "content"
         },
         {
@@ -23733,39 +23823,53 @@
           "source": "content"
         },
         {
+          "id": 29218,
+          "name": "Jaguar fur",
+          "qty": null,
+          "source": "content"
+        },
+        {
           "id": 29277,
           "name": "Trapper's tipple",
           "qty": 27,
           "source": "content"
         },
         {
-          "id": 29292,
-          "name": "Mixed hide base",
-          "qty": 2,
+          "id": 21690,
+          "name": "Mushroom pie",
+          "qty": null,
           "source": "content"
         }
       ],
       "abstractItems": [
         {
           "label": "cash stack",
-          "rawToken": "2.1m gp"
+          "rawToken": "1.7m gp"
         },
         {
-          "label": "slayer xp lamps",
-          "rawToken": "lamps on slayer"
+          "label": "slayer level",
+          "rawToken": "level 51 (or higher) slayer"
         },
         {
-          "label": "herblore xp lamps",
-          "rawToken": "lamps on herblore"
+          "label": "target slayer level",
+          "rawToken": "level 58 for access to Cave Horrors"
         }
       ],
       "unresolvedItems": [
         {
-          "rawToken": "enchanted silvthrill rod",
+          "rawToken": "Dragon'hai history book",
           "qty": null
         },
         {
-          "rawToken": "rod of ivandis",
+          "rawToken": "Moss lizard",
+          "qty": null
+        },
+        {
+          "rawToken": "Enchanted silvthrill rod",
+          "qty": null
+        },
+        {
+          "rawToken": "Rod of Ivandis",
           "qty": null
         }
       ],
@@ -23776,10 +23880,10 @@
         "missing-item",
         "wrong-quest"
       ],
-      "verifierNotes": "Several issues: (1) Iron nails (ID 4820) are mapped but the step says \"8 nails\" with no type specified — iron nails may be wrong variant; the rod-making typically uses steel nails, worth checking. (2) The enchanted silvthrill rod and Rod of Ivandis are left as unresolved but these are concrete items directly mentioned in items_needed and step text — the enchanted silvthrill rod (approx. ID 7638) and Rod of Ivandis (approx. ID 7639) should be resolved into items[] rather than left unresolved. (3) Quest ID \"PERILOUS_MOON\" is likely wrong — the quest is \"Perilous Moons\" (plural), so the ID should probably be PERILOUS_MOONS. (4) \"FREMENNIK_MEDIUM\" and \"VARROCK_HARD\" are diary entries rather than quests and their inclusion in questIds is debatable but acceptable given the step explicitly tracks diary completion. (5) The Dragon'hai history book and Trapper's tipple collection are captured, but the jaguar fur item used to craft mixed hide gear is not present in items[] despite being explicitly required during At First Light."
+      "verifierNotes": "Three concrete issues: (1) Nails are listed as Iron nails (item 4820) but the step doesn't specify nail type — for In Aid of the Myreque, steel nails are typically required, making this a plausible item-mismatch. (2) \"Enchanted silvthrill rod\" is in unresolvedItems but it is a distinct real item that should be in items[] (item 7639 Enchanted silvthrill rod); the plain Silvthrill rod (7637) is listed separately in items_needed, but the step text specifically says to bring the *enchanted* version to the fairy ring — these are two separate items and both matter. (3) PERILOUS_MOON appears to be a wrong quest ID — the quest is called \"Perilous Moons\" (plural), the correct ID is likely PERILOUS_MOONS. Additionally, the Dragon'hai history book and Rod of Ivandis being unresolved is acceptable since they are quest/content items not in items_needed, but the Enchanted silvthrill rod being unresolved when it's explicitly called out as a required carry item is a real gap. Moss lizard being unresolved is fine as a consumable supply."
     },
     "2.2.33": {
-      "contentHash": "62d9061b6fbb0ba39204054b3e1b32477761cb62",
+      "contentHash": "350a742beeee5a3d473b67d61c298cce90dcc4c7",
       "title": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
       "questIds": [
         "PANDEMONIUM",
@@ -23787,13 +23891,13 @@
       ],
       "npcs": [
         "Jobless Jim",
-        "Ex-Captain Siad"
+        "Ex-Captain Siad",
+        "Peer the Seer"
       ],
       "locations": [
         "Port Sarim",
         "Pandemonium",
         "Great Conch",
-        "Summer Shore",
         "Unquiet Ocean",
         "Sea of Shells",
         "Piscarillius",
@@ -23803,7 +23907,9 @@
         "Shimmering Atoll",
         "Port Khazard",
         "Onyx Crest",
-        "The Summer Shore"
+        "Lost schematics",
+        "Summer Shore",
+        "Rellekka"
       ],
       "items": [
         {
@@ -23831,9 +23937,9 @@
           "source": "content"
         },
         {
-          "id": 1925,
-          "name": "Bucket",
-          "qty": 4,
+          "id": 1523,
+          "name": "Lockpick",
+          "qty": null,
           "source": "content"
         },
         {
@@ -23845,12 +23951,6 @@
         {
           "id": 25818,
           "name": "Book of the dead",
-          "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 1523,
-          "name": "Lockpick",
           "qty": null,
           "source": "content"
         },
@@ -23871,19 +23971,27 @@
           "name": "A small key",
           "qty": null,
           "source": "content"
+        },
+        {
+          "id": 325,
+          "name": "Sardine",
+          "qty": null,
+          "source": "content"
+        },
+        {
+          "id": 946,
+          "name": "Knife",
+          "qty": null,
+          "source": "content"
         }
       ],
       "abstractItems": [
         {
-          "label": "gp stack",
-          "rawToken": "2.1m gp"
+          "label": "cash stack",
+          "rawToken": "1.6m gp"
         }
       ],
       "unresolvedItems": [
-        {
-          "rawToken": "key to the camp",
-          "qty": null
-        },
         {
           "rawToken": "salvaging station schematic",
           "qty": null
@@ -23893,12 +24001,12 @@
           "qty": 80
         },
         {
-          "rawToken": "tarnished chest",
-          "qty": null
-        },
-        {
           "rawToken": "pilar fragments",
           "qty": 50
+        },
+        {
+          "rawToken": "tarnished chest",
+          "qty": null
         },
         {
           "rawToken": "blue crabs",
@@ -23933,7 +24041,7 @@
           "qty": null
         },
         {
-          "rawToken": "tbd",
+          "rawToken": "tbd + 4 buckets",
           "qty": null
         }
       ],
@@ -23946,7 +24054,7 @@
         "wrong-quest",
         "qty-suspicious"
       ],
-      "verifierNotes": "Several issues: (1) tbd-step — items_needed is explicitly \"tbd + 4 buckets, 4 planks, 8 nails, saw, hammer\", so the full list is incomplete by the guide's own admission. (2) item-mismatch — nails are mapped to Steel nails (1539) but the guide says \"8 nails\" with no tier specified; for this stage an ironman would likely use iron or steel, but steel is a reasonable guess — minor. More critically, item 1507 \"A small key\" is mapped but this is the small key found by digging at the Onyx Crest for the Lost Schematics quest, which is a found/dropped item not something brought to the step; its inclusion in items[] rather than unresolvedItems[] is questionable. (3) missing-item — \"key to the camp\" (the Desert Mining Camp key) is in unresolvedItems but has a known OSRS item ID (2799, Shantay Pass key area) and should be resolved; also \"bottle of the way home\" and \"medallion fragment\" are sailing/new content items that may have IDs and are left unresolved. (4) wrong-quest — PANDEMONIUM is listed as a questId but the step text only references sailing to the Pandemonium as a location for xp bonus, not starting/completing a quest there this step; only TROUBLED_TORTUGANS is clearly started and completed this step. (5) qty-suspicious — \"lead ore x80\" is in unresolvedItems and is a significant purchase (80 units) that warrants capture in items[] if an ID exists, and Fish offcuts lack a quantity despite the step implying banked stock is consumed."
+      "verifierNotes": "Several issues: (1) tbd-step — items_needed is explicitly \"tbd + 4 buckets, 4 planks, 8 nails, saw, hammer\"; the 4 buckets are entirely missing from items[] and unresolvedItems[]. (2) item-mismatch — nails are mapped to Steel nails (1539) but the guide just says \"8 nails\" with no tier specified; for an ironman at this stage iron or bronze nails are plausible too, steel is an assumption. Also, planks are mapped as item 960 (Plank = regular plank) but the guide doesn't specify plank tier — could be fine, but worth flagging. (3) wrong-quest — PANDEMONIUM is listed as a questId; the step text says \"Charter to the Pandemonium\" which appears to be a location/ship name, not a quest being started or completed this step. Only TROUBLED_TORTUGANS is clearly started and completed here. (4) missing-item — the \"key to the [desert mining] camp\" required to recruit Ex-Captain Siad is not captured anywhere (not in items[], not in unresolvedItems[]). (5) qty-suspicious — Ring of dueling(8) is reasonable but the guide says \"dueling ring\" generically; mapping to the full (8) stack is a minor assumption. The unresolved list is appropriately long given the tbd status of items_needed."
     },
     "2.2.34": {
       "contentHash": "4ae069a8686b9ee88d927a867b12aea0fc92802d",
@@ -24166,7 +24274,7 @@
       "verifierNotes": "items_needed is \"tbd\" so the source is incomplete, warranting tbd-step. Several significant issues beyond that: (1) Lead ore and its resulting lead bars are in unresolvedItems but should be in items[] — lead ore is a specific, resolvable OSRS item (item ID 440). (2) Agility potion (3) x16 and agility potion (4) x12 are unresolved — these are concrete items with known IDs (3032/3030) and should be in items[]. (3) The 975 mithril nails are unresolved; while they're an output of this step (smithed from the 65 bars), they are a key product and should be captured. (4) The \"MLM ore\" abstractItems for mithril and gold ore are redundant and arguably a misuse of abstractItems — the mithril ore (447) and gold ore (444) are already in items[], so these abstracts add noise without value. (5) Qty for mithril ore (447) has no quantity listed — given 65 bars are smelted from MLM mithril, a quantity should be present (65 ore minimum, likely more since some bars are banked)."
     },
     "2.2.36": {
-      "contentHash": "db2b1edc0271e6af31dbb3db2c7ab2b9b0476065",
+      "contentHash": "47737bbf0c5cac61e24908b5cd11e347b3a30a01",
       "title": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
       "questIds": [],
       "npcs": [
@@ -24184,12 +24292,6 @@
           "source": "content"
         },
         {
-          "id": 1919,
-          "name": "Beer glass",
-          "qty": 4,
-          "source": "content"
-        },
-        {
           "id": 28140,
           "name": "Log basket",
           "qty": 1,
@@ -24202,6 +24304,12 @@
           "source": "content"
         },
         {
+          "id": 1643,
+          "name": "Diamond ring",
+          "qty": null,
+          "source": "content"
+        },
+        {
           "id": 21483,
           "name": "Ultracompost",
           "qty": null,
@@ -24210,8 +24318,16 @@
       ],
       "abstractItems": [
         {
-          "label": "cash stack",
-          "rawToken": "2.0m gp"
+          "rawToken": "high alchemy runes",
+          "label": "high alchemy runes"
+        },
+        {
+          "rawToken": "1.5m gp",
+          "label": "cash stack"
+        },
+        {
+          "rawToken": "standard spellbook",
+          "label": "spellbook"
         }
       ],
       "unresolvedItems": [
@@ -24236,6 +24352,10 @@
           "qty": 2
         },
         {
+          "rawToken": "empty beer glass",
+          "qty": 4
+        },
+        {
           "rawToken": "hemp seed",
           "qty": null
         },
@@ -24245,14 +24365,13 @@
         }
       ],
       "verified": false,
-      "verifierConfidence": 0.62,
+      "verifierConfidence": 0.72,
       "verifierFlags": [
         "tbd-step",
-        "item-mismatch",
         "missing-item",
         "qty-suspicious"
       ],
-      "verifierNotes": "items_needed is \"tbd\" so flag tbd-step. However, several concrete issues exist beyond incompleteness: (1) Item 10885 is \"Keg\" in OSRS but this refers to a Sailing-skill keg construction — worth flagging as a potential item-mismatch since 10885 is the standard barrel/keg and may not represent the buildable Sailing kegs correctly. (2) Ultracompost (21483) is listed without a quantity, which is qty-suspicious given the goal is 40+ hemp harvests requiring multiple applications. (3) The step explicitly mentions a \"log basket\" and \"seed box\" as conditional (\"if you have them\"), so including them as definite items[] is slightly aggressive, though not a hard error. (4) Several items correctly sit in unresolvedItems (sloop, whirlpool surprise, kraken ink stout, salvaging station, mithril salvaging hooks, hemp/cotton seeds) as these are Sailing-skill content with no current OSRS item IDs — that is appropriate handling. (5) No quests are flagged, which is correct as this is a skilling/sailing step with no quest progression. Overall the mapping is reasonable given the tbd source, but the keg item ID validity and missing ultracompost quantity are real concerns."
+      "verifierNotes": "items_needed is \"tbd\" so the source is inherently incomplete — flagged accordingly. Several items mentioned explicitly in the step text are captured in unresolvedItems rather than items[], which is acceptable given they appear to be Sailing-skill content not yet in the OSRS wiki/database, but the mapping should at minimum surface \"empty beer glass\" (item ID 1919, x4) and \"diamond ring\" should likely carry a quantity (the step implies alching many, though exact qty is open). The keg quantity (x2, ID 10885) looks correct per the step. Log basket and seed box are marked x1 each which is fine. The abstractItem for \"spellbook\" is a minor abstract-misuse — standard spellbook is a game-state requirement, not an item to acquire, and probably shouldn't be in abstractItems at all. Hemp seed and cotton seed are left unresolved without quantities; hemp seed needs ~6 seeds per the step text, so a qty should be noted."
     },
     "2.2.37": {
       "contentHash": "251880e3cc57ce537d8fafef1dd1ba29256a4a90",
@@ -24424,7 +24543,6 @@
       "contentHash": "3c6654a2492d58672945acece6c9293ca848e1a7",
       "title": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
       "questIds": [
-        "BLAST_FURNACE",
         "DEVIOUS_MINDS",
         "DEFENDER_OF_VARROCK",
         "THE_CURSE_OF_ARRAV",
@@ -24863,9 +24981,7 @@
     "2.2.39": {
       "contentHash": "60ecf2d149373ef815f7871d3ece7a5e373c0f92",
       "title": "2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
-      "questIds": [
-        "HALLOWED_SEPULCHRE"
-      ],
+      "questIds": [],
       "npcs": [
         "Flower girl"
       ],
@@ -25122,7 +25238,7 @@
       "verifierNotes": "**wrong-quest**: HALLOWED_SEPULCHRE is not a quest — it's a minigame/activity. No quest is started or progressed this step; questIds should be empty. **item-mismatch**: Item 4824 is \"Rune nails\" but the step explicitly says addy (adamant) nails are in items_needed and that mahogany planks with rune nails are NOT being used (\"in BRUHsailer you will not be doing this\") — rune nails should not be present. Adamant nails (id 4822) should be in items[] instead. Also, item 837 is a Crossbow but the items_needed says \"crossbow\" alongside \"Sara items\" — these likely refer to Saradomin GWD gear (e.g. Saradomin sword/armour) for restoring prayer, which are in unresolvedItems but the crossbow ID should be verified (837 is a standard crossbow, not obvious what's needed here). **missing-item**: \"Rune bolts\" (mentioned for alching) and \"strange lockpick\" x107 are left in unresolvedItems but are specific enough to resolve — rune bolts (id 9341) and strange lockpick (id 24740) should be in items[]. \"Sara items\" in unresolvedItems is vague but likely refers to Saradomin sword or similar, which warrants a flag. **abstract-misuse**: The three abstractItems (cash stack, million gp, 7.5m) are all just references to the gp_stack cash figure (37.4m noted); these are redundant and overly split — a single abstract \"gp\" entry would suffice, but having three near-duplicate entries for the same concept is noise. **qty-suspicious**: Ring of endurance shown as x3 but the step states \"3.78 Rings of Endurance (98% chance to get at least one)\" — rounding to 3 is acceptable but the fractional expected value context means 4 might be more appropriate as a ceiling quantity."
     },
     "3.1.5": {
-      "contentHash": "734e29354747cf3dfb93bd0996285c7fbb317cb3",
+      "contentHash": "37745ccb2cd9eb035e7e9386d61259beb465b55e",
       "title": "3.1: Slayer and the red prison",
       "questIds": [
         "MORYTANIA_HARD",
@@ -25133,9 +25249,9 @@
       ],
       "locations": [
         "Cave Horrors",
-        "Heroes Guild",
         "PVP Arena",
-        "Nightmare Zone"
+        "Nightmare Zone",
+        "Heroes Guild"
       ],
       "items": [
         {
@@ -25153,6 +25269,12 @@
         {
           "id": 9674,
           "name": "Proselyte hauberk",
+          "qty": 1,
+          "source": "content"
+        },
+        {
+          "id": 4194,
+          "name": "Torso",
           "qty": 1,
           "source": "content"
         },
@@ -25175,6 +25297,12 @@
           "source": "content"
         },
         {
+          "id": 21177,
+          "name": "Expeditious bracelet",
+          "qty": 1,
+          "source": "content"
+        },
+        {
           "id": 1434,
           "name": "Dragon mace",
           "qty": 1,
@@ -25187,12 +25315,16 @@
           "rawToken": "slayer gear"
         },
         {
-          "label": "regular slayer gear",
+          "label": "melee gear",
           "rawToken": "regular slayer gear"
         },
         {
           "label": "thralls",
           "rawToken": "thralls"
+        },
+        {
+          "label": "ectotokens",
+          "rawToken": "ectotokens"
         },
         {
           "label": "cash stack",
@@ -25201,36 +25333,38 @@
       ],
       "unresolvedItems": [
         {
-          "rawToken": "ectotokens",
-          "qty": 130
-        },
-        {
           "rawToken": "imbue scroll",
           "qty": 1
         },
         {
-          "rawToken": "cave-horrors.png (northwest from the entrance)",
+          "rawToken": "jeweller's chisel",
+          "qty": 1
+        },
+        {
+          "rawToken": "cave-horrors.png",
+          "qty": null
+        },
+        {
+          "rawToken": "dark kebbit",
           "qty": null
         }
       ],
       "verified": false,
-      "verifierConfidence": 0.55,
+      "verifierConfidence": 0.62,
       "verifierFlags": [
         "tbd-step",
         "item-mismatch",
         "qty-suspicious",
         "missing-item",
-        "wrong-quest",
-        "abstract-misuse"
+        "abstract-misuse",
+        "missing-quest"
       ],
-      "verifierNotes": "Several issues: (1) tbd-step — items_needed is explicitly \"tbd\" so the mapping is speculative. (2) item-mismatch — item 25794 is \"Bones\" (regular bones, qty 26), but the step says 13 bones *each visit, twice a day*, sourced from slayer tasks (dragon bones etc.) — regular bones are not mentioned and the quantity logic (26 = 2×13) is a gross undercount for the 24k charge goal; this is more of a note/goal than a discrete item to acquire. (3) qty-suspicious — 130 ectotokens are listed as unresolved but are a currency reward/collection, not something to \"bring\"; similarly the bonecrusher charge math (3250/day toward 24k) describes an ongoing grind, not a one-time item quantity. (4) missing-item — the \"imbue scroll\" (PVP Arena imbue scroll) is left in unresolvedItems but is a real, specific tradeable/obtainable item that should be in items[] if mappable. (5) wrong-quest — \"MORYTANIA_HARD\" is a diary, not a quest; if the system uses a separate diary/achievement namespace this could be a wrong-quest flag, and it should likely be encoded differently (e.g., as an achievement diary ID). (6) abstract-misuse — \"cash stack / 32.2m gp\" is mapped as an abstractItem but this is a concrete gp_stack value from the guide metadata, not a vague abstraction; it should either be a gp field or omitted, not an abstract label."
+      "verifierNotes": "Multiple issues: (1) tbd-step: items_needed is \"tbd\" so the source is incomplete. (2) item-mismatch: Item 25794 is mapped as \"Bone x26\" — the step says 13 bones per visit twice a day, but bones are collected incidentally on slayer tasks (dragon bones etc.), not a specific item to acquire; the item ID 25794 is not a standard bone and the quantity logic is unclear. (3) missing-item: The black mask (i) (imbued variant, item 11770) is the actual end-state item sought; mapping includes the unimbued black mask (8921) but the imbued version should also be represented or replace it. (4) missing-quest: \"Morytania Hard diary\" is listed as a questId (MORYTANIA_HARD) but the Morytania Hard diary is an achievement diary, not a quest — this may be acceptable depending on the system, but worth flagging. The lamp reward on Herblore is not captured. (5) abstract-misuse: \"ectotokens\" are a concrete currency/item (item 4278) and should be in items[] rather than abstractItems[]. \"melee gear\" and \"slayer gear\" are legitimate abstracts. (6) missing-quest: \"Fallen From Grace\" is included correctly. (7) qty-suspicious: 26 bones is an odd quantity with no clear derivation from the step text (13 bones × 2 visits = 26 per day, but this is a running collection goal, not a one-time acquisition)."
     },
     "3.1.8": {
       "contentHash": "719fa37ceddb5af30f1fb83e0a0f637ccce249f6",
       "title": "3.1: Slayer and the red prison",
-      "questIds": [
-        "PEST_CONTROL"
-      ],
+      "questIds": [],
       "npcs": [
         "Slayer master"
       ],
@@ -25763,7 +25897,7 @@
       "verifierNotes": "Several issues: (1) **wrong-quest**: WESTERN_HARD is referenced as something completed *this* step, but the diary completion (including a Zulrah kill) is described as a mid-process detour — the quest/diary is earned during the step, so inclusion is borderline acceptable, but the step also requires a **Zulrah kill** which has no associated quest flag. (2) **item-mismatch**: Item 1725 Amulet of strength is listed — the step mentions \"amulet of strength\" for the chin-throwing setup, but items_needed lists \"amulet of glory\" (1704); both appear, which is fine, but the amulet of glory is tagged [items_needed] while amulet of strength is [content] — this is acceptable. However, 2379 Rock cake is the NMZ rock cake (correct), but the step mentions \"DS2 orb\" as an alternative which is absent (minor). (3) **abstract-misuse**: \"ranged potions\" and \"prayer potions\" are listed as abstractItems but these are concrete, well-known OSRS items (Ranging potion, Prayer potion) — they're already captured in items[] (2444, 2434), making the abstract entries redundant duplicates rather than truly abstract concepts. \"prayers/overhead\" is legitimately abstract. (4) **missing-item**: Elite void ranged is listed in unresolvedItems but is explicitly called out in items_needed and is a core gear piece; it should at minimum be flagged more prominently. Additionally, a **bonecrusher necklace** or necklace of anguish is not mentioned, but more critically **super ranging potions** for NMZ (distinct from ranging potions) are absent from items[]. (5) **qty-suspicious**: Bonecrusher is listed as x1 but the step specifies \"at least 24k charges\" — quantity of 1 is technically correct for the item but the charge requirement is notable context. The zombie axe (28810) and rune crossbow are optional/not-recommended items included without qualification."
     },
     "3.1.7": {
-      "contentHash": "b1a81344e7b5e506898e0262cbd5503754ada39d",
+      "contentHash": "247d29403b9726fc8891eae813ad1c5f9dd1842a",
       "title": "3.1: Slayer and the red prison",
       "questIds": [
         "WHILE_GUTHIX_SLEEPS",
@@ -25777,16 +25911,14 @@
       ],
       "npcs": [
         "Mad Angel",
-        "Gabooty",
         "Tiadeche",
+        "Gabooty",
         "Rionasta"
       ],
       "locations": [
         "Jaldraocht",
         "Jalsavrah",
-        "Pyramid Plunder",
-        "underground gem mine",
-        "Hosidius"
+        "Pyramid Plunder"
       ],
       "items": [
         {
@@ -25804,30 +25936,30 @@
         {
           "id": 11978,
           "name": "Amulet of glory(6)",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 1434,
           "name": "Dragon mace",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 19675,
           "name": "Arclight",
-          "qty": 1,
-          "source": "content"
-        },
-        {
-          "id": 11864,
-          "name": "Slayer helmet",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 23745,
           "name": "Divine magic potion(4)",
+          "qty": null,
+          "source": "content"
+        },
+        {
+          "id": 11864,
+          "name": "Slayer helmet",
           "qty": null,
           "source": "content"
         },
@@ -25846,111 +25978,93 @@
         {
           "id": 9044,
           "name": "Pharaoh's sceptre",
-          "qty": 1,
-          "source": "content"
-        },
-        {
-          "id": 20619,
-          "name": "Dark altar",
           "qty": null,
-          "source": "content"
-        },
-        {
-          "id": 1513,
-          "name": "Magic logs",
-          "qty": 100,
           "source": "content"
         },
         {
           "id": 2366,
           "name": "Shield left half",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 4755,
           "name": "Verac's flail",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
-          "id": 1609,
-          "name": "Opal",
-          "qty": 520,
-          "source": "content"
-        },
-        {
-          "id": 1611,
-          "name": "Jade",
-          "qty": 520,
-          "source": "content"
-        },
-        {
-          "id": 1613,
-          "name": "Red topaz",
-          "qty": 52,
+          "id": 1686,
+          "name": "Karamja gloves",
+          "qty": null,
           "source": "content"
         },
         {
           "id": 24736,
           "name": "Ring of endurance",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 25582,
           "name": "Fish barrel",
-          "qty": 1,
+          "qty": null,
           "source": "content"
         },
         {
           "id": 775,
           "name": "Cooking gauntlets",
-          "qty": 1,
+          "qty": null,
+          "source": "content"
+        },
+        {
+          "id": 2003,
+          "name": "Stew",
+          "qty": null,
           "source": "content"
         }
       ],
       "abstractItems": [
         {
+          "label": "cash stack",
+          "rawToken": "29.1m gp"
+        },
+        {
           "label": "crafting materials",
           "rawToken": "buckets of sand and giant seaweed"
         },
         {
-          "label": "slayer points",
-          "rawToken": "slayer point"
-        },
-        {
-          "label": "runes for thralls or barrage",
+          "label": "barrage runes",
           "rawToken": "runes for thralls or barrage"
         },
         {
-          "label": "trading sticks",
-          "rawToken": "trading sticks"
+          "label": "barrage spell",
+          "rawToken": "ice barrage"
         },
         {
-          "label": "herblore lamps",
-          "rawToken": "lamps on herblore"
+          "label": "barrage spell",
+          "rawToken": "smoke barrage"
         },
         {
-          "label": "cash",
-          "rawToken": "29.1m gp"
+          "label": "burst spell",
+          "rawToken": "ice burst"
+        },
+        {
+          "label": "target stats",
+          "rawToken": "78 Attack, 85 Strength, 75(+) Defence and 72(+) prayer"
         }
       ],
       "unresolvedItems": [
         {
-          "rawToken": "Hallowfell",
-          "qty": 1
-        },
-        {
-          "rawToken": "ice barrage",
+          "rawToken": "necklace of fangs",
           "qty": null
         },
         {
-          "rawToken": "smoke barrage",
+          "rawToken": "strength amulet",
           "qty": null
         },
         {
-          "rawToken": "ice burst",
+          "rawToken": "vile vigour",
           "qty": null
         },
         {
@@ -25958,15 +26072,15 @@
           "qty": 10000
         },
         {
-          "rawToken": "Vile Vigour",
+          "rawToken": "magic log",
+          "qty": 100
+        },
+        {
+          "rawToken": "SGM and arteglass",
           "qty": null
         },
         {
-          "rawToken": "SGM",
-          "qty": null
-        },
-        {
-          "rawToken": "arteglass",
+          "rawToken": "Hallowfell",
           "qty": null
         },
         {
@@ -25974,37 +26088,33 @@
           "qty": null
         },
         {
-          "rawToken": "0 HP XP Kalphite Queen (Thralls) OSRS",
+          "rawToken": "Shades of Mort'ton",
           "qty": null
         },
         {
-          "rawToken": "OSRS 'Prayer Smasher' Elite Combat Achievement - Without Verac's Flail",
+          "rawToken": "bloodbark",
+          "qty": null
+        },
+        {
+          "rawToken": "Corrupted Gauntlet",
           "qty": null
         },
         {
           "rawToken": "20240131CombatAchievementPointReworkCA",
           "qty": null
-        },
-        {
-          "rawToken": "Shopscape Karambwans",
-          "qty": null
-        },
-        {
-          "rawToken": "Yazota/Brimhaven POH portal method",
-          "qty": null
         }
       ],
       "verified": false,
-      "verifierConfidence": 0.52,
+      "verifierConfidence": 0.62,
       "verifierFlags": [
         "tbd-step",
-        "item-mismatch",
         "missing-item",
         "wrong-quest",
+        "missing-quest",
         "abstract-misuse",
         "qty-suspicious"
       ],
-      "verifierNotes": "Multiple issues: (1) tbd-step — items_needed is explicitly \"tbd\". (2) wrong-quest — ARDOUGNE_HARD, FALADOR_HARD, KARAMJA_HARD, KOUREND_HARD, WILDERNESS_HARD, and DESERT_HARD are diary completions listed as milestones along the way, but WESTERN_PROVINCES_HARD is explicitly mentioned and then told to ignore, so it should not appear; conversely the step says to complete \"Kourend & Kebos Hard diary\" which is already listed. ARDOUGNE_HARD is only a \"save a shield\" note — not completed this step. (3) missing-item — Karambwans (10k, item ID 3142) are a major purchase explicitly called out but appear only in unresolvedItems rather than items[]; similarly cut opals (1609→cut opal 1609? actually cut opal is 1611 region — IDs may be wrong: raw opal 1609, cut opal 1611, raw jade 1611 conflict suggests item-mismatch on gem IDs). Specifically: cut opal ID should be 1611, cut jade should be 1613, cut red topaz should be 1615 — the mapping appears to have used the raw gem IDs instead of cut gems, which is what the step calls for selling. (4) item-mismatch — Cooking gauntlets (775) are explicitly noted as NOT working on karambwans and are mentioned only to say don't use them; including them as a content item is misleading. Dark altar (20619) is a POH object, not an inventory item. Verac's flail is needed for the KQ CA task but the step frames it as optional/example; its inclusion is borderline. (5) abstract-misuse — \"karambwan x10000\" is a concrete item with a known ID (3142) and quantity and should be in items[], not unresolvedItems. (6) qty-suspicious — 520 cut opals/jade and 52 red topaz quantities match the text, but the IDs used appear to be raw gem IDs rather than cut gem IDs."
+      "verifierNotes": "**tbd-step**: items_needed is \"tbd\", so the mapping is working from step text alone. **wrong-quest / missing-quest**: The diaries (ARDOUGNE_HARD, DESERT_HARD, FALADOR_HARD, KARAMJA_HARD, KOUREND_HARD, WILDERNESS_HARD, WESTERN_PROVINCES_HARD) are listed as milestone completions, not quests started this step per se — this is defensible — but WESTERN_PROVINCES_HARD is mentioned in the text yet absent from questIds. More importantly, \"His Faithful Servants\" maps to HIS_FAITHFUL_SERVANTS correctly, and WHILE_GUTHIX_SLEEPS is explicitly done this step, so those are fine. **missing-item**: Several concrete items from the text are absent: Necklace of Fangs (item 11970 or similar) is explicitly discussed as a ranged amulet upgrade; Strength amulet (item 1712 or amulet of strength) is specifically called out for chinning; trading sticks (currency for karambwans); karambwan vessel / raw karambwans vs the 10k karambwans noted in unresolvedItems (should be in items[] with qty). \"Vile Vigour\" (a scroll, item 27281) is a concrete resolvable item left in unresolvedItems. \"Magic logs x100\" (item 1513 x100) is concrete and should be in items[]. **abstract-misuse**: \"barrage runes\", \"barrage spell\", \"burst spell\" and \"target stats\" are used as abstract labels but barrage/burst rune sets are concrete purchasable items (Death runes, Blood runes, Water runes, Chaos runes) — at minimum \"barrage runes\" should resolve to specific rune items or be collapsed. \"target stats\" is a skill goal, not an item at all, and shouldn't appear in abstractItems. **qty-suspicious**: Karamja gloves item 1686 is tier 1 (no diary bonus); the step requires Karamja Hard diary completion, implying Karamja gloves 3 (item 10077) should be used in the gem mine. Cooking gauntlets (775) are noted in text specifically as NOT working for karambwans — including them as a content item is misleading. Stew (2003) is a generic stew; the step references boosting slayer, implying spicy stew (item 7468). Ring of endurance is correct. Fish barrel is correct (Yazota method). The 5k water runes and 1k law runes quantities match the text exactly."
     },
     "3.1.14": {
       "contentHash": "c228acd3950ff062eda05908246dea2c357e3a78",
@@ -26074,7 +26184,6 @@
       "contentHash": "65698cd2e7116140db37e30b35a0dee12b244fab",
       "title": "3.2: Quest cape, quality of life",
       "questIds": [
-        "GUARDIANS_OF_THE_RIFT",
         "ARDOUGNE_HARD"
       ],
       "npcs": [],
@@ -26159,7 +26268,6 @@
         "DEVIOUS_MINDS",
         "SECRETS_OF_THE_NORTH",
         "BENEATH_CURSED_SANDS",
-        "INTO_THE_TOMBS",
         "DESERT_TREASURE_II"
       ],
       "npcs": [

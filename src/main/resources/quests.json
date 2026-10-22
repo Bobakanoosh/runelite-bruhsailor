@@ -1,5 +1,5 @@
 {
-  "fetchedOn": "2026-09-26T16:56:33.092Z",
+  "fetchedOn": "2026-10-21T22:03:46.688Z",
   "quests": [
     {
       "enumName": "BELOW_ICE_MOUNTAIN",
@@ -279,6 +279,14 @@
       "displayName": "Contact",
       "aliases": [
         "Contact"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "CRAB_QUEST",
+      "displayName": "Crab Quest",
+      "aliases": [
+        "Crab Quest"
       ],
       "shortAliases": []
     },
@@ -937,9 +945,9 @@
     },
     {
       "enumName": "RECIPE_FOR_DISASTER_DWARF",
-      "displayName": "RFD - Dwarf",
+      "displayName": "RFD - Mountain Dwarf",
       "aliases": [
-        "RFD - Dwarf",
+        "RFD - Mountain Dwarf",
         "Recipe For Disaster Dwarf",
         "RFD Dwarf"
       ],
@@ -988,9 +996,9 @@
     },
     {
       "enumName": "RECIPE_FOR_DISASTER_MONKEY_AMBASSADOR",
-      "displayName": "RFD - Monkey Ambassador",
+      "displayName": "RFD - King Awowogei",
       "aliases": [
-        "RFD - Monkey Ambassador",
+        "RFD - King Awowogei",
         "Recipe For Disaster Monkey Ambassador",
         "RFD Awowogei",
         "Awowogei"
@@ -1402,6 +1410,14 @@
       "displayName": "A Night At the Theatre",
       "aliases": [
         "A Night At the Theatre"
+      ],
+      "shortAliases": []
+    },
+    {
+      "enumName": "A_RUFF_SITUATION",
+      "displayName": "A Ruff Situation",
+      "aliases": [
+        "A Ruff Situation"
       ],
       "shortAliases": []
     },
