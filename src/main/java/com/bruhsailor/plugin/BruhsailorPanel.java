@@ -35,7 +35,6 @@ public class BruhsailorPanel extends PluginPanel
     private final JLabel chapterLabel = new JLabel();
     private final JLabel sectionLabel = new JLabel();
     private final JPanel currentStepHolder = new JPanel();
-    private final JLabel itemsLabel = new JLabel();
     private final JLabel metadataLabel = new JLabel();
     private final JButton prevButton = new JButton("◀");
     private final JButton nextButton = new JButton("▶");
@@ -44,6 +43,7 @@ public class BruhsailorPanel extends PluginPanel
     private final javax.swing.DefaultListModel<ListRow> listModel = new javax.swing.DefaultListModel<>();
     private final javax.swing.JList<ListRow> stepList = new javax.swing.JList<>(listModel);
     private JScrollPane stepScroll;
+    private int renderedWidth = -1;
 
     public BruhsailorPanel(GuideRepository repo, GuideStateService state, EventBus bus,
                            StepMappings stepMappings, QuestRegistry questRegistry)
@@ -84,11 +84,18 @@ public class BruhsailorPanel extends PluginPanel
         stepScroll.getVerticalScrollBar().setUnitIncrement(16);
         // The step block expands to fill the top half of the split (sized below).
         stepScroll.setMinimumSize(new Dimension(0, 80));
-
-        itemsLabel.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 12));
-        itemsLabel.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
-        itemsLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
-        itemsLabel.setBorder(BorderFactory.createEmptyBorder(0, 0, 6, 0));
+        // Step content is laid out at a fixed pixel width; re-render if the real width changes.
+        stepScroll.addComponentListener(new java.awt.event.ComponentAdapter()
+        {
+            @Override
+            public void componentResized(java.awt.event.ComponentEvent e)
+            {
+                if (stepContentWidth() != renderedWidth)
+                {
+                    refreshAll();
+                }
+            }
+        });
 
         metadataLabel.setFont(FontManager.getRunescapeFont());
         metadataLabel.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
@@ -194,8 +201,8 @@ public class BruhsailorPanel extends PluginPanel
         StepRenderer.Rendered renderResult = StepRenderer.render(step,
             idx -> state.isBulletComplete(id, idx));
         JComponent rendered = renderResult.component;
-        // Budget: 4+4 holder padding, 0 textpane margin, ~16 scrollbar, ~4 safety.
-        int contentWidth = Math.max(120, PluginPanel.PANEL_WIDTH - 28);
+        int contentWidth = stepContentWidth();
+        renderedWidth = contentWidth;
         rendered.setSize(new Dimension(contentWidth, Short.MAX_VALUE));
 
         if (rendered instanceof javax.swing.JTextPane)
@@ -206,17 +213,13 @@ public class BruhsailorPanel extends PluginPanel
         }
 
         // Recompute preferred size AFTER annotation (styling can change line wrapping).
-        rendered.setSize(new Dimension(contentWidth, Short.MAX_VALUE));
-        Dimension pref = rendered.getPreferredSize();
-        rendered.setPreferredSize(new Dimension(contentWidth, pref.height));
-        rendered.setMaximumSize(new Dimension(Integer.MAX_VALUE, pref.height));
-        rendered.setAlignmentX(Component.LEFT_ALIGNMENT);
+        fitToWidth(rendered, contentWidth);
 
-        String items = formatItemsNeeded(step, contentWidth);
-        if (!items.isEmpty())
+        javax.swing.JTextPane items = buildItemsNeeded(step);
+        if (items != null)
         {
-            itemsLabel.setText(items);
-            currentStepHolder.add(itemsLabel);
+            fitToWidth(items, contentWidth);
+            currentStepHolder.add(items);
         }
         currentStepHolder.add(rendered);
 
@@ -250,6 +253,26 @@ public class BruhsailorPanel extends PluginPanel
             completeToggle.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
         }
         stepList.repaint();
+    }
+
+    /**
+     * Width available to step content inside the scroll pane. Always reserves room for
+     * the vertical scrollbar so content doesn't reflow when it appears or disappears.
+     */
+    private int stepContentWidth()
+    {
+        int scrollbar = stepScroll.getVerticalScrollBar().getPreferredSize().width;
+        java.awt.Insets holder = currentStepHolder.getInsets();
+        int outer = stepScroll.getWidth();
+        if (outer <= 0)
+        {
+            // Not laid out yet: panel width minus the root's 8px side borders.
+            outer = PluginPanel.PANEL_WIDTH - 16;
+        }
+        java.awt.Insets scrollInsets = stepScroll.getInsets();
+        int width = outer - scrollInsets.left - scrollInsets.right - scrollbar
+            - holder.left - holder.right;
+        return Math.max(120, width);
     }
 
     private static final java.awt.Color DONE_BG = new java.awt.Color(0x3F7A3F);
@@ -434,31 +457,59 @@ public class BruhsailorPanel extends PluginPanel
         return sb.toString();
     }
 
-    private static final String ITEMS_HEADER_HEX =
-        String.format("#%06x", ColorScheme.BRAND_ORANGE.getRGB() & 0xFFFFFF);
-
-    /** "Items needed" block shown above the step text; empty when the guide lists nothing. */
-    private static String formatItemsNeeded(Step step, int widthPx)
+    /** "Items needed" block shown above the step text; null when the guide lists nothing. */
+    private static javax.swing.JTextPane buildItemsNeeded(Step step)
     {
-        if (step.metadata == null || step.metadata.items_needed == null) return "";
+        if (step.metadata == null || step.metadata.items_needed == null) return null;
         String raw = step.metadata.items_needed.trim();
-        if (raw.isEmpty()) return "";
-        String body;
+        if (raw.isEmpty()) return null;
+
+        javax.swing.JTextPane pane = new javax.swing.JTextPane();
+        pane.setEditable(false);
+        pane.setFocusable(false);
+        pane.setOpaque(false);
+        pane.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        pane.setBorder(BorderFactory.createEmptyBorder(0, 0, 6, 0));
+        pane.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 12));
+
+        javax.swing.text.SimpleAttributeSet header = new javax.swing.text.SimpleAttributeSet();
+        javax.swing.text.StyleConstants.setBold(header, true);
+        javax.swing.text.StyleConstants.setForeground(header, ColorScheme.BRAND_ORANGE);
+        javax.swing.text.SimpleAttributeSet body = new javax.swing.text.SimpleAttributeSet();
+        javax.swing.text.StyleConstants.setForeground(body, ColorScheme.LIGHT_GRAY_COLOR);
+
+        String text = raw;
         if (raw.equalsIgnoreCase("tbd"))
         {
-            body = "<i>Not listed in the guide yet</i>";
+            text = "Not listed in the guide yet";
+            javax.swing.text.StyleConstants.setItalic(body, true);
         }
         else if (raw.equalsIgnoreCase("none"))
         {
-            body = "None";
+            text = "None";
         }
-        else
+
+        javax.swing.text.StyledDocument doc = pane.getStyledDocument();
+        try
         {
-            body = raw.replace("&", "&amp;").replace("<", "&lt;");
+            doc.insertString(0, "Items needed: ", header);
+            doc.insertString(doc.getLength(), text, body);
         }
-        return "<html><div style='width:" + widthPx + "px'>"
-            + "<b><font color='" + ITEMS_HEADER_HEX + "'>Items needed:</font></b> " + body
-            + "</div></html>";
+        catch (javax.swing.text.BadLocationException e)
+        {
+            // unreachable: appending at end
+        }
+        return pane;
+    }
+
+    /** Pin a wrapping text component to {@code width} px and its matching wrapped height. */
+    private static void fitToWidth(JComponent c, int width)
+    {
+        c.setSize(new Dimension(width, Short.MAX_VALUE));
+        Dimension d = new Dimension(width, c.getPreferredSize().height);
+        c.setPreferredSize(d);
+        c.setMaximumSize(d);
+        c.setAlignmentX(Component.LEFT_ALIGNMENT);
     }
 
     private static void appendMeta(StringBuilder sb, String label, String value)
